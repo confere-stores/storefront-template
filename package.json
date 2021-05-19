@@ -59,7 +59,7 @@
   },
   "deprecated": false,
   "description": "Reusable & upgradable views and scripts for E-Com Plus storefront",
-  "homepage": "https://github.com/confere-stores/storefront/tree/master/@ecomplus/storefront-template#readme",
+  "homepage": "https://github.com/confere-stores/storefront/tree/master/@confere-stores/storefront-template#readme",
   "keywords": [
     "ecomplus",
     "storefront",
@@ -75,7 +75,7 @@
   "name": "@confere-stores/storefront-template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/confere-stores/storefront.git",
+    "url": "git+https://github.com/confere-stores/storefront-template.git",
     "directory": "@confere-stores/storefront-template"
   },
   "scripts": {

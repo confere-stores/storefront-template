@@ -97,5 +97,5 @@ Object.keys(pkg.dependencies).forEach(pkgName => {
   }
 })
 
-console.log('[DONE] @ecomplus/storefront-template')
+console.log('[DONE] @confere-stores/storefront-template')
 console.log()

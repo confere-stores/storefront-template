@@ -18,8 +18,8 @@ new EcomRouter().list()
 
   .finally(() => {
     if (window.PKG_BASE_DIR === undefined) {
-      window.PKG_BASE_DIR = name === '@ecomplus/storefront-template'
-        ? '@ecomplus/storefront-template/'
+      window.PKG_BASE_DIR = name === '@confere-stores/storefront-template'
+        ? '@confere-stores/storefront-template/'
         : ''
     }
     initNetlifyCms(window.CMS_CUSTOM_CONFIG, {
