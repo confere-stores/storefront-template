@@ -1,0 +1,21 @@
+@import "@ecomplus/storefront-components/src/scss/APicture";
+@import "@ecomplus/storefront-components/src/scss/APrices";
+@import "@ecomplus/storefront-components/src/scss/ProductCard";
+
+.product-card {
+  .spinner-border {
+    position: absolute;
+    bottom: var(--spacer-3);
+    right: var(--spacer-3);
+    opacity: 0;
+    color: var(--gray);
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      .spinner-border {
+        opacity: .85;
+      }
+    }
+  }
+}

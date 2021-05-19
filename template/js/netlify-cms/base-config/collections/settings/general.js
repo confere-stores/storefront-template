@@ -1,0 +1,45 @@
+export default ({ baseDir }) => ({
+  name: 'general',
+  label: 'Configurações gerais',
+  file: `${baseDir}content/settings.json`,
+  editor: {
+    preview: true
+  },
+  fields: [{
+      label: 'Nome da loja',
+      name: 'name',
+      widget: 'string'
+    },
+    {
+      label: 'Nome curto',
+      name: 'short_name',
+      widget: 'string',
+      hint: 'Título do aplicativo quando instalado (PWA)'
+    },
+    {
+      label: 'Descrição curta',
+      name: 'description',
+      widget: 'text'
+    },
+    {
+      label: 'Logo',
+      name: 'logo',
+      widget: 'image'
+    },
+    {
+      label: 'Ícone do app',
+      name: 'icon',
+      widget: 'image'
+    },
+    {
+      label: 'Ícone grande',
+      name: 'large_icon',
+      widget: 'image'
+    },
+    {
+      label: 'Favicon',
+      name: 'favicon',
+      widget: 'image'
+    }
+  ]
+})

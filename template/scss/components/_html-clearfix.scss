@@ -1,0 +1,16 @@
+.html-clearfix {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: var(--spacer-4);
+  margin-bottom: var(--spacer-4);
+
+  @media (min-width: 992px) {
+    overflow-x: hidden;
+  }
+
+  table,
+  .table,
+  img {
+    max-width: 100%;
+  }
+}

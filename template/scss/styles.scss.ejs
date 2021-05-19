@@ -1,0 +1,32 @@
+@import "variables";
+
+<%
+const importThemeFiles = isVariables => {
+  let scss = ''
+  for (const themeColl in theme) {
+    const themeName = theme[themeColl]
+    if (themeName && themeName.length > 1) {
+      if (isVariables) {
+        scss += `@import "${themesPath}/${themeName}/variables"; `
+        if (themeColl !== 'custom') {
+          scss += `@import "${themeColl}/dist/${themeName}/variables"; `
+        }
+      } else {
+        if (themeColl !== 'custom') {
+          scss += `@import "${themeColl}/dist/${themeName}/${themeColl}"; `
+        }
+        scss += `@import "${themesPath}/${themeName}/custom"; `
+      }
+    }
+  }
+  return scss
+}
+%>
+
+<%- importThemeFiles(true) %>
+
+@import "@ecomplus/storefront-twbs/scss/styles";
+
+<%- importThemeFiles() %>
+
+@import "main";

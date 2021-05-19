@@ -1,0 +1,94 @@
+{
+  "author": {
+    "name": "E-Com Club",
+    "email": "ti@e-com.club"
+  },
+  "bin": {
+    "storefront-tmpl": "scripts/install.js",
+    "storefront-tmpl-copy": "scripts/copy.js",
+    "storefront-tmpl-styles": "scripts/styles.js",
+    "storefront-tmpl-pack": "scripts/pack.js"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "not dead",
+    "not ie 11",
+    "not ie_mob 11"
+  ],
+  "bugs": {
+    "url": "https://github.com/confere-stores/storefront/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ecomplus/client": "^2.2.1",
+    "@ecomplus/i18n": "^1.20.0",
+    "@ecomplus/passport-client": "^1.0.10",
+    "@ecomplus/search-engine": "^2.5.0",
+    "@ecomplus/shopping-cart": "^2.5.5",
+    "@ecomplus/storefront-app": "^2.0.0-beta.89",
+    "@ecomplus/storefront-components": "^1.0.0-beta.83",
+    "@ecomplus/storefront-framework": "^5.16.10",
+    "@ecomplus/storefront-router": "^2.2.1",
+    "@ecomplus/storefront-twbs": "^5.10.4",
+    "@ecomplus/utils": "^1.4.1",
+    "@ecomplus/widget-analytics": "^1.1.6",
+    "@ecomplus/widget-compre-confie": "^1.1.5",
+    "@ecomplus/widget-ebit": "^1.1.11",
+    "@ecomplus/widget-fb-pixel": "^1.2.4",
+    "@ecomplus/widget-gmc-ratings": "^1.2.13",
+    "@ecomplus/widget-minicart": "^1.0.0-beta.80",
+    "@ecomplus/widget-offers-notification": "^1.1.0",
+    "@ecomplus/widget-opinioes-verificadas": "^1.1.6",
+    "@ecomplus/widget-product": "^1.0.0-beta.80",
+    "@ecomplus/widget-product-card": "^1.0.0-beta.80",
+    "@ecomplus/widget-search": "^1.0.0-beta.80",
+    "@ecomplus/widget-search-engine": "^1.0.0-beta.82",
+    "@ecomplus/widget-tag-manager": "^1.5.0",
+    "@ecomplus/widget-tawkto": "^1.1.8",
+    "@ecomplus/widget-trustvox": "^2.2.5",
+    "@ecomplus/widget-user": "^1.0.0-beta.80",
+    "@glidejs/glide": "^3.4.1",
+    "bootswatch": "^4.6.0",
+    "core-js": ">=3.6.4 <3.10",
+    "ejs": "^3.1.6",
+    "eventemitter3": "^4.0.7",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.merge": "^4.6.2",
+    "lozad": "^1.16.0",
+    "vue": "^2.6.12"
+  },
+  "deprecated": false,
+  "description": "Reusable & upgradable views and scripts for E-Com Plus storefront",
+  "homepage": "https://github.com/confere-stores/storefront/tree/master/@ecomplus/storefront-template#readme",
+  "keywords": [
+    "ecomplus",
+    "storefront",
+    "jamstack-ecommerce",
+    "pwa-ecommerce",
+    "ejs-template",
+    "store-theme",
+    "ecommerce-template",
+    "ecommerce-theme"
+  ],
+  "license": "MIT",
+  "main": "template/js/index.js",
+  "name": "@confere-stores/storefront-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/confere-stores/storefront.git",
+    "directory": "@confere-stores/storefront-template"
+  },
+  "scripts": {
+    "build": "ECOMCLIENT_NOTIMEOUT=true WEBPACK_BUILD_DEV=true npm run pack build",
+    "build:home": "ECOMCLIENT_NOTIMEOUT=true WEBPACK_BUILD_DEV=true npm run pack build -- --prerender=index",
+    "build:site": "ECOMCLIENT_NOTIMEOUT=true npm run pack build",
+    "dev": "npm run pack serve -- --analyze",
+    "pack": "STOREFRONT_TEMPLATE=$INIT_CWD node ./scripts/pack.js",
+    "release": "npm ddp && npm run build && standard-version && npm run snapshot",
+    "serve": "npm run pack serve",
+    "snapshot": "cp ./dist.package.json ./dist/package.json; cp ./webpack.externals.js ./dist/",
+    "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
+    "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
+  },
+  "version": "2.0.1"
+}

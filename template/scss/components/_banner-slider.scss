@@ -1,0 +1,42 @@
+.banner-slider {
+  width: 100%;
+  max-width: 80rem;
+  height: auto;
+  height: calc(100vw * var(--banner-aspect-ratio) - 5px);
+  max-height: calc(80rem * var(--banner-aspect-ratio));
+  margin: 0 auto;
+
+  @media (max-width: 575.98px) {
+    height: calc(100vw * var(--banner-aspect-ratio-mobile, --banner-aspect-ratio) - 5px);
+    max-height: calc(80rem * var(--banner-aspect-ratio-mobile, --banner-aspect-ratio));
+  }
+
+  &__slides,
+  &__slides > li {
+    overflow: hidden;
+    margin: 0;
+    min-height: 5rem;
+
+    @media (min-width: 768px) {
+      min-height: 12rem;
+    }
+    @media (min-width: 992px) {
+      min-height: 18rem;
+    }
+
+    a {
+      text-align: center;
+    }
+
+    > div,
+    > img,
+    a > img {
+      line-height: 4;
+      width: 100%;
+    }
+  }
+
+  .glide__slides {
+    will-change: auto;
+  }
+}

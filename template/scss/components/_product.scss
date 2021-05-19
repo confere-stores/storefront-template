@@ -1,0 +1,19 @@
+@import "@ecomplus/storefront-components/src/scss/TheProduct";
+
+.product {
+  &__picture {
+    text-align: center;
+    display: block;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #product-gallery > .product__picture {
+    margin-left: 110px;
+  }
+}
