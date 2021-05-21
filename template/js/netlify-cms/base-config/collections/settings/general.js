@@ -3,7 +3,7 @@ export default ({ baseDir }) => ({
   label: 'Configurações gerais',
   file: `${baseDir}content/settings.json`,
   editor: {
-    preview: true
+    preview: false
   },
   fields: [{
       label: 'Nome da loja',

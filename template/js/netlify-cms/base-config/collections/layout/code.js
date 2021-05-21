@@ -1,7 +1,7 @@
 export default ({ baseDir }) => ({
   name: 'code',
   editor: {
-    preview: true
+    preview: false
   },
   label: 'Inserir código',
   file: `${baseDir}content/code.json`,
