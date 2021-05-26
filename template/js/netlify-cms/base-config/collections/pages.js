@@ -17,7 +17,6 @@ export default options => ({
     getSearch(options),
     getBrands(options),
     getCategories(options),
-    getCollections(options),
-    getBlog(options)
+    getCollections(options)
   ]
 })

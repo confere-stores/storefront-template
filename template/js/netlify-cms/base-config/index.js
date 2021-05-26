@@ -9,6 +9,22 @@ import getWidgets from './collections/widgets'
 export default options => {
   options.sections = getSections(options)
 
+  netlifyIdentity.on('login', user => {
+    window.LogRocket.identify(user.id, {
+      email: user.email,s
+    });
+    window.Intercom('update', {
+      app_id: "fqllm5mp",
+      hide_default_launcher: false,
+      user_id: user.id,
+      id: user.id,
+      email: user.email
+    })
+    analytics.identify(user.id, {
+      email: user.email
+    });
+  })
+
   return {
     backend: {
       name: 'git-gateway',
