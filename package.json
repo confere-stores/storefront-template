@@ -92,5 +92,5 @@
     "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js",
     "postinstall": "echo \"TESTE postinstall\""
   },
-  "version": "2.0.6"
+  "version": "2.0.7"
 }
