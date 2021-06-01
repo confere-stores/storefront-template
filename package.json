@@ -89,8 +89,7 @@
     "serve": "npm run pack serve",
     "snapshot": "cp ./dist.package.json ./dist/package.json; cp ./webpack.externals.js ./dist/",
     "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
-    "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js",
-    "postinstall": "echo \"TESTE postinstall\""
+    "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
   },
   "version": "2.0.9"
 }
