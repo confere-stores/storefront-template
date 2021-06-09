@@ -22,6 +22,16 @@ export default ({ baseDir }) => ({
       widget: 'text'
     },
     {
+      label: 'Cor primária',
+      name: 'primary_color',
+      widget: 'color'
+    },
+    {
+      label: 'Cor secundária',
+      name: 'secondary_color',
+      widget: 'color'
+    },
+    {
       label: 'Logo',
       name: 'logo',
       widget: 'image'

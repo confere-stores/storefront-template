@@ -43,6 +43,25 @@ export default ({ baseDir, state }) => ({
       hint: 'Informações de contato, redes sociais e páginas institucionais importantes',
       fields: [
         {
+          label: 'Páginas',
+          name: 'pages',
+          widget: 'list',
+          fields: [
+            {
+              label: 'Título',
+              name: 'title',
+              required: false,
+              widget: 'string'
+            },
+            {
+              label: 'Link',
+              name: 'link',
+              required: false,
+              widget: 'string'
+            }
+          ]
+        },
+        {
           label: 'Mostrar telefone e WhatsApp',
           name: 'phone_wpp',
           widget: 'boolean'

@@ -357,6 +357,19 @@ export default ({ state }) => [
     ]
   },
   {
+    label: 'Blog',
+    name: 'blog',
+    widget: 'object',
+    fields: [
+      {
+        label: 'Listar posts do blog',
+        name: 'enabled',
+        widget: 'boolean',
+        default: true
+      }
+    ]
+  },
+  {
     label: 'Código HTML',
     name: 'custom-html',
     widget: 'object',

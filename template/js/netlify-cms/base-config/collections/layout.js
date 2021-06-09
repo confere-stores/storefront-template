@@ -12,9 +12,9 @@ export default options => ({
     preview: false
   },
   files: [
-    // getHeader(options),
-    // getMenu(options),
-    // getFooter(options),
+    getHeader(options),
+    getMenu(options),
+    getFooter(options),
     getCode(options)
   ]
 })

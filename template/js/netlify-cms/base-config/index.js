@@ -2,8 +2,8 @@ import getSections from './sections'
 import getSettings from './collections/settings'
 import getLayout from './collections/layout'
 import getPages from './collections/pages'
-// import getBlogPosts from './collections/blog-posts'
-// import getExtraPages from './collections/extra-pages'
+import getBlogPosts from './collections/blog-posts'
+import getExtraPages from './collections/extra-pages'
 import getWidgets from './collections/widgets'
 
 export default options => {
@@ -51,9 +51,9 @@ export default options => {
     collections: [
       getSettings(options),
       getLayout(options),
-      // getPages(options),
-      // getBlogPosts(options),
-      // getExtraPages(options),
+      getPages(options),
+      getBlogPosts(options),
+      getExtraPages(options),
       getWidgets(options)
     ]
   }
