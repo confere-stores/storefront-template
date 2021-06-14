@@ -11,7 +11,7 @@ export default options => {
 
   netlifyIdentity.on('login', user => {
     window.LogRocket.identify(user.id, {
-      email: user.email,s
+      email: user.email,
     });
     window.Intercom('update', {
       app_id: "fqllm5mp",

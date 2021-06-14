@@ -24,6 +24,9 @@
     window.CMS_MANUAL_INIT = true;
     window.CMS_LOAD_CONFIG_FILE = false;
     window.CMS_CUSTOM_CONFIG = {};
+    if (typeof PKG_BASE_DIR !== 'string') {
+      window.PKG_BASE_DIR = '@confere-stores/storefront-template/';
+    }
   </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script src="https://unpkg.com/netlify-cms@2/dist/netlify-cms.js"></script>

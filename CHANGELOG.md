@@ -3,7 +3,165 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.0.0-beta.115](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.114...@confere-stores/storefront-template@2.0.0-beta.115) (2021-03-12)
+# [2.0.0-beta.128](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.127...@ecomplus/storefront-template@2.0.0-beta.128) (2021-06-12)
+
+
+### Bug Fixes
+
+* **template/scripts:** bump vue runtime version ([246897d](https://github.com/ecomplus/storefront/commit/246897d57cfbfbc5d466ba37b1462f232722f5cf))
+* **template/scripts:** bump vue runtime version (fallback) ([69026b7](https://github.com/ecomplus/storefront/commit/69026b77bc9924e6d799965ba9c6721962c974d1))
+
+
+
+
+
+# [2.0.0-beta.127](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.126...@ecomplus/storefront-template@2.0.0-beta.127) (2021-06-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#478](https://github.com/ecomplus/storefront/issues/478)) ([f3b5f96](https://github.com/ecomplus/storefront/commit/f3b5f96c6d863d446d806668c4fbab92e785cce2))
+* **template/cms-preview:** check if valid ejs template before calling renderization ([40a57c3](https://github.com/ecomplus/storefront/commit/40a57c3db83cc271fb92104c85bae6ac0dbf703a))
+* **template/footer:** check any valid link (url prop) to render column ([661ab29](https://github.com/ecomplus/storefront/commit/661ab29bb34e8de15a2af8dd9144ed1f0b073ccd))
+
+
+### Features
+
+* **template/lazy-load:** force load defered els `data-preload` before intersection ([494ec66](https://github.com/ecomplus/storefront/commit/494ec66cd88624b8c498c8ae72d4f6d83c14afaf))
+
+
+### Performance Improvements
+
+* **template/footer:** hardset E-Com Plus logo image size ([530c076](https://github.com/ecomplus/storefront/commit/530c0766f597002926e89b5262742ce68e25563e))
+* **template/menu:** defer category icons images load ([1e703ea](https://github.com/ecomplus/storefront/commit/1e703ea532c472b9aa0cf98715137240d6240e19))
+* **template/spa:** hardset E-Com Plus logo image size ([87c2c77](https://github.com/ecomplus/storefront/commit/87c2c7703fc6097dfcac7692544e672df90c6cc8))
+* **template/stamps:** defer stamps images load ([8929334](https://github.com/ecomplus/storefront/commit/892933409f981fb4c7e24b5c1157594e858da271))
+* **template/stamps:** skip preloading non-action (image only) stamps ([7e54c67](https://github.com/ecomplus/storefront/commit/7e54c67d4a7d8b4feef9feea4c8f64d1c6b6b651))
+
+
+### Reverts
+
+* **template/stamps:** preloading all stamps images [skip ci] ([682e394](https://github.com/ecomplus/storefront/commit/682e39473ea1589e2b5db6df473a8e3a8f10ca14))
+
+
+
+
+
+# [2.0.0-beta.126](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.125...@ecomplus/storefront-template@2.0.0-beta.126) (2021-05-27)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.125](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.124...@ecomplus/storefront-template@2.0.0-beta.125) (2021-05-25)
+
+
+### Bug Fixes
+
+* **template/cms:** base preview match sections entry by index and type to check changes ([#486](https://github.com/ecomplus/storefront/issues/486)) ([33577ec](https://github.com/ecomplus/storefront/commit/33577ec905a6be5630b875db77eab4b3ae2e9b57))
+
+
+
+
+
+# [2.0.0-beta.124](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.123...@ecomplus/storefront-template@2.0.0-beta.124) (2021-05-24)
+
+
+### Bug Fixes
+
+* **cms:** rollback to netlify cms v2.10.117 ([2a231a1](https://github.com/ecomplus/storefront/commit/2a231a11a8708ce213d6c33a4e8049258d901cd7))
+* **template/product-block:** fix spacing for short description paragraph ([df4e096](https://github.com/ecomplus/storefront/commit/df4e096c5a512bcdbe2ec810e75e8035200571f8))
+
+
+
+
+
+# [2.0.0-beta.123](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.122...@ecomplus/storefront-template@2.0.0-beta.123) (2021-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update @ecomplus/i18n to v1.21.0 ([a235058](https://github.com/ecomplus/storefront/commit/a2350580c50480e9caf74ac64dde14e4b618a057))
+
+
+
+
+
+# [2.0.0-beta.122](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.121...@ecomplus/storefront-template@2.0.0-beta.122) (2021-05-14)
+
+
+### Features
+
+* **template/fetch-info:** also save `loyalty_points_programs` from list payments request ([284dd3a](https://github.com/ecomplus/storefront/commit/284dd3a485a9a3e5f16291cd5cd9ffa6157c9598))
+
+
+
+
+
+# [2.0.0-beta.121](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.120...@ecomplus/storefront-template@2.0.0-beta.121) (2021-04-28)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.120](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.119...@ecomplus/storefront-template@2.0.0-beta.120) (2021-04-19)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.119](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.118...@ecomplus/storefront-template@2.0.0-beta.119) (2021-04-18)
+
+
+### Bug Fixes
+
+* **template/cms:** set pkg base dir empty by default ([e10ccc6](https://github.com/ecomplus/storefront/commit/e10ccc6a882db83c2c99b5ec220370c5cd497588))
+* **template/ecomplus-identity:** redirect to sso with specified store id ([932e137](https://github.com/ecomplus/storefront/commit/932e1371715e24e9806e813ea52d7adbf038fd0b))
+
+
+
+
+
+# [2.0.0-beta.118](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.117...@ecomplus/storefront-template@2.0.0-beta.118) (2021-03-30)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.117](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.116...@ecomplus/storefront-template@2.0.0-beta.117) (2021-03-29)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.116](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.115...@ecomplus/storefront-template@2.0.0-beta.116) (2021-03-29)
+
+
+### Bug Fixes
+
+* **ecomplus-identity:** general fixes to handle ecomplus sso and token from url param ([17bd631](https://github.com/ecomplus/storefront/commit/17bd631320d31b4a34ecde6a6309644a8bb08954))
+* **ecomplus-identity:** must set `user.jwt` function (as gotrue client) ([fc3cff6](https://github.com/ecomplus/storefront/commit/fc3cff62700e12e8b888fb4c3203a99071a4ded1))
+
+
+### Features
+
+* **netlify-cms:** handle ecomplus admin session auth on ecomplus-stores repos ([c93033d](https://github.com/ecomplus/storefront/commit/c93033de4d272988e1f9c56a204c109c16653c47))
+
+
+
+
+
+# [2.0.0-beta.115](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.114...@ecomplus/storefront-template@2.0.0-beta.115) (2021-03-12)
 
 
 ### Bug Fixes
@@ -14,15 +172,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.114](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.113...@confere-stores/storefront-template@2.0.0-beta.114) (2021-02-27)
+# [2.0.0-beta.114](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.113...@ecomplus/storefront-template@2.0.0-beta.114) (2021-02-27)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.113](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.112...@confere-stores/storefront-template@2.0.0-beta.113) (2021-02-24)
+
+
+# [2.0.0-beta.113](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.112...@ecomplus/storefront-template@2.0.0-beta.113) (2021-02-24)
 
 
 ### Bug Fixes
@@ -41,7 +199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.112](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.111...@confere-stores/storefront-template@2.0.0-beta.112) (2021-02-15)
+# [2.0.0-beta.112](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.111...@ecomplus/storefront-template@2.0.0-beta.112) (2021-02-15)
 
 
 ### Performance Improvements
@@ -52,39 +210,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.111](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.110...@confere-stores/storefront-template@2.0.0-beta.111) (2021-01-25)
+# [2.0.0-beta.111](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.110...@ecomplus/storefront-template@2.0.0-beta.111) (2021-01-25)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.110](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.109...@confere-stores/storefront-template@2.0.0-beta.110) (2021-01-25)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.109](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.108...@confere-stores/storefront-template@2.0.0-beta.109) (2021-01-15)
+# [2.0.0-beta.110](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.109...@ecomplus/storefront-template@2.0.0-beta.110) (2021-01-25)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.108](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.107...@confere-stores/storefront-template@2.0.0-beta.108) (2021-01-14)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.107](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.106...@confere-stores/storefront-template@2.0.0-beta.107) (2021-01-06)
+# [2.0.0-beta.109](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.108...@ecomplus/storefront-template@2.0.0-beta.109) (2021-01-15)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.108](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.107...@ecomplus/storefront-template@2.0.0-beta.108) (2021-01-14)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.107](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.106...@ecomplus/storefront-template@2.0.0-beta.107) (2021-01-06)
 
 
 ### Bug Fixes
@@ -96,7 +254,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.106](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.105...@confere-stores/storefront-template@2.0.0-beta.106) (2020-12-24)
+# [2.0.0-beta.106](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.105...@ecomplus/storefront-template@2.0.0-beta.106) (2020-12-24)
 
 
 ### Features
@@ -107,7 +265,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.105](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.104...@confere-stores/storefront-template@2.0.0-beta.105) (2020-12-17)
+# [2.0.0-beta.105](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.104...@ecomplus/storefront-template@2.0.0-beta.105) (2020-12-17)
 
 
 ### Performance Improvements
@@ -118,7 +276,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.104](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.103...@confere-stores/storefront-template@2.0.0-beta.104) (2020-12-16)
+# [2.0.0-beta.104](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.103...@ecomplus/storefront-template@2.0.0-beta.104) (2020-12-16)
 
 
 ### Features
@@ -130,7 +288,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.103](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.102...@confere-stores/storefront-template@2.0.0-beta.103) (2020-12-16)
+# [2.0.0-beta.103](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.102...@ecomplus/storefront-template@2.0.0-beta.103) (2020-12-16)
 
 
 ### Performance Improvements
@@ -142,39 +300,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.102](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.101...@confere-stores/storefront-template@2.0.0-beta.102) (2020-12-15)
+# [2.0.0-beta.102](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.101...@ecomplus/storefront-template@2.0.0-beta.102) (2020-12-15)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.101](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.100...@confere-stores/storefront-template@2.0.0-beta.101) (2020-12-15)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.100](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.99...@confere-stores/storefront-template@2.0.0-beta.100) (2020-12-15)
+# [2.0.0-beta.101](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.100...@ecomplus/storefront-template@2.0.0-beta.101) (2020-12-15)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.99](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.98...@confere-stores/storefront-template@2.0.0-beta.99) (2020-12-15)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.98](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.97...@confere-stores/storefront-template@2.0.0-beta.98) (2020-12-15)
+# [2.0.0-beta.100](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.99...@ecomplus/storefront-template@2.0.0-beta.100) (2020-12-15)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.99](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.98...@ecomplus/storefront-template@2.0.0-beta.99) (2020-12-15)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.98](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.97...@ecomplus/storefront-template@2.0.0-beta.98) (2020-12-15)
 
 
 ### Performance Improvements
@@ -185,47 +343,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.97](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.96...@confere-stores/storefront-template@2.0.0-beta.97) (2020-12-10)
+# [2.0.0-beta.97](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.96...@ecomplus/storefront-template@2.0.0-beta.97) (2020-12-10)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.96](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.95...@confere-stores/storefront-template@2.0.0-beta.96) (2020-12-07)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.95](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.94...@confere-stores/storefront-template@2.0.0-beta.95) (2020-12-04)
+# [2.0.0-beta.96](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.95...@ecomplus/storefront-template@2.0.0-beta.96) (2020-12-07)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.94](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.93...@confere-stores/storefront-template@2.0.0-beta.94) (2020-12-01)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.93](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.92...@confere-stores/storefront-template@2.0.0-beta.93) (2020-12-01)
+# [2.0.0-beta.95](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.94...@ecomplus/storefront-template@2.0.0-beta.95) (2020-12-04)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.92](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.91...@confere-stores/storefront-template@2.0.0-beta.92) (2020-11-27)
+
+
+# [2.0.0-beta.94](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.93...@ecomplus/storefront-template@2.0.0-beta.94) (2020-12-01)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.93](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.92...@ecomplus/storefront-template@2.0.0-beta.93) (2020-12-01)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.92](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.91...@ecomplus/storefront-template@2.0.0-beta.92) (2020-11-27)
 
 
 ### Bug Fixes
@@ -245,15 +403,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.91](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.90...@confere-stores/storefront-template@2.0.0-beta.91) (2020-11-19)
+# [2.0.0-beta.91](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.90...@ecomplus/storefront-template@2.0.0-beta.91) (2020-11-19)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.90](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.89...@confere-stores/storefront-template@2.0.0-beta.90) (2020-11-18)
+
+
+# [2.0.0-beta.90](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.89...@ecomplus/storefront-template@2.0.0-beta.90) (2020-11-18)
 
 
 ### Bug Fixes
@@ -264,15 +422,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.89](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.88...@confere-stores/storefront-template@2.0.0-beta.89) (2020-11-18)
+# [2.0.0-beta.89](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.88...@ecomplus/storefront-template@2.0.0-beta.89) (2020-11-18)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.88](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.87...@confere-stores/storefront-template@2.0.0-beta.88) (2020-11-18)
+
+
+# [2.0.0-beta.88](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.87...@ecomplus/storefront-template@2.0.0-beta.88) (2020-11-18)
 
 
 ### Features
@@ -284,7 +442,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.87](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.86...@confere-stores/storefront-template@2.0.0-beta.87) (2020-11-17)
+# [2.0.0-beta.87](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.86...@ecomplus/storefront-template@2.0.0-beta.87) (2020-11-17)
 
 
 ### Bug Fixes
@@ -296,7 +454,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.86](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.85...@confere-stores/storefront-template@2.0.0-beta.86) (2020-11-17)
+# [2.0.0-beta.86](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.85...@ecomplus/storefront-template@2.0.0-beta.86) (2020-11-17)
 
 
 ### Bug Fixes
@@ -315,7 +473,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.85](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.84...@confere-stores/storefront-template@2.0.0-beta.85) (2020-11-12)
+# [2.0.0-beta.85](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.84...@ecomplus/storefront-template@2.0.0-beta.85) (2020-11-12)
 
 
 ### Bug Fixes
@@ -329,7 +487,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.84](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.83...@confere-stores/storefront-template@2.0.0-beta.84) (2020-11-09)
+# [2.0.0-beta.84](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.83...@ecomplus/storefront-template@2.0.0-beta.84) (2020-11-09)
 
 
 ### Bug Fixes
@@ -342,7 +500,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.83](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.82...@confere-stores/storefront-template@2.0.0-beta.83) (2020-11-05)
+# [2.0.0-beta.83](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.82...@ecomplus/storefront-template@2.0.0-beta.83) (2020-11-05)
 
 
 ### Bug Fixes
@@ -354,7 +512,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.82](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.81...@confere-stores/storefront-template@2.0.0-beta.82) (2020-11-03)
+# [2.0.0-beta.82](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.81...@ecomplus/storefront-template@2.0.0-beta.82) (2020-11-03)
 
 
 ### Bug Fixes
@@ -372,7 +530,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.81](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.80...@confere-stores/storefront-template@2.0.0-beta.81) (2020-10-26)
+# [2.0.0-beta.81](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.80...@ecomplus/storefront-template@2.0.0-beta.81) (2020-10-26)
 
 
 ### Bug Fixes
@@ -390,31 +548,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.80](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.79...@confere-stores/storefront-template@2.0.0-beta.80) (2020-10-15)
+# [2.0.0-beta.80](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.79...@ecomplus/storefront-template@2.0.0-beta.80) (2020-10-15)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.79](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.78...@confere-stores/storefront-template@2.0.0-beta.79) (2020-10-15)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.78](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.77...@confere-stores/storefront-template@2.0.0-beta.78) (2020-10-14)
+# [2.0.0-beta.79](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.78...@ecomplus/storefront-template@2.0.0-beta.79) (2020-10-15)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.77](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.76...@confere-stores/storefront-template@2.0.0-beta.77) (2020-10-14)
+
+
+# [2.0.0-beta.78](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.77...@ecomplus/storefront-template@2.0.0-beta.78) (2020-10-14)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.77](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.76...@ecomplus/storefront-template@2.0.0-beta.77) (2020-10-14)
 
 
 ### Bug Fixes
@@ -425,39 +583,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.76](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.75...@confere-stores/storefront-template@2.0.0-beta.76) (2020-10-07)
+# [2.0.0-beta.76](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.75...@ecomplus/storefront-template@2.0.0-beta.76) (2020-10-07)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.75](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.74...@confere-stores/storefront-template@2.0.0-beta.75) (2020-10-06)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.74](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.73...@confere-stores/storefront-template@2.0.0-beta.74) (2020-10-06)
+# [2.0.0-beta.75](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.74...@ecomplus/storefront-template@2.0.0-beta.75) (2020-10-06)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.73](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.72...@confere-stores/storefront-template@2.0.0-beta.73) (2020-10-05)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.72](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.71...@confere-stores/storefront-template@2.0.0-beta.72) (2020-10-02)
+# [2.0.0-beta.74](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.73...@ecomplus/storefront-template@2.0.0-beta.74) (2020-10-06)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.73](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.72...@ecomplus/storefront-template@2.0.0-beta.73) (2020-10-05)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.72](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.71...@ecomplus/storefront-template@2.0.0-beta.72) (2020-10-02)
 
 
 ### Bug Fixes
@@ -473,7 +631,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.71](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.70...@confere-stores/storefront-template@2.0.0-beta.71) (2020-09-14)
+# [2.0.0-beta.71](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.70...@ecomplus/storefront-template@2.0.0-beta.71) (2020-09-14)
 
 
 ### Bug Fixes
@@ -486,7 +644,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.70](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.69...@confere-stores/storefront-template@2.0.0-beta.70) (2020-09-11)
+# [2.0.0-beta.70](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.69...@ecomplus/storefront-template@2.0.0-beta.70) (2020-09-11)
 
 
 ### Bug Fixes
@@ -497,7 +655,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.69](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.68...@confere-stores/storefront-template@2.0.0-beta.69) (2020-09-11)
+# [2.0.0-beta.69](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.68...@ecomplus/storefront-template@2.0.0-beta.69) (2020-09-11)
 
 
 ### Bug Fixes
@@ -508,7 +666,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.68](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.67...@confere-stores/storefront-template@2.0.0-beta.68) (2020-09-10)
+# [2.0.0-beta.68](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.67...@ecomplus/storefront-template@2.0.0-beta.68) (2020-09-10)
 
 
 ### Bug Fixes
@@ -524,7 +682,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.67](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.66...@confere-stores/storefront-template@2.0.0-beta.67) (2020-09-10)
+# [2.0.0-beta.67](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.66...@ecomplus/storefront-template@2.0.0-beta.67) (2020-09-10)
 
 
 ### Bug Fixes
@@ -543,7 +701,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.66](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.65...@confere-stores/storefront-template@2.0.0-beta.66) (2020-08-27)
+# [2.0.0-beta.66](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.65...@ecomplus/storefront-template@2.0.0-beta.66) (2020-08-27)
 
 
 ### Bug Fixes
@@ -554,15 +712,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.65](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.64...@confere-stores/storefront-template@2.0.0-beta.65) (2020-08-27)
+# [2.0.0-beta.65](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.64...@ecomplus/storefront-template@2.0.0-beta.65) (2020-08-27)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.64](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.63...@confere-stores/storefront-template@2.0.0-beta.64) (2020-08-20)
+
+
+# [2.0.0-beta.64](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.63...@ecomplus/storefront-template@2.0.0-beta.64) (2020-08-20)
 
 
 ### Performance Improvements
@@ -573,7 +731,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.63](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.62...@confere-stores/storefront-template@2.0.0-beta.63) (2020-08-19)
+# [2.0.0-beta.63](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.62...@ecomplus/storefront-template@2.0.0-beta.63) (2020-08-19)
 
 
 ### Bug Fixes
@@ -589,15 +747,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.62](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.61...@confere-stores/storefront-template@2.0.0-beta.62) (2020-08-17)
+# [2.0.0-beta.62](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.61...@ecomplus/storefront-template@2.0.0-beta.62) (2020-08-17)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.61](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.60...@confere-stores/storefront-template@2.0.0-beta.61) (2020-08-14)
+
+
+# [2.0.0-beta.61](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.60...@ecomplus/storefront-template@2.0.0-beta.61) (2020-08-14)
 
 
 ### Performance Improvements
@@ -610,7 +768,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.60](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.59...@confere-stores/storefront-template@2.0.0-beta.60) (2020-08-12)
+# [2.0.0-beta.60](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.59...@ecomplus/storefront-template@2.0.0-beta.60) (2020-08-12)
 
 
 ### Bug Fixes
@@ -621,23 +779,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.59](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.58...@confere-stores/storefront-template@2.0.0-beta.59) (2020-08-11)
+# [2.0.0-beta.59](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.58...@ecomplus/storefront-template@2.0.0-beta.59) (2020-08-11)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.58](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.57...@confere-stores/storefront-template@2.0.0-beta.58) (2020-08-11)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.57](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.56...@confere-stores/storefront-template@2.0.0-beta.57) (2020-08-10)
+# [2.0.0-beta.58](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.57...@ecomplus/storefront-template@2.0.0-beta.58) (2020-08-11)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.57](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.56...@ecomplus/storefront-template@2.0.0-beta.57) (2020-08-10)
 
 
 ### Features
@@ -648,15 +806,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.56](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.55...@confere-stores/storefront-template@2.0.0-beta.56) (2020-08-07)
+# [2.0.0-beta.56](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.55...@ecomplus/storefront-template@2.0.0-beta.56) (2020-08-07)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.55](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.54...@confere-stores/storefront-template@2.0.0-beta.55) (2020-08-04)
+
+
+# [2.0.0-beta.55](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.54...@ecomplus/storefront-template@2.0.0-beta.55) (2020-08-04)
 
 
 ### Features
@@ -668,7 +826,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.54](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.53...@confere-stores/storefront-template@2.0.0-beta.54) (2020-07-29)
+# [2.0.0-beta.54](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.53...@ecomplus/storefront-template@2.0.0-beta.54) (2020-07-29)
 
 
 ### Bug Fixes
@@ -684,15 +842,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.53](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.52...@confere-stores/storefront-template@2.0.0-beta.53) (2020-07-23)
+# [2.0.0-beta.53](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.52...@ecomplus/storefront-template@2.0.0-beta.53) (2020-07-23)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.52](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.51...@confere-stores/storefront-template@2.0.0-beta.52) (2020-07-22)
+
+
+# [2.0.0-beta.52](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.51...@ecomplus/storefront-template@2.0.0-beta.52) (2020-07-22)
 
 
 ### Bug Fixes
@@ -704,31 +862,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.51](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.50...@confere-stores/storefront-template@2.0.0-beta.51) (2020-07-20)
+# [2.0.0-beta.51](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.50...@ecomplus/storefront-template@2.0.0-beta.51) (2020-07-20)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.50](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.49...@confere-stores/storefront-template@2.0.0-beta.50) (2020-07-20)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.49](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.48...@confere-stores/storefront-template@2.0.0-beta.49) (2020-07-17)
+# [2.0.0-beta.50](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.49...@ecomplus/storefront-template@2.0.0-beta.50) (2020-07-20)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.48](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.47...@confere-stores/storefront-template@2.0.0-beta.48) (2020-07-17)
+
+
+# [2.0.0-beta.49](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.48...@ecomplus/storefront-template@2.0.0-beta.49) (2020-07-17)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.48](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.47...@ecomplus/storefront-template@2.0.0-beta.48) (2020-07-17)
 
 
 ### Bug Fixes
@@ -746,23 +904,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.47](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.46...@confere-stores/storefront-template@2.0.0-beta.47) (2020-07-03)
+# [2.0.0-beta.47](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.46...@ecomplus/storefront-template@2.0.0-beta.47) (2020-07-03)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.46](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.45...@confere-stores/storefront-template@2.0.0-beta.46) (2020-07-03)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.45](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.44...@confere-stores/storefront-template@2.0.0-beta.45) (2020-07-03)
+# [2.0.0-beta.46](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.45...@ecomplus/storefront-template@2.0.0-beta.46) (2020-07-03)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.45](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.44...@ecomplus/storefront-template@2.0.0-beta.45) (2020-07-03)
 
 
 ### Features
@@ -773,7 +931,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.44](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.43...@confere-stores/storefront-template@2.0.0-beta.44) (2020-07-02)
+# [2.0.0-beta.44](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.43...@ecomplus/storefront-template@2.0.0-beta.44) (2020-07-02)
 
 
 ### Bug Fixes
@@ -784,7 +942,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.43](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.42...@confere-stores/storefront-template@2.0.0-beta.43) (2020-06-30)
+# [2.0.0-beta.43](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.42...@ecomplus/storefront-template@2.0.0-beta.43) (2020-06-30)
 
 
 ### Bug Fixes
@@ -796,7 +954,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.42](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.41...@confere-stores/storefront-template@2.0.0-beta.42) (2020-06-25)
+# [2.0.0-beta.42](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.41...@ecomplus/storefront-template@2.0.0-beta.42) (2020-06-25)
 
 
 ### Features
@@ -807,31 +965,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.41](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.40...@confere-stores/storefront-template@2.0.0-beta.41) (2020-06-21)
+# [2.0.0-beta.41](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.40...@ecomplus/storefront-template@2.0.0-beta.41) (2020-06-21)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.40](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.39...@confere-stores/storefront-template@2.0.0-beta.40) (2020-06-21)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.39](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.38...@confere-stores/storefront-template@2.0.0-beta.39) (2020-06-21)
+# [2.0.0-beta.40](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.39...@ecomplus/storefront-template@2.0.0-beta.40) (2020-06-21)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.38](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.37...@confere-stores/storefront-template@2.0.0-beta.38) (2020-06-19)
+
+
+# [2.0.0-beta.39](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.38...@ecomplus/storefront-template@2.0.0-beta.39) (2020-06-21)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.38](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.37...@ecomplus/storefront-template@2.0.0-beta.38) (2020-06-19)
 
 
 ### Bug Fixes
@@ -847,15 +1005,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.37](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.36...@confere-stores/storefront-template@2.0.0-beta.37) (2020-06-18)
+# [2.0.0-beta.37](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.36...@ecomplus/storefront-template@2.0.0-beta.37) (2020-06-18)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.36](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.35...@confere-stores/storefront-template@2.0.0-beta.36) (2020-06-18)
+
+
+# [2.0.0-beta.36](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.35...@ecomplus/storefront-template@2.0.0-beta.36) (2020-06-18)
 
 
 ### Bug Fixes
@@ -868,7 +1026,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.35](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.34...@confere-stores/storefront-template@2.0.0-beta.35) (2020-06-13)
+# [2.0.0-beta.35](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.34...@ecomplus/storefront-template@2.0.0-beta.35) (2020-06-13)
 
 
 ### Bug Fixes
@@ -884,23 +1042,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.34](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.33...@confere-stores/storefront-template@2.0.0-beta.34) (2020-06-12)
+# [2.0.0-beta.34](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.33...@ecomplus/storefront-template@2.0.0-beta.34) (2020-06-12)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.33](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.32...@confere-stores/storefront-template@2.0.0-beta.33) (2020-06-11)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.32](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.31...@confere-stores/storefront-template@2.0.0-beta.32) (2020-06-10)
+# [2.0.0-beta.33](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.32...@ecomplus/storefront-template@2.0.0-beta.33) (2020-06-11)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.32](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.31...@ecomplus/storefront-template@2.0.0-beta.32) (2020-06-10)
 
 
 ### Bug Fixes
@@ -919,7 +1077,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.31](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.30...@confere-stores/storefront-template@2.0.0-beta.31) (2020-06-06)
+# [2.0.0-beta.31](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.30...@ecomplus/storefront-template@2.0.0-beta.31) (2020-06-06)
 
 
 ### Bug Fixes
@@ -937,23 +1095,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.30](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.29...@confere-stores/storefront-template@2.0.0-beta.30) (2020-06-03)
+# [2.0.0-beta.30](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.29...@ecomplus/storefront-template@2.0.0-beta.30) (2020-06-03)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.29](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.28...@confere-stores/storefront-template@2.0.0-beta.29) (2020-06-03)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.28](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.27...@confere-stores/storefront-template@2.0.0-beta.28) (2020-06-02)
+# [2.0.0-beta.29](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.28...@ecomplus/storefront-template@2.0.0-beta.29) (2020-06-03)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.28](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.27...@ecomplus/storefront-template@2.0.0-beta.28) (2020-06-02)
 
 
 ### Bug Fixes
@@ -964,7 +1122,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.27](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.26...@confere-stores/storefront-template@2.0.0-beta.27) (2020-06-02)
+# [2.0.0-beta.27](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.26...@ecomplus/storefront-template@2.0.0-beta.27) (2020-06-02)
 
 
 ### Bug Fixes
@@ -977,15 +1135,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.26](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.25...@confere-stores/storefront-template@2.0.0-beta.26) (2020-05-29)
+# [2.0.0-beta.26](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.25...@ecomplus/storefront-template@2.0.0-beta.26) (2020-05-29)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.25](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.24...@confere-stores/storefront-template@2.0.0-beta.25) (2020-05-28)
+
+
+# [2.0.0-beta.25](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.24...@ecomplus/storefront-template@2.0.0-beta.25) (2020-05-28)
 
 
 ### Bug Fixes
@@ -998,15 +1156,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.24](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.23...@confere-stores/storefront-template@2.0.0-beta.24) (2020-05-28)
+# [2.0.0-beta.24](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.23...@ecomplus/storefront-template@2.0.0-beta.24) (2020-05-28)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.23](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.22...@confere-stores/storefront-template@2.0.0-beta.23) (2020-05-28)
+
+
+# [2.0.0-beta.23](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.22...@ecomplus/storefront-template@2.0.0-beta.23) (2020-05-28)
 
 
 ### Bug Fixes
@@ -1018,23 +1176,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.22](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.21...@confere-stores/storefront-template@2.0.0-beta.22) (2020-05-26)
+# [2.0.0-beta.22](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.21...@ecomplus/storefront-template@2.0.0-beta.22) (2020-05-26)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.21](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.20...@confere-stores/storefront-template@2.0.0-beta.21) (2020-05-26)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.20](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.19...@confere-stores/storefront-template@2.0.0-beta.20) (2020-05-26)
+# [2.0.0-beta.21](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.20...@ecomplus/storefront-template@2.0.0-beta.21) (2020-05-26)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.20](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.19...@ecomplus/storefront-template@2.0.0-beta.20) (2020-05-26)
 
 
 ### Features
@@ -1046,7 +1204,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.19](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.18...@confere-stores/storefront-template@2.0.0-beta.19) (2020-05-24)
+# [2.0.0-beta.19](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.18...@ecomplus/storefront-template@2.0.0-beta.19) (2020-05-24)
 
 
 ### Bug Fixes
@@ -1057,7 +1215,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.18](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.17...@confere-stores/storefront-template@2.0.0-beta.18) (2020-05-23)
+# [2.0.0-beta.18](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.17...@ecomplus/storefront-template@2.0.0-beta.18) (2020-05-23)
 
 
 ### Features
@@ -1068,15 +1226,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.17](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.16...@confere-stores/storefront-template@2.0.0-beta.17) (2020-05-22)
+# [2.0.0-beta.17](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.16...@ecomplus/storefront-template@2.0.0-beta.17) (2020-05-22)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.16](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.15...@confere-stores/storefront-template@2.0.0-beta.16) (2020-05-22)
+
+
+# [2.0.0-beta.16](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.15...@ecomplus/storefront-template@2.0.0-beta.16) (2020-05-22)
 
 
 ### Bug Fixes
@@ -1090,23 +1248,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.15](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.14...@confere-stores/storefront-template@2.0.0-beta.15) (2020-05-22)
+# [2.0.0-beta.15](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.14...@ecomplus/storefront-template@2.0.0-beta.15) (2020-05-22)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
-
-
-
-# [2.0.0-beta.14](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.13...@confere-stores/storefront-template@2.0.0-beta.14) (2020-05-21)
-
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
 
 
-# [2.0.0-beta.13](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.12...@confere-stores/storefront-template@2.0.0-beta.13) (2020-05-21)
+# [2.0.0-beta.14](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.13...@ecomplus/storefront-template@2.0.0-beta.14) (2020-05-21)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.13](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.12...@ecomplus/storefront-template@2.0.0-beta.13) (2020-05-21)
 
 
 ### Bug Fixes
@@ -1124,7 +1282,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.12](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.11...@confere-stores/storefront-template@2.0.0-beta.12) (2020-05-16)
+# [2.0.0-beta.12](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.11...@ecomplus/storefront-template@2.0.0-beta.12) (2020-05-16)
 
 
 ### Bug Fixes
@@ -1135,7 +1293,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.11](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.10...@confere-stores/storefront-template@2.0.0-beta.11) (2020-05-16)
+# [2.0.0-beta.11](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.10...@ecomplus/storefront-template@2.0.0-beta.11) (2020-05-16)
 
 
 ### Bug Fixes
@@ -1152,7 +1310,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.10](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.9...@confere-stores/storefront-template@2.0.0-beta.10) (2020-05-14)
+# [2.0.0-beta.10](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.9...@ecomplus/storefront-template@2.0.0-beta.10) (2020-05-14)
 
 
 ### Bug Fixes
@@ -1170,7 +1328,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.9](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.8...@confere-stores/storefront-template@2.0.0-beta.9) (2020-05-12)
+# [2.0.0-beta.9](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.8...@ecomplus/storefront-template@2.0.0-beta.9) (2020-05-12)
 
 
 ### Bug Fixes
@@ -1182,7 +1340,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.8](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.7...@confere-stores/storefront-template@2.0.0-beta.8) (2020-05-08)
+# [2.0.0-beta.8](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.7...@ecomplus/storefront-template@2.0.0-beta.8) (2020-05-08)
 
 
 ### Bug Fixes
@@ -1194,7 +1352,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.7](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.6...@confere-stores/storefront-template@2.0.0-beta.7) (2020-05-05)
+# [2.0.0-beta.7](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.6...@ecomplus/storefront-template@2.0.0-beta.7) (2020-05-05)
 
 
 ### Bug Fixes
@@ -1205,15 +1363,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.6](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.5...@confere-stores/storefront-template@2.0.0-beta.6) (2020-05-03)
+# [2.0.0-beta.6](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.5...@ecomplus/storefront-template@2.0.0-beta.6) (2020-05-03)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-beta.5](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.4...@confere-stores/storefront-template@2.0.0-beta.5) (2020-05-03)
+
+
+# [2.0.0-beta.5](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.4...@ecomplus/storefront-template@2.0.0-beta.5) (2020-05-03)
 
 
 ### Features
@@ -1228,7 +1386,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.4](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.3...@confere-stores/storefront-template@2.0.0-beta.4) (2020-05-01)
+# [2.0.0-beta.4](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.3...@ecomplus/storefront-template@2.0.0-beta.4) (2020-05-01)
 
 
 ### Bug Fixes
@@ -1239,7 +1397,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.3](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.2...@confere-stores/storefront-template@2.0.0-beta.3) (2020-05-01)
+# [2.0.0-beta.3](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.2...@ecomplus/storefront-template@2.0.0-beta.3) (2020-05-01)
 
 
 ### Bug Fixes
@@ -1258,7 +1416,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.2](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.1...@confere-stores/storefront-template@2.0.0-beta.2) (2020-04-23)
+# [2.0.0-beta.2](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.1...@ecomplus/storefront-template@2.0.0-beta.2) (2020-04-23)
 
 
 ### Bug Fixes
@@ -1271,7 +1429,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.1](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-beta.0...@confere-stores/storefront-template@2.0.0-beta.1) (2020-04-16)
+# [2.0.0-beta.1](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.0...@ecomplus/storefront-template@2.0.0-beta.1) (2020-04-16)
 
 
 ### Bug Fixes
@@ -1282,7 +1440,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.0](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-next.3...@confere-stores/storefront-template@2.0.0-beta.0) (2020-04-16)
+# [2.0.0-beta.0](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-next.3...@ecomplus/storefront-template@2.0.0-beta.0) (2020-04-16)
 
 
 ### Bug Fixes
@@ -1326,7 +1484,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-next.3](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-next.2...@confere-stores/storefront-template@2.0.0-next.3) (2020-04-03)
+# [2.0.0-next.3](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-next.2...@ecomplus/storefront-template@2.0.0-next.3) (2020-04-03)
 
 
 ### Bug Fixes
@@ -1366,15 +1524,15 @@ https://github.com/ecomplus/storefront/issues/190
 
 
 
-# [2.0.0-next.2](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-next.1...@confere-stores/storefront-template@2.0.0-next.2) (2020-03-30)
+# [2.0.0-next.2](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-next.1...@ecomplus/storefront-template@2.0.0-next.2) (2020-03-30)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
-
-
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
-# [2.0.0-next.1](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@2.0.0-next.0...@confere-stores/storefront-template@2.0.0-next.1) (2020-03-28)
+
+
+# [2.0.0-next.1](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-next.0...@ecomplus/storefront-template@2.0.0-next.1) (2020-03-28)
 
 
 ### Bug Fixes
@@ -1400,9 +1558,9 @@ https://github.com/ecomplus/storefront/issues/190
 
 
 
-# [2.0.0-next.0](https://github.com/ecomplus/storefront/compare/@confere-stores/storefront-template@1.34.7...@confere-stores/storefront-template@2.0.0-next.0) (2020-02-27)
+# [2.0.0-next.0](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@1.34.7...@ecomplus/storefront-template@2.0.0-next.0) (2020-02-27)
 
-**Note:** Version bump only for package @confere-stores/storefront-template
+**Note:** Version bump only for package @ecomplus/storefront-template
 
 
 
