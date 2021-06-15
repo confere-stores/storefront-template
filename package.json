@@ -91,5 +91,10 @@
     "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
     "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
   },
-  "version": "2.0.0-beta.128"
+  "version": "2.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "standard": "^16.0.3",
+    "standard-version": "^9.3.0"
+  }
 }

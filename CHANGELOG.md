@@ -1,7 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.0.0](https://github.com/confere-stores/storefront-template/compare/v2.0.12...v2.0.0) (2021-06-15)
 
 # [2.0.0-beta.128](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.127...@ecomplus/storefront-template@2.0.0-beta.128) (2021-06-12)
 
