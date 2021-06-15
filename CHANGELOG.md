@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/confere-stores/storefront-template/compare/v2.0.0...v2.1.0) (2021-06-15)
+
+
+### Features
+
+* changing webpack ([2e6bfcf](https://github.com/confere-stores/storefront-template/commit/2e6bfcf6737aed9329e44f246f40d4f8628f201a))
+
 ## [2.0.0](https://github.com/confere-stores/storefront-template/compare/v2.0.12...v2.0.0) (2021-06-15)
 
 # [2.0.0-beta.128](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.127...@ecomplus/storefront-template@2.0.0-beta.128) (2021-06-12)
