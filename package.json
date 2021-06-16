@@ -90,5 +90,5 @@
     "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
     "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
   },
-  "version": "2.1.0"
+  "version": "2.1.1"
 }
