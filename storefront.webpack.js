@@ -9,8 +9,7 @@ module.exports = ({ devMode }) => {
         './scss/APicture.scss': emptyScss,
         './scss/APrices.scss': emptyScss,
         './scss/ProductCard.scss': emptyScss,
-        './scss/TheProduct.scss': emptyScss,
-        '@ecomplus/storefront-components': path.resolve(__dirname, 'node_modules/@confere-stores/storefront-components')
+        './scss/TheProduct.scss': emptyScss
       }
     }
   }
