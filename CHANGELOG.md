@@ -1,6 +1,59 @@
-# Changelog
+# Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [2.0.0-beta.133](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.132...@ecomplus/storefront-template@2.0.0-beta.133) (2021-07-08)
+
+
+### Bug Fixes
+
+* **template/banner:** must check if local image to handle image size ([777e16d](https://github.com/ecomplus/storefront/commit/777e16db1a898b32e48a2a1d0118d2195a741bbe))
+
+
+### Performance Improvements
+
+* **template/banner:** explicitly ser firt loaded image tag widht/height ([b3c00c5](https://github.com/ecomplus/storefront/commit/b3c00c557d77f4a110d116af6e79be9a61f1d1dd))
+* **template/images:** always `tryImageSize` and set sizes on <img> tags with local images ([a1061a6](https://github.com/ecomplus/storefront/commit/a1061a6eff7811344ae0074316ef72056e003c2f))
+
+
+
+
+
+# [2.0.0-beta.132](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.131...@ecomplus/storefront-template@2.0.0-beta.132) (2021-07-05)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.131](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.130...@ecomplus/storefront-template@2.0.0-beta.131) (2021-07-02)
+
+
+### Bug Fixes
+
+* **template/products-carousel:** update styles for new product card vertical alignment and stretch ([27c219f](https://github.com/ecomplus/storefront/commit/27c219f05f9210a118d23e2faa7b415ac8df0e4b))
+
+
+### Features
+
+* **template/contacts:** add tiktok to cms contacts and shown footer icons ([ed27ce6](https://github.com/ecomplus/storefront/commit/ed27ce603cf3cc377d69c07a283ae2f10d0a576c))
+* **template/search-engine:** add #search-pagination element for pagination when enabled ([17a4ab8](https://github.com/ecomplus/storefront/commit/17a4ab8b28d92d4543e701e30f3d39a5cd3f74d7))
+
+
+### Performance Improvements
+
+* **template/dom:** giving a try with worker dom ([82038d2](https://github.com/ecomplus/storefront/commit/82038d27ab7ed46c7764171095e1b0a45ba6f199))
+
+
+### Reverts
+
+* **template/worker-dom:** not using unstable \@ampproject/worker-dom for now ([0e27df3](https://github.com/ecomplus/storefront/commit/0e27df33c7cb9b6fc4f5477be407d6e8c3ea4907))
+
+
+
+
 
 # [2.0.0-beta.130](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.129...@ecomplus/storefront-template@2.0.0-beta.130) (2021-06-21)
 
