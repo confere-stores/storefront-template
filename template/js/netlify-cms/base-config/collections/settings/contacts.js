@@ -38,43 +38,50 @@ export default ({ baseDir }) => ({
       label: 'Facebook',
       name: 'facebook',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.facebook.com/ConfereCartoes'
     },
     {
       label: 'Twitter',
       name: 'twitter',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa.'
     },
     {
       label: 'Youtube',
       name: 'youtube',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.youtube.com/channel/UCnbYV0scfPDh_02Q3_1Pmgg'
     },
     {
       label: 'Instagram',
       name: 'instagram',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://instagram.com/conferecartoes'
     },
     {
       label: 'TikTok',
       name: 'tiktok',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa.'
     },
     {
       label: 'Pinterest',
       name: 'pinterest',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa.'
     },
     {
       label: 'LinkedIn',
       name: 'linkedin',
       widget: 'string',
-      required: false
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.linkedin.com/company/confere-cartoes'
     }
   ]
 })
