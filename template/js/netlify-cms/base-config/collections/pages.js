@@ -8,8 +8,8 @@ import getBlog from './pages/blog'
 
 export default options => ({
   name: 'pages',
-  label: 'Páginas',
-  description: 'Páginas principais e pré-definidas da loja',
+  label: 'Editor de Páginas',
+  description: 'Capriche no visual e deixe a loja do jeitinho da sua marca. Adicione banners, vídeos, promoções, organize os produtos e muito mais.',
   delete: false,
   files: [
     getHome(options),

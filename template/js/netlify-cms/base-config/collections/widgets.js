@@ -27,27 +27,24 @@ const fixWidgetConfig = ({ baseDir }, getWidget) => {
 
 export default options => ({
   name: 'widgets',
-  label: 'Widgets',
+  label: 'Extenções',
   description: 'Plugins, tags e componentes adicionais',
   delete: false,
   editor: {
     preview: false
   },
   files: [
-    fixWidgetConfig(options, getWidgetProductCard),
-    fixWidgetConfig(options, getWidgetProduct),
-    fixWidgetConfig(options, getWidgetSearch),
-    fixWidgetConfig(options, getWidgetSearchEngine),
-    fixWidgetConfig(options, getWidgetMinicart),
-    fixWidgetConfig(options, getWidgetOffersNotification),
-    fixWidgetConfig(options, getWidgetAnalytics),
     fixWidgetConfig(options, getWidgetFbPixel),
+    fixWidgetConfig(options, getWidgetAnalytics),
     fixWidgetConfig(options, getWidgetTagManager),
     fixWidgetConfig(options, getWidgetGmcRatings),
     fixWidgetConfig(options, getWidgetTawkto),
     fixWidgetConfig(options, getWidgetTrustvox),
+    fixWidgetConfig(options, getWidgetOffersNotification),
     fixWidgetConfig(options, getWidgetEbit),
     fixWidgetConfig(options, getWidgetCompreConfie),
-    fixWidgetConfig(options, getWidgetOpinioesVerificadas)
+    fixWidgetConfig(options, getWidgetOpinioesVerificadas),
+    fixWidgetConfig(options, getWidgetProductCard),
+    fixWidgetConfig(options, getWidgetProduct),
   ]
 })

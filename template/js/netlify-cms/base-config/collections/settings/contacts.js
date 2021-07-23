@@ -1,5 +1,5 @@
 export default ({ baseDir }) => ({
-  name: 'contacts',
+  name: 'Contato & Redes Sociais',
   file: `${baseDir}content/contacts.json`,
   label: 'Contatos',
   hint: 'Contatos da loja, exibidos em várias páginas',

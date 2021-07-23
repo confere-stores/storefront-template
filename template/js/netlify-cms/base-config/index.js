@@ -52,9 +52,9 @@ export default options => {
       getSettings(options),
       getLayout(options),
       getPages(options),
-      getBlogPosts(options),
       getExtraPages(options),
-      getWidgets(options)
+      getWidgets(options),
+      getBlogPosts(options),
     ]
   }
 }

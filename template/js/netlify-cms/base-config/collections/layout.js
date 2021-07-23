@@ -5,7 +5,7 @@ import getCode from './layout/code'
 
 export default options => ({
   name: 'layout',
-  label: 'Layout',
+  label: 'Layout Base',
   description: 'Layout base para todas as páginas',
   delete: false,
   editor: {

@@ -6,7 +6,7 @@ import getSocial from './settings/social'
 export default options => ({
   name: 'settings',
   label: 'Configurações',
-  description: 'Configurações gerais para identidade e metadados do site',
+  description: 'Escolhe o nome e as cores da sua marca, insira o seu logo, dados de contato e turbine com suas redes sociais.',
   delete: false,
   editor: {
     preview: false

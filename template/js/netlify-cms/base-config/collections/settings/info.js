@@ -1,5 +1,5 @@
 export default ({ baseDir }) => ({
-  label: 'Informações',
+  label: 'Barra de informações',
   file: `${baseDir}content/info.json`,
   name: 'info',
   hint: 'Informações gerais da loja, exibidas em várias páginas',

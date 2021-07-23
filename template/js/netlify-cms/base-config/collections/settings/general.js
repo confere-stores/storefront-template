@@ -1,6 +1,6 @@
 export default ({ baseDir }) => ({
   name: 'general',
-  label: 'Configurações gerais',
+  label: 'Nome, Cores e Logos da Marca',
   file: `${baseDir}content/settings.json`,
   editor: {
     preview: false
