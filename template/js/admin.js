@@ -23,6 +23,7 @@ new EcomRouter().list()
       baseDir: window.PKG_BASE_DIR,
       state
     }).then(config => {
+      document.querySelector('#nc-root > div > section > button').innerHTML = "Acessar Editor de Loja"
       console.log('Netlify CMS config:', config)
     })
   })

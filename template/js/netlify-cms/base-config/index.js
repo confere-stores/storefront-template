@@ -9,9 +9,6 @@ import getWidgets from './collections/widgets'
 export default options => {
   options.sections = getSections(options)
 
-  netlifyIdentity.on('init', () => {
-    document.querySelector('#nc-root > div > section > button').innerHTML = "Acessar Editor de Loja"
-  })
   netlifyIdentity.on('login', user => {
     window.LogRocket.identify(user.id, {
       email: user.email,
