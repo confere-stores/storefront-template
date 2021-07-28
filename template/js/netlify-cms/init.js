@@ -73,6 +73,5 @@ export default (customConfig, options) => new Promise(resolve => {
     .finally(() => {
       initCms(config)
       resolve(config)
-      document.querySelector('#nc-root > div > section > button').innerHTML = "Acessar Editor de Loja"
     })
 })
