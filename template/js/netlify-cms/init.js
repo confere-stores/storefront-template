@@ -13,6 +13,7 @@ const initCms = config => {
         const { api } = window.netlifyIdentity.gotrue
         api.apiURL = identityUrl
         api._sameOrigin = identityUrl.includes(window.location.host)
+        document.querySelector('#nc-root > div > section > button').innerHTML = "Acessar Editor de Loja"
       }
       if (document.readyState !== 'loading') {
         fixGotrueApi()
