@@ -25,7 +25,7 @@
     "@ecomplus/passport-client": "^1.0.10",
     "@ecomplus/search-engine": "^2.6.1",
     "@ecomplus/shopping-cart": "^2.5.5",
-    "@ecomplus/storefront-app": "^2.0.0-beta.102",
+    "@ecomplus/storefront-app": "^2.0.0-beta.103",
     "@ecomplus/storefront-components": "^1.0.0-beta.96",
     "@ecomplus/storefront-framework": "^5.16.28",
     "@ecomplus/storefront-router": "^2.2.1",
@@ -93,5 +93,5 @@
     "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
     "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
   },
-  "version": "2.1.13"
+  "version": "2.1.14"
 }
