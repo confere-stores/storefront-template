@@ -73,7 +73,8 @@ export default ({ state }) => [
             name: 'start',
             widget: 'datetime',
             dateFormat: 'DD/MM/YYYY',
-            timeFormat: 'HH:mm'
+            timeFormat: 'HH:mm',
+            default: ''
           },
           {
             label: 'Data de encerramento',
@@ -81,7 +82,8 @@ export default ({ state }) => [
             name: 'end',
             widget: 'datetime',
             dateFormat: 'DD/MM/YYYY',
-            timeFormat: 'HH:mm'
+            timeFormat: 'HH:mm',
+            default: ''
           }
         ])
       },
