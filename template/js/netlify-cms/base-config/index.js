@@ -23,7 +23,12 @@ export default options => {
     analytics.identify(user.id, {
       email: user.email
     });
-    window.Cohere(
+    if (
+      window.Cohere
+      && user
+      && user.id
+      && user.email
+    ) window.Cohere(
       user.id,
       {
         email: user.email
