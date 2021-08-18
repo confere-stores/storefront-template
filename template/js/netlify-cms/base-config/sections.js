@@ -24,6 +24,43 @@ const bannerFields = [
   }
 ]
 
+const searchOrderField = {
+  label: 'Ordenação',
+  required: false,
+  name: 'sort',
+  widget: 'select',
+  options: [
+    {
+      label: 'Relevância',
+      value: 'views'
+    },
+    {
+      label: 'Mais vendidos',
+      value: 'sales'
+    },
+    {
+      label: 'Lançamento',
+      value: 'news'
+    },
+    {
+      label: 'Ofertas',
+      value: 'offers'
+    },
+    {
+      label: 'Menor preço',
+      value: 'lowest_price'
+    },
+    {
+      label: 'Maior preço',
+      value: 'highest_price'
+    },
+    {
+      label: 'Alfabética (slug)',
+      value: 'slug'
+    }
+  ]
+}
+
 export default ({ state }) => [
   {
     label: 'Banner responsivo',
@@ -195,42 +232,7 @@ export default ({ state }) => [
           return options
         }, [])
       },
-      {
-        label: 'Ordenação',
-        required: false,
-        name: 'sort',
-        widget: 'select',
-        options: [
-          {
-            label: 'Relevância',
-            value: 'views'
-          },
-          {
-            label: 'Mais vendidos',
-            value: 'sales'
-          },
-          {
-            label: 'Lançamento',
-            value: 'news'
-          },
-          {
-            label: 'Ofertas',
-            value: 'offers'
-          },
-          {
-            label: 'Menor preço',
-            value: 'lowest_price'
-          },
-          {
-            label: 'Maior preço',
-            value: 'highest_price'
-          },
-          {
-            label: 'Alfabética (slug)',
-            value: 'slug'
-          }
-        ]
-      },
+      searchOrderField,
       {
         label: 'Embaralhar produtos',
         name: 'shuffle',
@@ -275,6 +277,21 @@ export default ({ state }) => [
         widget: 'number',
         min: 1,
         default: 1
+      }
+    ]
+  },
+  {
+    label: 'Vitrine dinâmica',
+    name: 'dynamic-showcase',
+    widget: 'object',
+    fields: [
+      searchOrderField,
+      {
+        label: 'Carregar mais',
+        name: 'load_more',
+        widget: 'boolean',
+        default: true,
+        hint: 'Carrega mais itens automaticamente com scroll da página'
       }
     ]
   },
