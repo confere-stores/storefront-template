@@ -1114,10 +1114,10 @@ const storefront = ({
 
 /***/ }),
 
-/***/ "./node_modules/@ecomplus/search-engine/src/index.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/@ecomplus/search-engine/src/index.js ***!
-  \***********************************************************/
+/***/ "./node_modules/@ecomplus/search-engine/src/constructor.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/constructor.js ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1147,12 +1147,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _methods_get_categories__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./methods/get-categories */ "./node_modules/@ecomplus/search-engine/src/methods/get-categories.js");
 /* harmony import */ var _methods_get_price_range__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./methods/get-price-range */ "./node_modules/@ecomplus/search-engine/src/methods/get-price-range.js");
 /* harmony import */ var _methods_get_specs__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./methods/get-specs */ "./node_modules/@ecomplus/search-engine/src/methods/get-specs.js");
-/*!
- * @ecomplus/search-engine
- * (c) E-Com Club <ti@e-com.club>
- * Released under the MIT License.
- */
-
 /**
  * JS lib to handle products search with E-Com Plus stores.
  * {@link https://github.com/ecomclub/search-engine GitHub}
@@ -1340,6 +1334,49 @@ const search = new EcomSearch(storeId)
 
 /***/ }),
 
+/***/ "./node_modules/@ecomplus/search-engine/src/index.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/index.js ***!
+  \***********************************************************/
+/*! exports provided: default, EcomSearch, dslMiddlewares, addGlobalFilter, setSalesChannel, setWarehouse */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _constructor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constructor */ "./node_modules/@ecomplus/search-engine/src/constructor.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EcomSearch", function() { return _constructor__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/dsl-middlewares */ "./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "dslMiddlewares", function() { return _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _modifiers_add_global_filter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modifiers/add-global-filter */ "./node_modules/@ecomplus/search-engine/src/modifiers/add-global-filter.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "addGlobalFilter", function() { return _modifiers_add_global_filter__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _modifiers_set_sales_channel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modifiers/set-sales-channel */ "./node_modules/@ecomplus/search-engine/src/modifiers/set-sales-channel.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "setSalesChannel", function() { return _modifiers_set_sales_channel__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _modifiers_set_warehouse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modifiers/set-warehouse */ "./node_modules/@ecomplus/search-engine/src/modifiers/set-warehouse.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "setWarehouse", function() { return _modifiers_set_warehouse__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/*!
+ * @ecomplus/search-engine
+ * (c) E-Com Club <ti@e-com.club>
+ * Released under the MIT License.
+ */
+
+
+
+
+
+_constructor__WEBPACK_IMPORTED_MODULE_0__["default"].dslMiddlewares = _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__["default"];
+_constructor__WEBPACK_IMPORTED_MODULE_0__["default"].addGlobalFilter = _modifiers_add_global_filter__WEBPACK_IMPORTED_MODULE_2__["default"];
+_constructor__WEBPACK_IMPORTED_MODULE_0__["default"].setSalesChannel = _modifiers_set_sales_channel__WEBPACK_IMPORTED_MODULE_3__["default"];
+_constructor__WEBPACK_IMPORTED_MODULE_0__["default"].setWarehouse = _modifiers_set_warehouse__WEBPACK_IMPORTED_MODULE_4__["default"];
+/* harmony default export */ __webpack_exports__["default"] = (_constructor__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+
+/***/ }),
+
 /***/ "./node_modules/@ecomplus/search-engine/src/lib/common-aggregation.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/@ecomplus/search-engine/src/lib/common-aggregation.js ***!
@@ -1401,6 +1438,20 @@ __webpack_require__.r(__webpack_exports__);
 
   return self;
 });
+
+/***/ }),
+
+/***/ "./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const middlewares = [];
+/* harmony default export */ __webpack_exports__["default"] = (middlewares);
 
 /***/ }),
 
@@ -1497,19 +1548,39 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var lodash_clonedeep__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash.clonedeep */ "./node_modules/lodash.clonedeep/index.js");
+/* harmony import */ var lodash_clonedeep__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_clonedeep__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../lib/dsl-middlewares */ "./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js");
+
+
 
 /* harmony default export */ __webpack_exports__["default"] = ((self, isSimpleSearch, axiosConfig) => {
   // mount axios req options for complex or simpĺe search
+  const {
+    storeId
+  } = self;
   const reqOptions = {
     url: '/items.json',
+    storeId,
     axiosConfig
-  };
+  }; // prepare search DSL
+
+  let dsl = lodash_clonedeep__WEBPACK_IMPORTED_MODULE_1__(self.dsl);
+  _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_2__["default"].forEach(fn => {
+    if (typeof fn === 'function') {
+      const _dsl = fn(dsl);
+
+      if (_dsl) {
+        dsl = _dsl;
+      }
+    }
+  });
 
   if (isSimpleSearch === true) {
     // https://www.elastic.co/guide/en/elasticsearch/reference/6.3/search-uri-request.html
     const {
       query
-    } = self.dsl;
+    } = dsl;
     reqOptions.url += '?q=';
 
     if (query && query.bool && Array.isArray(query.bool.filter)) {
@@ -1537,13 +1608,13 @@ __webpack_require__.r(__webpack_exports__);
 
     ;
     ['from', 'size'].forEach(field => {
-      if (self.dsl[field]) {
-        reqOptions.url += `&${field}=${self.dsl[field]}`;
+      if (dsl[field]) {
+        reqOptions.url += `&${field}=${dsl[field]}`;
       }
     });
   } else {
     reqOptions.method = 'post';
-    reqOptions.data = self.dsl;
+    reqOptions.data = dsl;
 
     if (isSimpleSearch && !axiosConfig) {
       // fallback for old reference with `fetch(axiosConfig)`
@@ -2784,6 +2855,127 @@ search.setSpec('size', ['P', 'M', 'G']).fetch()
 // Remove filter by size for next search
 search.setSpec('size', null)
 
+ */
+
+/***/ }),
+
+/***/ "./node_modules/@ecomplus/search-engine/src/modifiers/add-global-filter.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/modifiers/add-global-filter.js ***!
+  \*********************************************************************************/
+/*! exports provided: default, addGlobalFilter, dslMiddlewares */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addGlobalFilter", function() { return addGlobalFilter; });
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.merge */ "./node_modules/lodash.merge/index.js");
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../lib/dsl-middlewares */ "./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "dslMiddlewares", function() { return _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+
+const addGlobalFilter = (field, value) => {
+  _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_1__["default"].push(dsl => {
+    lodash_merge__WEBPACK_IMPORTED_MODULE_0__(dsl, {
+      query: {
+        bool: {
+          filter: [{
+            term: {
+              [field]: value
+            }
+          }]
+        }
+      }
+    });
+  });
+};
+/**
+ * @method
+ * @name addGlobalFilter
+ * @description Add custom fetch DSL middleware with simple term filter for all instances.
+ * @param {string} field - Item field to filter with dot notation
+ * @param {string|number|boolean} value - Searched field value
+ *
+ * @example
+ * import { addGlobalFilter } from '@ecomplus/search-engine'
+ * addGlobalFilter('channel_id', 123)
+ */
+
+
+/* harmony default export */ __webpack_exports__["default"] = (addGlobalFilter);
+
+
+/***/ }),
+
+/***/ "./node_modules/@ecomplus/search-engine/src/modifiers/set-sales-channel.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/modifiers/set-sales-channel.js ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _add_global_filter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add-global-filter */ "./node_modules/@ecomplus/search-engine/src/modifiers/add-global-filter.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (channelId => Object(_add_global_filter__WEBPACK_IMPORTED_MODULE_0__["default"])('channel_id', channelId));
+/**
+ * @method
+ * @name setSalesChannel
+ * @description Set channel ID for searches in all instances.
+ * @param {number} channelId - Sales channel ID
+ *
+ * @example
+ * import { setSalesChannel } from '@ecomplus/search-engine'
+ * setSalesChannel(123)
+ */
+
+/***/ }),
+
+/***/ "./node_modules/@ecomplus/search-engine/src/modifiers/set-warehouse.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@ecomplus/search-engine/src/modifiers/set-warehouse.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../lib/dsl-middlewares */ "./node_modules/@ecomplus/search-engine/src/lib/dsl-middlewares.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (warehouseCode => {
+  _lib_dsl_middlewares__WEBPACK_IMPORTED_MODULE_0__["default"].push(dsl => {
+    if (!dsl.sort) {
+      dsl.sort = [];
+    }
+
+    dsl.sort.splice(1, 0, {
+      'warehouses.in_stock': {
+        order: 'desc',
+        nested: {
+          path: 'warehouses',
+          filter: {
+            term: {
+              'warehouses.code': warehouseCode
+            }
+          }
+        }
+      }
+    });
+  });
+});
+/**
+ * @method
+ * @name setWarehouse
+ * @description Set warehouse (multi CD) code for searches in all instances.
+ * @param {string} warehouseCode - Warehouse code
+ *
+ * @example
+ * import { setWarehouse } from '@ecomplus/search-engine'
+ * setWarehouse('MG')
  */
 
 /***/ }),
@@ -5846,7 +6038,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-analytics@^1.1.6\",\"_id\":\"@ecomplus/widget-analytics@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-FmFwfc/5qzjBl3BL5oaUfj93/WdLheJc4p6N4Hi+nBNjlLAT4fa7/qY56j5QmqvUtsRdPLOGmjl1axfFqqs3ow==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@^1.1.6\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.6.tgz\",\"_shasum\":\"e1be8b606ad981daa11d0d49c3844ebc09690779\",\"_spec\":\"@ecomplus/widget-analytics@^1.1.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.0\"},\"deprecated\":false,\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-analytics@^1.1.7\",\"_id\":\"@ecomplus/widget-analytics@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-AGKAvEeCfD/tA05hf8xaYQqMmFngXykFwR4MvYvLhkXflQtE7z4wBXQDRu7lDRf8yKsTZ1bJiQdT2gCN0V89aQ==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@^1.1.7\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.7.tgz\",\"_shasum\":\"c9f439d625a19414f49a5b30939ef317fae7ceaf\",\"_spec\":\"@ecomplus/widget-analytics@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.1\"},\"deprecated\":false,\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
 
 /***/ }),
 
@@ -5913,7 +6105,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-compre-confie@^1.1.5\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.5\",\"_inBundle\":false,\"_integrity\":\"sha512-VXdgEv62SAWsKQu7wapMETFw0k1HMLw33ASjV8FhANxwV+FQLNHzsEOaJ/VuyZ5iV86IdGqrV8CBUxIZC9LPNg==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@^1.1.5\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.5\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.5\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.5.tgz\",\"_shasum\":\"998bc1af54d99ec4ed7e6ed5e8ab2baa96e386f6\",\"_spec\":\"@ecomplus/widget-compre-confie@^1.1.5\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.5\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-G3Vog+xG9Hjo9GBkZpCkIuD9iD7at1uC6vvGVw7AeaBTfO3V6XX/KvA/zspIb8llWSQfAQwtdHNx30M7RgJRVQ==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.6.tgz\",\"_shasum\":\"54d92fd6d696d8b61886833dc509e9a0d3ff66a6\",\"_spec\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
 
 /***/ }),
 
@@ -5980,7 +6172,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-ebit@^1.1.11\",\"_id\":\"@ecomplus/widget-ebit@1.1.11\",\"_inBundle\":false,\"_integrity\":\"sha512-rCztE/fQ8C9ODObTBW4x6c3Py/JxEmqkhXSpItbMKEMhFJcHkZ81WL+28BbMCMvOBszP3C8uR6lSm7A1LcEMUA==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@^1.1.11\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.11\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.11\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.11.tgz\",\"_shasum\":\"70ce12c648d01da34fa477bd52faeb95f16e9cf4\",\"_spec\":\"@ecomplus/widget-ebit@^1.1.11\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.11\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-ebit@^1.1.12\",\"_id\":\"@ecomplus/widget-ebit@1.1.12\",\"_inBundle\":false,\"_integrity\":\"sha512-Z3Ku5H3q+LwvlYhWrKZ5of84GV7YdrZGjYa5W9+BGVV6CLnic+JebkgCo+mSYephVcSE9IYKIXAOLhOgOOQOMA==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@^1.1.12\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.12\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.12\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.12.tgz\",\"_shasum\":\"73ea872c8a7f7a18108e0f2bb1a5645a376d13c7\",\"_spec\":\"@ecomplus/widget-ebit@^1.1.12\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.12\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
 
 /***/ }),
 
@@ -6026,6 +6218,12 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
       name: 'fbqContainerId',
       widget: 'string'
     }, {
+      label: 'Desabilitar evento de compra',
+      name: 'disablePurchase',
+      required: false,
+      widget: 'boolean',
+      hint: 'Contar as conversões somente via Facebook Conversions API'
+    }, {
       name: 'debug',
       widget: 'hidden',
       default: false
@@ -6050,7 +6248,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-fb-pixel@^1.2.4\",\"_id\":\"@ecomplus/widget-fb-pixel@1.2.4\",\"_inBundle\":false,\"_integrity\":\"sha512-cFFsvxG7gmsCD8BRjYCoWli9hw5pnRDXCEqcQ5FwcYYU43AcqZv6HL90GGjovzkp/HKV/YiKwq70ncBI++1HRQ==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@^1.2.4\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.2.4\",\"saveSpec\":null,\"fetchSpec\":\"^1.2.4\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.2.4.tgz\",\"_shasum\":\"5141cb054f97c5bc5cc180f4e99aa924fb4df5d2\",\"_spec\":\"@ecomplus/widget-fb-pixel@^1.2.4\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.2.4\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_id\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dbYjVfQyJwZgxSlQFt7n7qnst+z+2mzDBLzxpt3hF110CKY7MqnQeBvJ9aN3FsYxJeOWUfDdgXwFjDL/7e00fA==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.3.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.3.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.3.1.tgz\",\"_shasum\":\"ccbf47f9b982362b2a0679ffb788c291ffaf01df\",\"_spec\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.3.1\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
 
 /***/ }),
 
@@ -6154,7 +6352,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-gmc-ratings@^1.2.13\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.13\",\"_inBundle\":false,\"_integrity\":\"sha512-mxTeVgS8PjMFgJbz97mfGTb5LGmtNyx4uvO9bTP6a4scU5sWfCEtNOikOJ7I8TG3kR/xHN1nqs08tAI6J8klFw==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@^1.2.13\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.2.13\",\"saveSpec\":null,\"fetchSpec\":\"^1.2.13\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.13.tgz\",\"_shasum\":\"eb13c67180c1a464975546629889a5330b329682\",\"_spec\":\"@ecomplus/widget-gmc-ratings@^1.2.13\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.13\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_inBundle\":false,\"_integrity\":\"sha512-enJSDdOx4yBR02OvsmyZIl/s4nOUmKEHPoDn5WTgGX495y9n+lL4C/opY/RuCn2+Val6ja/k+DZbvpDDJk4pOQ==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.2.15\",\"saveSpec\":null,\"fetchSpec\":\"^1.2.15\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.15.tgz\",\"_shasum\":\"df5070766014d132e9a4765b42409671a7703726\",\"_spec\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.15\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
 
 /***/ }),
 
@@ -6198,7 +6396,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-minicart@^1.0.0-beta.80\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.84\",\"_inBundle\":false,\"_integrity\":\"sha512-EyEFtyzbQ8b46FQvWTrwRnz5ViCrdyAxMQ6qujFVhchptGcBT2byKR2PB3gje+6tHorg4kTIENSrLufVEvaQ5A==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@^1.0.0-beta.80\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.80\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.80\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.84.tgz\",\"_shasum\":\"cf0eaf0e966e193d0255affa521dd8132e668929\",\"_spec\":\"@ecomplus/widget-minicart@^1.0.0-beta.80\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.87\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.84\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-2DsgfEk84ETMUkdpFe9PjKAmtxQphtK/p908P7dTKuBeX2evruy65MrTgz1dtLdTk8L48p8Yb2pgK46HfFCX+w==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.95.tgz\",\"_shasum\":\"38602af6422fdfd571d72bebbfc95446ca8a82f8\",\"_spec\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
 
 /***/ }),
 
@@ -6267,7 +6465,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-offers-notification@^1.1.0\",\"_id\":\"@ecomplus/widget-offers-notification@1.1.1\",\"_inBundle\":false,\"_integrity\":\"sha512-Fq+CODJNpQFx8Qqm9xz/ODvLyPqzDeGm13rGxBlwEzL2xOgxgjIdtaoedqHoZ8jHYTLObYy5K11Ni7hJiU9h3A==\",\"_location\":\"/@ecomplus/widget-offers-notification\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-offers-notification@^1.1.0\",\"name\":\"@ecomplus/widget-offers-notification\",\"escapedName\":\"@ecomplus%2fwidget-offers-notification\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.0\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.0\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.1.1.tgz\",\"_shasum\":\"d46928f06b08e46abf3ee6a4beb10aba4cac82fb\",\"_spec\":\"@ecomplus/widget-offers-notification@^1.1.0\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-offers-notification.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for product stock and offers notification\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-offers-notification#readme\",\"jsdelivr\":\"dist/public/widget-offers-notification.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-offers-notification.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-offers-notification\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-offers-notification\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-offers-notification.var.min.js\",\"version\":\"1.1.1\",\"webpackOutput\":{\"library\":\"widgetOffersNotification\",\"filename\":\"widget-offers-notification.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"_id\":\"@ecomplus/widget-offers-notification@1.1.3\",\"_inBundle\":false,\"_integrity\":\"sha512-k72SvP3iOcjkUsHBPK9/giea8OlWSB/pefiJNO+vr1SW+2bmTi9fUqw5fwOw5U2Jmi+JfKUvZd3Mo/2HjYWXPg==\",\"_location\":\"/@ecomplus/widget-offers-notification\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"name\":\"@ecomplus/widget-offers-notification\",\"escapedName\":\"@ecomplus%2fwidget-offers-notification\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.3\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.3\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.1.3.tgz\",\"_shasum\":\"5ef6950f4a0655567ce596888dfef6fce12f9f19\",\"_spec\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-offers-notification.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for product stock and offers notification\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-offers-notification#readme\",\"jsdelivr\":\"dist/public/widget-offers-notification.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"notifications\"],\"license\":\"MIT\",\"main\":\"dist/widget-offers-notification.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-offers-notification\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-offers-notification\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-offers-notification.var.min.js\",\"version\":\"1.1.3\",\"webpackOutput\":{\"library\":\"widgetOffersNotification\",\"filename\":\"widget-offers-notification.min.js\"}}");
 
 /***/ }),
 
@@ -6368,7 +6566,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-opinioes-verificadas@^1.1.6\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-z6RbCpispfxHmdpB26d0TvBa7ZkZAokGwFGXAdk2AVB+aY8ldgjUnvDx4WmkMhGHvzcNtEvq6LiRusuDZKZiHg==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@^1.1.6\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.6.tgz\",\"_shasum\":\"fe1c7e1296cd27af8403c9f8a4fd92db18b81840\",\"_spec\":\"@ecomplus/widget-opinioes-verificadas@^1.1.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-gTRRri7wlqHo3NBG43QTx5ac65C5Fy1Zs/vBYEssT6yhcTCmsngZaempwdN02mpsOdSfu/P+UVnGOSt4oP+oMw==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.7.tgz\",\"_shasum\":\"3bdcf58434d4ec66fe8fc9c77662202fd7c05909\",\"_spec\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
 
 /***/ }),
 
@@ -6440,7 +6638,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product-card@^1.0.0-beta.80\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.84\",\"_inBundle\":false,\"_integrity\":\"sha512-urbnsuLLB7qBUYwBoeZl5FutKOa3TOCglp6BgvyWuxDO7uXeAexlp5cvDTBDTfOWzK1IPoipGOydQqSBPiIqiw==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@^1.0.0-beta.80\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.80\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.80\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.84.tgz\",\"_shasum\":\"9f6422c03064b3b655570c18121160c35df301fe\",\"_spec\":\"@ecomplus/widget-product-card@^1.0.0-beta.80\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.87\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.84\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-1AXG99iAAMoFhO2jIt/eMillPo5C+OGxQmx9jVQtFdnw5KE1kd6YMfS5y+t++Ask64xQUnq/s5Jr76g6KK/j1A==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.95.tgz\",\"_shasum\":\"c5ecc0bb7953fbf543b52f6a3acdc0e6077fc1db\",\"_spec\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
 
 /***/ }),
 
@@ -6491,6 +6689,22 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
       hint: 'Pode ser usado para substituir o botão "comprar" padrão',
       default_language: 'html',
       output_code_only: true
+    }, {
+      label: 'Alerta de quantidade',
+      name: 'lowQuantityToWarn',
+      widget: 'number',
+      min: 0,
+      max: 999999,
+      default: 12,
+      hint: 'Quantidade máxima disponível para informar estoque baixo (gatilho da escassez)'
+    }, {
+      label: 'Máximo de botões por variação',
+      name: 'maxVariationOptionsBtns',
+      widget: 'number',
+      min: 0,
+      max: 50,
+      default: 6,
+      hint: 'Máximo de opções por grade (tamanho, cor...) que poderão ser listadas com botões, ' + 'acima do máximo as opções serão listadas em um seletor'
     }]
   }]
 }));
@@ -6504,7 +6718,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product@^1.0.0-beta.80\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.84\",\"_inBundle\":false,\"_integrity\":\"sha512-sKE9+Y9nwvHhr7mcxtT7OGJ1S+5N6o5dcWowHrnULerayGgPb+fQdh544ipTqShdJN9/JusJcR1A/0N1f0U30w==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@^1.0.0-beta.80\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.80\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.80\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.84.tgz\",\"_shasum\":\"d656ee222b2c770e8e8e3bf540b1c92844cdce9c\",\"_spec\":\"@ecomplus/widget-product@^1.0.0-beta.80\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.87\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.84\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-zhQAjlvR6T8en1MgOb8ld6gJREHog14owMk+ZURRBAGtW6xlfv7xXtQYiINtTo69E/td+v0osKyJJvkNIEzkdQ==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.95.tgz\",\"_shasum\":\"c159b7b1cb7f08543ad07751c60569a4e49a7531\",\"_spec\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
 
 /***/ }),
 
@@ -6536,6 +6750,18 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
     widget: 'boolean'
+  }, {
+    label: 'Opções',
+    name: 'options',
+    widget: 'object',
+    hint: 'Personalizações do widget',
+    fields: [{
+      label: 'Paginação',
+      name: 'pagination',
+      required: false,
+      widget: 'boolean',
+      hint: 'Ativar paginação manual em vez do carregamento automático por scroll'
+    }]
   }]
 }));
 
@@ -6548,7 +6774,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search-engine@^1.0.0-beta.82\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.86\",\"_inBundle\":false,\"_integrity\":\"sha512-3/0bRoYuFO7KXST8tHNrrQznHGAzzmNhncIzZmhh4yP0Me7nvgH0NYyWaE6mTSH1/pF4nrh5oADUhnyFrpg+0w==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@^1.0.0-beta.82\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.82\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.82\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.86.tgz\",\"_shasum\":\"7ece60dcf5c136e85120bedff455244d856912a4\",\"_spec\":\"@ecomplus/widget-search-engine@^1.0.0-beta.82\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.87\",\"@ecomplus/storefront-twbs\":\"^5.10.4\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.86\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_inBundle\":false,\"_integrity\":\"sha512-0EPQUY9tdpGODkTr1mR6mXo2oK0RXT1B73ycaOqWh6JDHYhQ7lgEDKoT1quChQyB7qOgSm04SCflS2ubZENnxQ==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.97\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.97\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.97.tgz\",\"_shasum\":\"3050c835511502aa0b4e3d28ace1a9e2c535ef21\",\"_spec\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\",\"@ecomplus/storefront-twbs\":\"^5.11.1\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.97\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
 
 /***/ }),
 
@@ -6592,7 +6818,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search@^1.0.0-beta.80\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.84\",\"_inBundle\":false,\"_integrity\":\"sha512-K7gVNAiKi6A06Rq9xdZYmB8qEFMTbAQeRAsFdGppbnpBOEr7sNotvrpOWBnfC62HGrdrfaBULwQnefBeShsoLA==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@^1.0.0-beta.80\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.80\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.80\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.84.tgz\",\"_shasum\":\"f25196e8937b83d38703a522338600a5c0d676bb\",\"_spec\":\"@ecomplus/widget-search@^1.0.0-beta.80\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.87\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.84\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-rJ1ghMDSxZpgmXw1T1EninB7NTJyAkzDQhVxOY3h+80kB0OPKPbWkLezF7j4loFJ30MHT3M2hr8e4E4/kkPHfA==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.95.tgz\",\"_shasum\":\"cacc886cf05a847a087e2e44c3c10ae7fa571263\",\"_spec\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
 
 /***/ }),
 
@@ -6666,7 +6892,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tag-manager@^1.5.0\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.0\",\"_inBundle\":false,\"_integrity\":\"sha512-fP4FRKyNhftBmo+HnNBeyrq9vUcZSMrXcKdCQ8+aYdUNA80DONh3k8yVC5rHdxmF63Wu49sOMI6GF8dD60omEg==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@^1.5.0\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.5.0\",\"saveSpec\":null,\"fetchSpec\":\"^1.5.0\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.0.tgz\",\"_shasum\":\"5aa037f897a8b18d4d0e710f2fc271f007c7291b\",\"_spec\":\"@ecomplus/widget-tag-manager@^1.5.0\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.0\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_inBundle\":false,\"_integrity\":\"sha512-4MAFZw8IYYpBWXNfnk5sDtdCbc6NroANICPf5AL2h2Xzg9N68oHKI6tnTXaOLy5MROzq76/DCzcFniiXuyNu+A==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.5.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.5.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.1.tgz\",\"_shasum\":\"c229c751ec6bb1f9da720912f78dae37834deb68\",\"_spec\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.1\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
 
 /***/ }),
 
@@ -6737,7 +6963,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tawkto@^1.1.8\",\"_id\":\"@ecomplus/widget-tawkto@1.1.8\",\"_inBundle\":false,\"_integrity\":\"sha512-APpsRJeExgeqGAh3rnQWJJ9ImqtPSfmvDmyIHQkEBNMTbUrUG0AFzjiOrAIhQJ7fJ4+U8Y0DBbtrd4kRwOewyw==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@^1.1.8\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.8\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.8\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.8.tgz\",\"_shasum\":\"9117cca8ace0aee466a6788e17753c6d3fbe530e\",\"_spec\":\"@ecomplus/widget-tawkto@^1.1.8\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.8\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_id\":\"@ecomplus/widget-tawkto@1.1.9\",\"_inBundle\":false,\"_integrity\":\"sha512-X85+Wi/CcJXRdq7kwHkptvFT+t2QohNFn/zbHoDu248jc/ZyfQhv4gRBMXXRRHeC42+3x94cbsVT4MXOicFcBg==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@^1.1.9\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.9\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.9\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.9.tgz\",\"_shasum\":\"b829273bc525364843d82e9de724c96fc127b447\",\"_spec\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.9\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
 
 /***/ }),
 
@@ -6824,7 +7050,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-trustvox@^2.2.5\",\"_id\":\"@ecomplus/widget-trustvox@2.2.5\",\"_inBundle\":false,\"_integrity\":\"sha512-m2U/4tfxAv/xK2P4RTMbvVwevvStAQK17AS85//cHmuqohu17DFdAhjhifaRwtDpaOOCo+gfqfVqc7t6kra84w==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@^2.2.5\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.5\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.5\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.5.tgz\",\"_shasum\":\"caa78eeb83fd825e004f650489a0f021d12a2d5b\",\"_spec\":\"@ecomplus/widget-trustvox@^2.2.5\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.5\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_id\":\"@ecomplus/widget-trustvox@2.2.6\",\"_inBundle\":false,\"_integrity\":\"sha512-Kx0jKcyNSwU6pQlsaxg5b5RrJOd/W6a2nNFsFGomal64KJX7mdwjUcuPanUa0wW9d++OKeB+v0Dhz26vXqVFXw==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@^2.2.6\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.6\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.6.tgz\",\"_shasum\":\"1254bd0b90ebc9e74ca8dadc77998efd19993126\",\"_spec\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.6\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
 
 /***/ }),
 
@@ -8917,7 +9143,6 @@ var iteratorClose = __webpack_require__(/*! ../internals/iterator-close */ "./no
 module.exports = function (iterator, fn, value, ENTRIES) {
   try {
     return ENTRIES ? fn(anObject(value)[0], value[1]) : fn(value);
-  // 7.4.6 IteratorClose(iterator, completion)
   } catch (error) {
     iteratorClose(iterator);
     throw error;
@@ -9184,7 +9409,7 @@ module.exports = function (Iterable, NAME, IteratorConstructor, next, DEFAULT, I
     }
   }
 
-  // fix Array#{values, @@iterator}.name in V8 / FF
+  // fix Array.prototype.{ values, @@iterator }.name in V8 / FF
   if (DEFAULT == VALUES && nativeIterator && nativeIterator.name !== VALUES) {
     INCORRECT_VALUES_NAME = true;
     defaultIterator = function values() { return nativeIterator.call(this); };
@@ -9255,21 +9480,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/engine-is-node.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/core-js/internals/engine-is-node.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
-var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
-
-module.exports = classof(global.process) == 'process';
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/internals/engine-user-agent.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/internals/engine-user-agent.js ***!
@@ -9301,7 +9511,7 @@ var match, version;
 
 if (v8) {
   match = v8.split('.');
-  version = match[0] + match[1];
+  version = match[0] < 4 ? 1 : match[0] + match[1];
 } else if (userAgent) {
   match = userAgent.match(/Edge\/(\d+)/);
   if (!match || match[1] >= 74) {
@@ -9431,53 +9641,15 @@ module.exports = function (exec) {
 // TODO: Remove from `core-js@4` since it's moved to entry points
 __webpack_require__(/*! ../modules/es.regexp.exec */ "./node_modules/core-js/modules/es.regexp.exec.js");
 var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
 
 var SPECIES = wellKnownSymbol('species');
+var RegExpPrototype = RegExp.prototype;
 
-var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
-  // #replace needs built-in support for named groups.
-  // #match works fine because it just return the exec results, even if it has
-  // a "grops" property.
-  var re = /./;
-  re.exec = function () {
-    var result = [];
-    result.groups = { a: '7' };
-    return result;
-  };
-  return ''.replace(re, '$<a>') !== '7';
-});
-
-// IE <= 11 replaces $0 with the whole match, as if it was $&
-// https://stackoverflow.com/questions/6024666/getting-ie-to-replace-a-regex-with-the-literal-string-0
-var REPLACE_KEEPS_$0 = (function () {
-  // eslint-disable-next-line regexp/prefer-escape-replacement-dollar-char -- required for testing
-  return 'a'.replace(/./, '$0') === '$0';
-})();
-
-var REPLACE = wellKnownSymbol('replace');
-// Safari <= 13.0.3(?) substitutes nth capture where n>m with an empty string
-var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = (function () {
-  if (/./[REPLACE]) {
-    return /./[REPLACE]('a', '$0') === '';
-  }
-  return false;
-})();
-
-// Chrome 51 has a buggy "split" implementation when RegExp#exec !== nativeExec
-// Weex JS has frozen built-in prototypes, so use try / catch wrapper
-var SPLIT_WORKS_WITH_OVERWRITTEN_EXEC = !fails(function () {
-  // eslint-disable-next-line regexp/no-empty-group -- required for testing
-  var re = /(?:)/;
-  var originalExec = re.exec;
-  re.exec = function () { return originalExec.apply(this, arguments); };
-  var result = 'ab'.split(re);
-  return result.length !== 2 || result[0] !== 'a' || result[1] !== 'b';
-});
-
-module.exports = function (KEY, length, exec, sham) {
+module.exports = function (KEY, exec, FORCED, SHAM) {
   var SYMBOL = wellKnownSymbol(KEY);
 
   var DELEGATES_TO_SYMBOL = !fails(function () {
@@ -9514,16 +9686,12 @@ module.exports = function (KEY, length, exec, sham) {
   if (
     !DELEGATES_TO_SYMBOL ||
     !DELEGATES_TO_EXEC ||
-    (KEY === 'replace' && !(
-      REPLACE_SUPPORTS_NAMED_GROUPS &&
-      REPLACE_KEEPS_$0 &&
-      !REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE
-    )) ||
-    (KEY === 'split' && !SPLIT_WORKS_WITH_OVERWRITTEN_EXEC)
+    FORCED
   ) {
     var nativeRegExpMethod = /./[SYMBOL];
     var methods = exec(SYMBOL, ''[KEY], function (nativeMethod, regexp, str, arg2, forceStringMethod) {
-      if (regexp.exec === RegExp.prototype.exec) {
+      var $exec = regexp.exec;
+      if ($exec === regexpExec || $exec === RegExpPrototype.exec) {
         if (DELEGATES_TO_SYMBOL && !forceStringMethod) {
           // The native String method already delegates to @@method (this
           // polyfilled function), leasing to infinite recursion.
@@ -9533,25 +9701,13 @@ module.exports = function (KEY, length, exec, sham) {
         return { done: true, value: nativeMethod.call(str, regexp, arg2) };
       }
       return { done: false };
-    }, {
-      REPLACE_KEEPS_$0: REPLACE_KEEPS_$0,
-      REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE: REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE
     });
-    var stringMethod = methods[0];
-    var regexMethod = methods[1];
 
-    redefine(String.prototype, KEY, stringMethod);
-    redefine(RegExp.prototype, SYMBOL, length == 2
-      // 21.2.5.8 RegExp.prototype[@@replace](string, replaceValue)
-      // 21.2.5.11 RegExp.prototype[@@split](string, limit)
-      ? function (string, arg) { return regexMethod.call(string, this, arg); }
-      // 21.2.5.6 RegExp.prototype[@@match](string)
-      // 21.2.5.9 RegExp.prototype[@@search](string)
-      : function (string) { return regexMethod.call(string, this); }
-    );
+    redefine(String.prototype, KEY, methods[0]);
+    redefine(RegExpPrototype, SYMBOL, methods[1]);
   }
 
-  if (sham) createNonEnumerableProperty(RegExp.prototype[SYMBOL], 'sham', true);
+  if (SHAM) createNonEnumerableProperty(RegExpPrototype[SYMBOL], 'sham', true);
 };
 
 
@@ -9670,6 +9826,7 @@ var replace = ''.replace;
 var SUBSTITUTION_SYMBOLS = /\$([$&'`]|\d{1,2}|<[^>]*>)/g;
 var SUBSTITUTION_SYMBOLS_NO_NAMED = /\$([$&'`]|\d{1,2})/g;
 
+// `GetSubstitution` abstract operation
 // https://tc39.es/ecma262/#sec-getsubstitution
 module.exports = function (matched, str, position, captures, namedCaptures, replacement) {
   var tailPos = position + matched.length;
@@ -9744,7 +9901,7 @@ var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules
 
 var hasOwnProperty = {}.hasOwnProperty;
 
-module.exports = function hasOwn(it, key) {
+module.exports = Object.hasOwn || function hasOwn(it, key) {
   return hasOwnProperty.call(toObject(it), key);
 };
 
@@ -9834,7 +9991,7 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 
 var functionToString = Function.toString;
 
-// this helper broken in `3.4.1-3.4.4`, so we can't use `shared` helper
+// this helper broken in `core-js@3.4.1-3.4.4`, so we can't use `shared` helper
 if (typeof store.inspectSource != 'function') {
   store.inspectSource = function (it) {
     return functionToString.call(it);
@@ -9879,7 +10036,7 @@ var getterFor = function (TYPE) {
   };
 };
 
-if (NATIVE_WEAK_MAP) {
+if (NATIVE_WEAK_MAP || shared.state) {
   var store = shared.state || (shared.state = new WeakMap());
   var wmget = store.get;
   var wmhas = store.has;
@@ -10066,7 +10223,8 @@ var NEW_ITERATOR_PROTOTYPE = IteratorPrototype == undefined || fails(function ()
 
 if (NEW_ITERATOR_PROTOTYPE) IteratorPrototype = {};
 
-// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+// `%IteratorPrototype%[@@iterator]()` method
+// https://tc39.es/ecma262/#sec-%iteratorprototype%-@@iterator
 if ((!IS_PURE || NEW_ITERATOR_PROTOTYPE) && !has(IteratorPrototype, ITERATOR)) {
   createNonEnumerableProperty(IteratorPrototype, ITERATOR, returnThis);
 }
@@ -10098,17 +10256,18 @@ module.exports = {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var IS_NODE = __webpack_require__(/*! ../internals/engine-is-node */ "./node_modules/core-js/internals/engine-is-node.js");
+/* eslint-disable es/no-symbol -- required for testing */
 var V8_VERSION = __webpack_require__(/*! ../internals/engine-v8-version */ "./node_modules/core-js/internals/engine-v8-version.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 
 // eslint-disable-next-line es/no-object-getownpropertysymbols -- required for testing
 module.exports = !!Object.getOwnPropertySymbols && !fails(function () {
-  // eslint-disable-next-line es/no-symbol -- required for testing
-  return !Symbol.sham &&
-    // Chrome 38 Symbol has incorrect toString conversion
+  var symbol = Symbol();
+  // Chrome 38 Symbol has incorrect toString conversion
+  // `get-own-property-symbols` polyfill symbols converted to object are not Symbol instances
+  return !String(symbol) || !(Object(symbol) instanceof Symbol) ||
     // Chrome 38-40 symbols are not inherited from DOM collections prototypes to instances
-    (IS_NODE ? V8_VERSION === 38 : V8_VERSION > 37 && V8_VERSION < 41);
+    !Symbol.sham && V8_VERSION && V8_VERSION < 41;
 });
 
 
@@ -10743,9 +10902,15 @@ module.exports = function (R, S) {
 
 "use strict";
 
-var regexpFlags = __webpack_require__(/*! ./regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
-var stickyHelpers = __webpack_require__(/*! ./regexp-sticky-helpers */ "./node_modules/core-js/internals/regexp-sticky-helpers.js");
-var shared = __webpack_require__(/*! ./shared */ "./node_modules/core-js/internals/shared.js");
+/* eslint-disable regexp/no-assertion-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
+/* eslint-disable regexp/no-useless-quantifier -- testing */
+var regexpFlags = __webpack_require__(/*! ../internals/regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
+var stickyHelpers = __webpack_require__(/*! ../internals/regexp-sticky-helpers */ "./node_modules/core-js/internals/regexp-sticky-helpers.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var create = __webpack_require__(/*! ../internals/object-create */ "./node_modules/core-js/internals/object-create.js");
+var getInternalState = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js").get;
+var UNSUPPORTED_DOT_ALL = __webpack_require__(/*! ../internals/regexp-unsupported-dot-all */ "./node_modules/core-js/internals/regexp-unsupported-dot-all.js");
+var UNSUPPORTED_NCG = __webpack_require__(/*! ../internals/regexp-unsupported-ncg */ "./node_modules/core-js/internals/regexp-unsupported-ncg.js");
 
 var nativeExec = RegExp.prototype.exec;
 var nativeReplace = shared('native-string-replace', String.prototype.replace);
@@ -10763,15 +10928,26 @@ var UPDATES_LAST_INDEX_WRONG = (function () {
 var UNSUPPORTED_Y = stickyHelpers.UNSUPPORTED_Y || stickyHelpers.BROKEN_CARET;
 
 // nonparticipating capturing group, copied from es5-shim's String#split patch.
-// eslint-disable-next-line regexp/no-assertion-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing
 var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
 
-var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y;
+var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y || UNSUPPORTED_DOT_ALL || UNSUPPORTED_NCG;
 
 if (PATCH) {
+  // eslint-disable-next-line max-statements -- TODO
   patchedExec = function exec(str) {
     var re = this;
-    var lastIndex, reCopy, match, i;
+    var state = getInternalState(re);
+    var raw = state.raw;
+    var result, reCopy, lastIndex, match, i, object, group;
+
+    if (raw) {
+      raw.lastIndex = re.lastIndex;
+      result = patchedExec.call(raw, str);
+      re.lastIndex = raw.lastIndex;
+      return result;
+    }
+
+    var groups = state.groups;
     var sticky = UNSUPPORTED_Y && re.sticky;
     var flags = regexpFlags.call(re);
     var source = re.source;
@@ -10823,6 +10999,14 @@ if (PATCH) {
       });
     }
 
+    if (match && groups) {
+      match.groups = object = create(null);
+      for (i = 0; i < groups.length; i++) {
+        group = groups[i];
+        object[group[0]] = match[group[1]];
+      }
+    }
+
     return match;
   };
 }
@@ -10867,19 +11051,14 @@ module.exports = function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 
 // babel-minify transpiles RegExp('a', 'y') -> /a/y and it causes SyntaxError,
-// so we use an intermediate function.
-function RE(s, f) {
+var RE = function (s, f) {
   return RegExp(s, f);
-}
+};
 
 exports.UNSUPPORTED_Y = fails(function () {
-  // babel-minify transpiles RegExp('a', 'y') -> /a/y and it causes SyntaxError
   var re = RE('a', 'y');
   re.lastIndex = 2;
   return re.exec('abcd') != null;
@@ -10890,6 +11069,43 @@ exports.BROKEN_CARET = fails(function () {
   var re = RE('^r', 'gy');
   re.lastIndex = 2;
   return re.exec('str') != null;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-unsupported-dot-all.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-unsupported-dot-all.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+
+module.exports = fails(function () {
+  // babel-minify transpiles RegExp('.', 's') -> /./s and it causes SyntaxError
+  var re = RegExp('.', (typeof '').charAt(0));
+  return !(re.dotAll && re.exec('\n') && re.flags === 's');
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-unsupported-ncg.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-unsupported-ncg.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+
+module.exports = fails(function () {
+  // babel-minify transpiles RegExp('.', 'g') -> /./g and it causes SyntaxError
+  var re = RegExp('(?<a>b)', (typeof '').charAt(5));
+  return re.exec('b').groups.a !== 'b' ||
+    'b'.replace(re, '$<a>c') !== 'bc';
 });
 
 
@@ -11005,7 +11221,7 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 (module.exports = function (key, value) {
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
-  version: '3.11.3',
+  version: '3.15.2',
   mode: IS_PURE ? 'pure' : 'global',
   copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
 });
@@ -11575,6 +11791,7 @@ defineIterator(String, 'String', function (iterated) {
 "use strict";
 
 var fixRegExpWellKnownSymbolLogic = __webpack_require__(/*! ../internals/fix-regexp-well-known-symbol-logic */ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
 var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
 var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
@@ -11582,7 +11799,9 @@ var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object
 var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-index */ "./node_modules/core-js/internals/advance-string-index.js");
 var getSubstitution = __webpack_require__(/*! ../internals/get-substitution */ "./node_modules/core-js/internals/get-substitution.js");
 var regExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 
+var REPLACE = wellKnownSymbol('replace');
 var max = Math.max;
 var min = Math.min;
 
@@ -11590,10 +11809,33 @@ var maybeToString = function (it) {
   return it === undefined ? it : String(it);
 };
 
+// IE <= 11 replaces $0 with the whole match, as if it was $&
+// https://stackoverflow.com/questions/6024666/getting-ie-to-replace-a-regex-with-the-literal-string-0
+var REPLACE_KEEPS_$0 = (function () {
+  // eslint-disable-next-line regexp/prefer-escape-replacement-dollar-char -- required for testing
+  return 'a'.replace(/./, '$0') === '$0';
+})();
+
+// Safari <= 13.0.3(?) substitutes nth capture where n>m with an empty string
+var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = (function () {
+  if (/./[REPLACE]) {
+    return /./[REPLACE]('a', '$0') === '';
+  }
+  return false;
+})();
+
+var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
+  var re = /./;
+  re.exec = function () {
+    var result = [];
+    result.groups = { a: '7' };
+    return result;
+  };
+  return ''.replace(re, '$<a>') !== '7';
+});
+
 // @@replace logic
-fixRegExpWellKnownSymbolLogic('replace', 2, function (REPLACE, nativeReplace, maybeCallNative, reason) {
-  var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = reason.REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE;
-  var REPLACE_KEEPS_$0 = reason.REPLACE_KEEPS_$0;
+fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNative) {
   var UNSAFE_SUBSTITUTE = REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE ? '$' : '$0';
 
   return [
@@ -11608,17 +11850,18 @@ fixRegExpWellKnownSymbolLogic('replace', 2, function (REPLACE, nativeReplace, ma
     },
     // `RegExp.prototype[@@replace]` method
     // https://tc39.es/ecma262/#sec-regexp.prototype-@@replace
-    function (regexp, replaceValue) {
+    function (string, replaceValue) {
       if (
-        (!REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE && REPLACE_KEEPS_$0) ||
-        (typeof replaceValue === 'string' && replaceValue.indexOf(UNSAFE_SUBSTITUTE) === -1)
+        typeof replaceValue === 'string' &&
+        replaceValue.indexOf(UNSAFE_SUBSTITUTE) === -1 &&
+        replaceValue.indexOf('$<') === -1
       ) {
-        var res = maybeCallNative(nativeReplace, regexp, this, replaceValue);
+        var res = maybeCallNative(nativeReplace, this, string, replaceValue);
         if (res.done) return res.value;
       }
 
-      var rx = anObject(regexp);
-      var S = String(this);
+      var rx = anObject(this);
+      var S = String(string);
 
       var functionalReplace = typeof replaceValue === 'function';
       if (!functionalReplace) replaceValue = String(replaceValue);
@@ -11670,7 +11913,7 @@ fixRegExpWellKnownSymbolLogic('replace', 2, function (REPLACE, nativeReplace, ma
       return accumulatedResult + S.slice(nextSourcePosition);
     }
   ];
-});
+}, !REPLACE_SUPPORTS_NAMED_GROUPS || !REPLACE_KEEPS_$0 || REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE);
 
 
 /***/ }),
@@ -12078,13 +12321,13 @@ var ALPHA = /[A-Za-z]/;
 // eslint-disable-next-line regexp/no-obscure-range -- safe
 var ALPHANUMERIC = /[\d+-.A-Za-z]/;
 var DIGIT = /\d/;
-var HEX_START = /^(0x|0X)/;
+var HEX_START = /^0x/i;
 var OCT = /^[0-7]+$/;
 var DEC = /^\d+$/;
 var HEX = /^[\dA-Fa-f]+$/;
 /* eslint-disable no-control-regex -- safe */
-var FORBIDDEN_HOST_CODE_POINT = /[\0\t\n\r #%/:?@[\\]]/;
-var FORBIDDEN_HOST_CODE_POINT_EXCLUDING_PERCENT = /[\0\t\n\r #/:?@[\\]]/;
+var FORBIDDEN_HOST_CODE_POINT = /[\0\t\n\r #%/:<>?@[\\\]^|]/;
+var FORBIDDEN_HOST_CODE_POINT_EXCLUDING_PERCENT = /[\0\t\n\r #/:<>?@[\\\]^|]/;
 var LEADING_AND_TRAILING_C0_CONTROL_OR_SPACE = /^[\u0000-\u001F ]+|[\u0000-\u001F ]+$/g;
 var TAB_AND_NEW_LINE = /[\t\n\r]/g;
 /* eslint-enable no-control-regex -- safe */
@@ -17461,6 +17704,7 @@ new _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_1__["default"]().list()
     baseDir: window.PKG_BASE_DIR,
     state
   }).then(config => {
+    document.querySelector('#nc-root > div > section > button').innerHTML = "Acessar Editor de Loja";
     console.log('Netlify CMS config:', config);
   });
 });
@@ -17633,8 +17877,8 @@ __webpack_require__.r(__webpack_exports__);
   sections
 }) => ({
   name: 'extra-pages',
-  label: 'Páginas extra',
-  description: 'Páginas institucionais, regras e informações do site',
+  label: 'Páginas adicionais',
+  description: 'Crie páginas sobre a sua marca e assuntos importantes como: Quem Somos, Como comprar, Trocas e Devoluções, Perguntas Frequentes, Política de Privacidade e outros assuntos importantes.',
   folder: `${baseDir}content/pages`,
   extension: 'json',
   create: true,
@@ -17700,7 +17944,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (options => ({
   name: 'layout',
-  label: 'Layout',
+  label: 'Layout Base',
   description: 'Layout base para todas as páginas',
   delete: false,
   editor: {
@@ -18063,6 +18307,10 @@ __webpack_require__.r(__webpack_exports__);
       }))
     }
   }, {
+    label: 'Ordem alfabética',
+    name: 'alphabetical_order',
+    widget: 'boolean'
+  }, {
     label: 'Mostrar telefone ou WhatsApp',
     name: 'phone_wpp',
     widget: 'boolean'
@@ -18100,8 +18348,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (options => ({
   name: 'pages',
-  label: 'Páginas',
-  description: 'Páginas principais e pré-definidas da loja',
+  label: 'Editor de Páginas',
+  description: 'Capriche no visual e deixe a loja do jeitinho da sua marca. Adicione banners, vídeos, promoções, organize os produtos e muito mais.',
   delete: false,
   files: [Object(_pages_home__WEBPACK_IMPORTED_MODULE_0__["default"])(options), Object(_pages_products__WEBPACK_IMPORTED_MODULE_1__["default"])(options), Object(_pages_search__WEBPACK_IMPORTED_MODULE_2__["default"])(options), Object(_pages_brands__WEBPACK_IMPORTED_MODULE_3__["default"])(options), Object(_pages_categories__WEBPACK_IMPORTED_MODULE_4__["default"])(options), Object(_pages_collections__WEBPACK_IMPORTED_MODULE_5__["default"])(options)]
 }));
@@ -18534,7 +18782,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (options => ({
   name: 'settings',
   label: 'Configurações',
-  description: 'Configurações gerais para identidade e metadados do site',
+  description: 'Escolhe o nome e as cores da sua marca, insira o seu logo, dados de contato e turbine com suas redes sociais.',
   delete: false,
   editor: {
     preview: false
@@ -18558,7 +18806,7 @@ __webpack_require__.r(__webpack_exports__);
 }) => ({
   name: 'contacts',
   file: `${baseDir}content/contacts.json`,
-  label: 'Contatos',
+  label: 'Contatos & Redes Sociais',
   hint: 'Contatos da loja, exibidos em várias páginas',
   fields: [{
     label: 'E-mail',
@@ -18589,32 +18837,44 @@ __webpack_require__.r(__webpack_exports__);
     label: 'Facebook',
     name: 'facebook',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa. Exemplo: https://www.facebook.com/ConfereCartoes'
   }, {
     label: 'Twitter',
     name: 'twitter',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa.'
   }, {
     label: 'Youtube',
     name: 'youtube',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa. Exemplo: https://www.youtube.com/channel/UCnbYV0scfPDh_02Q3_1Pmgg'
   }, {
     label: 'Instagram',
     name: 'instagram',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa. Exemplo: https://instagram.com/conferecartoes'
+  }, {
+    label: 'TikTok',
+    name: 'tiktok',
+    widget: 'string',
+    required: false,
+    hint: 'Preencha a url completa.'
   }, {
     label: 'Pinterest',
     name: 'pinterest',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa.'
   }, {
     label: 'LinkedIn',
     name: 'linkedin',
     widget: 'string',
-    required: false
+    required: false,
+    hint: 'Preencha a url completa. Exemplo: https://www.linkedin.com/company/confere-cartoes'
   }]
 }));
 
@@ -18633,7 +18893,7 @@ __webpack_require__.r(__webpack_exports__);
   baseDir
 }) => ({
   name: 'general',
-  label: 'Configurações gerais',
+  label: 'Nome, Cores e Logos da Marca',
   file: `${baseDir}content/settings.json`,
   editor: {
     preview: false
@@ -18692,7 +18952,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (({
   baseDir
 }) => ({
-  label: 'Informações',
+  label: 'Barra de informações',
   file: `${baseDir}content/info.json`,
   name: 'info',
   hint: 'Informações gerais da loja, exibidas em várias páginas',
@@ -18800,24 +19060,14 @@ __webpack_require__.r(__webpack_exports__);
 }) => ({
   name: 'social',
   file: `${baseDir}content/social.json`,
-  label: 'Sociais',
+  label: 'Configurações Avançadas',
   hint: 'Configurações para compartilhamento da loja',
   fields: [{
-    label: 'Open Graphs Image',
+    label: 'Imagem de compartilhamento',
     name: 'og_image',
     required: false,
     widget: 'image',
     hint: 'Imagem que é exibida quando o site é compartilhado'
-  }, {
-    label: 'ID do app Facebook',
-    name: 'fb_app_id',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'Username do twitter',
-    name: 'twitter_username',
-    required: false,
-    widget: 'string'
   }]
 }));
 
@@ -18882,13 +19132,13 @@ const fixWidgetConfig = ({
 
 /* harmony default export */ __webpack_exports__["default"] = (options => ({
   name: 'widgets',
-  label: 'Widgets',
+  label: 'Extensões',
   description: 'Plugins, tags e componentes adicionais',
   delete: false,
   editor: {
     preview: false
   },
-  files: [fixWidgetConfig(options, _ecomplus_widget_product_card_cms_config__WEBPACK_IMPORTED_MODULE_1__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_cms_config__WEBPACK_IMPORTED_MODULE_2__["default"]), fixWidgetConfig(options, _ecomplus_widget_search_cms_config__WEBPACK_IMPORTED_MODULE_4__["default"]), fixWidgetConfig(options, _ecomplus_widget_search_engine_cms_config__WEBPACK_IMPORTED_MODULE_3__["default"]), fixWidgetConfig(options, _ecomplus_widget_minicart_cms_config__WEBPACK_IMPORTED_MODULE_5__["default"]), fixWidgetConfig(options, _ecomplus_widget_offers_notification_cms_config__WEBPACK_IMPORTED_MODULE_6__["default"]), fixWidgetConfig(options, _ecomplus_widget_analytics_cms_config__WEBPACK_IMPORTED_MODULE_7__["default"]), fixWidgetConfig(options, _ecomplus_widget_fb_pixel_cms_config__WEBPACK_IMPORTED_MODULE_8__["default"]), fixWidgetConfig(options, _ecomplus_widget_tag_manager_cms_config__WEBPACK_IMPORTED_MODULE_9__["default"]), fixWidgetConfig(options, _ecomplus_widget_gmc_ratings_cms_config__WEBPACK_IMPORTED_MODULE_10__["default"]), fixWidgetConfig(options, _ecomplus_widget_tawkto_cms_config__WEBPACK_IMPORTED_MODULE_11__["default"]), fixWidgetConfig(options, _ecomplus_widget_trustvox_cms_config__WEBPACK_IMPORTED_MODULE_12__["default"]), fixWidgetConfig(options, _ecomplus_widget_ebit_cms_config__WEBPACK_IMPORTED_MODULE_13__["default"]), fixWidgetConfig(options, _ecomplus_widget_compre_confie_cms_config__WEBPACK_IMPORTED_MODULE_14__["default"]), fixWidgetConfig(options, _ecomplus_widget_opinioes_verificadas_cms_config__WEBPACK_IMPORTED_MODULE_15__["default"])]
+  files: [fixWidgetConfig(options, _ecomplus_widget_fb_pixel_cms_config__WEBPACK_IMPORTED_MODULE_8__["default"]), fixWidgetConfig(options, _ecomplus_widget_analytics_cms_config__WEBPACK_IMPORTED_MODULE_7__["default"]), fixWidgetConfig(options, _ecomplus_widget_tag_manager_cms_config__WEBPACK_IMPORTED_MODULE_9__["default"]), fixWidgetConfig(options, _ecomplus_widget_gmc_ratings_cms_config__WEBPACK_IMPORTED_MODULE_10__["default"]), fixWidgetConfig(options, _ecomplus_widget_tawkto_cms_config__WEBPACK_IMPORTED_MODULE_11__["default"]), fixWidgetConfig(options, _ecomplus_widget_trustvox_cms_config__WEBPACK_IMPORTED_MODULE_12__["default"]), fixWidgetConfig(options, _ecomplus_widget_offers_notification_cms_config__WEBPACK_IMPORTED_MODULE_6__["default"]), fixWidgetConfig(options, _ecomplus_widget_ebit_cms_config__WEBPACK_IMPORTED_MODULE_13__["default"]), fixWidgetConfig(options, _ecomplus_widget_compre_confie_cms_config__WEBPACK_IMPORTED_MODULE_14__["default"]), fixWidgetConfig(options, _ecomplus_widget_opinioes_verificadas_cms_config__WEBPACK_IMPORTED_MODULE_15__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_card_cms_config__WEBPACK_IMPORTED_MODULE_1__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_cms_config__WEBPACK_IMPORTED_MODULE_2__["default"])]
 }));
 
 /***/ }),
@@ -18932,6 +19182,9 @@ __webpack_require__.r(__webpack_exports__);
     analytics.identify(user.id, {
       email: user.email
     });
+    if (window.Cohere && user && user.id && user.email) window.Cohere(user.id, {
+      email: user.email
+    });
   });
   return {
     backend: {
@@ -18956,7 +19209,7 @@ __webpack_require__.r(__webpack_exports__);
       clean_accents: true,
       sanitize_replacement: '-'
     },
-    collections: [Object(_collections_settings__WEBPACK_IMPORTED_MODULE_1__["default"])(options), Object(_collections_layout__WEBPACK_IMPORTED_MODULE_2__["default"])(options), Object(_collections_pages__WEBPACK_IMPORTED_MODULE_3__["default"])(options), Object(_collections_blog_posts__WEBPACK_IMPORTED_MODULE_4__["default"])(options), Object(_collections_extra_pages__WEBPACK_IMPORTED_MODULE_5__["default"])(options), Object(_collections_widgets__WEBPACK_IMPORTED_MODULE_6__["default"])(options)]
+    collections: [Object(_collections_settings__WEBPACK_IMPORTED_MODULE_1__["default"])(options), Object(_collections_layout__WEBPACK_IMPORTED_MODULE_2__["default"])(options), Object(_collections_pages__WEBPACK_IMPORTED_MODULE_3__["default"])(options), Object(_collections_extra_pages__WEBPACK_IMPORTED_MODULE_5__["default"])(options), Object(_collections_widgets__WEBPACK_IMPORTED_MODULE_6__["default"])(options), Object(_collections_blog_posts__WEBPACK_IMPORTED_MODULE_4__["default"])(options)]
   };
 });
 
@@ -18991,6 +19244,34 @@ const bannerFields = [{
   name: 'mobile_img',
   widget: 'image'
 }];
+const searchOrderField = {
+  label: 'Ordenação',
+  required: false,
+  name: 'sort',
+  widget: 'select',
+  options: [{
+    label: 'Relevância',
+    value: 'views'
+  }, {
+    label: 'Mais vendidos',
+    value: 'sales'
+  }, {
+    label: 'Lançamento',
+    value: 'news'
+  }, {
+    label: 'Ofertas',
+    value: 'offers'
+  }, {
+    label: 'Menor preço',
+    value: 'lowest_price'
+  }, {
+    label: 'Maior preço',
+    value: 'highest_price'
+  }, {
+    label: 'Alfabética (slug)',
+    value: 'slug'
+  }]
+};
 /* harmony default export */ __webpack_exports__["default"] = (({
   state
 }) => [{
@@ -19032,14 +19313,16 @@ const bannerFields = [{
       name: 'start',
       widget: 'datetime',
       dateFormat: 'DD/MM/YYYY',
-      timeFormat: 'HH:mm'
+      timeFormat: 'HH:mm',
+      default: ''
     }, {
       label: 'Data de encerramento',
       required: false,
       name: 'end',
       widget: 'datetime',
       dateFormat: 'DD/MM/YYYY',
-      timeFormat: 'HH:mm'
+      timeFormat: 'HH:mm',
+      default: ''
     }])
   }, {
     label: 'Slider autoplay',
@@ -19143,34 +19426,7 @@ const bannerFields = [{
       });
       return options;
     }, [])
-  }, {
-    label: 'Ordenação',
-    required: false,
-    name: 'sort',
-    widget: 'select',
-    options: [{
-      label: 'Relevância',
-      value: 'views'
-    }, {
-      label: 'Mais vendidos',
-      value: 'sales'
-    }, {
-      label: 'Lançamento',
-      value: 'news'
-    }, {
-      label: 'Ofertas',
-      value: 'offers'
-    }, {
-      label: 'Menor preço',
-      value: 'lowest_price'
-    }, {
-      label: 'Maior preço',
-      value: 'highest_price'
-    }, {
-      label: 'Alfabética (slug)',
-      value: 'slug'
-    }]
-  }, {
+  }, searchOrderField, {
     label: 'Embaralhar produtos',
     name: 'shuffle',
     widget: 'boolean',
@@ -19209,6 +19465,17 @@ const bannerFields = [{
     widget: 'number',
     min: 1,
     default: 1
+  }]
+}, {
+  label: 'Vitrine dinâmica',
+  name: 'dynamic-showcase',
+  widget: 'object',
+  fields: [searchOrderField, {
+    label: 'Carregar mais',
+    name: 'load_more',
+    widget: 'boolean',
+    default: true,
+    hint: 'Carrega mais itens automaticamente com scroll da página'
   }]
 }, {
   label: 'Carrossel de marcas',
@@ -20755,7 +21022,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nlet slides\nif (Array.isArray(opt.slides)) {\n  slides = opt.slides.filter(({ start, end }) => {\n    if (start && timestamp < new Date(start).getTime()) {\n      return false\n    }\n    if (end && timestamp > new Date(end).getTime()) {\n      return false\n    }\n    return true\n  })\n}\n\nif (slides && slides.length) {\n  let style = ''\n  for (let i = 0; i < 2; i++) {\n    const img = slides[0][i ? 'mobile_img' : 'img']\n    if (img && img.startsWith('/')) {\n      let dimensions\n      try {\n        dimensions = _.imageSize(`template/public${img}`)\n      } catch (e) {\n      }\n      if (dimensions && dimensions.width) {\n        style += '--banner-aspect-ratio'\n        if (i > 0) {\n          style += '-mobile'\n        }\n        style += `:${Math.ceil(dimensions.height / dimensions.width * 1000) / 1000};`\n      }\n    }\n  }\n  %>\n\n  <div class=\"banner-slider\" style=\"<%- style %>\">\n    <div class=\"glide\" data-autoplay=\"<%= opt.autoplay %>\">\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides banner-slider__slides\">\n          <% for (let i = 0; i < slides.length; i++) { %>\n            <li class=\"glide__slide\">\n              <%- await include('/@/sections/inc/banner', {\n                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <% if (slides.length > 1) { %>\n          <div class=\"glide__arrows d-none d-md-block\" data-glide-el=\"controls\">\n            <button\n              class=\"btn glide__arrow glide__arrow--left\"\n              data-glide-dir=\"<\"\n              aria-label=\"<%= _.dictionary('previous') %>\"\n            >\n              <i class=\"fas fa-chevron-left\"></i>\n            </button>\n            <button\n              class=\"btn glide__arrow glide__arrow--right\"\n              data-glide-dir=\">\"\n              aria-label=\"<%= _.dictionary('next') %>\"\n            >\n              <i class=\"fas fa-chevron-right\"></i>\n            </button>\n          </div>\n\n          <div class=\"glide__bullets\" data-glide-el=\"controls[nav]\">\n            <% slides.forEach((_, index) => { %>\n              <button\n                class=\"glide__bullet\"\n                data-glide-dir=\"=<%= index %>\"\n                aria-label=\"<%= `${(index + 1)}° banner` %>\"\n              ></button>\n            <% }) %>\n          </div>\n        <% } %>\n      </div>\n    </div>\n  </div>\n<% } %>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nlet slides\nif (Array.isArray(opt.slides)) {\n  slides = opt.slides.filter(({ start, end }) => {\n    if (start && timestamp < new Date(start).getTime()) {\n      return false\n    }\n    if (end && timestamp > new Date(end).getTime()) {\n      return false\n    }\n    return true\n  })\n}\n\nif (slides && slides.length) {\n  let style = ''\n  for (let i = 0; i < 2; i++) {\n    const img = slides[0][i ? 'mobile_img' : 'img']\n    if (img) {\n      const { width, height } = _.tryImageSize(img)\n      if (width) {\n        style += '--banner-aspect-ratio'\n        if (i > 0) {\n          style += '-mobile'\n        }\n        style += `:${Math.ceil(height / width * 1000) / 1000};`\n      }\n    }\n  }\n  %>\n\n  <div class=\"banner-slider\" style=\"<%- style %>\">\n    <div class=\"glide\" data-autoplay=\"<%= opt.autoplay %>\">\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides banner-slider__slides\">\n          <% for (let i = 0; i < slides.length; i++) { %>\n            <li class=\"glide__slide\">\n              <%- await include('/@/sections/inc/banner', {\n                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <% if (slides.length > 1) { %>\n          <div class=\"glide__arrows d-none d-md-block\" data-glide-el=\"controls\">\n            <button\n              class=\"btn glide__arrow glide__arrow--left\"\n              data-glide-dir=\"<\"\n              aria-label=\"<%= _.dictionary('previous') %>\"\n            >\n              <i class=\"fas fa-chevron-left\"></i>\n            </button>\n            <button\n              class=\"btn glide__arrow glide__arrow--right\"\n              data-glide-dir=\">\"\n              aria-label=\"<%= _.dictionary('next') %>\"\n            >\n              <i class=\"fas fa-chevron-right\"></i>\n            </button>\n          </div>\n\n          <div class=\"glide__bullets\" data-glide-el=\"controls[nav]\">\n            <% slides.forEach((_, index) => { %>\n              <button\n                class=\"glide__bullet\"\n                data-glide-dir=\"=<%= index %>\"\n                aria-label=\"<%= `${(index + 1)}° banner` %>\"\n              ></button>\n            <% }) %>\n          </div>\n        <% } %>\n      </div>\n    </div>\n  </div>\n<% } %>\n");
 
 /***/ }),
 
@@ -20911,7 +21178,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nif (opt.img) {\n  let dimensions\n  if (!opt.height_auto && opt.img.startsWith('/')) {\n    try {\n      dimensions = _.imageSize(`template/public${opt.img}`)\n    } catch (e) {\n      dimensions = null\n    }\n  }\n\n  const sources = [{ src: opt.img }]\n  if (opt.mobile_img) {\n    sources[0].media = '(min-width: 576px)'\n    sources.push({\n      src: opt.mobile_img,\n      media: '(min-width: 100px)'\n    })\n  }\n  sources.forEach(source => {\n    if (source.src.endsWith('.webp')) {\n      source.type = 'image/webp'\n      sources.push({\n        src: source.src.replace('.webp', '.png'),\n        media: source.media,\n        type: 'image/png'\n      })\n    }\n  })\n  %>\n\n  <div class=\"banner\">\n    <a\n      href=\"<%= opt.link || 'javascript:;' %>\"\n      aria-label=\"<%= opt.alt %>\"\n    >\n      <picture\n        <% if (opt.sync_load) { %>\n          class=\"img-fluid\"\n        <% } else { %>\n          class=\"lozad fade img-fluid\"\n          data-iesrc=\"<%= opt.img.replace('.webp', '.png') %>\"\n          data-alt=\"<%= opt.alt %>\"\n        <% } %>\n        <% if (dimensions) { %>\n          data-width=\"<%= dimensions.width %>\"\n          data-height=\"<%= dimensions.height %>\"\n        <% } %>\n      >\n        <% sources.forEach(({ src, media, type }) => { %>\n          <source\n            srcset=\"<%= src %>\"\n            media=\"<%- media %>\"\n            <% if (type) { %>\n              type=\"<%- type %>\"\n            <% } %>\n          >\n        <% }) %>\n        <% if (opt.sync_load) { %>\n          <img src=\"<%= opt.img.replace('.webp', '.png') %>\" alt=\"<%= opt.alt %>\">\n        <% } %>\n      </picture>\n    </a>\n  </div>\n  <%\n}\n%>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nif (opt.img) {\n  const { width, height } = _.tryImageSize(opt.img)\n  const sources = [{ src: opt.img }]\n  if (opt.mobile_img) {\n    sources[0].media = '(min-width: 576px)'\n    sources.push({\n      src: opt.mobile_img,\n      media: '(min-width: 100px)'\n    })\n  }\n  sources.forEach(source => {\n    if (source.src.endsWith('.webp')) {\n      source.type = 'image/webp'\n      sources.push({\n        src: source.src.replace('.webp', '.png'),\n        media: source.media,\n        type: 'image/png'\n      })\n    }\n  })\n  %>\n\n  <div class=\"banner\">\n    <a\n      href=\"<%= opt.link || 'javascript:;' %>\"\n      aria-label=\"<%= opt.alt %>\"\n    >\n      <picture\n        <% if (opt.sync_load) { %>\n          class=\"img-fluid\"\n        <% } else { %>\n          class=\"lozad fade img-fluid\"\n          data-iesrc=\"<%= opt.img.replace('.webp', '.png') %>\"\n          data-alt=\"<%= opt.alt %>\"\n        <% } %>\n        <% if (!opt.height_auto && width) { %>\n          data-width=\"<%= width %>\"\n          data-height=\"<%= height %>\"\n        <% } %>\n      >\n        <% sources.forEach(({ src, media, type }) => { %>\n          <source\n            srcset=\"<%= src %>\"\n            media=\"<%- media %>\"\n            <% if (type) { %>\n              type=\"<%- type %>\"\n            <% } %>\n          >\n        <% }) %>\n        <% if (opt.sync_load) { %>\n            <img\n              src=\"<%= opt.img.replace('.webp', '.png') %>\"\n              alt=\"<%= opt.alt %>\"\n              <% if (width) { %>\n                width=\"<%= width %>\"\n                height=\"<%= height %>\"\n              <% } %>\n            >\n        <% } %>\n      </picture>\n    </a>\n  </div>\n  <%\n}\n%>\n");
 
 /***/ }),
 
@@ -20989,7 +21256,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nlet items\nif (!opt.items) {\n  if (opt.sort) {\n    opt.search.setSortOrder(opt.sort)\n  }\n  await opt.search.fetch()\n  items = await opt.search.getItems()\n} else {\n  items = opt.items\n}\n%>\n\n<section class=\"retail-grid\">\n  <div class=\"container\">\n    <div\n      id=\"search-engine\"\n      <% if (opt.category_names) { %>\n        data-categories=\"<%= JSON.stringify(opt.category_names) %>\"\n      <% } %>\n      <% if (opt.brand_names) { %>\n        data-brands=\"<%= JSON.stringify(opt.brand_names) %>\"\n      <% } %>\n      <% if (opt.sort) { %>\n        data-sort=\"<%= opt.sort %>\"\n      <% } %>\n    >\n      <% if (items.length) { %>\n        <div id=\"search-engine-dock\">\n          <!--\n            `SearchEngine` should be hydrated here:\n            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n          -->\n        </div>\n\n        <div id=\"search-engine-snap\">\n          <article class=\"search-engine__retail\">\n            <div class=\"row\">\n              <% for (let i = 0; i < items.length; i++) { %>\n                <div class=\"col-6 col-md-4 col-lg-3\">\n                  <%- await include('/@/sections/inc/product-item', {\n                    _, opt: { item: items[i] }\n                  }) %>\n                </div>\n              <% } %>\n            </div>\n          </article>\n        </div>\n      <% } %>\n    </div>\n  </div>\n</section>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nlet items\nif (!opt.items) {\n  const search = opt.search || new _.EcomSearch()\n  if (opt.sort) {\n    search.search.setSortOrder(opt.sort)\n  }\n  await search.search.fetch()\n  items = await search.search.getItems()\n} else {\n  items = opt.items\n}\n%>\n\n<section class=\"retail-grid\">\n  <div class=\"container\">\n    <div\n      id=\"search-engine\"\n      <% if (opt.category_names) { %>\n        data-categories=\"<%= JSON.stringify(opt.category_names) %>\"\n      <% } %>\n      <% if (opt.brand_names) { %>\n        data-brands=\"<%= JSON.stringify(opt.brand_names) %>\"\n      <% } %>\n      <% if (opt.sort) { %>\n        data-sort=\"<%= opt.sort %>\"\n      <% } %>\n      <% if (opt.disable_filters) { %>\n        data-disable-filters=\"true\"\n      <% } %>\n      <% if (opt.disable_load_more) { %>\n        data-disable-load-more=\"true\"\n      <% } %>\n    >\n      <% if (items.length) { %>\n        <div id=\"search-engine-dock\">\n          <!--\n            `SearchEngine` should be hydrated here:\n            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n          -->\n        </div>\n\n        <div id=\"search-engine-snap\">\n          <article class=\"search-engine__retail\">\n            <div class=\"row\">\n              <% for (let i = 0; i < items.length; i++) { %>\n                <div class=\"col-6 col-md-4 col-lg-3\">\n                  <%- await include('/@/sections/inc/product-item', {\n                    _, opt: { item: items[i] }\n                  }) %>\n                </div>\n              <% } %>\n            </div>\n          </article>\n        </div>\n      <% } %>\n    </div>\n\n    <div id=\"search-pagination\">\n      <!--\n        `APagination` may be rendered here when enabled:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/APagination.html\n      -->\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
@@ -21054,7 +21321,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product-block\" class=\"product-block my-4 mb-lg-5\">\n  <div class=\"container\">\n    <section\n      id=\"product\"\n      class=\"product\"\n      data-to-render=\"true\"\n      data-product-id=\"<%= _.state._id %>\"\n      data-sku=\"<%= _.state.sku %>\"\n    >\n      <div id=\"product-dock\">\n        <!--\n          `TheProduct` should be rendered (hydrated) here:\n          https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/TheProduct.html\n        -->\n      </div>\n\n      <div class=\"row\">\n        <div class=\"col-12 col-md-6 mb-4\">\n          <!-- Picture(s) gallery will be inserted dynamically within `TheProduct` -->\n          <% if (_.state.pictures) { %>\n            <% const imgObj = _.ecomUtils.img(_.state, null, 'big') %>\n            <% if (imgObj) { %>\n              <div id=\"product-gallery\">\n                <picture class=\"product__picture\">\n                  <source\n                    srcset=\"<%= _.ecomUtils.img(_.state).url %>\"\n                    type=\"image/webp\"\n                    media=\"(max-width: 399.98px)\"\n                  >\n                  <source\n                    srcset=\"<%= imgObj.url %>\"\n                    type=\"image/webp\"\n                    media=\"(min-width: 400px)\"\n                  >\n                  <img\n                    src=\"<%= imgObj.url.replace(/\\.webp$/, '') %>\"\n                    alt=\"<%= imgObj.alt %>\"\n                    <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                      crossorigin=\"anonymous\"\n                    <% } %>\n                  >\n                </picture>\n              </div>\n            <% } %>\n          <% } %>\n          <!-- Custom additional code on bottom of images gallery -->\n        </div>\n\n        <div class=\"col\">\n          <h1 class=\"product__name\">\n            <%= _.ecomUtils.name(_.state) %>\n          </h1>\n          <p class=\"product__sku\">\n            COD: <%= _.state.sku %>\n          </p>\n\n          <div id=\"product-actions\">\n            <div id=\"product-loading\">\n              <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>\n                <div class=\"product__price prices prices--big\">\n                  <strong class=\"prices__value\">\n                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state)) %>\n                  </strong>\n                </div>\n              <% } %>\n\n              <% if (_.state.variations && _.state.variations.length) { %>\n                <div data-slot=\"variations-info\">\n                  <!-- Custom info for products with variations, such as sizes table link -->\n                </div>\n              <% } %>\n\n              <div class=\"spinner-border m-4\" role=\"status\">\n                <span class=\"sr-only\">Loading...</span>\n              </div>\n\n              <div class=\"product__buy\">\n                <button\n                  type=\"button\"\n                  class=\"btn btn-lg btn-primary\"\n                  onclick=\"ecomCart.addProduct(storefront.context.body)\"\n                  <% if (_.state.variations && _.state.variations.length) { %>\n                    disabled\n                  <% } %>\n                >\n                  <div data-slot=\"buy-button-content\">\n                    <i class=\"fas fa-shopping-bag mr-1\"></i>\n                    <% if (_.state.kit_composition && _.state.kit_composition.length) { %>\n                      <%= _.dictionary('buyKit') %>\n                    <% } else { %>\n                      <%= _.dictionary('buy') %>\n                    <% } %>\n                  </div>\n                </button>\n              </div>\n            </div>\n          </div>\n\n          <% if (_.state.short_description) { %>\n            <p class=\"product__info mt-3 lead\">\n              <%= _.state.short_description %>\n            </p>\n          <% } %>\n        </div>\n      </div>\n\n      <%- await include('/@/helpers/widgets-append', {\n        _, opt: {}, field: 'productSlots'\n      }) %>\n    </section>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt: {}, field: 'productBlockAppend'\n    }) %>\n  </div>\n</div>\n\n<%\nconst productJsonLd = {\n  '@context': 'http://schema.org',\n  '@type': 'Product',\n  sku: _.state.sku,\n  description: _.state.short_description || _.state.meta_description || _.ecomUtils.name(_.state),\n  name: _.ecomUtils.name(_.state),\n  offers: {\n    '@type': 'Offer',\n    url: `https://${_.settings.domain}/${_.state.slug}`,\n    availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,\n    priceCurrency: _.settings.currency,\n    price: _.ecomUtils.price(_.state),\n    itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,\n    seller: {\n      '@type': 'Organization',\n      name: _.settings.name || _.store.name\n    }\n  }\n}\nif (_.state.brands && _.state.brands[0]) {\n  productJsonLd.brand = {\n    '@type': 'Brand',\n    name: _.state.brands[0].name\n  }\n}\nif (_.state.pictures && _.state.pictures.length) {\n  productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url\n}\nif (_.state.mpn && _.state.mpn[0]) {\n  productJsonLd.mpn = _.state.mpn[0]\n}\n%>\n<script type=\"application/ld+json\"><%-\n  JSON.stringify(productJsonLd)\n%></script>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product-block\" class=\"product-block my-4 mb-lg-5\">\n  <div class=\"container\">\n    <section\n      id=\"product\"\n      class=\"product\"\n      data-to-render=\"true\"\n      data-product-id=\"<%= _.state._id %>\"\n      data-sku=\"<%= _.state.sku %>\"\n    >\n      <div id=\"product-dock\">\n        <!--\n          `TheProduct` should be rendered (hydrated) here:\n          https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/TheProduct.html\n        -->\n      </div>\n\n      <div class=\"row\">\n        <div class=\"col-12 col-md-6 mb-4\">\n          <!-- Picture(s) gallery will be inserted dynamically within `TheProduct` -->\n          <% if (_.state.pictures) { %>\n            <% const imgObj = _.ecomUtils.img(_.state, null, 'big') %>\n            <% if (imgObj) { %>\n              <% const [width, height] = (imgObj.size || '').split('x').map(px => parseInt(px, 10)) %>\n              <div id=\"product-gallery\">\n                <div\n                  class=\"product__picture\"\n                  <% if (width) { %>\n                    style=\"max-width: <%= width %>px\"\n                  <% } %>\n                >\n                  <picture\n                    <% if (width && height) { %>\n                      class=\"picture\"\n                      style=\"--aspect-ratio-pc: <%= Math.round(height * 100 * 10000 / width) / 10000 %>%\"\n                    <% } %>\n                  >\n                    <source\n                      srcset=\"<%= _.ecomUtils.img(_.state).url %>\"\n                      type=\"image/webp\"\n                      media=\"(max-width: 399.98px)\"\n                    >\n                    <source\n                      srcset=\"<%= imgObj.url %>\"\n                      type=\"image/webp\"\n                      media=\"(min-width: 400px)\"\n                    >\n                    <img\n                      src=\"<%= imgObj.url.replace(/\\.webp$/, '') %>\"\n                      alt=\"<%= imgObj.alt || _.state.name %>\"\n                      <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                        crossorigin=\"anonymous\"\n                      <% } %>\n                      <% if (height) { %>\n                        width=\"<%= width %>\"\n                        height=\"<%= height %>\"\n                      <% } %>\n                    >\n                  </picture>\n                </div>\n              </div>\n            <% } %>\n          <% } %>\n          <!-- Custom additional code on bottom of images gallery -->\n        </div>\n\n        <div class=\"col\">\n          <h1 class=\"product__name\">\n            <%= _.ecomUtils.name(_.state) %>\n          </h1>\n          <p class=\"product__sku\">\n            COD: <%= _.state.sku %>\n          </p>\n\n          <div id=\"product-actions\">\n            <div id=\"product-loading\">\n              <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>\n                <div class=\"product__price prices prices--big\">\n                  <strong class=\"prices__value\">\n                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state)) %>\n                  </strong>\n                </div>\n              <% } %>\n\n              <% if (_.state.variations && _.state.variations.length) { %>\n                <div data-slot=\"variations-info\">\n                  <!-- Custom info for products with variations, such as sizes table link -->\n                </div>\n              <% } %>\n\n              <div class=\"spinner-border m-4\" role=\"status\">\n                <span class=\"sr-only\">Loading...</span>\n              </div>\n\n              <div class=\"product__buy\">\n                <button\n                  type=\"button\"\n                  class=\"btn btn-lg btn-primary\"\n                  onclick=\"ecomCart.addProduct(storefront.context.body)\"\n                  <% if (_.state.variations && _.state.variations.length) { %>\n                    disabled\n                  <% } %>\n                >\n                  <div data-slot=\"buy-button-content\">\n                    <i class=\"fas fa-shopping-bag mr-1\"></i>\n                    <% if (_.state.kit_composition && _.state.kit_composition.length) { %>\n                      <%= _.dictionary('buyKit') %>\n                    <% } else { %>\n                      <%= _.dictionary('buy') %>\n                    <% } %>\n                  </div>\n                </button>\n              </div>\n            </div>\n          </div>\n\n          <% if (_.state.short_description) { %>\n            <p class=\"product__info mt-3 lead\">\n              <%= _.state.short_description %>\n            </p>\n          <% } %>\n        </div>\n      </div>\n\n      <%- await include('/@/helpers/widgets-append', {\n        _, opt: {}, field: 'productSlots'\n      }) %>\n    </section>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt: {}, field: 'productBlockAppend'\n    }) %>\n  </div>\n</div>\n\n<%\nconst productJsonLd = {\n  '@context': 'http://schema.org',\n  '@type': 'Product',\n  sku: _.state.sku,\n  description: _.state.short_description || _.state.meta_description || _.ecomUtils.name(_.state),\n  name: _.ecomUtils.name(_.state),\n  offers: {\n    '@type': 'Offer',\n    url: `https://${_.settings.domain}/${_.state.slug}`,\n    availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,\n    priceCurrency: _.settings.currency,\n    price: _.ecomUtils.price(_.state),\n    itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,\n    priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end\n           ? _.state.price_effective_date.end.slice(0, 10)\n           : undefined,\n    seller: {\n      '@type': 'Organization',\n      name: _.settings.name || _.store.name\n    }\n  }\n}\nif (_.state.brands && _.state.brands[0]) {\n  productJsonLd.brand = {\n    '@type': 'Brand',\n    name: _.state.brands[0].name\n  }\n}\nif (_.state.pictures && _.state.pictures.length) {\n  productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url\n}\nif (_.state.mpn && _.state.mpn[0]) {\n  productJsonLd.mpn = _.state.mpn[0]\n}\nif (_.state.gtin && _.state.gtin[0]) {\n   productJsonLd.gtin = _.state.gtin[0]\n }\n%>\n<script type=\"application/ld+json\"><%-\n  JSON.stringify(productJsonLd)\n%></script>\n");
 
 /***/ }),
 
@@ -21132,7 +21399,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"search\">\n  <div class=\"container my-4 my-md-5\">\n    <div id=\"search-engine\">\n      <!--\n        No prerender for search, `SearchEngine` should be rendered here:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n      -->\n      <%- await include('/@/sections/inc/loading') %>\n    </div>\n  </div>\n</section>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"search\">\n  <div class=\"container my-4 my-md-5\">\n    <div id=\"search-engine\">\n      <!--\n        No prerender for search, `SearchEngine` should be rendered here:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n      -->\n      <%- await include('/@/sections/inc/loading') %>\n    </div>\n    <div id=\"search-pagination\">\n      <!--\n        `APagination` may be rendered here when enabled:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/APagination.html\n      -->\n    </div>\n  </div>\n</section>\n");
 
 /***/ })
 
