@@ -20,6 +20,8 @@ export default (baseURL = 'https://admin.e-com.plus/session/gotrue/v1', canAutoI
     store.user = null
     localStorage.removeItem(storageKey)
     emitter.emit('logout')
+    if (window.Intercom) window.Intercom('shutdown')
+    if (window.analytics) window.analytics.reset()
   }
 
   const init = () => {

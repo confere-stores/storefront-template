@@ -10,6 +10,26 @@ export default options => {
   options.sections = getSections(options)
 
   netlifyIdentity.on('login', user => {
+    let userId = user.id
+    if (
+      user &&
+      user.app_metadata &&
+      user.app_metadata.roles &&
+      user.app_metadata.roles.length
+    ) userId = user.app_metadata.roles[0].replace(/\D+/g, '')
+    let storeCreatedAt = null
+    if (
+      user &&
+      user.user_metadata &&
+      user.user_metadata.store_created_at
+    ) storeCreatedAt = user.user_metadata.store_created_at
+    let storeHasIp = null
+    if (
+      user &&
+      user.user_metadata &&
+      user.user_metadata.store_has_ip
+    ) storeHasIp = user.user_metadata.store_has_ip
+
     window.LogRocket.identify(user.id, {
       email: user.email,
     });
@@ -20,8 +40,10 @@ export default options => {
       id: user.id,
       email: user.email
     })
-    analytics.identify(user.id, {
-      email: user.email
+    analytics.identify(userId, {
+      email: user.email,
+      created_at: storeCreatedAt,
+      infinitepay: storeHasIp
     });
     if (
       window.Cohere
