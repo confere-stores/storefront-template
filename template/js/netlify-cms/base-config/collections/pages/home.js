@@ -21,19 +21,7 @@ export default ({ baseDir, sections }) => ({
       label: 'Seções',
       name: 'sections',
       widget: 'list',
-      types: sections.concat([{
-        label: 'Motor de busca',
-        name: 'search-engine',
-        widget: 'object',
-        fields: [
-          {
-            label: 'Exibir resultados da busca',
-            name: 'enabled',
-            widget: 'boolean',
-            default: true
-          }
-        ]
-      }])
+      types: sections
     }
   ]
 })
