@@ -2,7 +2,8 @@ const bannerFields = [
   {
     label: 'Imagem',
     name: 'img',
-    widget: 'image'
+    widget: 'image',
+    hint: '[Dúvidas nas dimensões e imagens? Clique aqui e acesse nosso guia!](http://ajuda.confere.com.br/pt-BR/articles/5639879-medidas-dos-componentes-de-edicao-da-loja)'
   },
   {
     label: 'Link',

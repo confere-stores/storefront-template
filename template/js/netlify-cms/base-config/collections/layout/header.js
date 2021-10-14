@@ -106,7 +106,8 @@ export default ({ baseDir, state }) => ({
         {
           label: 'Exibir em largura total',
           name: 'full_width',
-          widget: 'boolean'
+          widget: 'boolean',
+          default: true
         }
       ]
     },

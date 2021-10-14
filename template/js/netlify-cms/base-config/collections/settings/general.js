@@ -34,7 +34,8 @@ export default ({ baseDir }) => ({
     {
       label: 'Logo',
       name: 'logo',
-      widget: 'image'
+      widget: 'image',
+      hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
     },
     {
       label: 'Ícone do app',

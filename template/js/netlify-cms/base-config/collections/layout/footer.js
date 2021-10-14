@@ -40,7 +40,8 @@ export default ({ baseDir }) => ({
           label: 'Título',
           required: false,
           name: 'title',
-          widget: 'string'
+          widget: 'string',
+          default: 'Quem somos'
         },
         {
           label: 'Links',
@@ -113,7 +114,8 @@ export default ({ baseDir }) => ({
           label: 'Título',
           required: false,
           name: 'title',
-          widget: 'string'
+          widget: 'string',
+          default: 'Fale conosco'
         },
         {
           label: 'Mostrar telefone e whatsapp',
