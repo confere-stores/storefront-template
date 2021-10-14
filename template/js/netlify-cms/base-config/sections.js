@@ -79,7 +79,7 @@ export default ({ state }) => [
         name: 'banners',
         widget: 'list',
         fields: bannerFields,
-        hint: 'Clique em "Adicionar banners" ao lado para adicionar os banners'
+        hint: 'Clique em "Adicionar banners" ao lado para criar o seu grid de banners'
       }
     ]
   },
@@ -125,7 +125,7 @@ export default ({ state }) => [
             default: ''
           }
         ]),
-        hint: 'Clique em "Adicionar slides" ao lado para adicionar os banners'
+        hint: 'Clique em "Adicionar banners" ao lado para criar o seu slider de banners'
       },
       {
         label: 'Slider autoplay',
