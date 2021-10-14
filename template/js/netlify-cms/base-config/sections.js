@@ -78,7 +78,8 @@ export default ({ state }) => [
         label: 'Banners',
         name: 'banners',
         widget: 'list',
-        fields: bannerFields
+        fields: bannerFields,
+        hint: 'Clique em "Adicionar banners" ao lado para adicionar os banners'
       }
     ]
   },
@@ -123,7 +124,8 @@ export default ({ state }) => [
             timeFormat: 'HH:mm',
             default: ''
           }
-        ])
+        ]),
+        hint: 'Clique em "Adicionar slides" ao lado para adicionar os banners'
       },
       {
         label: 'Slider autoplay',
