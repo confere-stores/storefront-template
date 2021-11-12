@@ -75,7 +75,7 @@ export default ({ baseDir, sections }) => ({
           ]
         },
         {
-          label: 'Opiniões do prodduto',
+          label: 'Opiniões do produto',
           name: 'product-reviews',
           widget: 'object',
           fields: [
