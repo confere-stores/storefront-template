@@ -73,6 +73,19 @@ export default ({ baseDir, sections }) => ({
               widget: 'string'
             }
           ]
+        },
+        {
+          label: 'Opiniões do prodduto',
+          name: 'product-reviews',
+          widget: 'object',
+          fields: [
+            {
+              label: 'Exibir opiniões do produto',
+              name: 'enabled',
+              widget: 'boolean',
+              default: true
+            }
+          ]
         }
       ].concat(sections)
     }
