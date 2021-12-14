@@ -3,7 +3,8 @@ import getWidgetProduct from '@ecomplus/widget-product/cms.config'
 import getWidgetSearchEngine from '@ecomplus/widget-search-engine/cms.config'
 import getWidgetSearch from '@ecomplus/widget-search/cms.config'
 import getWidgetMinicart from '@ecomplus/widget-minicart/cms.config'
-import getWidgetOffersNotification from '@ecomplus/widget-offers-notification/cms.config'
+// import getWidgetOffersNotification from '@ecomplus/widget-offers-notification/cms.config'
+import getAviseMe from '@confere-stores/widget-avise-me/cms.config'
 import getWidgetAnalytics from '@ecomplus/widget-analytics/cms.config'
 import getWidgetFbPixel from '@ecomplus/widget-fb-pixel/cms.config'
 import getWidgetTagManager from '@ecomplus/widget-tag-manager/cms.config'
@@ -40,7 +41,7 @@ export default options => ({
     fixWidgetConfig(options, getWidgetGmcRatings),
     fixWidgetConfig(options, getWidgetTawkto),
     fixWidgetConfig(options, getWidgetTrustvox),
-    fixWidgetConfig(options, getWidgetOffersNotification),
+    fixWidgetConfig(options, getAviseMe),
     fixWidgetConfig(options, getWidgetEbit),
     fixWidgetConfig(options, getWidgetCompreConfie),
     fixWidgetConfig(options, getWidgetOpinioesVerificadas),
