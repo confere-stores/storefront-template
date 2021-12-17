@@ -86,14 +86,95 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@confere-stores/widget-avise-me/cms.config.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@confere-stores/widget-avise-me/cms.config.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _package_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./package.json */ "./node_modules/@confere-stores/widget-avise-me/package.json");
+var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./package.json */ "./node_modules/@confere-stores/widget-avise-me/package.json", 1);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (() => ({
+  label: 'Plugin Avise-me',
+  fields: [
+    {
+      name: 'pkg',
+      widget: 'hidden',
+      default: _package_json__WEBPACK_IMPORTED_MODULE_0__["name"]
+    },
+    {
+      label: 'Ativar',
+      hint: 'Habilitar notificações de ofertas',
+      name: 'active',
+      widget: 'boolean'
+    },
+    {
+      name: 'desktopOnly',
+      widget: 'hidden',
+      default: false
+    },
+    {
+      label: 'Opções',
+      name: 'options',
+      widget: 'object',
+      hint: 'Personalizações do widget',
+      fields: [
+        {
+          label: 'Habilitar "avise-me quando chegar"',
+          hint: 'Notifica clientes cadastrados quando produtos sem estoque ficam disponíveis novamente',
+          name: 'enableOutOfStock',
+          widget: 'boolean',
+          default: true
+        },
+        {
+          label: 'Habilitar alerta de preço',
+          hint: 'Notificações de redução de preço',
+          name: 'enablePriceChange',
+          widget: 'boolean',
+          default: true
+        },
+        {
+          name: 'popupOptions',
+          widget: 'hidden',
+          default: 'location=yes,height=400,width=320,status=yes'
+        }
+      ]
+    },
+    {
+      name: 'productSlots',
+      widget: 'hidden',
+      default: 'src/append/product-slots'
+    }
+  ]
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/@confere-stores/widget-avise-me/package.json":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@confere-stores/widget-avise-me/package.json ***!
+  \*******************************************************************/
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"_from\":\"@confere-stores/widget-avise-me\",\"_id\":\"@confere-stores/widget-avise-me@1.2.0\",\"_inBundle\":false,\"_integrity\":\"sha512-yB/kTMA6tQ5MaQdCDsdhzkKp42a6OgZR70OQNsSiJraki9ntwKYmNB3IUKO/w3eSDKc9qUkXLef5IoVzRyws7Q==\",\"_location\":\"/@confere-stores/widget-avise-me\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"tag\",\"registry\":true,\"raw\":\"@confere-stores/widget-avise-me\",\"name\":\"@confere-stores/widget-avise-me\",\"escapedName\":\"@confere-stores%2fwidget-avise-me\",\"scope\":\"@confere-stores\",\"rawSpec\":\"\",\"saveSpec\":null,\"fetchSpec\":\"latest\"},\"_requiredBy\":[\"#USER\",\"/\"],\"_resolved\":\"https://npm.pkg.github.com/download/@confere-stores/widget-avise-me/1.2.0/e10685bddfce09cc61045c1dc10fae7d897203af10c80a44684c39bf366a1223\",\"_shasum\":\"238ceb2f61a4ad8c611be3edcfa199cfbd089bd0\",\"_spec\":\"@confere-stores/widget-avise-me\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-avise-me.min.js\",\"bugs\":{\"url\":\"https://github.com/confere-stores/widget-avise-me/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Plugin para lojas da confere shop notificar clientes sobre promoções e estoque\",\"homepage\":\"https://github.com/confere-stores/widget-avise-me/tree/master/#readme\",\"jsdelivr\":\"dist/public/widget-avise-me.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"notifications\"],\"license\":\"MIT\",\"main\":\"dist/widget-avise-me.min.js\",\"module\":\"src/index.js\",\"name\":\"@confere-stores/widget-avise-me\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/confere-stores/widget-avise-me.git\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-avise-me.var.min.js\",\"version\":\"1.2.0\",\"webpackOutput\":{\"library\":\"widgetAviseMe\",\"filename\":\"widget-avise-me.min.js\"}}");
+
+/***/ }),
+
 /***/ "./node_modules/@ecomplus/client/package.json":
 /*!****************************************************!*\
   !*** ./node_modules/@ecomplus/client/package.json ***!
   \****************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, browserslist, bugs, bundleDependencies, dependencies, deprecated, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, peerDependencies, publishConfig, repository, scripts, unpkg, version, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, browserslist, bugs, dependencies, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, peerDependencies, publishConfig, repository, scripts, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/client@^2.2.1\",\"_id\":\"@ecomplus/client@2.2.1\",\"_inBundle\":false,\"_integrity\":\"sha512-Hhq1MgzSlTWJ0Y/PZc5YkPhOmDsuIdrcrX8erzdBlrKDdApXoKD2pxC+KtlU2En141rFwwWzYdjJCp683nKFEA==\",\"_location\":\"/@ecomplus/client\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/client@^2.2.1\",\"name\":\"@ecomplus/client\",\"escapedName\":\"@ecomplus%2fclient\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.1\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/passport-client\",\"/@ecomplus/search-engine\",\"/@ecomplus/storefront-app\",\"/@ecomplus/storefront-components\",\"/@ecomplus/storefront-renderer\",\"/@ecomplus/storefront-router\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/client/-/client-2.2.1.tgz\",\"_shasum\":\"d4abc2f7df098cd4c2c87a8cd3fb62a575c1af8a\",\"_spec\":\"@ecomplus/client@^2.2.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-client.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/client/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"axios\":\"^0.21.1\",\"core-js\":\"3.x\"},\"deprecated\":false,\"description\":\"JS client for E-Com Plus REST APIs\",\"devDependencies\":{\"@babel/core\":\"^7.13.10\",\"@babel/preset-env\":\"^7.13.10\",\"@commitlint/cli\":\"^12.0.1\",\"@commitlint/config-conventional\":\"^12.0.1\",\"@ecomplus/utils\":\"^1.4.1\",\"babel-loader\":\"^8.2.2\",\"core-js\":\"^3.9.1\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.3.8\",\"jsdoc\":\"^3.6.6\",\"standard\":\"^16.0.3\",\"standard-version\":\"^9.1.1\",\"webpack\":\"^4.46.0\",\"webpack-cli\":\"^3.3.12\",\"webpack-dev-server\":\"^3.11.2\"},\"homepage\":\"https://github.com/ecomplus/client#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-client.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apis\",\"js-client\",\"rest-apis\",\"jamstack\",\"headless-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/ecom-client.node.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/client\",\"optionalDependencies\":{\"core-js\":\"3.x\"},\"peerDependencies\":{\"@ecomplus/utils\":\"1.x\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/client.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/ecom-client.polyfill.min.js\",\"version\":\"2.2.1\"}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/client@2.2.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/client@2.2.1\",\"_id\":\"@ecomplus/client@2.2.1\",\"_inBundle\":false,\"_integrity\":\"sha512-Hhq1MgzSlTWJ0Y/PZc5YkPhOmDsuIdrcrX8erzdBlrKDdApXoKD2pxC+KtlU2En141rFwwWzYdjJCp683nKFEA==\",\"_location\":\"/@ecomplus/client\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/client@2.2.1\",\"name\":\"@ecomplus/client\",\"escapedName\":\"@ecomplus%2fclient\",\"scope\":\"@ecomplus\",\"rawSpec\":\"2.2.1\",\"saveSpec\":null,\"fetchSpec\":\"2.2.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/passport-client\",\"/@ecomplus/search-engine\",\"/@ecomplus/storefront-app\",\"/@ecomplus/storefront-components\",\"/@ecomplus/storefront-renderer\",\"/@ecomplus/storefront-router\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/client/-/client-2.2.1.tgz\",\"_spec\":\"2.2.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-client.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/client/issues\"},\"dependencies\":{\"axios\":\"^0.21.1\",\"core-js\":\"3.x\"},\"description\":\"JS client for E-Com Plus REST APIs\",\"devDependencies\":{\"@babel/core\":\"^7.13.10\",\"@babel/preset-env\":\"^7.13.10\",\"@commitlint/cli\":\"^12.0.1\",\"@commitlint/config-conventional\":\"^12.0.1\",\"@ecomplus/utils\":\"^1.4.1\",\"babel-loader\":\"^8.2.2\",\"core-js\":\"^3.9.1\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.3.8\",\"jsdoc\":\"^3.6.6\",\"standard\":\"^16.0.3\",\"standard-version\":\"^9.1.1\",\"webpack\":\"^4.46.0\",\"webpack-cli\":\"^3.3.12\",\"webpack-dev-server\":\"^3.11.2\"},\"homepage\":\"https://github.com/ecomplus/client#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-client.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apis\",\"js-client\",\"rest-apis\",\"jamstack\",\"headless-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/ecom-client.node.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/client\",\"optionalDependencies\":{\"core-js\":\"3.x\"},\"peerDependencies\":{\"@ecomplus/utils\":\"1.x\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/client.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/ecom-client.polyfill.min.js\",\"version\":\"2.2.1\"}");
 
 /***/ }),
 
@@ -3477,10 +3558,10 @@ router.setupStore('shop-plus.e-com.plus', false)
 /*!***************************************************!*\
   !*** ./node_modules/@ecomplus/utils/package.json ***!
   \***************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, browserslist, bugs, bundleDependencies, dependencies, deprecated, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, publishConfig, repository, scripts, sideEffects, unpkg, version, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, browserslist, bugs, dependencies, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, publishConfig, repository, scripts, sideEffects, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/utils@^1.4.1\",\"_id\":\"@ecomplus/utils@1.4.1\",\"_inBundle\":false,\"_integrity\":\"sha512-siIMZu5qjwwtvFTqt/F29i/SkzZcIFrb/6WcmUJToh4HiBoJVx8H/id2WQRQf7EzcL9c0uYMWX6DNIN/DymvcA==\",\"_location\":\"/@ecomplus/utils\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/utils@^1.4.1\",\"name\":\"@ecomplus/utils\",\"escapedName\":\"@ecomplus%2futils\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.4.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.4.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/storefront-renderer\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/utils/-/utils-1.4.1.tgz\",\"_shasum\":\"b3703596d59c17d1e743f12f307a59bd24b7973c\",\"_spec\":\"@ecomplus/utils@^1.4.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-utils.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/utils/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"core-js\":\"^3.6.5\"},\"deprecated\":false,\"description\":\"JS utility functions to E-Com Plus (not only) related apps\",\"devDependencies\":{\"@babel/core\":\"^7.9.6\",\"@babel/preset-env\":\"^7.9.6\",\"@commitlint/cli\":\"^8.3.5\",\"@commitlint/config-conventional\":\"^8.3.4\",\"babel-loader\":\"^8.1.0\",\"copy-webpack-plugin\":\"^6.0.1\",\"core-js\":\"^3.6.5\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.2.5\",\"jsdoc\":\"^3.6.4\",\"standard\":\"^14.3.4\",\"standard-version\":\"^8.0.0\",\"webpack\":\"^4.43.0\",\"webpack-cli\":\"^3.3.11\",\"webpack-dev-server\":\"^3.11.0\"},\"homepage\":\"https://github.com/ecomplus/utils#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-utils.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apps\",\"ecommerce\",\"utility-functions\",\"storefront\",\"javascript-utils\"],\"license\":\"MIT\",\"main\":\"dist/ecom-utils.node.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/utils\",\"optionalDependencies\":{\"core-js\":\"^3.6.5\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/utils.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"sideEffects\":false,\"unpkg\":\"dist/ecom-utils.polyfill.min.js\",\"version\":\"1.4.1\"}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/utils@1.4.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/utils@1.4.1\",\"_id\":\"@ecomplus/utils@1.4.1\",\"_inBundle\":false,\"_integrity\":\"sha512-siIMZu5qjwwtvFTqt/F29i/SkzZcIFrb/6WcmUJToh4HiBoJVx8H/id2WQRQf7EzcL9c0uYMWX6DNIN/DymvcA==\",\"_location\":\"/@ecomplus/utils\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/utils@1.4.1\",\"name\":\"@ecomplus/utils\",\"escapedName\":\"@ecomplus%2futils\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.4.1\",\"saveSpec\":null,\"fetchSpec\":\"1.4.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/storefront-renderer\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/utils/-/utils-1.4.1.tgz\",\"_spec\":\"1.4.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-utils.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/utils/issues\"},\"dependencies\":{\"core-js\":\"^3.6.5\"},\"description\":\"JS utility functions to E-Com Plus (not only) related apps\",\"devDependencies\":{\"@babel/core\":\"^7.9.6\",\"@babel/preset-env\":\"^7.9.6\",\"@commitlint/cli\":\"^8.3.5\",\"@commitlint/config-conventional\":\"^8.3.4\",\"babel-loader\":\"^8.1.0\",\"copy-webpack-plugin\":\"^6.0.1\",\"core-js\":\"^3.6.5\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.2.5\",\"jsdoc\":\"^3.6.4\",\"standard\":\"^14.3.4\",\"standard-version\":\"^8.0.0\",\"webpack\":\"^4.43.0\",\"webpack-cli\":\"^3.3.11\",\"webpack-dev-server\":\"^3.11.0\"},\"homepage\":\"https://github.com/ecomplus/utils#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-utils.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apps\",\"ecommerce\",\"utility-functions\",\"storefront\",\"javascript-utils\"],\"license\":\"MIT\",\"main\":\"dist/ecom-utils.node.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/utils\",\"optionalDependencies\":{\"core-js\":\"^3.6.5\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/utils.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"sideEffects\":false,\"unpkg\":\"dist/ecom-utils.polyfill.min.js\",\"version\":\"1.4.1\"}");
 
 /***/ }),
 
@@ -6035,10 +6116,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!**************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-analytics/package.json ***!
   \**************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-analytics@^1.1.7\",\"_id\":\"@ecomplus/widget-analytics@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-AGKAvEeCfD/tA05hf8xaYQqMmFngXykFwR4MvYvLhkXflQtE7z4wBXQDRu7lDRf8yKsTZ1bJiQdT2gCN0V89aQ==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@^1.1.7\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.7.tgz\",\"_shasum\":\"c9f439d625a19414f49a5b30939ef317fae7ceaf\",\"_spec\":\"@ecomplus/widget-analytics@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.1\"},\"deprecated\":false,\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-analytics@1.1.7\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-analytics@1.1.7\",\"_id\":\"@ecomplus/widget-analytics@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-AGKAvEeCfD/tA05hf8xaYQqMmFngXykFwR4MvYvLhkXflQtE7z4wBXQDRu7lDRf8yKsTZ1bJiQdT2gCN0V89aQ==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@1.1.7\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.7.tgz\",\"_spec\":\"1.1.7\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.1\"},\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
 
 /***/ }),
 
@@ -6102,10 +6183,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!******************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-compre-confie/package.json ***!
   \******************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-G3Vog+xG9Hjo9GBkZpCkIuD9iD7at1uC6vvGVw7AeaBTfO3V6XX/KvA/zspIb8llWSQfAQwtdHNx30M7RgJRVQ==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.6.tgz\",\"_shasum\":\"54d92fd6d696d8b61886833dc509e9a0d3ff66a6\",\"_spec\":\"@ecomplus/widget-compre-confie@^1.1.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-compre-confie@1.1.6\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-G3Vog+xG9Hjo9GBkZpCkIuD9iD7at1uC6vvGVw7AeaBTfO3V6XX/KvA/zspIb8llWSQfAQwtdHNx30M7RgJRVQ==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@1.1.6\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.6.tgz\",\"_spec\":\"1.1.6\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
 
 /***/ }),
 
@@ -6169,10 +6250,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*********************************************************!*\
   !*** ./node_modules/@ecomplus/widget-ebit/package.json ***!
   \*********************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-ebit@^1.1.12\",\"_id\":\"@ecomplus/widget-ebit@1.1.12\",\"_inBundle\":false,\"_integrity\":\"sha512-Z3Ku5H3q+LwvlYhWrKZ5of84GV7YdrZGjYa5W9+BGVV6CLnic+JebkgCo+mSYephVcSE9IYKIXAOLhOgOOQOMA==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@^1.1.12\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.12\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.12\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.12.tgz\",\"_shasum\":\"73ea872c8a7f7a18108e0f2bb1a5645a376d13c7\",\"_spec\":\"@ecomplus/widget-ebit@^1.1.12\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.12\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-ebit@1.1.12\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-ebit@1.1.12\",\"_id\":\"@ecomplus/widget-ebit@1.1.12\",\"_inBundle\":false,\"_integrity\":\"sha512-Z3Ku5H3q+LwvlYhWrKZ5of84GV7YdrZGjYa5W9+BGVV6CLnic+JebkgCo+mSYephVcSE9IYKIXAOLhOgOOQOMA==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@1.1.12\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.12\",\"saveSpec\":null,\"fetchSpec\":\"1.1.12\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.12.tgz\",\"_spec\":\"1.1.12\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.12\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
 
 /***/ }),
 
@@ -6245,10 +6326,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-fb-pixel/package.json ***!
   \*************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_id\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dbYjVfQyJwZgxSlQFt7n7qnst+z+2mzDBLzxpt3hF110CKY7MqnQeBvJ9aN3FsYxJeOWUfDdgXwFjDL/7e00fA==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.3.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.3.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.3.1.tgz\",\"_shasum\":\"ccbf47f9b982362b2a0679ffb788c291ffaf01df\",\"_spec\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.3.1\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-fb-pixel@1.3.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_id\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dbYjVfQyJwZgxSlQFt7n7qnst+z+2mzDBLzxpt3hF110CKY7MqnQeBvJ9aN3FsYxJeOWUfDdgXwFjDL/7e00fA==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.3.1\",\"saveSpec\":null,\"fetchSpec\":\"1.3.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.3.1.tgz\",\"_spec\":\"1.3.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.3.1\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
 
 /***/ }),
 
@@ -6349,10 +6430,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!****************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-gmc-ratings/package.json ***!
   \****************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_inBundle\":false,\"_integrity\":\"sha512-enJSDdOx4yBR02OvsmyZIl/s4nOUmKEHPoDn5WTgGX495y9n+lL4C/opY/RuCn2+Val6ja/k+DZbvpDDJk4pOQ==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.2.15\",\"saveSpec\":null,\"fetchSpec\":\"^1.2.15\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.15.tgz\",\"_shasum\":\"df5070766014d132e9a4765b42409671a7703726\",\"_spec\":\"@ecomplus/widget-gmc-ratings@^1.2.15\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.15\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-gmc-ratings@1.2.15\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_inBundle\":false,\"_integrity\":\"sha512-enJSDdOx4yBR02OvsmyZIl/s4nOUmKEHPoDn5WTgGX495y9n+lL4C/opY/RuCn2+Val6ja/k+DZbvpDDJk4pOQ==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.2.15\",\"saveSpec\":null,\"fetchSpec\":\"1.2.15\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.15.tgz\",\"_spec\":\"1.2.15\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.15\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
 
 /***/ }),
 
@@ -6393,79 +6474,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-minicart/package.json ***!
   \*************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-2DsgfEk84ETMUkdpFe9PjKAmtxQphtK/p908P7dTKuBeX2evruy65MrTgz1dtLdTk8L48p8Yb2pgK46HfFCX+w==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.95.tgz\",\"_shasum\":\"38602af6422fdfd571d72bebbfc95446ca8a82f8\",\"_spec\":\"@ecomplus/widget-minicart@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
-
-/***/ }),
-
-/***/ "./node_modules/@ecomplus/widget-offers-notification/cms.config.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/@ecomplus/widget-offers-notification/cms.config.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _package_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./package.json */ "./node_modules/@ecomplus/widget-offers-notification/package.json");
-var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./package.json */ "./node_modules/@ecomplus/widget-offers-notification/package.json", 1);
-
-/* harmony default export */ __webpack_exports__["default"] = (() => ({
-  label: 'Notificação de ofertas e estoque',
-  fields: [{
-    name: 'pkg',
-    widget: 'hidden',
-    default: _package_json__WEBPACK_IMPORTED_MODULE_0__["name"]
-  }, {
-    label: 'Ativar',
-    hint: 'Habilitar notificações de ofertas',
-    name: 'active',
-    widget: 'boolean'
-  }, {
-    name: 'desktopOnly',
-    widget: 'hidden',
-    default: false
-  }, {
-    label: 'Opções',
-    name: 'options',
-    widget: 'object',
-    hint: 'Personalizações do widget',
-    fields: [{
-      label: 'Habilitar "avise-me quando chegar"',
-      hint: 'Notifica clientes cadastrados quando produtos sem estoque ficam disponíveis novamente',
-      name: 'enableOutOfStock',
-      widget: 'boolean',
-      default: true
-    }, {
-      label: 'Habilitar alerta de preço',
-      hint: 'Notificações de redução de preço',
-      name: 'enablePriceChange',
-      widget: 'boolean',
-      default: true
-    }, {
-      name: 'popupOptions',
-      widget: 'hidden',
-      default: 'location=yes,height=400,width=320,status=yes'
-    }]
-  }, {
-    name: 'productSlots',
-    widget: 'hidden',
-    default: 'src/append/product-slots'
-  }]
-}));
-
-/***/ }),
-
-/***/ "./node_modules/@ecomplus/widget-offers-notification/package.json":
-/*!************************************************************************!*\
-  !*** ./node_modules/@ecomplus/widget-offers-notification/package.json ***!
-  \************************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"_id\":\"@ecomplus/widget-offers-notification@1.1.3\",\"_inBundle\":false,\"_integrity\":\"sha512-k72SvP3iOcjkUsHBPK9/giea8OlWSB/pefiJNO+vr1SW+2bmTi9fUqw5fwOw5U2Jmi+JfKUvZd3Mo/2HjYWXPg==\",\"_location\":\"/@ecomplus/widget-offers-notification\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"name\":\"@ecomplus/widget-offers-notification\",\"escapedName\":\"@ecomplus%2fwidget-offers-notification\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.3\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.3\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.1.3.tgz\",\"_shasum\":\"5ef6950f4a0655567ce596888dfef6fce12f9f19\",\"_spec\":\"@ecomplus/widget-offers-notification@^1.1.3\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-offers-notification.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for product stock and offers notification\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-offers-notification#readme\",\"jsdelivr\":\"dist/public/widget-offers-notification.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"notifications\"],\"license\":\"MIT\",\"main\":\"dist/widget-offers-notification.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-offers-notification\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-offers-notification\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-offers-notification.var.min.js\",\"version\":\"1.1.3\",\"webpackOutput\":{\"library\":\"widgetOffersNotification\",\"filename\":\"widget-offers-notification.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-2DsgfEk84ETMUkdpFe9PjKAmtxQphtK/p908P7dTKuBeX2evruy65MrTgz1dtLdTk8L48p8Yb2pgK46HfFCX+w==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
 
 /***/ }),
 
@@ -6563,10 +6575,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-opinioes-verificadas/package.json ***!
   \*************************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-gTRRri7wlqHo3NBG43QTx5ac65C5Fy1Zs/vBYEssT6yhcTCmsngZaempwdN02mpsOdSfu/P+UVnGOSt4oP+oMw==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.7.tgz\",\"_shasum\":\"3bdcf58434d4ec66fe8fc9c77662202fd7c05909\",\"_spec\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-gTRRri7wlqHo3NBG43QTx5ac65C5Fy1Zs/vBYEssT6yhcTCmsngZaempwdN02mpsOdSfu/P+UVnGOSt4oP+oMw==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.7.tgz\",\"_spec\":\"1.1.7\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
 
 /***/ }),
 
@@ -6635,10 +6647,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*****************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-product-card/package.json ***!
   \*****************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-1AXG99iAAMoFhO2jIt/eMillPo5C+OGxQmx9jVQtFdnw5KE1kd6YMfS5y+t++Ask64xQUnq/s5Jr76g6KK/j1A==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.95.tgz\",\"_shasum\":\"c5ecc0bb7953fbf543b52f6a3acdc0e6077fc1db\",\"_spec\":\"@ecomplus/widget-product-card@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-1AXG99iAAMoFhO2jIt/eMillPo5C+OGxQmx9jVQtFdnw5KE1kd6YMfS5y+t++Ask64xQUnq/s5Jr76g6KK/j1A==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
 
 /***/ }),
 
@@ -6715,10 +6727,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-product/package.json ***!
   \************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-zhQAjlvR6T8en1MgOb8ld6gJREHog14owMk+ZURRBAGtW6xlfv7xXtQYiINtTo69E/td+v0osKyJJvkNIEzkdQ==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.95.tgz\",\"_shasum\":\"c159b7b1cb7f08543ad07751c60569a4e49a7531\",\"_spec\":\"@ecomplus/widget-product@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-zhQAjlvR6T8en1MgOb8ld6gJREHog14owMk+ZURRBAGtW6xlfv7xXtQYiINtTo69E/td+v0osKyJJvkNIEzkdQ==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
 
 /***/ }),
 
@@ -6771,10 +6783,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!******************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-search-engine/package.json ***!
   \******************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_inBundle\":false,\"_integrity\":\"sha512-0EPQUY9tdpGODkTr1mR6mXo2oK0RXT1B73ycaOqWh6JDHYhQ7lgEDKoT1quChQyB7qOgSm04SCflS2ubZENnxQ==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.97\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.97\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.97.tgz\",\"_shasum\":\"3050c835511502aa0b4e3d28ace1a9e2c535ef21\",\"_spec\":\"@ecomplus/widget-search-engine@^1.0.0-beta.97\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\",\"@ecomplus/storefront-twbs\":\"^5.11.1\"},\"deprecated\":false,\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.97\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_inBundle\":false,\"_integrity\":\"sha512-0EPQUY9tdpGODkTr1mR6mXo2oK0RXT1B73ycaOqWh6JDHYhQ7lgEDKoT1quChQyB7qOgSm04SCflS2ubZENnxQ==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.97\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.97\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.97.tgz\",\"_spec\":\"1.0.0-beta.97\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\",\"@ecomplus/storefront-twbs\":\"^5.11.1\"},\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.97\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
 
 /***/ }),
 
@@ -6815,10 +6827,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!***********************************************************!*\
   !*** ./node_modules/@ecomplus/widget-search/package.json ***!
   \***********************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-rJ1ghMDSxZpgmXw1T1EninB7NTJyAkzDQhVxOY3h+80kB0OPKPbWkLezF7j4loFJ30MHT3M2hr8e4E4/kkPHfA==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"^1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.95.tgz\",\"_shasum\":\"cacc886cf05a847a087e2e44c3c10ae7fa571263\",\"_spec\":\"@ecomplus/widget-search@^1.0.0-beta.95\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"deprecated\":false,\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-rJ1ghMDSxZpgmXw1T1EninB7NTJyAkzDQhVxOY3h+80kB0OPKPbWkLezF7j4loFJ30MHT3M2hr8e4E4/kkPHfA==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
 
 /***/ }),
 
@@ -6889,10 +6901,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!****************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-tag-manager/package.json ***!
   \****************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_inBundle\":false,\"_integrity\":\"sha512-4MAFZw8IYYpBWXNfnk5sDtdCbc6NroANICPf5AL2h2Xzg9N68oHKI6tnTXaOLy5MROzq76/DCzcFniiXuyNu+A==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.5.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.5.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.1.tgz\",\"_shasum\":\"c229c751ec6bb1f9da720912f78dae37834deb68\",\"_spec\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.1\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-tag-manager@1.5.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_inBundle\":false,\"_integrity\":\"sha512-4MAFZw8IYYpBWXNfnk5sDtdCbc6NroANICPf5AL2h2Xzg9N68oHKI6tnTXaOLy5MROzq76/DCzcFniiXuyNu+A==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@1.5.1\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.5.1\",\"saveSpec\":null,\"fetchSpec\":\"1.5.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.1.tgz\",\"_spec\":\"1.5.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.1\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
 
 /***/ }),
 
@@ -6960,10 +6972,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!***********************************************************!*\
   !*** ./node_modules/@ecomplus/widget-tawkto/package.json ***!
   \***********************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_id\":\"@ecomplus/widget-tawkto@1.1.9\",\"_inBundle\":false,\"_integrity\":\"sha512-X85+Wi/CcJXRdq7kwHkptvFT+t2QohNFn/zbHoDu248jc/ZyfQhv4gRBMXXRRHeC42+3x94cbsVT4MXOicFcBg==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@^1.1.9\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.9\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.9\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.9.tgz\",\"_shasum\":\"b829273bc525364843d82e9de724c96fc127b447\",\"_spec\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.9\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-tawkto@1.1.9\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-tawkto@1.1.9\",\"_id\":\"@ecomplus/widget-tawkto@1.1.9\",\"_inBundle\":false,\"_integrity\":\"sha512-X85+Wi/CcJXRdq7kwHkptvFT+t2QohNFn/zbHoDu248jc/ZyfQhv4gRBMXXRRHeC42+3x94cbsVT4MXOicFcBg==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@1.1.9\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.9\",\"saveSpec\":null,\"fetchSpec\":\"1.1.9\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.9.tgz\",\"_spec\":\"1.1.9\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.9\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
 
 /***/ }),
 
@@ -7047,10 +7059,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-trustvox/package.json ***!
   \*************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_id\":\"@ecomplus/widget-trustvox@2.2.6\",\"_inBundle\":false,\"_integrity\":\"sha512-Kx0jKcyNSwU6pQlsaxg5b5RrJOd/W6a2nNFsFGomal64KJX7mdwjUcuPanUa0wW9d++OKeB+v0Dhz26vXqVFXw==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@^2.2.6\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.6\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.6.tgz\",\"_shasum\":\"1254bd0b90ebc9e74ca8dadc77998efd19993126\",\"_spec\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.6\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-trustvox@2.2.6\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-trustvox@2.2.6\",\"_id\":\"@ecomplus/widget-trustvox@2.2.6\",\"_inBundle\":false,\"_integrity\":\"sha512-Kx0jKcyNSwU6pQlsaxg5b5RrJOd/W6a2nNFsFGomal64KJX7mdwjUcuPanUa0wW9d++OKeB+v0Dhz26vXqVFXw==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@2.2.6\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"2.2.6\",\"saveSpec\":null,\"fetchSpec\":\"2.2.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.6.tgz\",\"_spec\":\"2.2.6\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.6\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
 
 /***/ }),
 
@@ -18048,7 +18060,8 @@ __webpack_require__.r(__webpack_exports__);
       label: 'Título',
       required: false,
       name: 'title',
-      widget: 'string'
+      widget: 'string',
+      default: 'Quem somos'
     }, {
       label: 'Links',
       name: 'list',
@@ -18106,7 +18119,8 @@ __webpack_require__.r(__webpack_exports__);
       label: 'Título',
       required: false,
       name: 'title',
-      widget: 'string'
+      widget: 'string',
+      default: 'Fale conosco'
     }, {
       label: 'Mostrar telefone e whatsapp',
       name: 'phone_wpp',
@@ -18259,7 +18273,8 @@ __webpack_require__.r(__webpack_exports__);
     }, {
       label: 'Exibir em largura total',
       name: 'full_width',
-      widget: 'boolean'
+      widget: 'boolean',
+      default: true
     }]
   }, {
     label: 'Mostrar input de busca',
@@ -18582,17 +18597,7 @@ __webpack_require__.r(__webpack_exports__);
     label: 'Seções',
     name: 'sections',
     widget: 'list',
-    types: sections.concat([{
-      label: 'Motor de busca',
-      name: 'search-engine',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir resultados da busca',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }])
+    types: sections
   }]
 }));
 
@@ -18668,6 +18673,16 @@ __webpack_require__.r(__webpack_exports__);
         name: 'title',
         hint: 'Quem comprou este produto, também comprou:',
         widget: 'string'
+      }]
+    }, {
+      label: 'Opiniões do produto',
+      name: 'product-reviews',
+      widget: 'object',
+      fields: [{
+        label: 'Exibir opiniões do produto',
+        name: 'enabled',
+        widget: 'boolean',
+        default: true
       }]
     }].concat(sections)
   }]
@@ -18896,7 +18911,7 @@ __webpack_require__.r(__webpack_exports__);
   label: 'Nome, Cores e Logos da Marca',
   file: `${baseDir}content/settings.json`,
   editor: {
-    preview: false
+    preview: true
   },
   fields: [{
     label: 'Nome da loja',
@@ -18920,9 +18935,110 @@ __webpack_require__.r(__webpack_exports__);
     name: 'secondary_color',
     widget: 'color'
   }, {
+    label: 'Tema',
+    name: 'theme',
+    widget: 'object',
+    fields: [{
+      label: 'Storefront',
+      name: 'custom',
+      widget: 'select',
+      options: [{
+        label: 'Storefront padrão',
+        value: '_'
+      }, {
+        label: 'Clean: Branco',
+        value: 'clean-white'
+      }, {
+        label: 'Clean: Escala de cinza',
+        value: 'clean-gray'
+      }, {
+        label: 'Clean: Preto',
+        value: 'clean-dark'
+      }, {
+        label: 'Nicho: Bebê',
+        value: 'niche-baby'
+      }, {
+        label: 'Nicho: Flores',
+        value: 'niche-flowers'
+      }, {
+        label: 'Nicho: Game',
+        value: 'niche-game'
+      }]
+    }, {
+      label: 'UI base',
+      name: 'bootswatch',
+      hint: 'Powered by https://bootswatch.com/',
+      widget: 'select',
+      options: [{
+        label: 'Bootstrap padrão',
+        value: '_'
+      }, {
+        label: 'Cerulean',
+        value: 'cerulean'
+      }, {
+        label: 'Cosmo',
+        value: 'cosmo'
+      }, {
+        label: 'Cyborg',
+        value: 'cyborg'
+      }, {
+        label: 'Darkly',
+        value: 'darkly'
+      }, {
+        label: 'Flatly',
+        value: 'flatly'
+      }, {
+        label: 'Journal',
+        value: 'journal'
+      }, {
+        label: 'Litera',
+        value: 'litera'
+      }, {
+        label: 'Lumen',
+        value: 'lumen'
+      }, {
+        label: 'Lux',
+        value: 'lux'
+      }, {
+        label: 'Materia',
+        value: 'materia'
+      }, {
+        label: 'Minty',
+        value: 'minty'
+      }, {
+        label: 'Pulse',
+        value: 'pulse'
+      }, {
+        label: 'Sandstone',
+        value: 'sandstone'
+      }, {
+        label: 'Simplex',
+        value: 'simplex'
+      }, {
+        label: 'Sketchy',
+        value: 'sketchy'
+      }, {
+        label: 'Slate',
+        value: 'slate'
+      }, {
+        label: 'Solar',
+        value: 'solar'
+      }, {
+        label: 'Spacelab',
+        value: 'spacelab'
+      }, {
+        label: 'United',
+        value: 'united'
+      }, {
+        label: 'Yeti',
+        value: 'yeti'
+      }]
+    }]
+  }, {
     label: 'Logo',
     name: 'logo',
-    widget: 'image'
+    widget: 'image',
+    hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
   }, {
     label: 'Ícone do app',
     name: 'icon',
@@ -19089,7 +19205,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ecomplus_widget_search_engine_cms_config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/widget-search-engine/cms.config */ "./node_modules/@ecomplus/widget-search-engine/cms.config.js");
 /* harmony import */ var _ecomplus_widget_search_cms_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ecomplus/widget-search/cms.config */ "./node_modules/@ecomplus/widget-search/cms.config.js");
 /* harmony import */ var _ecomplus_widget_minicart_cms_config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ecomplus/widget-minicart/cms.config */ "./node_modules/@ecomplus/widget-minicart/cms.config.js");
-/* harmony import */ var _ecomplus_widget_offers_notification_cms_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ecomplus/widget-offers-notification/cms.config */ "./node_modules/@ecomplus/widget-offers-notification/cms.config.js");
+/* harmony import */ var _confere_stores_widget_avise_me_cms_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @confere-stores/widget-avise-me/cms.config */ "./node_modules/@confere-stores/widget-avise-me/cms.config.js");
 /* harmony import */ var _ecomplus_widget_analytics_cms_config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ecomplus/widget-analytics/cms.config */ "./node_modules/@ecomplus/widget-analytics/cms.config.js");
 /* harmony import */ var _ecomplus_widget_fb_pixel_cms_config__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ecomplus/widget-fb-pixel/cms.config */ "./node_modules/@ecomplus/widget-fb-pixel/cms.config.js");
 /* harmony import */ var _ecomplus_widget_tag_manager_cms_config__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ecomplus/widget-tag-manager/cms.config */ "./node_modules/@ecomplus/widget-tag-manager/cms.config.js");
@@ -19104,6 +19220,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+ // import getWidgetOffersNotification from '@ecomplus/widget-offers-notification/cms.config'
 
 
 
@@ -19138,7 +19255,7 @@ const fixWidgetConfig = ({
   editor: {
     preview: false
   },
-  files: [fixWidgetConfig(options, _ecomplus_widget_fb_pixel_cms_config__WEBPACK_IMPORTED_MODULE_8__["default"]), fixWidgetConfig(options, _ecomplus_widget_analytics_cms_config__WEBPACK_IMPORTED_MODULE_7__["default"]), fixWidgetConfig(options, _ecomplus_widget_tag_manager_cms_config__WEBPACK_IMPORTED_MODULE_9__["default"]), fixWidgetConfig(options, _ecomplus_widget_gmc_ratings_cms_config__WEBPACK_IMPORTED_MODULE_10__["default"]), fixWidgetConfig(options, _ecomplus_widget_tawkto_cms_config__WEBPACK_IMPORTED_MODULE_11__["default"]), fixWidgetConfig(options, _ecomplus_widget_trustvox_cms_config__WEBPACK_IMPORTED_MODULE_12__["default"]), fixWidgetConfig(options, _ecomplus_widget_offers_notification_cms_config__WEBPACK_IMPORTED_MODULE_6__["default"]), fixWidgetConfig(options, _ecomplus_widget_ebit_cms_config__WEBPACK_IMPORTED_MODULE_13__["default"]), fixWidgetConfig(options, _ecomplus_widget_compre_confie_cms_config__WEBPACK_IMPORTED_MODULE_14__["default"]), fixWidgetConfig(options, _ecomplus_widget_opinioes_verificadas_cms_config__WEBPACK_IMPORTED_MODULE_15__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_card_cms_config__WEBPACK_IMPORTED_MODULE_1__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_cms_config__WEBPACK_IMPORTED_MODULE_2__["default"])]
+  files: [fixWidgetConfig(options, _ecomplus_widget_fb_pixel_cms_config__WEBPACK_IMPORTED_MODULE_8__["default"]), fixWidgetConfig(options, _ecomplus_widget_analytics_cms_config__WEBPACK_IMPORTED_MODULE_7__["default"]), fixWidgetConfig(options, _ecomplus_widget_tag_manager_cms_config__WEBPACK_IMPORTED_MODULE_9__["default"]), fixWidgetConfig(options, _ecomplus_widget_gmc_ratings_cms_config__WEBPACK_IMPORTED_MODULE_10__["default"]), fixWidgetConfig(options, _ecomplus_widget_tawkto_cms_config__WEBPACK_IMPORTED_MODULE_11__["default"]), fixWidgetConfig(options, _ecomplus_widget_trustvox_cms_config__WEBPACK_IMPORTED_MODULE_12__["default"]), fixWidgetConfig(options, _confere_stores_widget_avise_me_cms_config__WEBPACK_IMPORTED_MODULE_6__["default"]), fixWidgetConfig(options, _ecomplus_widget_ebit_cms_config__WEBPACK_IMPORTED_MODULE_13__["default"]), fixWidgetConfig(options, _ecomplus_widget_compre_confie_cms_config__WEBPACK_IMPORTED_MODULE_14__["default"]), fixWidgetConfig(options, _ecomplus_widget_opinioes_verificadas_cms_config__WEBPACK_IMPORTED_MODULE_15__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_card_cms_config__WEBPACK_IMPORTED_MODULE_1__["default"]), fixWidgetConfig(options, _ecomplus_widget_product_cms_config__WEBPACK_IMPORTED_MODULE_2__["default"])]
 }));
 
 /***/ }),
@@ -19152,13 +19269,16 @@ const fixWidgetConfig = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _sections__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sections */ "./template/js/netlify-cms/base-config/sections.js");
-/* harmony import */ var _collections_settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collections/settings */ "./template/js/netlify-cms/base-config/collections/settings.js");
-/* harmony import */ var _collections_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./collections/layout */ "./template/js/netlify-cms/base-config/collections/layout.js");
-/* harmony import */ var _collections_pages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./collections/pages */ "./template/js/netlify-cms/base-config/collections/pages.js");
-/* harmony import */ var _collections_blog_posts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./collections/blog-posts */ "./template/js/netlify-cms/base-config/collections/blog-posts.js");
-/* harmony import */ var _collections_extra_pages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./collections/extra-pages */ "./template/js/netlify-cms/base-config/collections/extra-pages.js");
-/* harmony import */ var _collections_widgets__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./collections/widgets */ "./template/js/netlify-cms/base-config/collections/widgets.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sections__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections */ "./template/js/netlify-cms/base-config/sections.js");
+/* harmony import */ var _collections_settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./collections/settings */ "./template/js/netlify-cms/base-config/collections/settings.js");
+/* harmony import */ var _collections_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./collections/layout */ "./template/js/netlify-cms/base-config/collections/layout.js");
+/* harmony import */ var _collections_pages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./collections/pages */ "./template/js/netlify-cms/base-config/collections/pages.js");
+/* harmony import */ var _collections_blog_posts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./collections/blog-posts */ "./template/js/netlify-cms/base-config/collections/blog-posts.js");
+/* harmony import */ var _collections_extra_pages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./collections/extra-pages */ "./template/js/netlify-cms/base-config/collections/extra-pages.js");
+/* harmony import */ var _collections_widgets__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./collections/widgets */ "./template/js/netlify-cms/base-config/collections/widgets.js");
+
 
 
 
@@ -19167,8 +19287,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (options => {
-  options.sections = Object(_sections__WEBPACK_IMPORTED_MODULE_0__["default"])(options);
+  options.sections = Object(_sections__WEBPACK_IMPORTED_MODULE_1__["default"])(options);
   netlifyIdentity.on('login', user => {
+    let userId = user.id;
+    if (user && user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.length) userId = user.app_metadata.roles[0].replace(/\D+/g, '');
+    let storeCreatedAt = null;
+    if (user && user.user_metadata && user.user_metadata.store_created_at) storeCreatedAt = user.user_metadata.store_created_at;
+    let storeHasIp = null;
+    if (user && user.user_metadata && user.user_metadata.store_has_ip) storeHasIp = user.user_metadata.store_has_ip;
     window.LogRocket.identify(user.id, {
       email: user.email
     });
@@ -19179,8 +19305,10 @@ __webpack_require__.r(__webpack_exports__);
       id: user.id,
       email: user.email
     });
-    analytics.identify(user.id, {
-      email: user.email
+    analytics.identify(userId, {
+      email: user.email,
+      created_at: storeCreatedAt,
+      infinitepay: storeHasIp
     });
     if (window.Cohere && user && user.id && user.email) window.Cohere(user.id, {
       email: user.email
@@ -19209,7 +19337,7 @@ __webpack_require__.r(__webpack_exports__);
       clean_accents: true,
       sanitize_replacement: '-'
     },
-    collections: [Object(_collections_settings__WEBPACK_IMPORTED_MODULE_1__["default"])(options), Object(_collections_layout__WEBPACK_IMPORTED_MODULE_2__["default"])(options), Object(_collections_pages__WEBPACK_IMPORTED_MODULE_3__["default"])(options), Object(_collections_extra_pages__WEBPACK_IMPORTED_MODULE_5__["default"])(options), Object(_collections_widgets__WEBPACK_IMPORTED_MODULE_6__["default"])(options), Object(_collections_blog_posts__WEBPACK_IMPORTED_MODULE_4__["default"])(options)]
+    collections: [Object(_collections_settings__WEBPACK_IMPORTED_MODULE_2__["default"])(options), Object(_collections_layout__WEBPACK_IMPORTED_MODULE_3__["default"])(options), Object(_collections_pages__WEBPACK_IMPORTED_MODULE_4__["default"])(options), Object(_collections_extra_pages__WEBPACK_IMPORTED_MODULE_6__["default"])(options), Object(_collections_widgets__WEBPACK_IMPORTED_MODULE_7__["default"])(options), Object(_collections_blog_posts__WEBPACK_IMPORTED_MODULE_5__["default"])(options)]
   };
 });
 
@@ -19227,7 +19355,8 @@ __webpack_require__.r(__webpack_exports__);
 const bannerFields = [{
   label: 'Imagem',
   name: 'img',
-  widget: 'image'
+  widget: 'image',
+  hint: '[Dúvidas nas dimensões e imagens? Clique aqui e acesse nosso guia!](http://ajuda.confere.com.br/pt-BR/articles/5639879-medidas-dos-componentes-de-edicao-da-loja)'
 }, {
   label: 'Link',
   required: false,
@@ -19287,7 +19416,8 @@ const searchOrderField = {
     label: 'Banners',
     name: 'banners',
     widget: 'list',
-    fields: bannerFields
+    fields: bannerFields,
+    hint: 'Clique em "Adicionar banners" ao lado para criar o seu grid de banners'
   }]
 }, {
   label: 'Conteúdo customizado',
@@ -19323,7 +19453,8 @@ const searchOrderField = {
       dateFormat: 'DD/MM/YYYY',
       timeFormat: 'HH:mm',
       default: ''
-    }])
+    }]),
+    hint: 'Clique em "Adicionar banners" ao lado para criar o seu slider de banners'
   }, {
     label: 'Slider autoplay',
     name: 'autoplay',
@@ -19605,6 +19736,8 @@ const storageKey = 'admin:token';
     store.user = null;
     localStorage.removeItem(storageKey);
     emitter.emit('logout');
+    if (window.Intercom) window.Intercom('shutdown');
+    if (window.analytics) window.analytics.reset();
   };
 
   const init = () => {
