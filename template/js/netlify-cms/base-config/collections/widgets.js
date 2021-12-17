@@ -18,7 +18,7 @@ import getWidgetOpinioesVerificadas from '@ecomplus/widget-opinioes-verificadas/
 const fixWidgetConfig = ({ baseDir }, getWidget) => {
   const baseConfig = getWidget()
   const pkgName = baseConfig.fields.find(({ name }) => name === 'pkg').default
-  const name = pkgName.replace(/^(@ecomplus\/|storefront-)widget-/i, '')
+  const name = pkgName.replace(/^(@ecomplus\/|storefront-|@confere-stores\/)widget-/i, '')
   return {
     ...baseConfig,
     name,
