@@ -94,10 +94,6 @@ export default ({ baseDir }) => ({
               value: 'cyborg'
             },
             {
-              label: 'Darkly',
-              value: 'darkly'
-            },
-            {
               label: 'Flatly',
               value: 'flatly'
             },
