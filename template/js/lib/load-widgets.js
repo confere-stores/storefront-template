@@ -119,6 +119,12 @@ Promise.all(widgetsLoadPromises).then(() => {
         '@ecomplus/widget-compre-confie',
         () => import('@ecomplus/widget-compre-confie')
       )
+
+      // Widget Avise-me
+      loadWidget(
+        '@confere-stores/widget-avise-me',
+        () => import('@confere-stores/widget-avise-me')
+      )
     })
   })
 })
