@@ -9,7 +9,7 @@ import getWidgets from './collections/widgets'
 export default options => {
   options.sections = getSections(options)
 
-  netlifyIdentity.on('login', user => {
+  if (window.netlifyIdentity && window.netlifyIdentity.on) netlifyIdentity.on('login', user => {
     let userId = user.id
     if (
       user &&

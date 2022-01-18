@@ -28,7 +28,7 @@
       window.PKG_BASE_DIR = '@confere-stores/storefront-template/';
     }
   </script>
-  <% if (!_.settings.repository || !_.settings.repository.startsWith('confere-stores/')) { %>
+  <% if (!_.settings.store_id || _.settings.store_id != 1227) { %>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <% } %>
   <script src="https://unpkg.com/netlify-cms@2/dist/netlify-cms.js"></script>

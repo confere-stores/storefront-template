@@ -5,7 +5,7 @@ import { $ecomConfig } from '@ecomplus/utils'
 const { location, localStorage } = window
 const storageKey = 'admin:token'
 
-export default (baseURL = 'https://admin.confere.shop/session/gotrue/v1', canAutoInit = true) => {
+export default (baseURL = 'https://cms.confere.com.br/session/gotrue/v1', canAutoInit = true) => {
   const emitter = new EventEmitter()
 
   const store = {
