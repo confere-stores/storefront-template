@@ -22,7 +22,7 @@ const initCms = config => {
   } else {
     window.netlifyIdentity = initEcomplusIdentity()
     if (!config.backend.gateway_url) {
-      config.backend.gateway_url = `https://gitgateway.ecomplus.biz/${$ecomConfig.get('store_id')}`
+      config.backend.gateway_url = `https://cms.confere.shop/${$ecomConfig.get('store_id')}`
     }
   }
   window.CMS.init({ config })
