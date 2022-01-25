@@ -3,6 +3,253 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.163](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.162...@ecomplus/storefront-template@2.0.0-beta.163) (2022-01-24)
+
+
+### Bug Fixes
+
+* **template/cms:** never skip component update hooks (sections) ([c792bf8](https://github.com/ecomplus/storefront/commit/c792bf820e279ccf14adf466d17c683203df9765))
+* **template/cms:** prevent skip on first sections load (empty preview) ([8260d00](https://github.com/ecomplus/storefront/commit/8260d00bf05dc084fa867d8d0494a397905e84e8))
+* **template/themes:** prevent loading google fonts twice for bootstwatch themes ([3c0b7cd](https://github.com/ecomplus/storefront/commit/3c0b7cd7dd7c69e0fd6f7ae506d2fc4c5b4592b0))
+
+
+### Features
+
+* **template/cms:** make brand colors optional to use (and preview) theme ones [[#607](https://github.com/ecomplus/storefront/issues/607)] ([96987fe](https://github.com/ecomplus/storefront/commit/96987fe31f8311639d78722c841f8ecd3e3e310e))
+* **template/cms:** new select widget to chose font family [[#607](https://github.com/ecomplus/storefront/issues/607)] ([30a07c3](https://github.com/ecomplus/storefront/commit/30a07c3ebb692f2f633b1ed3b88c6c807ef69a48))
+* **template/cms:** new select widget to chose icons font [[#607](https://github.com/ecomplus/storefront/issues/607)] ([d27b641](https://github.com/ecomplus/storefront/commit/d27b64174879c4b033ec6b6bd1bfef7f51b838b3))
+
+
+
+
+
+# [2.0.0-beta.162](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.161...@ecomplus/storefront-template@2.0.0-beta.162) (2022-01-18)
+
+
+### Bug Fixes
+
+* **template/cms:** product block size guide config must be optional ([5b285f6](https://github.com/ecomplus/storefront/commit/5b285f6db7ffea4ae6389a3fa69d6e90af0cd7db))
+
+
+
+
+
+# [2.0.0-beta.161](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.160...@ecomplus/storefront-template@2.0.0-beta.161) (2022-01-11)
+
+
+### Bug Fixes
+
+* **deps:** update @ecomplus/i18n to v1.26.0 ([8df8b66](https://github.com/ecomplus/storefront/commit/8df8b662386a40f9ea7e3ecc1a34516409a53c2a))
+* **icons:** update icon class names to `.i-*` ([0254be3](https://github.com/ecomplus/storefront/commit/0254be314abfe62627135480089b7788ced43d34))
+* **icons:** update icon class names without `-alt` suffix ([0416133](https://github.com/ecomplus/storefront/commit/04161338d04562332a47ee64917624b3c6137fb1))
+* **template/cms:** stop importing fa 5 styles on cms preview ([69c8db1](https://github.com/ecomplus/storefront/commit/69c8db19d028128da637c421dc9e13ed93ee3384))
+* **template/footer:** fix angle icons to chevron ([05976d1](https://github.com/ecomplus/storefront/commit/05976d1d0aa33b1741c9e239ea299a1225b29d2b))
+* **template/product-block:** fix size guide i18n, add ruler icon and modal times ([da99b3a](https://github.com/ecomplus/storefront/commit/da99b3a209deb2be8cf7ba68603f39e1d6f22d38))
+* **template/themes:** update custom icons selectors [skip ci] ([baff69b](https://github.com/ecomplus/storefront/commit/baff69b338a36d2c7070b5124c623eb45e9bcfe2))
+
+
+### Features
+
+* **template/product-block:** configurable modal size guide ([#599](https://github.com/ecomplus/storefront/issues/599)) ([3bb65dc](https://github.com/ecomplus/storefront/commit/3bb65dc8c06f3a23fc14d31852f544eb0d988d7c))
+* **template/themes:** set line awesome as default icons font for some themes ([1b9b408](https://github.com/ecomplus/storefront/commit/1b9b408efdf5fc8f89c28df9ebb0afd327464a2b))
+
+
+
+
+
+# [2.0.0-beta.160](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.159...@ecomplus/storefront-template@2.0.0-beta.160) (2022-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update @ecomplus/i18n to v1.25.0 ([ffe7a27](https://github.com/ecomplus/storefront/commit/ffe7a27a0d0ef5a5ce166c66062002c56d9f3068))
+
+
+### Reverts
+
+* Revert "chore(template): delete pages to use submodule" ([97f4cc5](https://github.com/ecomplus/storefront/commit/97f4cc5ebe8618ebd8e12d0f3954c82b441dcc32))
+
+
+
+
+
+# [2.0.0-beta.159](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.158...@ecomplus/storefront-template@2.0.0-beta.159) (2021-12-31)
+
+
+### Features
+
+* **template/css:** new `--content-max-width` replacing hardset 80rem ([5053e91](https://github.com/ecomplus/storefront/commit/5053e9176d8fc2c309f5b7266de7adc2d11ec9b6))
+
+
+
+
+
+# [2.0.0-beta.158](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.157...@ecomplus/storefront-template@2.0.0-beta.158) (2021-12-29)
+
+
+### Bug Fixes
+
+* **template/cms:** edit `darkenColor` function for results closer to Sass on preview ([4281256](https://github.com/ecomplus/storefront/commit/4281256d6ad7b58cb073e92b66ca62b554d1db9a))
+* **template/cms:** fix themes preview loading merged custom themes bundle ([956897d](https://github.com/ecomplus/storefront/commit/956897d17ee4e22018e00d39adf6d5028c5106a1))
+* **template/cms:** update general route preview for new brand colors css vars ([c22c868](https://github.com/ecomplus/storefront/commit/c22c8680b99b3e172b3061bbc4c6c3da65a630d0))
+* **template/themes:** copy bootstwatch and edit themes to use css vars safe scss functions [[#583](https://github.com/ecomplus/storefront/issues/583)] ([f4c367b](https://github.com/ecomplus/storefront/commit/f4c367bd6eb54c45c2c81a400e3bbd767067f9d1))
+
+
+### Features
+
+* **template/banner-slider:** add full width option to banner slider ([#591](https://github.com/ecomplus/storefront/issues/591)) ([c4871ac](https://github.com/ecomplus/storefront/commit/c4871ac45e7b35b9a5fb41105e2c5cc551ac36ba))
+
+
+
+
+
+# [2.0.0-beta.157](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.156...@ecomplus/storefront-template@2.0.0-beta.157) (2021-12-06)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.156](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.155...@ecomplus/storefront-template@2.0.0-beta.156) (2021-11-19)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.155](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.154...@ecomplus/storefront-template@2.0.0-beta.155) (2021-11-17)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+
+# [2.0.0-beta.154](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.153...@ecomplus/storefront-template@2.0.0-beta.154) (2021-11-10)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.153](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.152...@ecomplus/storefront-template@2.0.0-beta.153) (2021-11-10)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.152](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.151...@ecomplus/storefront-template@2.0.0-beta.152) (2021-11-10)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.151](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.150...@ecomplus/storefront-template@2.0.0-beta.151) (2021-11-10)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.150](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.149...@ecomplus/storefront-template@2.0.0-beta.150) (2021-11-09)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.149](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.148...@ecomplus/storefront-template@2.0.0-beta.149) (2021-11-09)
+
+
+### Features
+
+* **template/fallback-404:** also try referrer url from cookie ([2c3c497](https://github.com/ecomplus/storefront/commit/2c3c497062eb76d02590fdeca71bdb63d98fead0))
+
+
+
+
+
+# [2.0.0-beta.148](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.147...@ecomplus/storefront-template@2.0.0-beta.148) (2021-10-25)
+
+
+### Bug Fixes
+
+* **cms:** set function `tryImageSize` to ejs render on preview ([0b0dc95](https://github.com/ecomplus/storefront/commit/0b0dc956d8201f3930d81e5bde52eac3eb01d342))
+* **deps:** update all non-major dependencies ([#550](https://github.com/ecomplus/storefront/issues/550)) ([433f9c5](https://github.com/ecomplus/storefront/commit/433f9c51d5bbc2701351be74e1b9289a1cb1a28c))
+* **template/blog:** sort blog posts by date ([#548](https://github.com/ecomplus/storefront/issues/548)) ([45f7e2b](https://github.com/ecomplus/storefront/commit/45f7e2b5933ebc17438bb10938d7d8b8535af93e))
+* **template/cms:** remove not available `superhero` bootswatch theme option ([250b6ef](https://github.com/ecomplus/storefront/commit/250b6ef893c9bcc555a6bba0c603d1d39cbe1cd4))
+* **template/meta-og-image:** prevent undefined `ogImage` error ([7635269](https://github.com/ecomplus/storefront/commit/76352690b00c4f95dd83f7f9ab9129b7947e6208))
+* **template/meta-og-image:** replace resource (products) picture url to do cdn directly ([f630da1](https://github.com/ecomplus/storefront/commit/f630da196bf8a9f8c7e153cb57fdfa359c5e09e8))
+* **template/product-microdata:** replace picture url on jsonld to do cdn directly ([b1a5099](https://github.com/ecomplus/storefront/commit/b1a5099b607cf6a66ae718a829333c2954488e13))
+
+
+
+
+
+# [2.0.0-beta.147](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.146...@ecomplus/storefront-template@2.0.0-beta.147) (2021-10-05)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.146](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.145...@ecomplus/storefront-template@2.0.0-beta.146) (2021-10-05)
+
+
+### Performance Improvements
+
+* **scss:** minor a11y and stamps images aspec ratio fixes (footer) ([8737d09](https://github.com/ecomplus/storefront/commit/8737d09116322ec8b50ff7703b5411c3f4e91e5d))
+
+
+
+
+
+# [2.0.0-beta.145](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.144...@ecomplus/storefront-template@2.0.0-beta.145) (2021-09-21)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
+# [2.0.0-beta.144](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.143...@ecomplus/storefront-template@2.0.0-beta.144) (2021-09-17)
+
+
+### Bug Fixes
+
+* **deps:** update @ecomplus/passport-client to v1.1.0 ([e43a2c0](https://github.com/ecomplus/storefront/commit/e43a2c09cb059ecb1a14b532ab5251be86739008))
+* **deps:** update @ecomplus/passport-client to v1.1.1 ([b713159](https://github.com/ecomplus/storefront/commit/b7131596a14556ca53c4608a234ace3b12b39943))
+* **template/grids:** prevent error with unset search index ([60870e9](https://github.com/ecomplus/storefront/commit/60870e9a4aee0d50331210f208f7954c34c8f485))
+* **template/retail-grid:** must not be blocking for home page rendering (dynamic showcase) ([34e8bb9](https://github.com/ecomplus/storefront/commit/34e8bb9fe7db16c232c66d1541c63f321024b0e3))
+
+
+### Features
+
+* **template/cms:** add configurable unlock key for maintenance page [[#486](https://github.com/ecomplus/storefront/issues/486)] ([abab318](https://github.com/ecomplus/storefront/commit/abab3185e7e38f442e27cc669ed5ae128a408514))
+
+
+
+
+
+# [2.0.0-beta.143](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.142...@ecomplus/storefront-template@2.0.0-beta.143) (2021-09-02)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
+
 # [2.0.0-beta.142](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.141...@ecomplus/storefront-template@2.0.0-beta.142) (2021-08-23)
 
 

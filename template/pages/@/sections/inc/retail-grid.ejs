@@ -5,8 +5,17 @@ if (!opt.items) {
   if (opt.sort) {
     search.search.setSortOrder(opt.sort)
   }
-  await search.search.fetch()
-  items = await search.search.getItems()
+    try {
+        await search.fetch()
+        items = search.getItems()
+    } catch (err) {
+        if (_.pageName === 'home' || (err.response && err.response.status === 404)) {
+            items = []
+            console.error(err)
+        } else {
+            throw err
+        }
+    }
 } else {
   items = opt.items
 }
