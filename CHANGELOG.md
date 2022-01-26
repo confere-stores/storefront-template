@@ -292,6 +292,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+# [2.0.0-beta.139](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.138...@ecomplus/storefront-template@2.0.0-beta.139) (2021-08-18)
+
+
+### Bug Fixes
+
+* **template/glide-slied:** prevent error observing empty carousel items ([7405238](https://github.com/ecomplus/storefront/commit/74052381bdd4069469e253e26401e04fcf3b0b12))
+
+
+
+
+
 # [2.0.0-beta.138](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.137...@ecomplus/storefront-template@2.0.0-beta.138) (2021-08-17)
 
 
@@ -324,6 +335,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+# [2.0.0-beta.135](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.134...@ecomplus/storefront-template@2.0.0-beta.135) (2021-07-30)
+
+**Note:** Version bump only for package @ecomplus/storefront-template
+
+
+
+
 
 # [2.0.0-beta.134](https://github.com/ecomplus/storefront/compare/@ecomplus/storefront-template@2.0.0-beta.133...@ecomplus/storefront-template@2.0.0-beta.134) (2021-07-24)
 
@@ -337,7 +355,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **template/product-block:** set product picture aspect ractio (when size available) ([b2ef475](https://github.com/ecomplus/storefront/commit/b2ef475f71ea079b90218e0f3f8e8b7c8ca6bbbc)), closes [#499](https://github.com/ecomplus/storefront/issues/499)
-
 
 
 

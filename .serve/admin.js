@@ -160,10 +160,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*******************************************************************!*\
   !*** ./node_modules/@confere-stores/widget-avise-me/package.json ***!
   \*******************************************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@confere-stores/widget-avise-me\",\"_id\":\"@confere-stores/widget-avise-me@1.2.0\",\"_inBundle\":false,\"_integrity\":\"sha512-yB/kTMA6tQ5MaQdCDsdhzkKp42a6OgZR70OQNsSiJraki9ntwKYmNB3IUKO/w3eSDKc9qUkXLef5IoVzRyws7Q==\",\"_location\":\"/@confere-stores/widget-avise-me\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"tag\",\"registry\":true,\"raw\":\"@confere-stores/widget-avise-me\",\"name\":\"@confere-stores/widget-avise-me\",\"escapedName\":\"@confere-stores%2fwidget-avise-me\",\"scope\":\"@confere-stores\",\"rawSpec\":\"\",\"saveSpec\":null,\"fetchSpec\":\"latest\"},\"_requiredBy\":[\"#USER\",\"/\"],\"_resolved\":\"https://npm.pkg.github.com/download/@confere-stores/widget-avise-me/1.2.0/e10685bddfce09cc61045c1dc10fae7d897203af10c80a44684c39bf366a1223\",\"_shasum\":\"238ceb2f61a4ad8c611be3edcfa199cfbd089bd0\",\"_spec\":\"@confere-stores/widget-avise-me\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-avise-me.min.js\",\"bugs\":{\"url\":\"https://github.com/confere-stores/widget-avise-me/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Plugin para lojas da confere shop notificar clientes sobre promoções e estoque\",\"homepage\":\"https://github.com/confere-stores/widget-avise-me/tree/master/#readme\",\"jsdelivr\":\"dist/public/widget-avise-me.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"notifications\"],\"license\":\"MIT\",\"main\":\"dist/widget-avise-me.min.js\",\"module\":\"src/index.js\",\"name\":\"@confere-stores/widget-avise-me\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/confere-stores/widget-avise-me.git\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-avise-me.var.min.js\",\"version\":\"1.2.0\",\"webpackOutput\":{\"library\":\"widgetAviseMe\",\"filename\":\"widget-avise-me.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@confere-stores/widget-avise-me@1.2.0\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@confere-stores/widget-avise-me@1.2.0\",\"_id\":\"@confere-stores/widget-avise-me@1.2.0\",\"_inBundle\":false,\"_integrity\":\"sha512-yB/kTMA6tQ5MaQdCDsdhzkKp42a6OgZR70OQNsSiJraki9ntwKYmNB3IUKO/w3eSDKc9qUkXLef5IoVzRyws7Q==\",\"_location\":\"/@confere-stores/widget-avise-me\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@confere-stores/widget-avise-me@1.2.0\",\"name\":\"@confere-stores/widget-avise-me\",\"escapedName\":\"@confere-stores%2fwidget-avise-me\",\"scope\":\"@confere-stores\",\"rawSpec\":\"1.2.0\",\"saveSpec\":null,\"fetchSpec\":\"1.2.0\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://npm.pkg.github.com/download/@confere-stores/widget-avise-me/1.2.0/e10685bddfce09cc61045c1dc10fae7d897203af10c80a44684c39bf366a1223\",\"_spec\":\"1.2.0\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-avise-me.min.js\",\"bugs\":{\"url\":\"https://github.com/confere-stores/widget-avise-me/issues\"},\"description\":\"Plugin para lojas da confere shop notificar clientes sobre promoções e estoque\",\"homepage\":\"https://github.com/confere-stores/widget-avise-me/tree/master/#readme\",\"jsdelivr\":\"dist/public/widget-avise-me.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"notifications\"],\"license\":\"MIT\",\"main\":\"dist/widget-avise-me.min.js\",\"module\":\"src/index.js\",\"name\":\"@confere-stores/widget-avise-me\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/confere-stores/widget-avise-me.git\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-avise-me.var.min.js\",\"version\":\"1.2.0\",\"webpackOutput\":{\"library\":\"widgetAviseMe\",\"filename\":\"widget-avise-me.min.js\"}}");
 
 /***/ }),
 
@@ -171,10 +171,10 @@ module.exports = JSON.parse("{\"_from\":\"@confere-stores/widget-avise-me\",\"_i
 /*!****************************************************!*\
   !*** ./node_modules/@ecomplus/client/package.json ***!
   \****************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, browserslist, bugs, dependencies, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, peerDependencies, publishConfig, repository, scripts, unpkg, version, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, browserslist, bugs, bundleDependencies, dependencies, deprecated, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, peerDependencies, publishConfig, repository, scripts, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/client@2.2.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/client@2.2.1\",\"_id\":\"@ecomplus/client@2.2.1\",\"_inBundle\":false,\"_integrity\":\"sha512-Hhq1MgzSlTWJ0Y/PZc5YkPhOmDsuIdrcrX8erzdBlrKDdApXoKD2pxC+KtlU2En141rFwwWzYdjJCp683nKFEA==\",\"_location\":\"/@ecomplus/client\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/client@2.2.1\",\"name\":\"@ecomplus/client\",\"escapedName\":\"@ecomplus%2fclient\",\"scope\":\"@ecomplus\",\"rawSpec\":\"2.2.1\",\"saveSpec\":null,\"fetchSpec\":\"2.2.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/passport-client\",\"/@ecomplus/search-engine\",\"/@ecomplus/storefront-app\",\"/@ecomplus/storefront-components\",\"/@ecomplus/storefront-renderer\",\"/@ecomplus/storefront-router\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/client/-/client-2.2.1.tgz\",\"_spec\":\"2.2.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-client.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/client/issues\"},\"dependencies\":{\"axios\":\"^0.21.1\",\"core-js\":\"3.x\"},\"description\":\"JS client for E-Com Plus REST APIs\",\"devDependencies\":{\"@babel/core\":\"^7.13.10\",\"@babel/preset-env\":\"^7.13.10\",\"@commitlint/cli\":\"^12.0.1\",\"@commitlint/config-conventional\":\"^12.0.1\",\"@ecomplus/utils\":\"^1.4.1\",\"babel-loader\":\"^8.2.2\",\"core-js\":\"^3.9.1\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.3.8\",\"jsdoc\":\"^3.6.6\",\"standard\":\"^16.0.3\",\"standard-version\":\"^9.1.1\",\"webpack\":\"^4.46.0\",\"webpack-cli\":\"^3.3.12\",\"webpack-dev-server\":\"^3.11.2\"},\"homepage\":\"https://github.com/ecomplus/client#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-client.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apis\",\"js-client\",\"rest-apis\",\"jamstack\",\"headless-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/ecom-client.node.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/client\",\"optionalDependencies\":{\"core-js\":\"3.x\"},\"peerDependencies\":{\"@ecomplus/utils\":\"1.x\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/client.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/ecom-client.polyfill.min.js\",\"version\":\"2.2.1\"}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/client@^2.2.1\",\"_id\":\"@ecomplus/client@2.2.1\",\"_inBundle\":false,\"_integrity\":\"sha512-Hhq1MgzSlTWJ0Y/PZc5YkPhOmDsuIdrcrX8erzdBlrKDdApXoKD2pxC+KtlU2En141rFwwWzYdjJCp683nKFEA==\",\"_location\":\"/@ecomplus/client\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/client@^2.2.1\",\"name\":\"@ecomplus/client\",\"escapedName\":\"@ecomplus%2fclient\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.1\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/passport-client\",\"/@ecomplus/search-engine\",\"/@ecomplus/storefront-app\",\"/@ecomplus/storefront-components\",\"/@ecomplus/storefront-renderer\",\"/@ecomplus/storefront-router\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/client/-/client-2.2.1.tgz\",\"_shasum\":\"d4abc2f7df098cd4c2c87a8cd3fb62a575c1af8a\",\"_spec\":\"@ecomplus/client@^2.2.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-client.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/client/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"axios\":\"^0.21.1\",\"core-js\":\"3.x\"},\"deprecated\":false,\"description\":\"JS client for E-Com Plus REST APIs\",\"devDependencies\":{\"@babel/core\":\"^7.13.10\",\"@babel/preset-env\":\"^7.13.10\",\"@commitlint/cli\":\"^12.0.1\",\"@commitlint/config-conventional\":\"^12.0.1\",\"@ecomplus/utils\":\"^1.4.1\",\"babel-loader\":\"^8.2.2\",\"core-js\":\"^3.9.1\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.3.8\",\"jsdoc\":\"^3.6.6\",\"standard\":\"^16.0.3\",\"standard-version\":\"^9.1.1\",\"webpack\":\"^4.46.0\",\"webpack-cli\":\"^3.3.12\",\"webpack-dev-server\":\"^3.11.2\"},\"homepage\":\"https://github.com/ecomplus/client#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-client.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apis\",\"js-client\",\"rest-apis\",\"jamstack\",\"headless-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/ecom-client.node.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/client\",\"optionalDependencies\":{\"core-js\":\"3.x\"},\"peerDependencies\":{\"@ecomplus/utils\":\"1.x\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/client.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/ecom-client.polyfill.min.js\",\"version\":\"2.2.1\"}");
 
 /***/ }),
 
@@ -387,34 +387,40 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _env__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./env */ "./node_modules/@ecomplus/client/src/lib/env.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "./node_modules/@ecomplus/client/src/lib/constants.js");
-/* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./axios */ "./node_modules/@ecomplus/client/src/lib/axios.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _env__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./env */ "./node_modules/@ecomplus/client/src/lib/env.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./constants */ "./node_modules/@ecomplus/client/src/lib/constants.js");
+/* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./axios */ "./node_modules/@ecomplus/client/src/lib/axios.js");
+
 
 
 
  // set delay between requests by API
 
 const delays = {};
-delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_STORE"]] = delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_MODULES"]] = delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_PLATFORM"]] = 250;
-delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_STOREFRONT"]] = 400;
-delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_GRAPHS"]] = 570;
-delays[_constants__WEBPACK_IMPORTED_MODULE_2__["API_PASSPORT"]] = 1070; // count current scheduled requests by API
+delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_STORE"]] = delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_MODULES"]] = delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_PLATFORM"]] = 250;
+delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_STOREFRONT"]] = 400;
+delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_GRAPHS"]] = 570;
+delays[_constants__WEBPACK_IMPORTED_MODULE_3__["API_PASSPORT"]] = 1070; // count current scheduled requests by API
 
 const scheduledRequests = {};
 let concurrentRequests = 0; // store APIs on idle after 503 response
 
 const waitingApis = []; // check for debug option
 
-const checkEnvVar = prop => _env__WEBPACK_IMPORTED_MODULE_1__["default"][prop] === true || _env__WEBPACK_IMPORTED_MODULE_1__["default"][prop] === 'true';
+const checkEnvVar = prop => _env__WEBPACK_IMPORTED_MODULE_2__["default"][prop] === true || _env__WEBPACK_IMPORTED_MODULE_2__["default"][prop] === 'true';
 
 const debug = checkEnvVar('ECOMCLIENT_DEBUG');
 
-const request = (config, api, delay = 170, scheduleTime) => {
+const request = function (config, api) {
+  let delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 170;
+  let scheduleTime = arguments.length > 3 ? arguments[3] : undefined;
+
   if (debug) {
-    console.log(`[ecomClient]: (${scheduleTime} ~ ${Date.now()}) send ${config.method} ${config.url}`);
+    console.log("[ecomClient]: (".concat(scheduleTime, " ~ ").concat(Date.now(), ") send ").concat(config.method, " ").concat(config.url));
   }
 
   if (checkEnvVar('ECOMCLIENT_NOTIMEOUT') && config.timeout) {
@@ -424,9 +430,9 @@ const request = (config, api, delay = 170, scheduleTime) => {
 
   return new Promise((resolve, reject) => {
     concurrentRequests++;
-    _axios__WEBPACK_IMPORTED_MODULE_3__["default"].request(config).then(resolve).catch(err => {
+    _axios__WEBPACK_IMPORTED_MODULE_4__["default"].request(config).then(resolve).catch(err => {
       if (debug) {
-        err.message = `[ecomClient]: ${err.message}`;
+        err.message = "[ecomClient]: ".concat(err.message);
         console.error(err);
       } // handle 503 errors here
 
@@ -455,7 +461,7 @@ const request = (config, api, delay = 170, scheduleTime) => {
           } // new axios request without error handler
 
 
-          _axios__WEBPACK_IMPORTED_MODULE_3__["default"].request(config).then(resolve).catch(reject);
+          _axios__WEBPACK_IMPORTED_MODULE_4__["default"].request(config).then(resolve).catch(reject);
         }, delay >= 170 ? delay : 170);
       }
 
@@ -479,7 +485,7 @@ const request = (config, api, delay = 170, scheduleTime) => {
     axiosConfig.url = url.replace(/^([^?]+)(\?.*)?$/, '$1.json$2');
   }
 
-  let uri = _axios__WEBPACK_IMPORTED_MODULE_3__["default"].getUri(axiosConfig);
+  let uri = _axios__WEBPACK_IMPORTED_MODULE_4__["default"].getUri(axiosConfig);
 
   if (!uri.startsWith('http')) {
     // complete absolute URI
@@ -492,7 +498,7 @@ const request = (config, api, delay = 170, scheduleTime) => {
   }
 
   if (debug) {
-    console.log(`[ecomClient]: ${method && method.toUpperCase() || 'GET'} '${uri}'`);
+    console.log("[ecomClient]: ".concat(method && method.toUpperCase() || 'GET', " '").concat(uri, "'"));
   }
 
   let api, delay;
@@ -527,7 +533,7 @@ const request = (config, api, delay = 170, scheduleTime) => {
 
       if (debug) {
         scheduleTime = Date.now();
-        console.log(`[ecomClient]: (${scheduleTime}) request delay ${requestDelay}ms`);
+        console.log("[ecomClient]: (".concat(scheduleTime, ") request delay ").concat(requestDelay, "ms"));
       }
 
       setTimeout(() => {
@@ -593,20 +599,23 @@ __webpack_require__.r(__webpack_exports__);
 
  // returns axios request promise
 
-const graphs = ({
-  url,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
-  axiosConfig
-}) => Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
-  // set 5s default timeout for graphs requests on browser
-  timeout: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["IS_BROWSER"] ? 5000 : 30000,
-  ...axiosConfig,
-  url,
-  baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_GRAPHS"],
-  headers: {
-    'X-Store-ID': storeId
-  }
-});
+const graphs = _ref => {
+  let {
+    url,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
+  return Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
+    // set 5s default timeout for graphs requests on browser
+    timeout: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["IS_BROWSER"] ? 5000 : 30000,
+    ...axiosConfig,
+    url,
+    baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_GRAPHS"],
+    headers: {
+      'X-Store-ID': storeId
+    }
+  });
+};
 /**
  * @method
  * @memberof ecomClient
@@ -653,22 +662,25 @@ __webpack_require__.r(__webpack_exports__);
 
  // returns axios request promise
 
-const modules = ({
-  url,
-  method = 'get',
-  data,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
-  axiosConfig
-}) => Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
-  data,
-  ...axiosConfig,
-  url,
-  baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_MODULES"],
-  method,
-  headers: {
-    'X-Store-ID': storeId
-  }
-});
+const modules = _ref => {
+  let {
+    url,
+    method = 'get',
+    data,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
+  return Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
+    data,
+    ...axiosConfig,
+    url,
+    baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_MODULES"],
+    method,
+    headers: {
+      'X-Store-ID': storeId
+    }
+  });
+};
 /**
  * @method
  * @memberof ecomClient
@@ -717,15 +729,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const passport = ({
-  url,
-  customerId,
-  accessToken,
-  method = 'get',
-  data,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
-  axiosConfig
-}) => {
+const passport = _ref => {
+  let {
+    url,
+    customerId,
+    accessToken,
+    method = 'get',
+    data,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
   let baseURL = _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_PASSPORT"];
 
   if (!url.startsWith('http') && !url.startsWith('/' + storeId)) {
@@ -804,11 +817,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const platform = ({
-  url,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
-  axiosConfig
-}) => {
+const platform = _ref => {
+  let {
+    url,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
   let timeout, baseURL;
 
   if (!/\?/.test(url) && (!axiosConfig || !axiosConfig.params)) {
@@ -894,24 +908,27 @@ __webpack_require__.r(__webpack_exports__);
 
  // returns axios request promise
 
-const search = ({
-  url,
-  method = 'get',
-  data,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
-  axiosConfig
-}) => Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
-  data,
-  // set 10s default timeout for search requests on browser
-  timeout: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["IS_BROWSER"] ? 10000 : 30000,
-  ...axiosConfig,
-  url,
-  baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_SEARCH"],
-  method,
-  headers: {
-    'X-Store-ID': storeId
-  }
-});
+const search = _ref => {
+  let {
+    url,
+    method = 'get',
+    data,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
+  return Object(_lib_request__WEBPACK_IMPORTED_MODULE_2__["default"])({
+    data,
+    // set 10s default timeout for search requests on browser
+    timeout: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["IS_BROWSER"] ? 10000 : 30000,
+    ...axiosConfig,
+    url,
+    baseURL: _lib_constants__WEBPACK_IMPORTED_MODULE_1__["API_SEARCH"],
+    method,
+    headers: {
+      'X-Store-ID': storeId
+    }
+  });
+};
 /**
  * @method
  * @memberof ecomClient
@@ -992,15 +1009,16 @@ __webpack_require__.r(__webpack_exports__);
 
 let isCacheOnline = true;
 
-const store = ({
-  url,
-  authenticationId,
-  accessToken,
-  method = 'get',
-  data,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].get('store_id'),
-  axiosConfig
-}) => {
+const store = _ref => {
+  let {
+    url,
+    authenticationId,
+    accessToken,
+    method = 'get',
+    data,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
   let timeout, baseURL, headers; // first check if it's a public request
 
   if (method.toLowerCase() === 'get' && !authenticationId) {
@@ -1139,11 +1157,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const storefront = ({
-  url,
-  storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].get('store_id'),
-  axiosConfig
-}) => {
+const storefront = _ref => {
+  let {
+    url,
+    storeId = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].get('store_id'),
+    axiosConfig
+  } = _ref;
+
   if (url.charAt(0) === '/') {
     // prevent duplicated bars
     url = url.substr(1);
@@ -1281,7 +1301,9 @@ const _key = 'ecomSeachHistory';
 
 const _storage = typeof window === 'object' && window.localStorage;
 
-/* harmony default export */ __webpack_exports__["default"] = (function (storeId, storageKey = _key, localStorage = _storage) {
+/* harmony default export */ __webpack_exports__["default"] = (function (storeId) {
+  let storageKey = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _key;
+  let localStorage = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _storage;
   const self = this;
   /**
    * Respective Store ID number.
@@ -1467,9 +1489,10 @@ _constructor__WEBPACK_IMPORTED_MODULE_0__["default"].setWarehouse = _modifiers_s
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  aggregations
-}, field) => {
+/* harmony default export */ __webpack_exports__["default"] = ((_ref, field) => {
+  let {
+    aggregations
+  } = _ref;
   // abstraction to get buckets array from result aggregations
   let buckets;
 
@@ -1493,7 +1516,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ((self, field, prop, value, occur) => {
   // abstraction to set or remove filter by field IDs/names
-  const newProp = field !== null ? `${field}.${prop}` : prop;
+  const newProp = field !== null ? "".concat(field, ".").concat(prop) : prop;
 
   if (Array.isArray(value)) {
     // setup new filter object
@@ -1505,7 +1528,7 @@ __webpack_require__.r(__webpack_exports__);
     let concurrentProp;
 
     if (field !== null) {
-      concurrentProp = `${field}.${prop === '_id' ? 'name' : '_id'}`;
+      concurrentProp = "".concat(field, ".").concat(prop === '_id' ? 'name' : '_id');
     } else {
       // product SKUs or IDs
       concurrentProp = prop === '_id' ? 'sku' : '_id';
@@ -1667,10 +1690,12 @@ __webpack_require__.r(__webpack_exports__);
     if (query && query.bool && Array.isArray(query.bool.filter)) {
       // parse query filters to string
       let queryString = '';
-      query.bool.filter.forEach(({
-        term,
-        terms
-      }, i) => {
+      query.bool.filter.forEach((_ref, i) => {
+        let {
+          term,
+          terms
+        } = _ref;
+
         if (i > 0) {
           queryString += ' AND ';
         }
@@ -1680,7 +1705,7 @@ __webpack_require__.r(__webpack_exports__);
         if (condition) {
           const field = Object.keys(condition)[0];
           const value = condition[field];
-          queryString += `${field}:${Array.isArray(value) ? `("${value.join('" "')}")` : value}`;
+          queryString += "".concat(field, ":").concat(Array.isArray(value) ? "(\"".concat(value.join('" "'), "\")") : value);
         }
       });
       reqOptions.url += encodeURIComponent(queryString);
@@ -1690,7 +1715,7 @@ __webpack_require__.r(__webpack_exports__);
     ;
     ['from', 'size'].forEach(field => {
       if (dsl[field]) {
-        reqOptions.url += `&${field}=${dsl[field]}`;
+        reqOptions.url += "&".concat(field, "=").concat(dsl[field]);
       }
     });
   } else {
@@ -1704,9 +1729,10 @@ __webpack_require__.r(__webpack_exports__);
   } // request Search API and return promise
 
 
-  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["search"])(reqOptions).then(({
-    data
-  }) => {
+  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["search"])(reqOptions).then(_ref2 => {
+    let {
+      data
+    } = _ref2;
     // save last result on instance
     self.result = data;
     const {
@@ -2151,7 +2177,8 @@ const getNestedRule = (filter, occur) => {
   return undefined;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = ((self, filter, occur = 'filter') => {
+/* harmony default export */ __webpack_exports__["default"] = (function (self, filter) {
+  let occur = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'filter';
   const type = Object.keys(filter)[0]; // merge general filter to current Query DSL
   // ensure query.bool.filter is array
 
@@ -2253,7 +2280,8 @@ search.mergeFilter(filter).fetch()
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ((self, field, occur = 'filter') => {
+/* harmony default export */ __webpack_exports__["default"] = (function (self, field) {
+  let occur = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'filter';
   // remove filter for current product field
   const filters = self.dsl.query && self.dsl.query.bool && self.dsl.query.bool[occur];
 
@@ -2492,7 +2520,8 @@ search.setCategoryNames(null)
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ((self, page = 1) => {
+/* harmony default export */ __webpack_exports__["default"] = (function (self) {
+  let page = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
   self.dsl.from = self.dsl.size * (page - 1);
   return self;
 });
@@ -2529,7 +2558,8 @@ search.setPageNumber()
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ((self, limit = 24) => {
+/* harmony default export */ __webpack_exports__["default"] = (function (self) {
+  let limit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 24;
   self.dsl.size = limit;
   return self;
 });
@@ -2790,7 +2820,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'number',
           script: {
             lang: 'painless',
-            source: "doc['price'].value > 0 && doc['base_price'].value > 0" + " && (doc['price_effective_date.start'].empty || " + `doc['price_effective_date.start'].date.millis <= ${timestamp}L)` + " && (doc['price_effective_date.end'].empty || " + `doc['price_effective_date.end'].date.millis >= ${timestamp}L)` + " ? doc['base_price'].value / doc['price'].value : 0"
+            source: "doc['price'].value > 0 && doc['base_price'].value > 0" + " && (doc['price_effective_date.start'].empty || " + "doc['price_effective_date.start'].date.millis <= ".concat(timestamp, "L)") + " && (doc['price_effective_date.end'].empty || " + "doc['price_effective_date.end'].date.millis >= ".concat(timestamp, "L)") + " ? doc['base_price'].value / doc['price'].value : 0"
           },
           order: 'desc'
         }
@@ -2897,9 +2927,12 @@ __webpack_require__.r(__webpack_exports__);
             // search from grid ID on nested filters
             const rules = query.bool.filter;
 
-            if (Array.isArray(rules) && rules.find(({
-              term
-            }) => term && term['specs.grid'] === gridId)) {
+            if (Array.isArray(rules) && rules.find(_ref => {
+              let {
+                term
+              } = _ref;
+              return term && term['specs.grid'] === gridId;
+            })) {
               // grid ID found
               // remove filters array element
               filters.splice(i, 1);
@@ -3107,7 +3140,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function (storeId, location = typeof window === 'object' && window.location) {
+/* harmony default export */ __webpack_exports__["default"] = (function (storeId) {
+  let location = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : typeof window === 'object' && window.location;
   const self = this;
   /**
    * Respective Store ID number
@@ -3172,7 +3206,10 @@ const router = new EcomRouter(storeId, DOM.location)
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+
 
 /* harmony default export */ __webpack_exports__["default"] = (self => new Promise((resolve, reject) => {
   const {
@@ -3182,8 +3219,8 @@ __webpack_require__.r(__webpack_exports__);
   const promises = [];
   const routes = [];
   ['products', 'categories', 'collections', 'brands'].forEach(resource => {
-    promises.push(Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["store"])({
-      url: `/${resource}.json`,
+    promises.push(Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_1__["store"])({
+      url: "/".concat(resource, ".json"),
       storeId
     }).then(response => {
       const {
@@ -3191,12 +3228,14 @@ __webpack_require__.r(__webpack_exports__);
       } = response.data;
 
       if (Array.isArray(result)) {
-        result.forEach(({
-          _id,
-          slug,
-          name,
-          sku
-        }) => {
+        result.forEach(_ref => {
+          let {
+            _id,
+            slug,
+            name,
+            sku
+          } = _ref;
+
           if (slug) {
             // check it this path is not already in use
             const path = '/' + slug;
@@ -3265,13 +3304,20 @@ router.list()
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'core-js/modules/es.error.cause.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
 
 
 
-const map = (self, [path]) => {
+
+
+const map = (self, _ref) => {
+  let [path] = _ref;
+
   if (!path) {
     // get pathname from current location interface
     path = self.location.pathname;
@@ -3282,7 +3328,7 @@ const map = (self, [path]) => {
 
   const url = '/' + self.storeId + '@' + slug.replace(/\//g, '$') + '.json'; // send request to E-Com Plus Storefront API
 
-  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_1__["storefront"])({
+  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_3__["storefront"])({
     url
   }).then(response => {
     // { "GET": "[resource]@[id]" }
@@ -3365,40 +3411,49 @@ router.map('/monitores')
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'core-js/modules/es.error.cause.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
 
 
-const resolve = (self, [route]) => new Promise((resolve, reject) => {
-  // handle new route
-  const {
-    storeId
-  } = self;
-  const {
-    resource,
-    _id
-  } = route;
 
-  if (resource && _id) {
-    // get current page object from Store API
-    Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["store"])({
-      url: `/${resource}/${_id}.json`,
+
+const resolve = (self, _ref) => {
+  let [route] = _ref;
+  return new Promise((resolve, reject) => {
+    // handle new route
+    const {
       storeId
-    }).then(({
-      data
-    }) => {
-      // save object body on context
-      resolve({
-        resource,
-        body: data
-      });
-    }).catch(reject);
-  } else {
-    // skip request and just reject with new error
-    const err = new Error('Invalid route resource or object ID');
-    err.response = {};
-    reject(err);
-  }
-});
+    } = self;
+    const {
+      resource,
+      _id
+    } = route;
+
+    if (resource && _id) {
+      // get current page object from Store API
+      Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_2__["store"])({
+        url: "/".concat(resource, "/").concat(_id, ".json"),
+        storeId
+      }).then(_ref2 => {
+        let {
+          data
+        } = _ref2;
+        // save object body on context
+        resolve({
+          resource,
+          body: data
+        });
+      }).catch(reject);
+    } else {
+      // skip request and just reject with new error
+      const err = new Error('Invalid route resource or object ID');
+      err.response = {};
+      reject(err);
+    }
+  });
+};
 /**
  * @typedef {object} context
  * @property {string} resource - Context resource type from
@@ -3458,15 +3513,20 @@ router.map()
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
-/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
+/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
 
 
 
 
-const setupStore = (self, [domain, updateConfig = true]) => {
+
+const setupStore = (self, _ref) => {
+  let [domain, updateConfig = true] = _ref;
+
   if (!domain) {
     // get domain from current location interface
     domain = self.location.hostname;
@@ -3474,29 +3534,31 @@ const setupStore = (self, [domain, updateConfig = true]) => {
 
   const url = '/domains/' + domain + '.json'; // send request to E-Com Plus Platform API
 
-  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_2__["platform"])({
+  return Object(_ecomplus_client__WEBPACK_IMPORTED_MODULE_3__["platform"])({
     url
-  }).then(({
-    data
-  }) => {
+  }).then(_ref2 => {
+    let {
+      data
+    } = _ref2;
+
     if (updateConfig) {
       // set Store IDs on config
       ;
-      ['store_id', 'store_object_id', 'channel_id'].forEach(prop => _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].set(prop, data[prop])); // check for default sales channel language
+      ['store_id', 'store_object_id', 'channel_id'].forEach(prop => _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["_config"].set(prop, data[prop])); // check for default sales channel language
 
       const lang = data.default_lang;
 
       if (lang) {
         // set default lang and country codes
-        _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].set('lang', lang);
+        _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["_config"].set('lang', lang);
 
-        _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].set('country_code', lang.replace(/^[a-z]{2}_/, '').toUpperCase());
+        _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["_config"].set('country_code', lang.replace(/^[a-z]{2}_/, '').toUpperCase());
 
         if (lang === 'pt_br') {
           // also change default currency
-          _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].set('currency', 'BRL');
+          _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["_config"].set('currency', 'BRL');
 
-          _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["_config"].set('currency_symbol', 'R$');
+          _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["_config"].set('currency_symbol', 'R$');
         }
       }
     } // update instance Store ID
@@ -3558,10 +3620,10 @@ router.setupStore('shop-plus.e-com.plus', false)
 /*!***************************************************!*\
   !*** ./node_modules/@ecomplus/utils/package.json ***!
   \***************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, browserslist, bugs, dependencies, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, publishConfig, repository, scripts, sideEffects, unpkg, version, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, browserslist, bugs, bundleDependencies, dependencies, deprecated, description, devDependencies, homepage, husky, jsdelivr, keywords, license, main, module, name, optionalDependencies, publishConfig, repository, scripts, sideEffects, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/utils@1.4.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/utils@1.4.1\",\"_id\":\"@ecomplus/utils@1.4.1\",\"_inBundle\":false,\"_integrity\":\"sha512-siIMZu5qjwwtvFTqt/F29i/SkzZcIFrb/6WcmUJToh4HiBoJVx8H/id2WQRQf7EzcL9c0uYMWX6DNIN/DymvcA==\",\"_location\":\"/@ecomplus/utils\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/utils@1.4.1\",\"name\":\"@ecomplus/utils\",\"escapedName\":\"@ecomplus%2futils\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.4.1\",\"saveSpec\":null,\"fetchSpec\":\"1.4.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/storefront-renderer\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/utils/-/utils-1.4.1.tgz\",\"_spec\":\"1.4.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-utils.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/utils/issues\"},\"dependencies\":{\"core-js\":\"^3.6.5\"},\"description\":\"JS utility functions to E-Com Plus (not only) related apps\",\"devDependencies\":{\"@babel/core\":\"^7.9.6\",\"@babel/preset-env\":\"^7.9.6\",\"@commitlint/cli\":\"^8.3.5\",\"@commitlint/config-conventional\":\"^8.3.4\",\"babel-loader\":\"^8.1.0\",\"copy-webpack-plugin\":\"^6.0.1\",\"core-js\":\"^3.6.5\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.2.5\",\"jsdoc\":\"^3.6.4\",\"standard\":\"^14.3.4\",\"standard-version\":\"^8.0.0\",\"webpack\":\"^4.43.0\",\"webpack-cli\":\"^3.3.11\",\"webpack-dev-server\":\"^3.11.0\"},\"homepage\":\"https://github.com/ecomplus/utils#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-utils.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apps\",\"ecommerce\",\"utility-functions\",\"storefront\",\"javascript-utils\"],\"license\":\"MIT\",\"main\":\"dist/ecom-utils.node.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/utils\",\"optionalDependencies\":{\"core-js\":\"^3.6.5\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/utils.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"sideEffects\":false,\"unpkg\":\"dist/ecom-utils.polyfill.min.js\",\"version\":\"1.4.1\"}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/utils@^1.4.1\",\"_id\":\"@ecomplus/utils@1.4.1\",\"_inBundle\":false,\"_integrity\":\"sha512-siIMZu5qjwwtvFTqt/F29i/SkzZcIFrb/6WcmUJToh4HiBoJVx8H/id2WQRQf7EzcL9c0uYMWX6DNIN/DymvcA==\",\"_location\":\"/@ecomplus/utils\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/utils@^1.4.1\",\"name\":\"@ecomplus/utils\",\"escapedName\":\"@ecomplus%2futils\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.4.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.4.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/storefront-renderer\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/utils/-/utils-1.4.1.tgz\",\"_shasum\":\"b3703596d59c17d1e743f12f307a59bd24b7973c\",\"_spec\":\"@ecomplus/utils@^1.4.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/ecom-utils.min.js\",\"browserslist\":[\"last 1 version\",\"not dead\",\"> 0.2%\"],\"bugs\":{\"url\":\"https://github.com/ecomplus/utils/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"core-js\":\"^3.6.5\"},\"deprecated\":false,\"description\":\"JS utility functions to E-Com Plus (not only) related apps\",\"devDependencies\":{\"@babel/core\":\"^7.9.6\",\"@babel/preset-env\":\"^7.9.6\",\"@commitlint/cli\":\"^8.3.5\",\"@commitlint/config-conventional\":\"^8.3.4\",\"babel-loader\":\"^8.1.0\",\"copy-webpack-plugin\":\"^6.0.1\",\"core-js\":\"^3.6.5\",\"docdash\":\"^1.2.0\",\"husky\":\"^4.2.5\",\"jsdoc\":\"^3.6.4\",\"standard\":\"^14.3.4\",\"standard-version\":\"^8.0.0\",\"webpack\":\"^4.43.0\",\"webpack-cli\":\"^3.3.11\",\"webpack-dev-server\":\"^3.11.0\"},\"homepage\":\"https://github.com/ecomplus/utils#readme\",\"husky\":{\"hooks\":{\"commit-msg\":\"commitlint -E HUSKY_GIT_PARAMS\"}},\"jsdelivr\":\"dist/ecom-utils.polyfill.min.js\",\"keywords\":[\"ecomplus\",\"ecommerce-apps\",\"ecommerce\",\"utility-functions\",\"storefront\",\"javascript-utils\"],\"license\":\"MIT\",\"main\":\"dist/ecom-utils.node.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/utils\",\"optionalDependencies\":{\"core-js\":\"^3.6.5\"},\"publishConfig\":{},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/utils.git\"},\"scripts\":{\"build\":\"node ./build/bin.js\",\"doc\":\"rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash\",\"release\":\"rm -rf ./dist; npm ddp && standard-version && node ./build/bin.js\",\"serve\":\"webpack-dev-server\"},\"sideEffects\":false,\"unpkg\":\"dist/ecom-utils.polyfill.min.js\",\"version\":\"1.4.1\"}");
 
 /***/ }),
 
@@ -4100,6 +4162,9 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'core-js/modules/es.error.cause.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
 const alphabeticalSort = list => {
   if (Array.isArray(list)) {
     // try to sort by name or title
@@ -4474,7 +4539,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const formatDate = (date, lang = _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang'), options) => {
+const formatDate = function (date) {
+  let lang = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang');
+  let options = arguments.length > 2 ? arguments[2] : undefined;
+
   if (typeof date === 'object' && date !== null) {
     if (typeof date.getTime !== 'function') {
       // expected to be a body (product, category, brand...) object
@@ -4536,7 +4604,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const formatMoney = (value, currency = _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('currency'), lang = _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang')) => {
+const formatMoney = function (value) {
+  let currency = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('currency');
+  let lang = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang');
+
   // price to number
   if (typeof value === 'object') {
     if (value !== null) {
@@ -4670,7 +4741,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const gridTitle = (gridId, grids, lang = _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang')) => {
+const gridTitle = function (gridId, grids) {
+  let lang = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang');
   let grid;
 
   if (Array.isArray(grids)) {
@@ -4723,7 +4795,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const i18n = (dictionary, lang = _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang')) => {
+const i18n = function (dictionary) {
+  let lang = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('lang');
+
   if (typeof dictionary === 'object' && dictionary !== null) {
     const prop = Object.keys(dictionary)[0];
 
@@ -5024,7 +5098,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../lib/config */ "./node_modules/@ecomplus/utils/src/lib/config.js");
 
 
-const lineAddress = (address, noNumberString, lang = _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang')) => {
+const lineAddress = function (address, noNumberString) {
+  let lang = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang');
+
   // parse to full address string
   if (address) {
     let addresses = address.addresses;
@@ -5158,7 +5234,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const name = (body, lang = _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang')) => {
+const name = function (body) {
+  let lang = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _lib_config__WEBPACK_IMPORTED_MODULE_0__["default"].get('lang');
+
   // prefer translated item name
   if (lang && body.i18n && body.i18n[lang]) {
     return body.i18n[lang];
@@ -5288,6 +5366,9 @@ const objectIdPad = (id, index) => id.substring(0, 24 - index.length) + index;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'core-js/modules/es.error.cause.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
 const onPromotion = product => {
   if (typeof product !== 'object' || product === null) {
     // prevent fatal error
@@ -5373,7 +5454,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const parsePhone = (dateStr, countryCode = _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('country_code')) => {
+const parsePhone = function (dateStr) {
+  let countryCode = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _lib_config__WEBPACK_IMPORTED_MODULE_1__["default"].get('country_code');
   // parse country formatted date string to { day, month, year }
   let day, month, year;
 
@@ -5505,7 +5587,7 @@ const phone = customer => {
 
     if (phone && phone.number) {
       if (phone.country_code) {
-        phoneString = `+${phone.country_code} `;
+        phoneString = "+".concat(phone.country_code, " ");
       }
 
       phoneString += phone.number;
@@ -5652,9 +5734,10 @@ const recommendedIds = result => {
 
   if (Array.isArray(data)) {
     // map ids array from Neo4j data list
-    data.forEach(({
-      row
-    }) => {
+    data.forEach(_ref => {
+      let {
+        row
+      } = _ref;
       ids.push(row[0]);
     });
   }
@@ -5716,10 +5799,11 @@ const searchedItems = result => {
 
   if (Array.isArray(hits)) {
     // map items array from ELS hits list
-    hits.forEach(({
-      _id,
-      _source
-    }) => {
+    hits.forEach(_ref => {
+      let {
+        _id,
+        _source
+      } = _ref;
       items.push(Object.assign({}, _source, {
         _id
       }));
@@ -5766,7 +5850,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _spec_values__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./spec-values */ "./node_modules/@ecomplus/utils/src/methods/spec-values.js");
 
 
-const specTextValue = (product, gridId, grids, delimiter = ', ') => {
+const specTextValue = function (product, gridId, grids) {
+  let delimiter = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : ', ';
   // using text property of each spec object
   let values = Object(_spec_values__WEBPACK_IMPORTED_MODULE_0__["default"])(product, gridId, grids);
 
@@ -6116,10 +6201,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!**************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-analytics/package.json ***!
   \**************************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, dependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-analytics@1.1.7\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-analytics@1.1.7\",\"_id\":\"@ecomplus/widget-analytics@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-AGKAvEeCfD/tA05hf8xaYQqMmFngXykFwR4MvYvLhkXflQtE7z4wBXQDRu7lDRf8yKsTZ1bJiQdT2gCN0V89aQ==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@1.1.7\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.7.tgz\",\"_spec\":\"1.1.7\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.1\"},\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-analytics@^1.1.7\",\"_id\":\"@ecomplus/widget-analytics@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-AGKAvEeCfD/tA05hf8xaYQqMmFngXykFwR4MvYvLhkXflQtE7z4wBXQDRu7lDRf8yKsTZ1bJiQdT2gCN0V89aQ==\",\"_location\":\"/@ecomplus/widget-analytics\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-analytics@^1.1.7\",\"name\":\"@ecomplus/widget-analytics\",\"escapedName\":\"@ecomplus%2fwidget-analytics\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.7.tgz\",\"_shasum\":\"c9f439d625a19414f49a5b30939ef317fae7ceaf\",\"_spec\":\"@ecomplus/widget-analytics@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-analytics.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"@ecomplus/widget-tag-manager\":\"^1.5.1\"},\"deprecated\":false,\"description\":\"Storefront plugin to handle GA Universal Analytics\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-analytics#readme\",\"jsdelivr\":\"dist/public/widget-analytics.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"ga\",\"gtag\",\"google-analytics\",\"universal-analytics\",\"ga-enhanced-ecommerce\"],\"license\":\"MIT\",\"main\":\"dist/widget-analytics.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-analytics\",\"peerDependencies\":{\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-analytics\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-analytics.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetAnalytics\",\"filename\":\"widget-analytics.min.js\"}}");
 
 /***/ }),
 
@@ -6186,7 +6271,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-compre-confie@1.1.6\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.6\",\"_inBundle\":false,\"_integrity\":\"sha512-G3Vog+xG9Hjo9GBkZpCkIuD9iD7at1uC6vvGVw7AeaBTfO3V6XX/KvA/zspIb8llWSQfAQwtdHNx30M7RgJRVQ==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@1.1.6\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.6\",\"saveSpec\":null,\"fetchSpec\":\"1.1.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.6.tgz\",\"_spec\":\"1.1.6\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.6\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-compre-confie@1.1.8\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-compre-confie@1.1.8\",\"_id\":\"@ecomplus/widget-compre-confie@1.1.8\",\"_inBundle\":false,\"_integrity\":\"sha512-Pyh0BHZZlDE9FzdX3YMLY42Od0VYPOErxVCr65jd3D5T3lhEqHeGshFMUXlQAuKlJVh7Sv4RPyk5WFCDPMbcHQ==\",\"_location\":\"/@ecomplus/widget-compre-confie\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-compre-confie@1.1.8\",\"name\":\"@ecomplus/widget-compre-confie\",\"escapedName\":\"@ecomplus%2fwidget-compre-confie\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.8\",\"saveSpec\":null,\"fetchSpec\":\"1.1.8\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.8.tgz\",\"_spec\":\"1.1.8\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-compre-confie.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Compre & Confie\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-compre-confie#readme\",\"jsdelivr\":\"dist/public/widget-compre-confie.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"compre-confie\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-compre-confie.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-compre-confie\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.1.1\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-compre-confie\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-compre-confie.var.min.js\",\"version\":\"1.1.8\",\"webpackOutput\":{\"library\":\"widgetCompreConfie\",\"filename\":\"widget-compre-confie.min.js\"}}");
 
 /***/ }),
 
@@ -6253,7 +6338,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-ebit@1.1.12\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-ebit@1.1.12\",\"_id\":\"@ecomplus/widget-ebit@1.1.12\",\"_inBundle\":false,\"_integrity\":\"sha512-Z3Ku5H3q+LwvlYhWrKZ5of84GV7YdrZGjYa5W9+BGVV6CLnic+JebkgCo+mSYephVcSE9IYKIXAOLhOgOOQOMA==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@1.1.12\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.12\",\"saveSpec\":null,\"fetchSpec\":\"1.1.12\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.12.tgz\",\"_spec\":\"1.1.12\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.12\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-ebit@1.1.13\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-ebit@1.1.13\",\"_id\":\"@ecomplus/widget-ebit@1.1.13\",\"_inBundle\":false,\"_integrity\":\"sha512-HiyyxhsXxb1dadca9ijHi57iwBv56fbA6velwi0TKW+zzP4OlY0lhzZojgc5orHFi51pzxYpREdE+rCwlOfvPg==\",\"_location\":\"/@ecomplus/widget-ebit\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-ebit@1.1.13\",\"name\":\"@ecomplus/widget-ebit\",\"escapedName\":\"@ecomplus%2fwidget-ebit\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.13\",\"saveSpec\":null,\"fetchSpec\":\"1.1.13\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.13.tgz\",\"_spec\":\"1.1.13\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-ebit.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Ebit\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-ebit#readme\",\"jsdelivr\":\"dist/public/widget-ebit.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"ebit\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-ebit.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-ebit\",\"peerDependencies\":{\"@ecomplus/passport-client\":\"^1.1.1\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-ebit\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-ebit.var.min.js\",\"version\":\"1.1.13\",\"webpackOutput\":{\"library\":\"widgetEbit\",\"filename\":\"widget-ebit.min.js\"}}");
 
 /***/ }),
 
@@ -6326,10 +6411,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-fb-pixel/package.json ***!
   \*************************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-fb-pixel@1.3.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_id\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dbYjVfQyJwZgxSlQFt7n7qnst+z+2mzDBLzxpt3hF110CKY7MqnQeBvJ9aN3FsYxJeOWUfDdgXwFjDL/7e00fA==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.3.1\",\"saveSpec\":null,\"fetchSpec\":\"1.3.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.3.1.tgz\",\"_spec\":\"1.3.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.3.1\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_id\":\"@ecomplus/widget-fb-pixel@1.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dbYjVfQyJwZgxSlQFt7n7qnst+z+2mzDBLzxpt3hF110CKY7MqnQeBvJ9aN3FsYxJeOWUfDdgXwFjDL/7e00fA==\",\"_location\":\"/@ecomplus/widget-fb-pixel\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"name\":\"@ecomplus/widget-fb-pixel\",\"escapedName\":\"@ecomplus%2fwidget-fb-pixel\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.3.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.3.1\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-fb-pixel/-/widget-fb-pixel-1.3.1.tgz\",\"_shasum\":\"ccbf47f9b982362b2a0679ffb788c291ffaf01df\",\"_spec\":\"@ecomplus/widget-fb-pixel@^1.3.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-fb-pixel.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle Facebook Pixel events\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-fb-pixel#readme\",\"jsdelivr\":\"dist/public/widget-fb-pixel.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"fb-pixel\",\"fbq\",\"facebook\",\"facebook-ads\"],\"license\":\"MIT\",\"main\":\"dist/widget-fb-pixel.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-fb-pixel\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-fb-pixel\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-fb-pixel.var.min.js\",\"version\":\"1.3.1\",\"webpackOutput\":{\"library\":\"widgetFbPixel\",\"filename\":\"widget-fb-pixel.min.js\"}}");
 
 /***/ }),
 
@@ -6433,7 +6518,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-gmc-ratings@1.2.15\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"_inBundle\":false,\"_integrity\":\"sha512-enJSDdOx4yBR02OvsmyZIl/s4nOUmKEHPoDn5WTgGX495y9n+lL4C/opY/RuCn2+Val6ja/k+DZbvpDDJk4pOQ==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@1.2.15\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.2.15\",\"saveSpec\":null,\"fetchSpec\":\"1.2.15\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.15.tgz\",\"_spec\":\"1.2.15\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.0.10\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.15\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-gmc-ratings@1.2.16\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-gmc-ratings@1.2.16\",\"_id\":\"@ecomplus/widget-gmc-ratings@1.2.16\",\"_inBundle\":false,\"_integrity\":\"sha512-NPuVTouf8TLyxzVNI6c3wXdIhkXzwT/HVGMOSt1pIEeGR8hqhLoymO8g0/d5H7oRvMEu3wKtYjhoShKPp0M/Cw==\",\"_location\":\"/@ecomplus/widget-gmc-ratings\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-gmc-ratings@1.2.16\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"escapedName\":\"@ecomplus%2fwidget-gmc-ratings\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.2.16\",\"saveSpec\":null,\"fetchSpec\":\"1.2.16\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.16.tgz\",\"_spec\":\"1.2.16\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-gmc-ratings.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for GMC customer ratings\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme\",\"jsdelivr\":\"dist/public/widget-gmc-ratings.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"gmc\",\"customer-ratings\",\"evaluate\"],\"license\":\"MIT\",\"main\":\"dist/widget-gmc-ratings.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-gmc-ratings\",\"peerDependencies\":{\"@ecomplus/client\":\"^2.2.1\",\"@ecomplus/passport-client\":\"^1.1.1\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-gmc-ratings\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-gmc-ratings.var.min.js\",\"version\":\"1.2.16\",\"webpackOutput\":{\"library\":\"widgetGmcRatings\",\"filename\":\"widget-gmc-ratings.min.js\"}}");
 
 /***/ }),
 
@@ -6477,7 +6562,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-2DsgfEk84ETMUkdpFe9PjKAmtxQphtK/p908P7dTKuBeX2evruy65MrTgz1dtLdTk8L48p8Yb2pgK46HfFCX+w==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-minicart@1.0.0-beta.111\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-minicart@1.0.0-beta.111\",\"_id\":\"@ecomplus/widget-minicart@1.0.0-beta.111\",\"_inBundle\":false,\"_integrity\":\"sha512-9EiEXWB9D1zVKu2NjpPOBZ533jNXhzY7abjgLB+GSCXp2gBR3cUkGFft+xYnIzQAG5stXfR46sH8t4nYJ02i1A==\",\"_location\":\"/@ecomplus/widget-minicart\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-minicart@1.0.0-beta.111\",\"name\":\"@ecomplus/widget-minicart\",\"escapedName\":\"@ecomplus%2fwidget-minicart\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.111\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.111\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.111.tgz\",\"_spec\":\"1.0.0-beta.111\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-minicart.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.114\"},\"description\":\"Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-minicart#readme\",\"jsdelivr\":\"dist/public/widget-minicart.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"minicart\",\"shopping-cart\",\"cart-quickview\"],\"license\":\"MIT\",\"main\":\"dist/widget-minicart.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-minicart\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-minicart\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-minicart.var.min.js\",\"version\":\"1.0.0-beta.111\",\"webpackOutput\":{\"library\":\"widgetMinicart\",\"filename\":\"widget-minicart.min.js\"}}");
 
 /***/ }),
 
@@ -6575,10 +6660,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-opinioes-verificadas/package.json ***!
   \*************************************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-gTRRri7wlqHo3NBG43QTx5ac65C5Fy1Zs/vBYEssT6yhcTCmsngZaempwdN02mpsOdSfu/P+UVnGOSt4oP+oMw==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.7.tgz\",\"_spec\":\"1.1.7\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_id\":\"@ecomplus/widget-opinioes-verificadas@1.1.7\",\"_inBundle\":false,\"_integrity\":\"sha512-gTRRri7wlqHo3NBG43QTx5ac65C5Fy1Zs/vBYEssT6yhcTCmsngZaempwdN02mpsOdSfu/P+UVnGOSt4oP+oMw==\",\"_location\":\"/@ecomplus/widget-opinioes-verificadas\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"escapedName\":\"@ecomplus%2fwidget-opinioes-verificadas\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.7\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.7\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.7.tgz\",\"_shasum\":\"3bdcf58434d4ec66fe8fc9c77662202fd7c05909\",\"_spec\":\"@ecomplus/widget-opinioes-verificadas@^1.1.7\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-opinioes-verificadas.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Opiniões Verificadas\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-opinioes-verificadas#readme\",\"jsdelivr\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"opinioes-verificadas\",\"ratings\"],\"license\":\"MIT\",\"main\":\"dist/widget-opinioes-verificadas.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-opinioes-verificadas\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-opinioes-verificadas\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-opinioes-verificadas.var.min.js\",\"version\":\"1.1.7\",\"webpackOutput\":{\"library\":\"widgetOpinioesVerificadas\",\"filename\":\"widget-opinioes-verificadas.min.js\"}}");
 
 /***/ }),
 
@@ -6650,7 +6735,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-1AXG99iAAMoFhO2jIt/eMillPo5C+OGxQmx9jVQtFdnw5KE1kd6YMfS5y+t++Ask64xQUnq/s5Jr76g6KK/j1A==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product-card@1.0.0-beta.111\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-product-card@1.0.0-beta.111\",\"_id\":\"@ecomplus/widget-product-card@1.0.0-beta.111\",\"_inBundle\":false,\"_integrity\":\"sha512-0Iz+v7qaI3AYbv79DGu3FX4XclPFGcjcgKABddn5oNLwH81xyz3bJ198tE7biBOQBSfBFUQIrtIEArk5xaz6bw==\",\"_location\":\"/@ecomplus/widget-product-card\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product-card@1.0.0-beta.111\",\"name\":\"@ecomplus/widget-product-card\",\"escapedName\":\"@ecomplus%2fwidget-product-card\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.111\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.111\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.111.tgz\",\"_spec\":\"1.0.0-beta.111\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product-card.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.114\"},\"description\":\"Storefront plugin with Vue component for product cards\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product-card#readme\",\"jsdelivr\":\"dist/public/widget-product-card.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"product-card\"],\"license\":\"MIT\",\"main\":\"dist/widget-product-card.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product-card\",\"peerDependencies\":{\"@ecomplus/search-engine\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"lozad\":\"1.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product-card\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product-card.var.min.js\",\"version\":\"1.0.0-beta.111\",\"webpackOutput\":{\"library\":\"widgetProductCard\",\"filename\":\"widget-product-card.min.js\"}}");
 
 /***/ }),
 
@@ -6730,7 +6815,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-zhQAjlvR6T8en1MgOb8ld6gJREHog14owMk+ZURRBAGtW6xlfv7xXtQYiINtTo69E/td+v0osKyJJvkNIEzkdQ==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-product@1.0.0-beta.111\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-product@1.0.0-beta.111\",\"_id\":\"@ecomplus/widget-product@1.0.0-beta.111\",\"_inBundle\":false,\"_integrity\":\"sha512-bfBdG/xscgrX9cHyFos9aXkocaWVVqH74yeBIaIC7sDrBVssGfQgVd7SJbRX5yip8Ei8kenTyURlJbxJ4kR6qQ==\",\"_location\":\"/@ecomplus/widget-product\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-product@1.0.0-beta.111\",\"name\":\"@ecomplus/widget-product\",\"escapedName\":\"@ecomplus%2fwidget-product\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.111\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.111\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.111.tgz\",\"_spec\":\"1.0.0-beta.111\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-product.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.114\"},\"description\":\"Storefront plugin & Vue component for full product block\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-product#readme\",\"jsdelivr\":\"dist/public/widget-product.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"products\"],\"license\":\"MIT\",\"main\":\"dist/widget-product.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-product\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-product\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-product.var.min.js\",\"version\":\"1.0.0-beta.111\",\"webpackOutput\":{\"library\":\"widgetProduct\",\"filename\":\"widget-product.min.js\"}}");
 
 /***/ }),
 
@@ -6786,7 +6871,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"_inBundle\":false,\"_integrity\":\"sha512-0EPQUY9tdpGODkTr1mR6mXo2oK0RXT1B73ycaOqWh6JDHYhQ7lgEDKoT1quChQyB7qOgSm04SCflS2ubZENnxQ==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@1.0.0-beta.97\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.97\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.97\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.97.tgz\",\"_spec\":\"1.0.0-beta.97\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\",\"@ecomplus/storefront-twbs\":\"^5.11.1\"},\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.97\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search-engine@1.0.0-beta.113\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-search-engine@1.0.0-beta.113\",\"_id\":\"@ecomplus/widget-search-engine@1.0.0-beta.113\",\"_inBundle\":false,\"_integrity\":\"sha512-1YpLUGCkq9esO9kZccZqSzBBUDVtfqTkBD2CvOO0wT9otHjj6Gv1Jxf0vfjEttZ2Xl2EmpYQOCR0T99Ij3R9qg==\",\"_location\":\"/@ecomplus/widget-search-engine\",\"_phantomChildren\":{\"jquery\":\"3.6.0\",\"popper.js\":\"1.16.1\"},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search-engine@1.0.0-beta.113\",\"name\":\"@ecomplus/widget-search-engine\",\"escapedName\":\"@ecomplus%2fwidget-search-engine\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.113\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.113\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.113.tgz\",\"_spec\":\"1.0.0-beta.113\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search-engine.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.114\",\"@ecomplus/storefront-twbs\":\"^7.1.0\"},\"description\":\"Storefront plugin & Vue component for dynamic search page\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme\",\"jsdelivr\":\"dist/public/widget-search-engine.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search-engine.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search-engine\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search-engine\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search-engine.var.min.js\",\"version\":\"1.0.0-beta.113\",\"webpackOutput\":{\"library\":\"widgetSearchEngine\",\"filename\":\"widget-search-engine.min.js\"}}");
 
 /***/ }),
 
@@ -6830,7 +6915,7 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, dependencies, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search@1.0.0-beta.95\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"_inBundle\":false,\"_integrity\":\"sha512-rJ1ghMDSxZpgmXw1T1EninB7NTJyAkzDQhVxOY3h+80kB0OPKPbWkLezF7j4loFJ30MHT3M2hr8e4E4/kkPHfA==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@1.0.0-beta.95\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.95\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.95\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.95.tgz\",\"_spec\":\"1.0.0-beta.95\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.98\"},\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.95\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
+module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-search@1.0.0-beta.111\",\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\"]],\"_from\":\"@ecomplus/widget-search@1.0.0-beta.111\",\"_id\":\"@ecomplus/widget-search@1.0.0-beta.111\",\"_inBundle\":false,\"_integrity\":\"sha512-PQOIBksCTdKnuLMO8BZYSmLmJMQQyk3lLj/ogwQViovAkElB01v73MIC2h2tCM8iWZsc0O+zuOjk/6PT4lSh1A==\",\"_location\":\"/@ecomplus/widget-search\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-search@1.0.0-beta.111\",\"name\":\"@ecomplus/widget-search\",\"escapedName\":\"@ecomplus%2fwidget-search\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.0.0-beta.111\",\"saveSpec\":null,\"fetchSpec\":\"1.0.0-beta.111\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.111.tgz\",\"_spec\":\"1.0.0-beta.111\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-search.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"dependencies\":{\"@ecomplus/storefront-components\":\"^1.0.0-beta.114\"},\"description\":\"Storefront plugin with Vue component for instant search engine on E-Com Plus stores\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search#readme\",\"jsdelivr\":\"dist/public/widget-search.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"widget-search\",\"instant-search\",\"search-engine\"],\"license\":\"MIT\",\"main\":\"dist/widget-search.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-search\",\"peerDependencies\":{\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\",\"vue\":\">=2 <4\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-search\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-search.var.min.js\",\"version\":\"1.0.0-beta.111\",\"webpackOutput\":{\"library\":\"widgetSearch\",\"filename\":\"widget-search.min.js\"}}");
 
 /***/ }),
 
@@ -6901,10 +6986,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!****************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-tag-manager/package.json ***!
   \****************************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, peerDependencies, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-tag-manager@1.5.1\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_inBundle\":false,\"_integrity\":\"sha512-4MAFZw8IYYpBWXNfnk5sDtdCbc6NroANICPf5AL2h2Xzg9N68oHKI6tnTXaOLy5MROzq76/DCzcFniiXuyNu+A==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@1.5.1\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.5.1\",\"saveSpec\":null,\"fetchSpec\":\"1.5.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.1.tgz\",\"_spec\":\"1.5.1\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.1\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_id\":\"@ecomplus/widget-tag-manager@1.5.1\",\"_inBundle\":false,\"_integrity\":\"sha512-4MAFZw8IYYpBWXNfnk5sDtdCbc6NroANICPf5AL2h2Xzg9N68oHKI6tnTXaOLy5MROzq76/DCzcFniiXuyNu+A==\",\"_location\":\"/@ecomplus/widget-tag-manager\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"name\":\"@ecomplus/widget-tag-manager\",\"escapedName\":\"@ecomplus%2fwidget-tag-manager\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.5.1\",\"saveSpec\":null,\"fetchSpec\":\"^1.5.1\"},\"_requiredBy\":[\"/\",\"/@ecomplus/widget-analytics\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tag-manager/-/widget-tag-manager-1.5.1.tgz\",\"_shasum\":\"c229c751ec6bb1f9da720912f78dae37834deb68\",\"_spec\":\"@ecomplus/widget-tag-manager@^1.5.1\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tag-manager.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin to handle GTM with ecommerce data layer\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tag-manager#readme\",\"jsdelivr\":\"dist/public/widget-tag-manager.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"google-tag-manager\",\"google-analytics\",\"ga-enhanced-ecommerce\",\"gtm\",\"datalayer\"],\"license\":\"MIT\",\"main\":\"dist/widget-tag-manager.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tag-manager\",\"peerDependencies\":{\"@ecomplus/shopping-cart\":\">=1 <3\",\"@ecomplus/utils\":\"^1.4.1\",\"core-js\":\"3.x\"},\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tag-manager\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tag-manager.var.min.js\",\"version\":\"1.5.1\",\"webpackOutput\":{\"library\":\"widgetTagManager\",\"filename\":\"widget-tag-manager.min.js\"}}");
 
 /***/ }),
 
@@ -6972,10 +7057,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!***********************************************************!*\
   !*** ./node_modules/@ecomplus/widget-tawkto/package.json ***!
   \***********************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-tawkto@1.1.9\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-tawkto@1.1.9\",\"_id\":\"@ecomplus/widget-tawkto@1.1.9\",\"_inBundle\":false,\"_integrity\":\"sha512-X85+Wi/CcJXRdq7kwHkptvFT+t2QohNFn/zbHoDu248jc/ZyfQhv4gRBMXXRRHeC42+3x94cbsVT4MXOicFcBg==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@1.1.9\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"1.1.9\",\"saveSpec\":null,\"fetchSpec\":\"1.1.9\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.9.tgz\",\"_spec\":\"1.1.9\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.9\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_id\":\"@ecomplus/widget-tawkto@1.1.9\",\"_inBundle\":false,\"_integrity\":\"sha512-X85+Wi/CcJXRdq7kwHkptvFT+t2QohNFn/zbHoDu248jc/ZyfQhv4gRBMXXRRHeC42+3x94cbsVT4MXOicFcBg==\",\"_location\":\"/@ecomplus/widget-tawkto\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-tawkto@^1.1.9\",\"name\":\"@ecomplus/widget-tawkto\",\"escapedName\":\"@ecomplus%2fwidget-tawkto\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^1.1.9\",\"saveSpec\":null,\"fetchSpec\":\"^1.1.9\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.9.tgz\",\"_shasum\":\"b829273bc525364843d82e9de724c96fc127b447\",\"_spec\":\"@ecomplus/widget-tawkto@^1.1.9\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-tawkto.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Tawk.to chat\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-tawkto#readme\",\"jsdelivr\":\"dist/public/widget-tawkto.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"tawkto\",\"chat\"],\"license\":\"MIT\",\"main\":\"dist/widget-tawkto.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-tawkto\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-tawkto\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-tawkto.var.min.js\",\"version\":\"1.1.9\",\"webpackOutput\":{\"library\":\"widgetTawkto\",\"filename\":\"widget-tawkto.min.js\"}}");
 
 /***/ }),
 
@@ -7059,10 +7144,10 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
 /*!*************************************************************!*\
   !*** ./node_modules/@ecomplus/widget-trustvox/package.json ***!
   \*************************************************************/
-/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, browser, bugs, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
+/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, deprecated, description, homepage, jsdelivr, keywords, license, main, module, name, repository, scripts, unpkg, version, webpackOutput, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_args\":[[\"@ecomplus/widget-trustvox@2.2.6\",\"/home/gmazurco/Projects/storefront-template\"]],\"_from\":\"@ecomplus/widget-trustvox@2.2.6\",\"_id\":\"@ecomplus/widget-trustvox@2.2.6\",\"_inBundle\":false,\"_integrity\":\"sha512-Kx0jKcyNSwU6pQlsaxg5b5RrJOd/W6a2nNFsFGomal64KJX7mdwjUcuPanUa0wW9d++OKeB+v0Dhz26vXqVFXw==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@2.2.6\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"2.2.6\",\"saveSpec\":null,\"fetchSpec\":\"2.2.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.6.tgz\",\"_spec\":\"2.2.6\",\"_where\":\"/home/gmazurco/Projects/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.6\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
+module.exports = JSON.parse("{\"_from\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_id\":\"@ecomplus/widget-trustvox@2.2.6\",\"_inBundle\":false,\"_integrity\":\"sha512-Kx0jKcyNSwU6pQlsaxg5b5RrJOd/W6a2nNFsFGomal64KJX7mdwjUcuPanUa0wW9d++OKeB+v0Dhz26vXqVFXw==\",\"_location\":\"/@ecomplus/widget-trustvox\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@ecomplus/widget-trustvox@^2.2.6\",\"name\":\"@ecomplus/widget-trustvox\",\"escapedName\":\"@ecomplus%2fwidget-trustvox\",\"scope\":\"@ecomplus\",\"rawSpec\":\"^2.2.6\",\"saveSpec\":null,\"fetchSpec\":\"^2.2.6\"},\"_requiredBy\":[\"/\"],\"_resolved\":\"https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.6.tgz\",\"_shasum\":\"1254bd0b90ebc9e74ca8dadc77998efd19993126\",\"_spec\":\"@ecomplus/widget-trustvox@^2.2.6\",\"_where\":\"/Users/jescudero/ConfereCartoes/@confere-stores/storefront-template\",\"author\":{\"name\":\"E-Com Club\",\"email\":\"ti@e-com.club\"},\"browser\":\"dist/widget-trustvox.min.js\",\"bugs\":{\"url\":\"https://github.com/ecomplus/storefront/issues\"},\"bundleDependencies\":false,\"deprecated\":false,\"description\":\"Storefront plugin for Trustvox product reviews\",\"homepage\":\"https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-trustvox#readme\",\"jsdelivr\":\"dist/public/widget-trustvox.var.min.js\",\"keywords\":[\"ecomplus\",\"storefront\",\"widget\",\"trustvox\",\"reviews\"],\"license\":\"MIT\",\"main\":\"dist/widget-trustvox.min.js\",\"module\":\"src/index.js\",\"name\":\"@ecomplus/widget-trustvox\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/ecomplus/storefront.git\",\"directory\":\"@ecomplus/widget-trustvox\"},\"scripts\":{\"build\":\"cross-env NODE_ENV=production webpack\",\"serve\":\"webpack-dev-server\"},\"unpkg\":\"dist/public/widget-trustvox.var.min.js\",\"version\":\"2.2.6\",\"webpackOutput\":{\"library\":\"widgetTrustvox\",\"filename\":\"widget-trustvox.min.js\"}}");
 
 /***/ }),
 
@@ -8926,17 +9011,45 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/a-function.js":
+/***/ "./node_modules/core-js/internals/a-callable.js":
 /*!******************************************************!*\
-  !*** ./node_modules/core-js/internals/a-function.js ***!
+  !*** ./node_modules/core-js/internals/a-callable.js ***!
   \******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = function (it) {
-  if (typeof it != 'function') {
-    throw TypeError(String(it) + ' is not a function');
-  } return it;
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+
+var TypeError = global.TypeError;
+
+// `Assert: IsCallable(argument) is true`
+module.exports = function (argument) {
+  if (isCallable(argument)) return argument;
+  throw TypeError(tryToString(argument) + ' is not a function');
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/a-constructor.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/a-constructor.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isConstructor = __webpack_require__(/*! ../internals/is-constructor */ "./node_modules/core-js/internals/is-constructor.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+
+var TypeError = global.TypeError;
+
+// `Assert: IsConstructor(argument) is true`
+module.exports = function (argument) {
+  if (isConstructor(argument)) return argument;
+  throw TypeError(tryToString(argument) + ' is not a constructor');
 };
 
 
@@ -8949,12 +9062,15 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 
-module.exports = function (it) {
-  if (!isObject(it) && it !== null) {
-    throw TypeError("Can't set " + String(it) + ' as a prototype');
-  } return it;
+var String = global.String;
+var TypeError = global.TypeError;
+
+module.exports = function (argument) {
+  if (typeof argument == 'object' || isCallable(argument)) return argument;
+  throw TypeError("Can't set " + String(argument) + ' as a prototype');
 };
 
 
@@ -9016,12 +9132,16 @@ module.exports = function (S, index, unicode) {
   !*** ./node_modules/core-js/internals/an-instance.js ***!
   \*******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = function (it, Constructor, name) {
-  if (!(it instanceof Constructor)) {
-    throw TypeError('Incorrect ' + (name ? name + ' ' : '') + 'invocation');
-  } return it;
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+
+var TypeError = global.TypeError;
+
+module.exports = function (it, Prototype) {
+  if (isPrototypeOf(Prototype, it)) return it;
+  throw TypeError('Incorrect invocation');
 };
 
 
@@ -9034,65 +9154,16 @@ module.exports = function (it, Constructor, name) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
 
-module.exports = function (it) {
-  if (!isObject(it)) {
-    throw TypeError(String(it) + ' is not an object');
-  } return it;
-};
+var String = global.String;
+var TypeError = global.TypeError;
 
-
-/***/ }),
-
-/***/ "./node_modules/core-js/internals/array-from.js":
-/*!******************************************************!*\
-  !*** ./node_modules/core-js/internals/array-from.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var bind = __webpack_require__(/*! ../internals/function-bind-context */ "./node_modules/core-js/internals/function-bind-context.js");
-var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
-var callWithSafeIterationClosing = __webpack_require__(/*! ../internals/call-with-safe-iteration-closing */ "./node_modules/core-js/internals/call-with-safe-iteration-closing.js");
-var isArrayIteratorMethod = __webpack_require__(/*! ../internals/is-array-iterator-method */ "./node_modules/core-js/internals/is-array-iterator-method.js");
-var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
-var createProperty = __webpack_require__(/*! ../internals/create-property */ "./node_modules/core-js/internals/create-property.js");
-var getIteratorMethod = __webpack_require__(/*! ../internals/get-iterator-method */ "./node_modules/core-js/internals/get-iterator-method.js");
-
-// `Array.from` method implementation
-// https://tc39.es/ecma262/#sec-array.from
-module.exports = function from(arrayLike /* , mapfn = undefined, thisArg = undefined */) {
-  var O = toObject(arrayLike);
-  var C = typeof this == 'function' ? this : Array;
-  var argumentsLength = arguments.length;
-  var mapfn = argumentsLength > 1 ? arguments[1] : undefined;
-  var mapping = mapfn !== undefined;
-  var iteratorMethod = getIteratorMethod(O);
-  var index = 0;
-  var length, result, step, iterator, next, value;
-  if (mapping) mapfn = bind(mapfn, argumentsLength > 2 ? arguments[2] : undefined, 2);
-  // if the target is not iterable or it's an array with the default iterator - use a simple case
-  if (iteratorMethod != undefined && !(C == Array && isArrayIteratorMethod(iteratorMethod))) {
-    iterator = iteratorMethod.call(O);
-    next = iterator.next;
-    result = new C();
-    for (;!(step = next.call(iterator)).done; index++) {
-      value = mapping ? callWithSafeIterationClosing(iterator, mapfn, [step.value, index], true) : step.value;
-      createProperty(result, index, value);
-    }
-  } else {
-    length = toLength(O.length);
-    result = new C(length);
-    for (;length > index; index++) {
-      value = mapping ? mapfn(O[index], index) : O[index];
-      createProperty(result, index, value);
-    }
-  }
-  result.length = index;
-  return result;
+// `Assert: Type(argument) is Object`
+module.exports = function (argument) {
+  if (isObject(argument)) return argument;
+  throw TypeError(String(argument) + ' is not an object');
 };
 
 
@@ -9106,14 +9177,14 @@ module.exports = function from(arrayLike /* , mapfn = undefined, thisArg = undef
 /***/ (function(module, exports, __webpack_require__) {
 
 var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
-var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
 var toAbsoluteIndex = __webpack_require__(/*! ../internals/to-absolute-index */ "./node_modules/core-js/internals/to-absolute-index.js");
+var lengthOfArrayLike = __webpack_require__(/*! ../internals/length-of-array-like */ "./node_modules/core-js/internals/length-of-array-like.js");
 
 // `Array.prototype.{ indexOf, includes }` methods implementation
 var createMethod = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIndexedObject($this);
-    var length = toLength(O.length);
+    var length = lengthOfArrayLike(O);
     var index = toAbsoluteIndex(fromIndex, length);
     var value;
     // Array#includes uses SameValueZero equality algorithm
@@ -9141,25 +9212,85 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/call-with-safe-iteration-closing.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/core-js/internals/call-with-safe-iteration-closing.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/core-js/internals/array-slice-simple.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/internals/array-slice-simple.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
-var iteratorClose = __webpack_require__(/*! ../internals/iterator-close */ "./node_modules/core-js/internals/iterator-close.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var toAbsoluteIndex = __webpack_require__(/*! ../internals/to-absolute-index */ "./node_modules/core-js/internals/to-absolute-index.js");
+var lengthOfArrayLike = __webpack_require__(/*! ../internals/length-of-array-like */ "./node_modules/core-js/internals/length-of-array-like.js");
+var createProperty = __webpack_require__(/*! ../internals/create-property */ "./node_modules/core-js/internals/create-property.js");
 
-// call something on iterator step with safe closing on error
-module.exports = function (iterator, fn, value, ENTRIES) {
-  try {
-    return ENTRIES ? fn(anObject(value)[0], value[1]) : fn(value);
-  } catch (error) {
-    iteratorClose(iterator);
-    throw error;
-  }
+var Array = global.Array;
+var max = Math.max;
+
+module.exports = function (O, start, end) {
+  var length = lengthOfArrayLike(O);
+  var k = toAbsoluteIndex(start, length);
+  var fin = toAbsoluteIndex(end === undefined ? length : end, length);
+  var result = Array(max(fin - k, 0));
+  for (var n = 0; k < fin; k++, n++) createProperty(result, n, O[k]);
+  result.length = n;
+  return result;
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/array-sort.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/array-sort.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arraySlice = __webpack_require__(/*! ../internals/array-slice-simple */ "./node_modules/core-js/internals/array-slice-simple.js");
+
+var floor = Math.floor;
+
+var mergeSort = function (array, comparefn) {
+  var length = array.length;
+  var middle = floor(length / 2);
+  return length < 8 ? insertionSort(array, comparefn) : merge(
+    array,
+    mergeSort(arraySlice(array, 0, middle), comparefn),
+    mergeSort(arraySlice(array, middle), comparefn),
+    comparefn
+  );
+};
+
+var insertionSort = function (array, comparefn) {
+  var length = array.length;
+  var i = 1;
+  var element, j;
+
+  while (i < length) {
+    j = i;
+    element = array[i];
+    while (j && comparefn(array[j - 1], element) > 0) {
+      array[j] = array[--j];
+    }
+    if (j !== i++) array[j] = element;
+  } return array;
+};
+
+var merge = function (array, left, right, comparefn) {
+  var llength = left.length;
+  var rlength = right.length;
+  var lindex = 0;
+  var rindex = 0;
+
+  while (lindex < llength || rindex < rlength) {
+    array[lindex + rindex] = (lindex < llength && rindex < rlength)
+      ? comparefn(left[lindex], right[rindex]) <= 0 ? left[lindex++] : right[rindex++]
+      : lindex < llength ? left[lindex++] : right[rindex++];
+  } return array;
+};
+
+module.exports = mergeSort;
 
 
 /***/ }),
@@ -9169,12 +9300,15 @@ module.exports = function (iterator, fn, value, ENTRIES) {
   !*** ./node_modules/core-js/internals/classof-raw.js ***!
   \*******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-var toString = {}.toString;
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+
+var toString = uncurryThis({}.toString);
+var stringSlice = uncurryThis(''.slice);
 
 module.exports = function (it) {
-  return toString.call(it).slice(8, -1);
+  return stringSlice(toString(it), 8, -1);
 };
 
 
@@ -9187,11 +9321,15 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var TO_STRING_TAG_SUPPORT = __webpack_require__(/*! ../internals/to-string-tag-support */ "./node_modules/core-js/internals/to-string-tag-support.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 var classofRaw = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 
 var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+var Object = global.Object;
+
 // ES3 wrong here
 var CORRECT_ARGUMENTS = classofRaw(function () { return arguments; }()) == 'Arguments';
 
@@ -9211,7 +9349,7 @@ module.exports = TO_STRING_TAG_SUPPORT ? classofRaw : function (it) {
     // builtinTag case
     : CORRECT_ARGUMENTS ? classofRaw(O)
     // ES3 arguments fallback
-    : (result = classofRaw(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : result;
+    : (result = classofRaw(O)) == 'Object' && isCallable(O.callee) ? 'Arguments' : result;
 };
 
 
@@ -9224,7 +9362,7 @@ module.exports = TO_STRING_TAG_SUPPORT ? classofRaw : function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var ownKeys = __webpack_require__(/*! ../internals/own-keys */ "./node_modules/core-js/internals/own-keys.js");
 var getOwnPropertyDescriptorModule = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "./node_modules/core-js/internals/object-get-own-property-descriptor.js");
 var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
@@ -9235,7 +9373,7 @@ module.exports = function (target, source) {
   var getOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
   for (var i = 0; i < keys.length; i++) {
     var key = keys[i];
-    if (!has(target, key)) defineProperty(target, key, getOwnPropertyDescriptor(source, key));
+    if (!hasOwn(target, key)) defineProperty(target, key, getOwnPropertyDescriptor(source, key));
   }
 };
 
@@ -9278,9 +9416,9 @@ var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_module
 
 var returnThis = function () { return this; };
 
-module.exports = function (IteratorConstructor, NAME, next) {
+module.exports = function (IteratorConstructor, NAME, next, ENUMERABLE_NEXT) {
   var TO_STRING_TAG = NAME + ' Iterator';
-  IteratorConstructor.prototype = create(IteratorPrototype, { next: createPropertyDescriptor(1, next) });
+  IteratorConstructor.prototype = create(IteratorPrototype, { next: createPropertyDescriptor(+!ENUMERABLE_NEXT, next) });
   setToStringTag(IteratorConstructor, TO_STRING_TAG, false, true);
   Iterators[TO_STRING_TAG] = returnThis;
   return IteratorConstructor;
@@ -9338,12 +9476,12 @@ module.exports = function (bitmap, value) {
 
 "use strict";
 
-var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
+var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ "./node_modules/core-js/internals/to-property-key.js");
 var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
 var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
 
 module.exports = function (object, key, value) {
-  var propertyKey = toPrimitive(key);
+  var propertyKey = toPropertyKey(key);
   if (propertyKey in object) definePropertyModule.f(object, propertyKey, createPropertyDescriptor(0, value));
   else object[propertyKey] = value;
 };
@@ -9361,6 +9499,10 @@ module.exports = function (object, key, value) {
 "use strict";
 
 var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var FunctionName = __webpack_require__(/*! ../internals/function-name */ "./node_modules/core-js/internals/function-name.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ "./node_modules/core-js/internals/create-iterator-constructor.js");
 var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ "./node_modules/core-js/internals/object-get-prototype-of.js");
 var setPrototypeOf = __webpack_require__(/*! ../internals/object-set-prototype-of */ "./node_modules/core-js/internals/object-set-prototype-of.js");
@@ -9368,10 +9510,11 @@ var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "
 var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
 var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
-var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
 var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_modules/core-js/internals/iterators.js");
 var IteratorsCore = __webpack_require__(/*! ../internals/iterators-core */ "./node_modules/core-js/internals/iterators-core.js");
 
+var PROPER_FUNCTION_NAME = FunctionName.PROPER;
+var CONFIGURABLE_FUNCTION_NAME = FunctionName.CONFIGURABLE;
 var IteratorPrototype = IteratorsCore.IteratorPrototype;
 var BUGGY_SAFARI_ITERATORS = IteratorsCore.BUGGY_SAFARI_ITERATORS;
 var ITERATOR = wellKnownSymbol('iterator');
@@ -9407,12 +9550,12 @@ module.exports = function (Iterable, NAME, IteratorConstructor, next, DEFAULT, I
   // fix native
   if (anyNativeIterator) {
     CurrentIteratorPrototype = getPrototypeOf(anyNativeIterator.call(new Iterable()));
-    if (IteratorPrototype !== Object.prototype && CurrentIteratorPrototype.next) {
+    if (CurrentIteratorPrototype !== Object.prototype && CurrentIteratorPrototype.next) {
       if (!IS_PURE && getPrototypeOf(CurrentIteratorPrototype) !== IteratorPrototype) {
         if (setPrototypeOf) {
           setPrototypeOf(CurrentIteratorPrototype, IteratorPrototype);
-        } else if (typeof CurrentIteratorPrototype[ITERATOR] != 'function') {
-          createNonEnumerableProperty(CurrentIteratorPrototype, ITERATOR, returnThis);
+        } else if (!isCallable(CurrentIteratorPrototype[ITERATOR])) {
+          redefine(CurrentIteratorPrototype, ITERATOR, returnThis);
         }
       }
       // Set @@toStringTag to native iterators
@@ -9422,16 +9565,14 @@ module.exports = function (Iterable, NAME, IteratorConstructor, next, DEFAULT, I
   }
 
   // fix Array.prototype.{ values, @@iterator }.name in V8 / FF
-  if (DEFAULT == VALUES && nativeIterator && nativeIterator.name !== VALUES) {
-    INCORRECT_VALUES_NAME = true;
-    defaultIterator = function values() { return nativeIterator.call(this); };
+  if (PROPER_FUNCTION_NAME && DEFAULT == VALUES && nativeIterator && nativeIterator.name !== VALUES) {
+    if (!IS_PURE && CONFIGURABLE_FUNCTION_NAME) {
+      createNonEnumerableProperty(IterablePrototype, 'name', VALUES);
+    } else {
+      INCORRECT_VALUES_NAME = true;
+      defaultIterator = function values() { return call(nativeIterator, this); };
+    }
   }
-
-  // define iterator
-  if ((!IS_PURE || FORCED) && IterablePrototype[ITERATOR] !== defaultIterator) {
-    createNonEnumerableProperty(IterablePrototype, ITERATOR, defaultIterator);
-  }
-  Iterators[NAME] = defaultIterator;
 
   // export additional methods
   if (DEFAULT) {
@@ -9446,6 +9587,12 @@ module.exports = function (Iterable, NAME, IteratorConstructor, next, DEFAULT, I
       }
     } else $({ target: NAME, proto: true, forced: BUGGY_SAFARI_ITERATORS || INCORRECT_VALUES_NAME }, methods);
   }
+
+  // define iterator
+  if ((!IS_PURE || FORCED) && IterablePrototype[ITERATOR] !== defaultIterator) {
+    redefine(IterablePrototype, ITERATOR, defaultIterator, { name: DEFAULT });
+  }
+  Iterators[NAME] = defaultIterator;
 
   return methods;
 };
@@ -9492,6 +9639,70 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/dom-iterables.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/dom-iterables.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// iterable DOM collections
+// flag - `iterable` interface - 'entries', 'keys', 'values', 'forEach' methods
+module.exports = {
+  CSSRuleList: 0,
+  CSSStyleDeclaration: 0,
+  CSSValueList: 0,
+  ClientRectList: 0,
+  DOMRectList: 0,
+  DOMStringList: 0,
+  DOMTokenList: 1,
+  DataTransferItemList: 0,
+  FileList: 0,
+  HTMLAllCollection: 0,
+  HTMLCollection: 0,
+  HTMLFormElement: 0,
+  HTMLSelectElement: 0,
+  MediaList: 0,
+  MimeTypeArray: 0,
+  NamedNodeMap: 0,
+  NodeList: 1,
+  PaintRequestList: 0,
+  Plugin: 0,
+  PluginArray: 0,
+  SVGLengthList: 0,
+  SVGNumberList: 0,
+  SVGPathSegList: 0,
+  SVGPointList: 0,
+  SVGStringList: 0,
+  SVGTransformList: 0,
+  SourceBufferList: 0,
+  StyleSheetList: 0,
+  TextTrackCueList: 0,
+  TextTrackList: 0,
+  TouchList: 0
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/dom-token-list-prototype.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/dom-token-list-prototype.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// in old WebKit versions, `element.classList` is not an instance of global `DOMTokenList`
+var documentCreateElement = __webpack_require__(/*! ../internals/document-create-element */ "./node_modules/core-js/internals/document-create-element.js");
+
+var classList = documentCreateElement('span').classList;
+var DOMTokenListPrototype = classList && classList.constructor && classList.constructor.prototype;
+
+module.exports = DOMTokenListPrototype === Object.prototype ? undefined : DOMTokenListPrototype;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/engine-user-agent.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/internals/engine-user-agent.js ***!
@@ -9517,22 +9728,29 @@ var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core
 var userAgent = __webpack_require__(/*! ../internals/engine-user-agent */ "./node_modules/core-js/internals/engine-user-agent.js");
 
 var process = global.process;
-var versions = process && process.versions;
+var Deno = global.Deno;
+var versions = process && process.versions || Deno && Deno.version;
 var v8 = versions && versions.v8;
 var match, version;
 
 if (v8) {
   match = v8.split('.');
-  version = match[0] < 4 ? 1 : match[0] + match[1];
-} else if (userAgent) {
+  // in old Chrome, versions of V8 isn't V8 = Chrome / 10
+  // but their correct versions are not interesting for us
+  version = match[0] > 0 && match[0] < 4 ? 1 : +(match[0] + match[1]);
+}
+
+// BrowserFS NodeJS `process` polyfill incorrectly set `.v8` to `0.0`
+// so check `userAgent` even if `.v8` exists, but 0
+if (!version && userAgent) {
   match = userAgent.match(/Edge\/(\d+)/);
   if (!match || match[1] >= 74) {
     match = userAgent.match(/Chrome\/(\d+)/);
-    if (match) version = match[1];
+    if (match) version = +match[1];
   }
 }
 
-module.exports = version && +version;
+module.exports = version;
 
 
 /***/ }),
@@ -9586,6 +9804,7 @@ var isForced = __webpack_require__(/*! ../internals/is-forced */ "./node_modules
   options.sham        - add a flag to not completely full polyfills
   options.enumerable  - export as enumerable property
   options.noTargetGet - prevent calling a getter on target
+  options.name        - the .name of the function if it does not match the key
 */
 module.exports = function (options, source) {
   var TARGET = options.target;
@@ -9608,7 +9827,7 @@ module.exports = function (options, source) {
     FORCED = isForced(GLOBAL ? key : TARGET + (STATIC ? '.' : '#') + key, options.forced);
     // contained in target
     if (!FORCED && targetProperty !== undefined) {
-      if (typeof sourceProperty === typeof targetProperty) continue;
+      if (typeof sourceProperty == typeof targetProperty) continue;
       copyConstructorProperties(sourceProperty, targetProperty);
     }
     // add a flag to not completely full polyfills
@@ -9652,6 +9871,7 @@ module.exports = function (exec) {
 
 // TODO: Remove from `core-js@4` since it's moved to entry points
 __webpack_require__(/*! ../modules/es.regexp.exec */ "./node_modules/core-js/modules/es.regexp.exec.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
 var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
@@ -9700,17 +9920,18 @@ module.exports = function (KEY, exec, FORCED, SHAM) {
     !DELEGATES_TO_EXEC ||
     FORCED
   ) {
-    var nativeRegExpMethod = /./[SYMBOL];
+    var uncurriedNativeRegExpMethod = uncurryThis(/./[SYMBOL]);
     var methods = exec(SYMBOL, ''[KEY], function (nativeMethod, regexp, str, arg2, forceStringMethod) {
+      var uncurriedNativeMethod = uncurryThis(nativeMethod);
       var $exec = regexp.exec;
       if ($exec === regexpExec || $exec === RegExpPrototype.exec) {
         if (DELEGATES_TO_SYMBOL && !forceStringMethod) {
           // The native String method already delegates to @@method (this
           // polyfilled function), leasing to infinite recursion.
           // We avoid it by directly calling the native @@method method.
-          return { done: true, value: nativeRegExpMethod.call(regexp, str, arg2) };
+          return { done: true, value: uncurriedNativeRegExpMethod(regexp, str, arg2) };
         }
-        return { done: true, value: nativeMethod.call(str, regexp, arg2) };
+        return { done: true, value: uncurriedNativeMethod(str, regexp, arg2) };
       }
       return { done: false };
     });
@@ -9725,6 +9946,26 @@ module.exports = function (KEY, exec, FORCED, SHAM) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/function-apply.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/function-apply.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var FunctionPrototype = Function.prototype;
+var apply = FunctionPrototype.apply;
+var bind = FunctionPrototype.bind;
+var call = FunctionPrototype.call;
+
+// eslint-disable-next-line es/no-reflect -- safe
+module.exports = typeof Reflect == 'object' && Reflect.apply || (bind ? call.bind(apply) : function () {
+  return call.apply(apply, arguments);
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/function-bind-context.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/core-js/internals/function-bind-context.js ***!
@@ -9732,28 +9973,83 @@ module.exports = function (KEY, exec, FORCED, SHAM) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var aFunction = __webpack_require__(/*! ../internals/a-function */ "./node_modules/core-js/internals/a-function.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+
+var bind = uncurryThis(uncurryThis.bind);
 
 // optional / simple context binding
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 0: return function () {
-      return fn.call(that);
-    };
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
+module.exports = function (fn, that) {
+  aCallable(fn);
+  return that === undefined ? fn : bind ? bind(fn, that) : function (/* ...args */) {
     return fn.apply(that, arguments);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/function-call.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/function-call.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var call = Function.prototype.call;
+
+module.exports = call.bind ? call.bind(call) : function () {
+  return call.apply(call, arguments);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/function-name.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/function-name.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+
+var FunctionPrototype = Function.prototype;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getDescriptor = DESCRIPTORS && Object.getOwnPropertyDescriptor;
+
+var EXISTS = hasOwn(FunctionPrototype, 'name');
+// additional protection from minified / mangled / dropped function names
+var PROPER = EXISTS && (function something() { /* empty */ }).name === 'something';
+var CONFIGURABLE = EXISTS && (!DESCRIPTORS || (DESCRIPTORS && getDescriptor(FunctionPrototype, 'name').configurable));
+
+module.exports = {
+  EXISTS: EXISTS,
+  PROPER: PROPER,
+  CONFIGURABLE: CONFIGURABLE
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/function-uncurry-this.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/internals/function-uncurry-this.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var FunctionPrototype = Function.prototype;
+var bind = FunctionPrototype.bind;
+var call = FunctionPrototype.call;
+var callBind = bind && bind.bind(call);
+
+module.exports = bind ? function (fn) {
+  return fn && callBind(call, fn);
+} : function (fn) {
+  return fn && function () {
+    return call.apply(fn, arguments);
   };
 };
 
@@ -9767,16 +10063,15 @@ module.exports = function (fn, that, length) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var path = __webpack_require__(/*! ../internals/path */ "./node_modules/core-js/internals/path.js");
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 
-var aFunction = function (variable) {
-  return typeof variable == 'function' ? variable : undefined;
+var aFunction = function (argument) {
+  return isCallable(argument) ? argument : undefined;
 };
 
 module.exports = function (namespace, method) {
-  return arguments.length < 2 ? aFunction(path[namespace]) || aFunction(global[namespace])
-    : path[namespace] && path[namespace][method] || global[namespace] && global[namespace][method];
+  return arguments.length < 2 ? aFunction(global[namespace]) : global[namespace] && global[namespace][method];
 };
 
 
@@ -9790,14 +10085,15 @@ module.exports = function (namespace, method) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var classof = __webpack_require__(/*! ../internals/classof */ "./node_modules/core-js/internals/classof.js");
+var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
 var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_modules/core-js/internals/iterators.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 
 var ITERATOR = wellKnownSymbol('iterator');
 
 module.exports = function (it) {
-  if (it != undefined) return it[ITERATOR]
-    || it['@@iterator']
+  if (it != undefined) return getMethod(it, ITERATOR)
+    || getMethod(it, '@@iterator')
     || Iterators[classof(it)];
 };
 
@@ -9811,14 +10107,38 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
 var getIteratorMethod = __webpack_require__(/*! ../internals/get-iterator-method */ "./node_modules/core-js/internals/get-iterator-method.js");
 
-module.exports = function (it) {
-  var iteratorMethod = getIteratorMethod(it);
-  if (typeof iteratorMethod != 'function') {
-    throw TypeError(String(it) + ' is not iterable');
-  } return anObject(iteratorMethod.call(it));
+var TypeError = global.TypeError;
+
+module.exports = function (argument, usingIterator) {
+  var iteratorMethod = arguments.length < 2 ? getIteratorMethod(argument) : usingIterator;
+  if (aCallable(iteratorMethod)) return anObject(call(iteratorMethod, argument));
+  throw TypeError(tryToString(argument) + ' is not iterable');
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/get-method.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/internals/get-method.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+
+// `GetMethod` abstract operation
+// https://tc39.es/ecma262/#sec-getmethod
+module.exports = function (V, P) {
+  var func = V[P];
+  return func == null ? undefined : aCallable(func);
 };
 
 
@@ -9831,10 +10151,13 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
 
 var floor = Math.floor;
-var replace = ''.replace;
+var charAt = uncurryThis(''.charAt);
+var replace = uncurryThis(''.replace);
+var stringSlice = uncurryThis(''.slice);
 var SUBSTITUTION_SYMBOLS = /\$([$&'`]|\d{1,2}|<[^>]*>)/g;
 var SUBSTITUTION_SYMBOLS_NO_NAMED = /\$([$&'`]|\d{1,2})/g;
 
@@ -9848,15 +10171,15 @@ module.exports = function (matched, str, position, captures, namedCaptures, repl
     namedCaptures = toObject(namedCaptures);
     symbols = SUBSTITUTION_SYMBOLS;
   }
-  return replace.call(replacement, symbols, function (match, ch) {
+  return replace(replacement, symbols, function (match, ch) {
     var capture;
-    switch (ch.charAt(0)) {
+    switch (charAt(ch, 0)) {
       case '$': return '$';
       case '&': return matched;
-      case '`': return str.slice(0, position);
-      case "'": return str.slice(tailPos);
+      case '`': return stringSlice(str, 0, position);
+      case "'": return stringSlice(str, tailPos);
       case '<':
-        capture = namedCaptures[ch.slice(1, -1)];
+        capture = namedCaptures[stringSlice(ch, 1, -1)];
         break;
       default: // \d\d?
         var n = +ch;
@@ -9864,7 +10187,7 @@ module.exports = function (matched, str, position, captures, namedCaptures, repl
         if (n > m) {
           var f = floor(n / 10);
           if (f === 0) return match;
-          if (f <= m) return captures[f - 1] === undefined ? ch.charAt(1) : captures[f - 1] + ch.charAt(1);
+          if (f <= m) return captures[f - 1] === undefined ? charAt(ch, 1) : captures[f - 1] + charAt(ch, 1);
           return match;
         }
         capture = captures[n - 1];
@@ -9902,19 +10225,22 @@ module.exports =
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/has.js":
-/*!***********************************************!*\
-  !*** ./node_modules/core-js/internals/has.js ***!
-  \***********************************************/
+/***/ "./node_modules/core-js/internals/has-own-property.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/internals/has-own-property.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
 
-var hasOwnProperty = {}.hasOwnProperty;
+var hasOwnProperty = uncurryThis({}.hasOwnProperty);
 
+// `HasOwnProperty` abstract operation
+// https://tc39.es/ecma262/#sec-hasownproperty
 module.exports = Object.hasOwn || function hasOwn(it, key) {
-  return hasOwnProperty.call(toObject(it), key);
+  return hasOwnProperty(toObject(it), key);
 };
 
 
@@ -9975,10 +10301,13 @@ module.exports = !DESCRIPTORS && !fails(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
 
-var split = ''.split;
+var Object = global.Object;
+var split = uncurryThis(''.split);
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
 module.exports = fails(function () {
@@ -9986,7 +10315,7 @@ module.exports = fails(function () {
   // eslint-disable-next-line no-prototype-builtins -- safe
   return !Object('z').propertyIsEnumerable(0);
 }) ? function (it) {
-  return classof(it) == 'String' ? split.call(it, '') : Object(it);
+  return classof(it) == 'String' ? split(it, '') : Object(it);
 } : Object;
 
 
@@ -9999,14 +10328,16 @@ module.exports = fails(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules/core-js/internals/shared-store.js");
 
-var functionToString = Function.toString;
+var functionToString = uncurryThis(Function.toString);
 
 // this helper broken in `core-js@3.4.1-3.4.4`, so we can't use `shared` helper
-if (typeof store.inspectSource != 'function') {
+if (!isCallable(store.inspectSource)) {
   store.inspectSource = function (it) {
-    return functionToString.call(it);
+    return functionToString(it);
   };
 }
 
@@ -10024,14 +10355,16 @@ module.exports = store.inspectSource;
 
 var NATIVE_WEAK_MAP = __webpack_require__(/*! ../internals/native-weak-map */ "./node_modules/core-js/internals/native-weak-map.js");
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
 var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
-var objectHas = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var shared = __webpack_require__(/*! ../internals/shared-store */ "./node_modules/core-js/internals/shared-store.js");
 var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
 var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
 
 var OBJECT_ALREADY_INITIALIZED = 'Object already initialized';
+var TypeError = global.TypeError;
 var WeakMap = global.WeakMap;
 var set, get, has;
 
@@ -10050,35 +10383,35 @@ var getterFor = function (TYPE) {
 
 if (NATIVE_WEAK_MAP || shared.state) {
   var store = shared.state || (shared.state = new WeakMap());
-  var wmget = store.get;
-  var wmhas = store.has;
-  var wmset = store.set;
+  var wmget = uncurryThis(store.get);
+  var wmhas = uncurryThis(store.has);
+  var wmset = uncurryThis(store.set);
   set = function (it, metadata) {
-    if (wmhas.call(store, it)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
+    if (wmhas(store, it)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
     metadata.facade = it;
-    wmset.call(store, it, metadata);
+    wmset(store, it, metadata);
     return metadata;
   };
   get = function (it) {
-    return wmget.call(store, it) || {};
+    return wmget(store, it) || {};
   };
   has = function (it) {
-    return wmhas.call(store, it);
+    return wmhas(store, it);
   };
 } else {
   var STATE = sharedKey('state');
   hiddenKeys[STATE] = true;
   set = function (it, metadata) {
-    if (objectHas(it, STATE)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
+    if (hasOwn(it, STATE)) throw new TypeError(OBJECT_ALREADY_INITIALIZED);
     metadata.facade = it;
     createNonEnumerableProperty(it, STATE, metadata);
     return metadata;
   };
   get = function (it) {
-    return objectHas(it, STATE) ? it[STATE] : {};
+    return hasOwn(it, STATE) ? it[STATE] : {};
   };
   has = function (it) {
-    return objectHas(it, STATE);
+    return hasOwn(it, STATE);
   };
 }
 
@@ -10093,23 +10426,72 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/is-array-iterator-method.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/core-js/internals/is-array-iterator-method.js ***!
-  \********************************************************************/
+/***/ "./node_modules/core-js/internals/is-callable.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/is-callable.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// `IsCallable` abstract operation
+// https://tc39.es/ecma262/#sec-iscallable
+module.exports = function (argument) {
+  return typeof argument == 'function';
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-constructor.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/is-constructor.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
-var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_modules/core-js/internals/iterators.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var classof = __webpack_require__(/*! ../internals/classof */ "./node_modules/core-js/internals/classof.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
 
-var ITERATOR = wellKnownSymbol('iterator');
-var ArrayPrototype = Array.prototype;
+var noop = function () { /* empty */ };
+var empty = [];
+var construct = getBuiltIn('Reflect', 'construct');
+var constructorRegExp = /^\s*(?:class|function)\b/;
+var exec = uncurryThis(constructorRegExp.exec);
+var INCORRECT_TO_STRING = !constructorRegExp.exec(noop);
 
-// check on default Array iterator
-module.exports = function (it) {
-  return it !== undefined && (Iterators.Array === it || ArrayPrototype[ITERATOR] === it);
+var isConstructorModern = function (argument) {
+  if (!isCallable(argument)) return false;
+  try {
+    construct(noop, empty, argument);
+    return true;
+  } catch (error) {
+    return false;
+  }
 };
+
+var isConstructorLegacy = function (argument) {
+  if (!isCallable(argument)) return false;
+  switch (classof(argument)) {
+    case 'AsyncFunction':
+    case 'GeneratorFunction':
+    case 'AsyncGeneratorFunction': return false;
+    // we can't check .prototype since constructors produced by .bind haven't it
+  } return INCORRECT_TO_STRING || !!exec(constructorRegExp, inspectSource(argument));
+};
+
+// `IsConstructor` abstract operation
+// https://tc39.es/ecma262/#sec-isconstructor
+module.exports = !construct || fails(function () {
+  var called;
+  return isConstructorModern(isConstructorModern.call)
+    || !isConstructorModern(Object)
+    || !isConstructorModern(function () { called = true; })
+    || called;
+}) ? isConstructorLegacy : isConstructorModern;
 
 
 /***/ }),
@@ -10122,6 +10504,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 
 var replacement = /#|\.prototype\./;
 
@@ -10129,7 +10512,7 @@ var isForced = function (feature, detection) {
   var value = data[normalize(feature)];
   return value == POLYFILL ? true
     : value == NATIVE ? false
-    : typeof detection == 'function' ? fails(detection)
+    : isCallable(detection) ? fails(detection)
     : !!detection;
 };
 
@@ -10151,10 +10534,12 @@ module.exports = isForced;
   !*** ./node_modules/core-js/internals/is-object.js ***!
   \*****************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 
 module.exports = function (it) {
-  return typeof it === 'object' ? it !== null : typeof it === 'function';
+  return typeof it == 'object' ? it !== null : isCallable(it);
 };
 
 
@@ -10172,20 +10557,26 @@ module.exports = false;
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/iterator-close.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/core-js/internals/iterator-close.js ***!
-  \**********************************************************/
+/***/ "./node_modules/core-js/internals/is-symbol.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/is-symbol.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+var USE_SYMBOL_AS_UID = __webpack_require__(/*! ../internals/use-symbol-as-uid */ "./node_modules/core-js/internals/use-symbol-as-uid.js");
 
-module.exports = function (iterator) {
-  var returnMethod = iterator['return'];
-  if (returnMethod !== undefined) {
-    return anObject(returnMethod.call(iterator)).value;
-  }
+var Object = global.Object;
+
+module.exports = USE_SYMBOL_AS_UID ? function (it) {
+  return typeof it == 'symbol';
+} : function (it) {
+  var $Symbol = getBuiltIn('Symbol');
+  return isCallable($Symbol) && isPrototypeOf($Symbol.prototype, Object(it));
 };
 
 
@@ -10201,16 +10592,15 @@ module.exports = function (iterator) {
 "use strict";
 
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var create = __webpack_require__(/*! ../internals/object-create */ "./node_modules/core-js/internals/object-create.js");
 var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ "./node_modules/core-js/internals/object-get-prototype-of.js");
-var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
 
 var ITERATOR = wellKnownSymbol('iterator');
 var BUGGY_SAFARI_ITERATORS = false;
-
-var returnThis = function () { return this; };
 
 // `%IteratorPrototype%` object
 // https://tc39.es/ecma262/#sec-%iteratorprototype%-object
@@ -10234,11 +10624,14 @@ var NEW_ITERATOR_PROTOTYPE = IteratorPrototype == undefined || fails(function ()
 });
 
 if (NEW_ITERATOR_PROTOTYPE) IteratorPrototype = {};
+else if (IS_PURE) IteratorPrototype = create(IteratorPrototype);
 
 // `%IteratorPrototype%[@@iterator]()` method
 // https://tc39.es/ecma262/#sec-%iteratorprototype%-@@iterator
-if ((!IS_PURE || NEW_ITERATOR_PROTOTYPE) && !has(IteratorPrototype, ITERATOR)) {
-  createNonEnumerableProperty(IteratorPrototype, ITERATOR, returnThis);
+if (!isCallable(IteratorPrototype[ITERATOR])) {
+  redefine(IteratorPrototype, ITERATOR, function () {
+    return this;
+  });
 }
 
 module.exports = {
@@ -10257,6 +10650,38 @@ module.exports = {
 /***/ (function(module, exports) {
 
 module.exports = {};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/length-of-array-like.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/length-of-array-like.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
+
+// `LengthOfArrayLike` abstract operation
+// https://tc39.es/ecma262/#sec-lengthofarraylike
+module.exports = function (obj) {
+  return toLength(obj.length);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/native-promise-constructor.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/native-promise-constructor.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+module.exports = global.Promise;
 
 
 /***/ }),
@@ -10337,77 +10762,43 @@ module.exports = !fails(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
 
 var WeakMap = global.WeakMap;
 
-module.exports = typeof WeakMap === 'function' && /native code/.test(inspectSource(WeakMap));
+module.exports = isCallable(WeakMap) && /native code/.test(inspectSource(WeakMap));
 
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/object-assign.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/core-js/internals/object-assign.js ***!
-  \*********************************************************/
+/***/ "./node_modules/core-js/internals/new-promise-capability.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/new-promise-capability.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
-var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
-var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "./node_modules/core-js/internals/object-keys.js");
-var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "./node_modules/core-js/internals/object-get-own-property-symbols.js");
-var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "./node_modules/core-js/internals/object-property-is-enumerable.js");
-var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
-var IndexedObject = __webpack_require__(/*! ../internals/indexed-object */ "./node_modules/core-js/internals/indexed-object.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
 
-// eslint-disable-next-line es/no-object-assign -- safe
-var $assign = Object.assign;
-// eslint-disable-next-line es/no-object-defineproperty -- required for testing
-var defineProperty = Object.defineProperty;
+var PromiseCapability = function (C) {
+  var resolve, reject;
+  this.promise = new C(function ($$resolve, $$reject) {
+    if (resolve !== undefined || reject !== undefined) throw TypeError('Bad Promise constructor');
+    resolve = $$resolve;
+    reject = $$reject;
+  });
+  this.resolve = aCallable(resolve);
+  this.reject = aCallable(reject);
+};
 
-// `Object.assign` method
-// https://tc39.es/ecma262/#sec-object.assign
-module.exports = !$assign || fails(function () {
-  // should have correct order of operations (Edge bug)
-  if (DESCRIPTORS && $assign({ b: 1 }, $assign(defineProperty({}, 'a', {
-    enumerable: true,
-    get: function () {
-      defineProperty(this, 'b', {
-        value: 3,
-        enumerable: false
-      });
-    }
-  }), { b: 2 })).b !== 1) return true;
-  // should work with symbols and should have deterministic property order (V8 bug)
-  var A = {};
-  var B = {};
-  // eslint-disable-next-line es/no-symbol -- safe
-  var symbol = Symbol();
-  var alphabet = 'abcdefghijklmnopqrst';
-  A[symbol] = 7;
-  alphabet.split('').forEach(function (chr) { B[chr] = chr; });
-  return $assign({}, A)[symbol] != 7 || objectKeys($assign({}, B)).join('') != alphabet;
-}) ? function assign(target, source) { // eslint-disable-line no-unused-vars -- required for `.length`
-  var T = toObject(target);
-  var argumentsLength = arguments.length;
-  var index = 1;
-  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
-  var propertyIsEnumerable = propertyIsEnumerableModule.f;
-  while (argumentsLength > index) {
-    var S = IndexedObject(arguments[index++]);
-    var keys = getOwnPropertySymbols ? objectKeys(S).concat(getOwnPropertySymbols(S)) : objectKeys(S);
-    var length = keys.length;
-    var j = 0;
-    var key;
-    while (length > j) {
-      key = keys[j++];
-      if (!DESCRIPTORS || propertyIsEnumerable.call(S, key)) T[key] = S[key];
-    }
-  } return T;
-} : $assign;
+// `NewPromiseCapability` abstract operation
+// https://tc39.es/ecma262/#sec-newpromisecapability
+module.exports.f = function (C) {
+  return new PromiseCapability(C);
+};
 
 
 /***/ }),
@@ -10419,6 +10810,7 @@ module.exports = !$assign || fails(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+/* global ActiveXObject -- old IE, WSH */
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
 var defineProperties = __webpack_require__(/*! ../internals/object-define-properties */ "./node_modules/core-js/internals/object-define-properties.js");
 var enumBugKeys = __webpack_require__(/*! ../internals/enum-bug-keys */ "./node_modules/core-js/internals/enum-bug-keys.js");
@@ -10473,10 +10865,13 @@ var NullProtoObjectViaIFrame = function () {
 var activeXDocument;
 var NullProtoObject = function () {
   try {
-    /* global ActiveXObject -- old IE */
-    activeXDocument = document.domain && new ActiveXObject('htmlfile');
+    activeXDocument = new ActiveXObject('htmlfile');
   } catch (error) { /* ignore */ }
-  NullProtoObject = activeXDocument ? NullProtoObjectViaActiveX(activeXDocument) : NullProtoObjectViaIFrame();
+  NullProtoObject = typeof document != 'undefined'
+    ? document.domain && activeXDocument
+      ? NullProtoObjectViaActiveX(activeXDocument) // old IE
+      : NullProtoObjectViaIFrame()
+    : NullProtoObjectViaActiveX(activeXDocument); // WSH
   var length = enumBugKeys.length;
   while (length--) delete NullProtoObject[PROTOTYPE][enumBugKeys[length]];
   return NullProtoObject();
@@ -10511,6 +10906,7 @@ module.exports = Object.create || function create(O, Properties) {
 var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
 var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
 var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "./node_modules/core-js/internals/object-keys.js");
 
 // `Object.defineProperties` method
@@ -10518,11 +10914,12 @@ var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "./node_mod
 // eslint-disable-next-line es/no-object-defineproperties -- safe
 module.exports = DESCRIPTORS ? Object.defineProperties : function defineProperties(O, Properties) {
   anObject(O);
+  var props = toIndexedObject(Properties);
   var keys = objectKeys(Properties);
   var length = keys.length;
   var index = 0;
   var key;
-  while (length > index) definePropertyModule.f(O, key = keys[index++], Properties[key]);
+  while (length > index) definePropertyModule.f(O, key = keys[index++], props[key]);
   return O;
 };
 
@@ -10536,11 +10933,13 @@ module.exports = DESCRIPTORS ? Object.defineProperties : function defineProperti
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
 var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "./node_modules/core-js/internals/ie8-dom-define.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
-var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
+var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ "./node_modules/core-js/internals/to-property-key.js");
 
+var TypeError = global.TypeError;
 // eslint-disable-next-line es/no-object-defineproperty -- safe
 var $defineProperty = Object.defineProperty;
 
@@ -10548,7 +10947,7 @@ var $defineProperty = Object.defineProperty;
 // https://tc39.es/ecma262/#sec-object.defineproperty
 exports.f = DESCRIPTORS ? $defineProperty : function defineProperty(O, P, Attributes) {
   anObject(O);
-  P = toPrimitive(P, true);
+  P = toPropertyKey(P);
   anObject(Attributes);
   if (IE8_DOM_DEFINE) try {
     return $defineProperty(O, P, Attributes);
@@ -10569,11 +10968,12 @@ exports.f = DESCRIPTORS ? $defineProperty : function defineProperty(O, P, Attrib
 /***/ (function(module, exports, __webpack_require__) {
 
 var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
 var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "./node_modules/core-js/internals/object-property-is-enumerable.js");
 var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
 var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
-var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ "./node_modules/core-js/internals/to-property-key.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "./node_modules/core-js/internals/ie8-dom-define.js");
 
 // eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
@@ -10583,11 +10983,11 @@ var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
 // https://tc39.es/ecma262/#sec-object.getownpropertydescriptor
 exports.f = DESCRIPTORS ? $getOwnPropertyDescriptor : function getOwnPropertyDescriptor(O, P) {
   O = toIndexedObject(O);
-  P = toPrimitive(P, true);
+  P = toPropertyKey(P);
   if (IE8_DOM_DEFINE) try {
     return $getOwnPropertyDescriptor(O, P);
   } catch (error) { /* empty */ }
-  if (has(O, P)) return createPropertyDescriptor(!propertyIsEnumerableModule.f.call(O, P), O[P]);
+  if (hasOwn(O, P)) return createPropertyDescriptor(!call(propertyIsEnumerableModule.f, O, P), O[P]);
 };
 
 
@@ -10635,24 +11035,41 @@ exports.f = Object.getOwnPropertySymbols;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
 var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
 var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
 var CORRECT_PROTOTYPE_GETTER = __webpack_require__(/*! ../internals/correct-prototype-getter */ "./node_modules/core-js/internals/correct-prototype-getter.js");
 
 var IE_PROTO = sharedKey('IE_PROTO');
+var Object = global.Object;
 var ObjectPrototype = Object.prototype;
 
 // `Object.getPrototypeOf` method
 // https://tc39.es/ecma262/#sec-object.getprototypeof
-// eslint-disable-next-line es/no-object-getprototypeof -- safe
 module.exports = CORRECT_PROTOTYPE_GETTER ? Object.getPrototypeOf : function (O) {
-  O = toObject(O);
-  if (has(O, IE_PROTO)) return O[IE_PROTO];
-  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
-    return O.constructor.prototype;
-  } return O instanceof Object ? ObjectPrototype : null;
+  var object = toObject(O);
+  if (hasOwn(object, IE_PROTO)) return object[IE_PROTO];
+  var constructor = object.constructor;
+  if (isCallable(constructor) && object instanceof constructor) {
+    return constructor.prototype;
+  } return object instanceof Object ? ObjectPrototype : null;
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-is-prototype-of.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-is-prototype-of.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+
+module.exports = uncurryThis({}.isPrototypeOf);
 
 
 /***/ }),
@@ -10664,20 +11081,23 @@ module.exports = CORRECT_PROTOTYPE_GETTER ? Object.getPrototypeOf : function (O)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
 var indexOf = __webpack_require__(/*! ../internals/array-includes */ "./node_modules/core-js/internals/array-includes.js").indexOf;
 var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
+
+var push = uncurryThis([].push);
 
 module.exports = function (object, names) {
   var O = toIndexedObject(object);
   var i = 0;
   var result = [];
   var key;
-  for (key in O) !has(hiddenKeys, key) && has(O, key) && result.push(key);
+  for (key in O) !hasOwn(hiddenKeys, key) && hasOwn(O, key) && push(result, key);
   // Don't enum bug & hidden keys
-  while (names.length > i) if (has(O, key = names[i++])) {
-    ~indexOf(result, key) || result.push(key);
+  while (names.length > i) if (hasOwn(O, key = names[i++])) {
+    ~indexOf(result, key) || push(result, key);
   }
   return result;
 };
@@ -10739,6 +11159,7 @@ exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-disable no-proto -- safe */
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
 var aPossiblePrototype = __webpack_require__(/*! ../internals/a-possible-prototype */ "./node_modules/core-js/internals/a-possible-prototype.js");
 
@@ -10752,18 +11173,45 @@ module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
   var setter;
   try {
     // eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
-    setter = Object.getOwnPropertyDescriptor(Object.prototype, '__proto__').set;
-    setter.call(test, []);
+    setter = uncurryThis(Object.getOwnPropertyDescriptor(Object.prototype, '__proto__').set);
+    setter(test, []);
     CORRECT_SETTER = test instanceof Array;
   } catch (error) { /* empty */ }
   return function setPrototypeOf(O, proto) {
     anObject(O);
     aPossiblePrototype(proto);
-    if (CORRECT_SETTER) setter.call(O, proto);
+    if (CORRECT_SETTER) setter(O, proto);
     else O.__proto__ = proto;
     return O;
   };
 }() : undefined);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/ordinary-to-primitive.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/internals/ordinary-to-primitive.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+
+var TypeError = global.TypeError;
+
+// `OrdinaryToPrimitive` abstract operation
+// https://tc39.es/ecma262/#sec-ordinarytoprimitive
+module.exports = function (input, pref) {
+  var fn, val;
+  if (pref === 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  if (isCallable(fn = input.valueOf) && !isObject(val = call(fn, input))) return val;
+  if (pref !== 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  throw TypeError("Can't convert object to primitive value");
+};
 
 
 /***/ }),
@@ -10776,30 +11224,42 @@ module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var getOwnPropertyNamesModule = __webpack_require__(/*! ../internals/object-get-own-property-names */ "./node_modules/core-js/internals/object-get-own-property-names.js");
 var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "./node_modules/core-js/internals/object-get-own-property-symbols.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+
+var concat = uncurryThis([].concat);
 
 // all object keys, includes non-enumerable and symbols
 module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
   var keys = getOwnPropertyNamesModule.f(anObject(it));
   var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
-  return getOwnPropertySymbols ? keys.concat(getOwnPropertySymbols(it)) : keys;
+  return getOwnPropertySymbols ? concat(keys, getOwnPropertySymbols(it)) : keys;
 };
 
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/path.js":
-/*!************************************************!*\
-  !*** ./node_modules/core-js/internals/path.js ***!
-  \************************************************/
+/***/ "./node_modules/core-js/internals/promise-resolve.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-resolve.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var newPromiseCapability = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
 
-module.exports = global;
+module.exports = function (C, x) {
+  anObject(C);
+  if (isObject(x) && x.constructor === C) return x;
+  var promiseCapability = newPromiseCapability.f(C);
+  var resolve = promiseCapability.resolve;
+  resolve(x);
+  return promiseCapability.promise;
+};
 
 
 /***/ }),
@@ -10829,11 +11289,13 @@ module.exports = function (target, src, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
 var setGlobal = __webpack_require__(/*! ../internals/set-global */ "./node_modules/core-js/internals/set-global.js");
 var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
 var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
+var CONFIGURABLE_FUNCTION_NAME = __webpack_require__(/*! ../internals/function-name */ "./node_modules/core-js/internals/function-name.js").CONFIGURABLE;
 
 var getInternalState = InternalStateModule.get;
 var enforceInternalState = InternalStateModule.enforce;
@@ -10843,14 +11305,18 @@ var TEMPLATE = String(String).split('String');
   var unsafe = options ? !!options.unsafe : false;
   var simple = options ? !!options.enumerable : false;
   var noTargetGet = options ? !!options.noTargetGet : false;
+  var name = options && options.name !== undefined ? options.name : key;
   var state;
-  if (typeof value == 'function') {
-    if (typeof key == 'string' && !has(value, 'name')) {
-      createNonEnumerableProperty(value, 'name', key);
+  if (isCallable(value)) {
+    if (String(name).slice(0, 7) === 'Symbol(') {
+      name = '[' + String(name).replace(/^Symbol\(([^)]*)\)/, '$1') + ']';
+    }
+    if (!hasOwn(value, 'name') || (CONFIGURABLE_FUNCTION_NAME && value.name !== name)) {
+      createNonEnumerableProperty(value, 'name', name);
     }
     state = enforceInternalState(value);
     if (!state.source) {
-      state.source = TEMPLATE.join(typeof key == 'string' ? key : '');
+      state.source = TEMPLATE.join(typeof name == 'string' ? name : '');
     }
   }
   if (O === global) {
@@ -10866,7 +11332,7 @@ var TEMPLATE = String(String).split('String');
   else createNonEnumerableProperty(O, key, value);
 // add fake Function#toString for correct work wrapped methods / constructors with methods like LoDash isNative
 })(Function.prototype, 'toString', function toString() {
-  return typeof this == 'function' && getInternalState(this).source || inspectSource(this);
+  return isCallable(this) && getInternalState(this).source || inspectSource(this);
 });
 
 
@@ -10879,28 +11345,27 @@ var TEMPLATE = String(String).split('String');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof = __webpack_require__(/*! ./classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
-var regexpExec = __webpack_require__(/*! ./regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+
+var TypeError = global.TypeError;
 
 // `RegExpExec` abstract operation
 // https://tc39.es/ecma262/#sec-regexpexec
 module.exports = function (R, S) {
   var exec = R.exec;
-  if (typeof exec === 'function') {
-    var result = exec.call(R, S);
-    if (typeof result !== 'object') {
-      throw TypeError('RegExp exec method returned something other than an Object or null');
-    }
+  if (isCallable(exec)) {
+    var result = call(exec, R, S);
+    if (result !== null) anObject(result);
     return result;
   }
-
-  if (classof(R) !== 'RegExp') {
-    throw TypeError('RegExp#exec called on incompatible receiver');
-  }
-
-  return regexpExec.call(R, S);
+  if (classof(R) === 'RegExp') return call(regexpExec, R, S);
+  throw TypeError('RegExp#exec called on incompatible receiver');
 };
-
 
 
 /***/ }),
@@ -10914,8 +11379,11 @@ module.exports = function (R, S) {
 
 "use strict";
 
-/* eslint-disable regexp/no-assertion-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
+/* eslint-disable regexp/no-empty-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
 /* eslint-disable regexp/no-useless-quantifier -- testing */
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
 var regexpFlags = __webpack_require__(/*! ../internals/regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
 var stickyHelpers = __webpack_require__(/*! ../internals/regexp-sticky-helpers */ "./node_modules/core-js/internals/regexp-sticky-helpers.js");
 var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
@@ -10924,20 +11392,23 @@ var getInternalState = __webpack_require__(/*! ../internals/internal-state */ ".
 var UNSUPPORTED_DOT_ALL = __webpack_require__(/*! ../internals/regexp-unsupported-dot-all */ "./node_modules/core-js/internals/regexp-unsupported-dot-all.js");
 var UNSUPPORTED_NCG = __webpack_require__(/*! ../internals/regexp-unsupported-ncg */ "./node_modules/core-js/internals/regexp-unsupported-ncg.js");
 
-var nativeExec = RegExp.prototype.exec;
 var nativeReplace = shared('native-string-replace', String.prototype.replace);
-
+var nativeExec = RegExp.prototype.exec;
 var patchedExec = nativeExec;
+var charAt = uncurryThis(''.charAt);
+var indexOf = uncurryThis(''.indexOf);
+var replace = uncurryThis(''.replace);
+var stringSlice = uncurryThis(''.slice);
 
 var UPDATES_LAST_INDEX_WRONG = (function () {
   var re1 = /a/;
   var re2 = /b*/g;
-  nativeExec.call(re1, 'a');
-  nativeExec.call(re2, 'a');
+  call(nativeExec, re1, 'a');
+  call(nativeExec, re2, 'a');
   return re1.lastIndex !== 0 || re2.lastIndex !== 0;
 })();
 
-var UNSUPPORTED_Y = stickyHelpers.UNSUPPORTED_Y || stickyHelpers.BROKEN_CARET;
+var UNSUPPORTED_Y = stickyHelpers.BROKEN_CARET;
 
 // nonparticipating capturing group, copied from es5-shim's String#split patch.
 var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
@@ -10945,36 +11416,36 @@ var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
 var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y || UNSUPPORTED_DOT_ALL || UNSUPPORTED_NCG;
 
 if (PATCH) {
-  // eslint-disable-next-line max-statements -- TODO
-  patchedExec = function exec(str) {
+  patchedExec = function exec(string) {
     var re = this;
     var state = getInternalState(re);
+    var str = toString(string);
     var raw = state.raw;
     var result, reCopy, lastIndex, match, i, object, group;
 
     if (raw) {
       raw.lastIndex = re.lastIndex;
-      result = patchedExec.call(raw, str);
+      result = call(patchedExec, raw, str);
       re.lastIndex = raw.lastIndex;
       return result;
     }
 
     var groups = state.groups;
     var sticky = UNSUPPORTED_Y && re.sticky;
-    var flags = regexpFlags.call(re);
+    var flags = call(regexpFlags, re);
     var source = re.source;
     var charsAdded = 0;
     var strCopy = str;
 
     if (sticky) {
-      flags = flags.replace('y', '');
-      if (flags.indexOf('g') === -1) {
+      flags = replace(flags, 'y', '');
+      if (indexOf(flags, 'g') === -1) {
         flags += 'g';
       }
 
-      strCopy = String(str).slice(re.lastIndex);
+      strCopy = stringSlice(str, re.lastIndex);
       // Support anchored sticky behavior.
-      if (re.lastIndex > 0 && (!re.multiline || re.multiline && str[re.lastIndex - 1] !== '\n')) {
+      if (re.lastIndex > 0 && (!re.multiline || re.multiline && charAt(str, re.lastIndex - 1) !== '\n')) {
         source = '(?: ' + source + ')';
         strCopy = ' ' + strCopy;
         charsAdded++;
@@ -10989,12 +11460,12 @@ if (PATCH) {
     }
     if (UPDATES_LAST_INDEX_WRONG) lastIndex = re.lastIndex;
 
-    match = nativeExec.call(sticky ? reCopy : re, strCopy);
+    match = call(nativeExec, sticky ? reCopy : re, strCopy);
 
     if (sticky) {
       if (match) {
-        match.input = match.input.slice(charsAdded);
-        match[0] = match[0].slice(charsAdded);
+        match.input = stringSlice(match.input, charsAdded);
+        match[0] = stringSlice(match[0], charsAdded);
         match.index = re.lastIndex;
         re.lastIndex += match[0].length;
       } else re.lastIndex = 0;
@@ -11004,7 +11475,7 @@ if (PATCH) {
     if (NPCG_INCLUDED && match && match.length > 1) {
       // Fix browsers whose `exec` methods don't consistently return `undefined`
       // for NPCG, like IE8. NOTE: This doesn' work for /(.?)?/
-      nativeReplace.call(match[0], reCopy, function () {
+      call(nativeReplace, match[0], reCopy, function () {
         for (i = 1; i < arguments.length - 2; i++) {
           if (arguments[i] === undefined) match[i] = undefined;
         }
@@ -11064,24 +11535,35 @@ module.exports = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 
-// babel-minify transpiles RegExp('a', 'y') -> /a/y and it causes SyntaxError,
-var RE = function (s, f) {
-  return RegExp(s, f);
-};
+// babel-minify and Closure Compiler transpiles RegExp('a', 'y') -> /a/y and it causes SyntaxError
+var $RegExp = global.RegExp;
 
-exports.UNSUPPORTED_Y = fails(function () {
-  var re = RE('a', 'y');
+var UNSUPPORTED_Y = fails(function () {
+  var re = $RegExp('a', 'y');
   re.lastIndex = 2;
   return re.exec('abcd') != null;
 });
 
-exports.BROKEN_CARET = fails(function () {
+// UC Browser bug
+// https://github.com/zloirock/core-js/issues/1008
+var MISSED_STICKY = UNSUPPORTED_Y || fails(function () {
+  return !$RegExp('a', 'y').sticky;
+});
+
+var BROKEN_CARET = UNSUPPORTED_Y || fails(function () {
   // https://bugzilla.mozilla.org/show_bug.cgi?id=773687
-  var re = RE('^r', 'gy');
+  var re = $RegExp('^r', 'gy');
   re.lastIndex = 2;
   return re.exec('str') != null;
 });
+
+module.exports = {
+  BROKEN_CARET: BROKEN_CARET,
+  MISSED_STICKY: MISSED_STICKY,
+  UNSUPPORTED_Y: UNSUPPORTED_Y
+};
 
 
 /***/ }),
@@ -11093,11 +11575,14 @@ exports.BROKEN_CARET = fails(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+// babel-minify and Closure Compiler transpiles RegExp('.', 's') -> /./s and it causes SyntaxError
+var $RegExp = global.RegExp;
 
 module.exports = fails(function () {
-  // babel-minify transpiles RegExp('.', 's') -> /./s and it causes SyntaxError
-  var re = RegExp('.', (typeof '').charAt(0));
+  var re = $RegExp('.', 's');
   return !(re.dotAll && re.exec('\n') && re.flags === 's');
 });
 
@@ -11111,11 +11596,14 @@ module.exports = fails(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+// babel-minify and Closure Compiler transpiles RegExp('(?<a>b)', 'g') -> /(?<a>b)/g and it causes SyntaxError
+var $RegExp = global.RegExp;
 
 module.exports = fails(function () {
-  // babel-minify transpiles RegExp('.', 'g') -> /./g and it causes SyntaxError
-  var re = RegExp('(?<a>b)', (typeof '').charAt(5));
+  var re = $RegExp('(?<a>b)', 'g');
   return re.exec('b').groups.a !== 'b' ||
     'b'.replace(re, '$<a>c') !== 'bc';
 });
@@ -11128,7 +11616,11 @@ module.exports = fails(function () {
   !*** ./node_modules/core-js/internals/require-object-coercible.js ***!
   \********************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+var TypeError = global.TypeError;
 
 // `RequireObjectCoercible` abstract operation
 // https://tc39.es/ecma262/#sec-requireobjectcoercible
@@ -11148,11 +11640,13 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
-var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var defineProperty = Object.defineProperty;
 
 module.exports = function (key, value) {
   try {
-    createNonEnumerableProperty(global, key, value);
+    defineProperty(global, key, { value: value, configurable: true, writable: true });
   } catch (error) {
     global[key] = value;
   } return value;
@@ -11169,13 +11663,13 @@ module.exports = function (key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var defineProperty = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js").f;
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
 
 var TO_STRING_TAG = wellKnownSymbol('toStringTag');
 
 module.exports = function (it, TAG, STATIC) {
-  if (it && !has(it = STATIC ? it : it.prototype, TO_STRING_TAG)) {
+  if (it && !hasOwn(it = STATIC ? it : it.prototype, TO_STRING_TAG)) {
     defineProperty(it, TO_STRING_TAG, { configurable: true, value: TAG });
   }
 };
@@ -11233,10 +11727,34 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 (module.exports = function (key, value) {
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
-  version: '3.15.2',
+  version: '3.19.3',
   mode: IS_PURE ? 'pure' : 'global',
   copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/species-constructor.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/internals/species-constructor.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var aConstructor = __webpack_require__(/*! ../internals/a-constructor */ "./node_modules/core-js/internals/a-constructor.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var SPECIES = wellKnownSymbol('species');
+
+// `SpeciesConstructor` abstract operation
+// https://tc39.es/ecma262/#sec-speciesconstructor
+module.exports = function (O, defaultConstructor) {
+  var C = anObject(O).constructor;
+  var S;
+  return C === undefined || (S = anObject(C)[SPECIES]) == undefined ? defaultConstructor : aConstructor(S);
+};
 
 
 /***/ }),
@@ -11248,22 +11766,31 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var toIntegerOrInfinity = __webpack_require__(/*! ../internals/to-integer-or-infinity */ "./node_modules/core-js/internals/to-integer-or-infinity.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
 var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
 
-// `String.prototype.{ codePointAt, at }` methods implementation
+var charAt = uncurryThis(''.charAt);
+var charCodeAt = uncurryThis(''.charCodeAt);
+var stringSlice = uncurryThis(''.slice);
+
 var createMethod = function (CONVERT_TO_STRING) {
   return function ($this, pos) {
-    var S = String(requireObjectCoercible($this));
-    var position = toInteger(pos);
+    var S = toString(requireObjectCoercible($this));
+    var position = toIntegerOrInfinity(pos);
     var size = S.length;
     var first, second;
     if (position < 0 || position >= size) return CONVERT_TO_STRING ? '' : undefined;
-    first = S.charCodeAt(position);
+    first = charCodeAt(S, position);
     return first < 0xD800 || first > 0xDBFF || position + 1 === size
-      || (second = S.charCodeAt(position + 1)) < 0xDC00 || second > 0xDFFF
-        ? CONVERT_TO_STRING ? S.charAt(position) : first
-        : CONVERT_TO_STRING ? S.slice(position, position + 2) : (first - 0xD800 << 10) + (second - 0xDC00) + 0x10000;
+      || (second = charCodeAt(S, position + 1)) < 0xDC00 || second > 0xDFFF
+        ? CONVERT_TO_STRING
+          ? charAt(S, position)
+          : first
+        : CONVERT_TO_STRING
+          ? stringSlice(S, position, position + 2)
+          : (first - 0xD800 << 10) + (second - 0xDC00) + 0x10000;
   };
 };
 
@@ -11279,186 +11806,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/string-punycode-to-ascii.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/core-js/internals/string-punycode-to-ascii.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// based on https://github.com/bestiejs/punycode.js/blob/master/punycode.js
-var maxInt = 2147483647; // aka. 0x7FFFFFFF or 2^31-1
-var base = 36;
-var tMin = 1;
-var tMax = 26;
-var skew = 38;
-var damp = 700;
-var initialBias = 72;
-var initialN = 128; // 0x80
-var delimiter = '-'; // '\x2D'
-var regexNonASCII = /[^\0-\u007E]/; // non-ASCII chars
-var regexSeparators = /[.\u3002\uFF0E\uFF61]/g; // RFC 3490 separators
-var OVERFLOW_ERROR = 'Overflow: input needs wider integers to process';
-var baseMinusTMin = base - tMin;
-var floor = Math.floor;
-var stringFromCharCode = String.fromCharCode;
-
-/**
- * Creates an array containing the numeric code points of each Unicode
- * character in the string. While JavaScript uses UCS-2 internally,
- * this function will convert a pair of surrogate halves (each of which
- * UCS-2 exposes as separate characters) into a single code point,
- * matching UTF-16.
- */
-var ucs2decode = function (string) {
-  var output = [];
-  var counter = 0;
-  var length = string.length;
-  while (counter < length) {
-    var value = string.charCodeAt(counter++);
-    if (value >= 0xD800 && value <= 0xDBFF && counter < length) {
-      // It's a high surrogate, and there is a next character.
-      var extra = string.charCodeAt(counter++);
-      if ((extra & 0xFC00) == 0xDC00) { // Low surrogate.
-        output.push(((value & 0x3FF) << 10) + (extra & 0x3FF) + 0x10000);
-      } else {
-        // It's an unmatched surrogate; only append this code unit, in case the
-        // next code unit is the high surrogate of a surrogate pair.
-        output.push(value);
-        counter--;
-      }
-    } else {
-      output.push(value);
-    }
-  }
-  return output;
-};
-
-/**
- * Converts a digit/integer into a basic code point.
- */
-var digitToBasic = function (digit) {
-  //  0..25 map to ASCII a..z or A..Z
-  // 26..35 map to ASCII 0..9
-  return digit + 22 + 75 * (digit < 26);
-};
-
-/**
- * Bias adaptation function as per section 3.4 of RFC 3492.
- * https://tools.ietf.org/html/rfc3492#section-3.4
- */
-var adapt = function (delta, numPoints, firstTime) {
-  var k = 0;
-  delta = firstTime ? floor(delta / damp) : delta >> 1;
-  delta += floor(delta / numPoints);
-  for (; delta > baseMinusTMin * tMax >> 1; k += base) {
-    delta = floor(delta / baseMinusTMin);
-  }
-  return floor(k + (baseMinusTMin + 1) * delta / (delta + skew));
-};
-
-/**
- * Converts a string of Unicode symbols (e.g. a domain name label) to a
- * Punycode string of ASCII-only symbols.
- */
-// eslint-disable-next-line max-statements -- TODO
-var encode = function (input) {
-  var output = [];
-
-  // Convert the input in UCS-2 to an array of Unicode code points.
-  input = ucs2decode(input);
-
-  // Cache the length.
-  var inputLength = input.length;
-
-  // Initialize the state.
-  var n = initialN;
-  var delta = 0;
-  var bias = initialBias;
-  var i, currentValue;
-
-  // Handle the basic code points.
-  for (i = 0; i < input.length; i++) {
-    currentValue = input[i];
-    if (currentValue < 0x80) {
-      output.push(stringFromCharCode(currentValue));
-    }
-  }
-
-  var basicLength = output.length; // number of basic code points.
-  var handledCPCount = basicLength; // number of code points that have been handled;
-
-  // Finish the basic string with a delimiter unless it's empty.
-  if (basicLength) {
-    output.push(delimiter);
-  }
-
-  // Main encoding loop:
-  while (handledCPCount < inputLength) {
-    // All non-basic code points < n have been handled already. Find the next larger one:
-    var m = maxInt;
-    for (i = 0; i < input.length; i++) {
-      currentValue = input[i];
-      if (currentValue >= n && currentValue < m) {
-        m = currentValue;
-      }
-    }
-
-    // Increase `delta` enough to advance the decoder's <n,i> state to <m,0>, but guard against overflow.
-    var handledCPCountPlusOne = handledCPCount + 1;
-    if (m - n > floor((maxInt - delta) / handledCPCountPlusOne)) {
-      throw RangeError(OVERFLOW_ERROR);
-    }
-
-    delta += (m - n) * handledCPCountPlusOne;
-    n = m;
-
-    for (i = 0; i < input.length; i++) {
-      currentValue = input[i];
-      if (currentValue < n && ++delta > maxInt) {
-        throw RangeError(OVERFLOW_ERROR);
-      }
-      if (currentValue == n) {
-        // Represent delta as a generalized variable-length integer.
-        var q = delta;
-        for (var k = base; /* no condition */; k += base) {
-          var t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
-          if (q < t) break;
-          var qMinusT = q - t;
-          var baseMinusT = base - t;
-          output.push(stringFromCharCode(digitToBasic(t + qMinusT % baseMinusT)));
-          q = floor(qMinusT / baseMinusT);
-        }
-
-        output.push(stringFromCharCode(digitToBasic(q)));
-        bias = adapt(delta, handledCPCountPlusOne, handledCPCount == basicLength);
-        delta = 0;
-        ++handledCPCount;
-      }
-    }
-
-    ++delta;
-    ++n;
-  }
-  return output.join('');
-};
-
-module.exports = function (input) {
-  var encoded = [];
-  var labels = input.toLowerCase().replace(regexSeparators, '\u002E').split('.');
-  var i, label;
-  for (i = 0; i < labels.length; i++) {
-    label = labels[i];
-    encoded.push(regexNonASCII.test(label) ? 'xn--' + encode(label) : label);
-  }
-  return encoded.join('.');
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/internals/to-absolute-index.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/internals/to-absolute-index.js ***!
@@ -11466,7 +11813,7 @@ module.exports = function (input) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var toIntegerOrInfinity = __webpack_require__(/*! ../internals/to-integer-or-infinity */ "./node_modules/core-js/internals/to-integer-or-infinity.js");
 
 var max = Math.max;
 var min = Math.min;
@@ -11475,7 +11822,7 @@ var min = Math.min;
 // Let integer be ? ToInteger(index).
 // If integer < 0, let result be max((length + integer), 0); else let result be min(integer, length).
 module.exports = function (index, length) {
-  var integer = toInteger(index);
+  var integer = toIntegerOrInfinity(index);
   return integer < 0 ? max(integer + length, 0) : min(integer, length);
 };
 
@@ -11500,20 +11847,22 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/to-integer.js":
-/*!******************************************************!*\
-  !*** ./node_modules/core-js/internals/to-integer.js ***!
-  \******************************************************/
+/***/ "./node_modules/core-js/internals/to-integer-or-infinity.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/to-integer-or-infinity.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 var ceil = Math.ceil;
 var floor = Math.floor;
 
-// `ToInteger` abstract operation
-// https://tc39.es/ecma262/#sec-tointeger
+// `ToIntegerOrInfinity` abstract operation
+// https://tc39.es/ecma262/#sec-tointegerorinfinity
 module.exports = function (argument) {
-  return isNaN(argument = +argument) ? 0 : (argument > 0 ? floor : ceil)(argument);
+  var number = +argument;
+  // eslint-disable-next-line no-self-compare -- safe
+  return number !== number || number === 0 ? 0 : (number > 0 ? floor : ceil)(number);
 };
 
 
@@ -11526,14 +11875,14 @@ module.exports = function (argument) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var toIntegerOrInfinity = __webpack_require__(/*! ../internals/to-integer-or-infinity */ "./node_modules/core-js/internals/to-integer-or-infinity.js");
 
 var min = Math.min;
 
 // `ToLength` abstract operation
 // https://tc39.es/ecma262/#sec-tolength
 module.exports = function (argument) {
-  return argument > 0 ? min(toInteger(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
+  return argument > 0 ? min(toIntegerOrInfinity(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
 };
 
 
@@ -11546,7 +11895,10 @@ module.exports = function (argument) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+
+var Object = global.Object;
 
 // `ToObject` abstract operation
 // https://tc39.es/ecma262/#sec-toobject
@@ -11564,19 +11916,51 @@ module.exports = function (argument) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
 var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var isSymbol = __webpack_require__(/*! ../internals/is-symbol */ "./node_modules/core-js/internals/is-symbol.js");
+var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
+var ordinaryToPrimitive = __webpack_require__(/*! ../internals/ordinary-to-primitive */ "./node_modules/core-js/internals/ordinary-to-primitive.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var TypeError = global.TypeError;
+var TO_PRIMITIVE = wellKnownSymbol('toPrimitive');
 
 // `ToPrimitive` abstract operation
 // https://tc39.es/ecma262/#sec-toprimitive
-// instead of the ES6 spec version, we didn't implement @@toPrimitive case
-// and the second argument - flag - preferred type is a string
-module.exports = function (input, PREFERRED_STRING) {
-  if (!isObject(input)) return input;
-  var fn, val;
-  if (PREFERRED_STRING && typeof (fn = input.toString) == 'function' && !isObject(val = fn.call(input))) return val;
-  if (typeof (fn = input.valueOf) == 'function' && !isObject(val = fn.call(input))) return val;
-  if (!PREFERRED_STRING && typeof (fn = input.toString) == 'function' && !isObject(val = fn.call(input))) return val;
-  throw TypeError("Can't convert object to primitive value");
+module.exports = function (input, pref) {
+  if (!isObject(input) || isSymbol(input)) return input;
+  var exoticToPrim = getMethod(input, TO_PRIMITIVE);
+  var result;
+  if (exoticToPrim) {
+    if (pref === undefined) pref = 'default';
+    result = call(exoticToPrim, input, pref);
+    if (!isObject(result) || isSymbol(result)) return result;
+    throw TypeError("Can't convert object to primitive value");
+  }
+  if (pref === undefined) pref = 'number';
+  return ordinaryToPrimitive(input, pref);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/to-property-key.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/to-property-key.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "./node_modules/core-js/internals/to-primitive.js");
+var isSymbol = __webpack_require__(/*! ../internals/is-symbol */ "./node_modules/core-js/internals/is-symbol.js");
+
+// `ToPropertyKey` abstract operation
+// https://tc39.es/ecma262/#sec-topropertykey
+module.exports = function (argument) {
+  var key = toPrimitive(argument, 'string');
+  return isSymbol(key) ? key : key + '';
 };
 
 
@@ -11601,18 +11985,63 @@ module.exports = String(test) === '[object z]';
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/to-string.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/to-string.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var classof = __webpack_require__(/*! ../internals/classof */ "./node_modules/core-js/internals/classof.js");
+
+var String = global.String;
+
+module.exports = function (argument) {
+  if (classof(argument) === 'Symbol') throw TypeError('Cannot convert a Symbol value to a string');
+  return String(argument);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/try-to-string.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/try-to-string.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+var String = global.String;
+
+module.exports = function (argument) {
+  try {
+    return String(argument);
+  } catch (error) {
+    return 'Object';
+  }
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/uid.js":
 /*!***********************************************!*\
   !*** ./node_modules/core-js/internals/uid.js ***!
   \***********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 
 var id = 0;
 var postfix = Math.random();
+var toString = uncurryThis(1.0.toString);
 
 module.exports = function (key) {
-  return 'Symbol(' + String(key === undefined ? '' : key) + ')_' + (++id + postfix).toString(36);
+  return 'Symbol(' + (key === undefined ? '' : key) + ')_' + toString(++id + postfix, 36);
 };
 
 
@@ -11644,21 +12073,25 @@ module.exports = NATIVE_SYMBOL
 
 var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var uid = __webpack_require__(/*! ../internals/uid */ "./node_modules/core-js/internals/uid.js");
 var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/native-symbol */ "./node_modules/core-js/internals/native-symbol.js");
 var USE_SYMBOL_AS_UID = __webpack_require__(/*! ../internals/use-symbol-as-uid */ "./node_modules/core-js/internals/use-symbol-as-uid.js");
 
 var WellKnownSymbolsStore = shared('wks');
 var Symbol = global.Symbol;
+var symbolFor = Symbol && Symbol['for'];
 var createWellKnownSymbol = USE_SYMBOL_AS_UID ? Symbol : Symbol && Symbol.withoutSetter || uid;
 
 module.exports = function (name) {
-  if (!has(WellKnownSymbolsStore, name) || !(NATIVE_SYMBOL || typeof WellKnownSymbolsStore[name] == 'string')) {
-    if (NATIVE_SYMBOL && has(Symbol, name)) {
+  if (!hasOwn(WellKnownSymbolsStore, name) || !(NATIVE_SYMBOL || typeof WellKnownSymbolsStore[name] == 'string')) {
+    var description = 'Symbol.' + name;
+    if (NATIVE_SYMBOL && hasOwn(Symbol, name)) {
       WellKnownSymbolsStore[name] = Symbol[name];
+    } else if (USE_SYMBOL_AS_UID && symbolFor) {
+      WellKnownSymbolsStore[name] = symbolFor(description);
     } else {
-      WellKnownSymbolsStore[name] = createWellKnownSymbol('Symbol.' + name);
+      WellKnownSymbolsStore[name] = createWellKnownSymbol(description);
     }
   } return WellKnownSymbolsStore[name];
 };
@@ -11731,6 +12164,58 @@ addToUnscopables('entries');
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.promise.finally.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.finally.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var NativePromise = __webpack_require__(/*! ../internals/native-promise-constructor */ "./node_modules/core-js/internals/native-promise-constructor.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var speciesConstructor = __webpack_require__(/*! ../internals/species-constructor */ "./node_modules/core-js/internals/species-constructor.js");
+var promiseResolve = __webpack_require__(/*! ../internals/promise-resolve */ "./node_modules/core-js/internals/promise-resolve.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+
+// Safari bug https://bugs.webkit.org/show_bug.cgi?id=200829
+var NON_GENERIC = !!NativePromise && fails(function () {
+  NativePromise.prototype['finally'].call({ then: function () { /* empty */ } }, function () { /* empty */ });
+});
+
+// `Promise.prototype.finally` method
+// https://tc39.es/ecma262/#sec-promise.prototype.finally
+$({ target: 'Promise', proto: true, real: true, forced: NON_GENERIC }, {
+  'finally': function (onFinally) {
+    var C = speciesConstructor(this, getBuiltIn('Promise'));
+    var isFunction = isCallable(onFinally);
+    return this.then(
+      isFunction ? function (x) {
+        return promiseResolve(C, onFinally()).then(function () { return x; });
+      } : onFinally,
+      isFunction ? function (e) {
+        return promiseResolve(C, onFinally()).then(function () { throw e; });
+      } : onFinally
+    );
+  }
+});
+
+// makes sure that native promise-based APIs `Promise#finally` properly works with patched `Promise#then`
+if (!IS_PURE && isCallable(NativePromise)) {
+  var method = getBuiltIn('Promise').prototype['finally'];
+  if (NativePromise.prototype['finally'] !== method) {
+    redefine(NativePromise.prototype, 'finally', method, { unsafe: true });
+  }
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.regexp.exec.js":
 /*!********************************************************!*\
   !*** ./node_modules/core-js/modules/es.regexp.exec.js ***!
@@ -11752,47 +12237,6 @@ $({ target: 'RegExp', proto: true, forced: /./.exec !== exec }, {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/modules/es.string.iterator.js":
-/*!************************************************************!*\
-  !*** ./node_modules/core-js/modules/es.string.iterator.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var charAt = __webpack_require__(/*! ../internals/string-multibyte */ "./node_modules/core-js/internals/string-multibyte.js").charAt;
-var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
-var defineIterator = __webpack_require__(/*! ../internals/define-iterator */ "./node_modules/core-js/internals/define-iterator.js");
-
-var STRING_ITERATOR = 'String Iterator';
-var setInternalState = InternalStateModule.set;
-var getInternalState = InternalStateModule.getterFor(STRING_ITERATOR);
-
-// `String.prototype[@@iterator]` method
-// https://tc39.es/ecma262/#sec-string.prototype-@@iterator
-defineIterator(String, 'String', function (iterated) {
-  setInternalState(this, {
-    type: STRING_ITERATOR,
-    string: String(iterated),
-    index: 0
-  });
-// `%StringIteratorPrototype%.next` method
-// https://tc39.es/ecma262/#sec-%stringiteratorprototype%.next
-}, function next() {
-  var state = getInternalState(this);
-  var string = state.string;
-  var index = state.index;
-  var point;
-  if (index >= string.length) return { value: undefined, done: true };
-  point = charAt(string, index);
-  state.index += point.length;
-  return { value: point, done: false };
-});
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/modules/es.string.replace.js":
 /*!***********************************************************!*\
   !*** ./node_modules/core-js/modules/es.string.replace.js ***!
@@ -11802,13 +12246,19 @@ defineIterator(String, 'String', function (iterated) {
 
 "use strict";
 
+var apply = __webpack_require__(/*! ../internals/function-apply */ "./node_modules/core-js/internals/function-apply.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var fixRegExpWellKnownSymbolLogic = __webpack_require__(/*! ../internals/fix-regexp-well-known-symbol-logic */ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js");
 var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var toIntegerOrInfinity = __webpack_require__(/*! ../internals/to-integer-or-infinity */ "./node_modules/core-js/internals/to-integer-or-infinity.js");
 var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
-var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
 var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
 var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-index */ "./node_modules/core-js/internals/advance-string-index.js");
+var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
 var getSubstitution = __webpack_require__(/*! ../internals/get-substitution */ "./node_modules/core-js/internals/get-substitution.js");
 var regExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
@@ -11816,6 +12266,10 @@ var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ 
 var REPLACE = wellKnownSymbol('replace');
 var max = Math.max;
 var min = Math.min;
+var concat = uncurryThis([].concat);
+var push = uncurryThis([].push);
+var stringIndexOf = uncurryThis(''.indexOf);
+var stringSlice = uncurryThis(''.slice);
 
 var maybeToString = function (it) {
   return it === undefined ? it : String(it);
@@ -11843,6 +12297,7 @@ var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
     result.groups = { a: '7' };
     return result;
   };
+  // eslint-disable-next-line regexp/no-useless-dollar-replacements -- false positive
   return ''.replace(re, '$<a>') !== '7';
 });
 
@@ -11855,28 +12310,28 @@ fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNa
     // https://tc39.es/ecma262/#sec-string.prototype.replace
     function replace(searchValue, replaceValue) {
       var O = requireObjectCoercible(this);
-      var replacer = searchValue == undefined ? undefined : searchValue[REPLACE];
-      return replacer !== undefined
-        ? replacer.call(searchValue, O, replaceValue)
-        : nativeReplace.call(String(O), searchValue, replaceValue);
+      var replacer = searchValue == undefined ? undefined : getMethod(searchValue, REPLACE);
+      return replacer
+        ? call(replacer, searchValue, O, replaceValue)
+        : call(nativeReplace, toString(O), searchValue, replaceValue);
     },
     // `RegExp.prototype[@@replace]` method
     // https://tc39.es/ecma262/#sec-regexp.prototype-@@replace
     function (string, replaceValue) {
+      var rx = anObject(this);
+      var S = toString(string);
+
       if (
-        typeof replaceValue === 'string' &&
-        replaceValue.indexOf(UNSAFE_SUBSTITUTE) === -1 &&
-        replaceValue.indexOf('$<') === -1
+        typeof replaceValue == 'string' &&
+        stringIndexOf(replaceValue, UNSAFE_SUBSTITUTE) === -1 &&
+        stringIndexOf(replaceValue, '$<') === -1
       ) {
-        var res = maybeCallNative(nativeReplace, this, string, replaceValue);
+        var res = maybeCallNative(nativeReplace, rx, S, replaceValue);
         if (res.done) return res.value;
       }
 
-      var rx = anObject(this);
-      var S = String(string);
-
-      var functionalReplace = typeof replaceValue === 'function';
-      if (!functionalReplace) replaceValue = String(replaceValue);
+      var functionalReplace = isCallable(replaceValue);
+      if (!functionalReplace) replaceValue = toString(replaceValue);
 
       var global = rx.global;
       if (global) {
@@ -11888,10 +12343,10 @@ fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNa
         var result = regExpExec(rx, S);
         if (result === null) break;
 
-        results.push(result);
+        push(results, result);
         if (!global) break;
 
-        var matchStr = String(result[0]);
+        var matchStr = toString(result[0]);
         if (matchStr === '') rx.lastIndex = advanceStringIndex(S, toLength(rx.lastIndex), fullUnicode);
       }
 
@@ -11900,32 +12355,81 @@ fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNa
       for (var i = 0; i < results.length; i++) {
         result = results[i];
 
-        var matched = String(result[0]);
-        var position = max(min(toInteger(result.index), S.length), 0);
+        var matched = toString(result[0]);
+        var position = max(min(toIntegerOrInfinity(result.index), S.length), 0);
         var captures = [];
         // NOTE: This is equivalent to
         //   captures = result.slice(1).map(maybeToString)
         // but for some reason `nativeSlice.call(result, 1, result.length)` (called in
         // the slice polyfill when slicing native arrays) "doesn't work" in safari 9 and
         // causes a crash (https://pastebin.com/N21QzeQA) when trying to debug it.
-        for (var j = 1; j < result.length; j++) captures.push(maybeToString(result[j]));
+        for (var j = 1; j < result.length; j++) push(captures, maybeToString(result[j]));
         var namedCaptures = result.groups;
         if (functionalReplace) {
-          var replacerArgs = [matched].concat(captures, position, S);
-          if (namedCaptures !== undefined) replacerArgs.push(namedCaptures);
-          var replacement = String(replaceValue.apply(undefined, replacerArgs));
+          var replacerArgs = concat([matched], captures, position, S);
+          if (namedCaptures !== undefined) push(replacerArgs, namedCaptures);
+          var replacement = toString(apply(replaceValue, undefined, replacerArgs));
         } else {
           replacement = getSubstitution(matched, S, position, captures, namedCaptures, replaceValue);
         }
         if (position >= nextSourcePosition) {
-          accumulatedResult += S.slice(nextSourcePosition, position) + replacement;
+          accumulatedResult += stringSlice(S, nextSourcePosition, position) + replacement;
           nextSourcePosition = position + matched.length;
         }
       }
-      return accumulatedResult + S.slice(nextSourcePosition);
+      return accumulatedResult + stringSlice(S, nextSourcePosition);
     }
   ];
 }, !REPLACE_SUPPORTS_NAMED_GROUPS || !REPLACE_KEEPS_$0 || REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/web.dom-collections.iterator.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/modules/web.dom-collections.iterator.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+var DOMIterables = __webpack_require__(/*! ../internals/dom-iterables */ "./node_modules/core-js/internals/dom-iterables.js");
+var DOMTokenListPrototype = __webpack_require__(/*! ../internals/dom-token-list-prototype */ "./node_modules/core-js/internals/dom-token-list-prototype.js");
+var ArrayIteratorMethods = __webpack_require__(/*! ../modules/es.array.iterator */ "./node_modules/core-js/modules/es.array.iterator.js");
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var ITERATOR = wellKnownSymbol('iterator');
+var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+var ArrayValues = ArrayIteratorMethods.values;
+
+var handlePrototype = function (CollectionPrototype, COLLECTION_NAME) {
+  if (CollectionPrototype) {
+    // some Chrome versions have non-configurable methods on DOMTokenList
+    if (CollectionPrototype[ITERATOR] !== ArrayValues) try {
+      createNonEnumerableProperty(CollectionPrototype, ITERATOR, ArrayValues);
+    } catch (error) {
+      CollectionPrototype[ITERATOR] = ArrayValues;
+    }
+    if (!CollectionPrototype[TO_STRING_TAG]) {
+      createNonEnumerableProperty(CollectionPrototype, TO_STRING_TAG, COLLECTION_NAME);
+    }
+    if (DOMIterables[COLLECTION_NAME]) for (var METHOD_NAME in ArrayIteratorMethods) {
+      // some Chrome versions have non-configurable methods on DOMTokenList
+      if (CollectionPrototype[METHOD_NAME] !== ArrayIteratorMethods[METHOD_NAME]) try {
+        createNonEnumerableProperty(CollectionPrototype, METHOD_NAME, ArrayIteratorMethods[METHOD_NAME]);
+      } catch (error) {
+        CollectionPrototype[METHOD_NAME] = ArrayIteratorMethods[METHOD_NAME];
+      }
+    }
+  }
+};
+
+for (var COLLECTION_NAME in DOMIterables) {
+  handlePrototype(global[COLLECTION_NAME] && global[COLLECTION_NAME].prototype, COLLECTION_NAME);
+}
+
+handlePrototype(DOMTokenListPrototype, 'DOMTokenList');
 
 
 /***/ }),
@@ -11942,7 +12446,10 @@ fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNa
 // TODO: in core-js@4, move /modules/ dependencies to public entries for better optimization by tools like `preset-env`
 __webpack_require__(/*! ../modules/es.array.iterator */ "./node_modules/core-js/modules/es.array.iterator.js");
 var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
 var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
 var USE_NATIVE_URL = __webpack_require__(/*! ../internals/native-url */ "./node_modules/core-js/internals/native-url.js");
 var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
 var redefineAll = __webpack_require__(/*! ../internals/redefine-all */ "./node_modules/core-js/internals/redefine-all.js");
@@ -11950,25 +12457,44 @@ var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "
 var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ "./node_modules/core-js/internals/create-iterator-constructor.js");
 var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
 var anInstance = __webpack_require__(/*! ../internals/an-instance */ "./node_modules/core-js/internals/an-instance.js");
-var hasOwn = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
 var bind = __webpack_require__(/*! ../internals/function-bind-context */ "./node_modules/core-js/internals/function-bind-context.js");
 var classof = __webpack_require__(/*! ../internals/classof */ "./node_modules/core-js/internals/classof.js");
 var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
 var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var $toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
 var create = __webpack_require__(/*! ../internals/object-create */ "./node_modules/core-js/internals/object-create.js");
 var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
 var getIterator = __webpack_require__(/*! ../internals/get-iterator */ "./node_modules/core-js/internals/get-iterator.js");
 var getIteratorMethod = __webpack_require__(/*! ../internals/get-iterator-method */ "./node_modules/core-js/internals/get-iterator-method.js");
 var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var arraySort = __webpack_require__(/*! ../internals/array-sort */ "./node_modules/core-js/internals/array-sort.js");
 
-var $fetch = getBuiltIn('fetch');
-var Headers = getBuiltIn('Headers');
 var ITERATOR = wellKnownSymbol('iterator');
 var URL_SEARCH_PARAMS = 'URLSearchParams';
 var URL_SEARCH_PARAMS_ITERATOR = URL_SEARCH_PARAMS + 'Iterator';
 var setInternalState = InternalStateModule.set;
 var getInternalParamsState = InternalStateModule.getterFor(URL_SEARCH_PARAMS);
 var getInternalIteratorState = InternalStateModule.getterFor(URL_SEARCH_PARAMS_ITERATOR);
+
+var n$Fetch = getBuiltIn('fetch');
+var N$Request = getBuiltIn('Request');
+var Headers = getBuiltIn('Headers');
+var RequestPrototype = N$Request && N$Request.prototype;
+var HeadersPrototype = Headers && Headers.prototype;
+var RegExp = global.RegExp;
+var TypeError = global.TypeError;
+var decodeURIComponent = global.decodeURIComponent;
+var encodeURIComponent = global.encodeURIComponent;
+var charAt = uncurryThis(''.charAt);
+var join = uncurryThis([].join);
+var push = uncurryThis([].push);
+var replace = uncurryThis(''.replace);
+var shift = uncurryThis([].shift);
+var splice = uncurryThis([].splice);
+var split = uncurryThis(''.split);
+var stringSlice = uncurryThis(''.slice);
 
 var plus = /\+/g;
 var sequences = Array(4);
@@ -11986,13 +12512,13 @@ var percentDecode = function (sequence) {
 };
 
 var deserialize = function (it) {
-  var result = it.replace(plus, ' ');
+  var result = replace(it, plus, ' ');
   var bytes = 4;
   try {
     return decodeURIComponent(result);
   } catch (error) {
     while (bytes) {
-      result = result.replace(percentSequence(bytes--), percentDecode);
+      result = replace(result, percentSequence(bytes--), percentDecode);
     }
     return result;
   }
@@ -12000,7 +12526,7 @@ var deserialize = function (it) {
 
 var find = /[!'()~]|%20/g;
 
-var replace = {
+var replacements = {
   '!': '%21',
   "'": '%27',
   '(': '%28',
@@ -12010,34 +12536,11 @@ var replace = {
 };
 
 var replacer = function (match) {
-  return replace[match];
+  return replacements[match];
 };
 
 var serialize = function (it) {
-  return encodeURIComponent(it).replace(find, replacer);
-};
-
-var parseSearchParams = function (result, query) {
-  if (query) {
-    var attributes = query.split('&');
-    var index = 0;
-    var attribute, entry;
-    while (index < attributes.length) {
-      attribute = attributes[index++];
-      if (attribute.length) {
-        entry = attribute.split('=');
-        result.push({
-          key: deserialize(entry.shift()),
-          value: deserialize(entry.join('='))
-        });
-      }
-    }
-  }
-};
-
-var updateSearchParams = function (query) {
-  this.entries.length = 0;
-  parseSearchParams(this.entries, query);
+  return replace(encodeURIComponent(it), find, replacer);
 };
 
 var validateArgumentsLength = function (passed, required) {
@@ -12058,45 +12561,87 @@ var URLSearchParamsIterator = createIteratorConstructor(function Iterator(params
   if (!step.done) {
     step.value = kind === 'keys' ? entry.key : kind === 'values' ? entry.value : [entry.key, entry.value];
   } return step;
-});
+}, true);
+
+var URLSearchParamsState = function (init) {
+  this.entries = [];
+  this.url = null;
+
+  if (init !== undefined) {
+    if (isObject(init)) this.parseObject(init);
+    else this.parseQuery(typeof init == 'string' ? charAt(init, 0) === '?' ? stringSlice(init, 1) : init : $toString(init));
+  }
+};
+
+URLSearchParamsState.prototype = {
+  type: URL_SEARCH_PARAMS,
+  bindURL: function (url) {
+    this.url = url;
+    this.update();
+  },
+  parseObject: function (object) {
+    var iteratorMethod = getIteratorMethod(object);
+    var iterator, next, step, entryIterator, entryNext, first, second;
+
+    if (iteratorMethod) {
+      iterator = getIterator(object, iteratorMethod);
+      next = iterator.next;
+      while (!(step = call(next, iterator)).done) {
+        entryIterator = getIterator(anObject(step.value));
+        entryNext = entryIterator.next;
+        if (
+          (first = call(entryNext, entryIterator)).done ||
+          (second = call(entryNext, entryIterator)).done ||
+          !call(entryNext, entryIterator).done
+        ) throw TypeError('Expected sequence with length 2');
+        push(this.entries, { key: $toString(first.value), value: $toString(second.value) });
+      }
+    } else for (var key in object) if (hasOwn(object, key)) {
+      push(this.entries, { key: key, value: $toString(object[key]) });
+    }
+  },
+  parseQuery: function (query) {
+    if (query) {
+      var attributes = split(query, '&');
+      var index = 0;
+      var attribute, entry;
+      while (index < attributes.length) {
+        attribute = attributes[index++];
+        if (attribute.length) {
+          entry = split(attribute, '=');
+          push(this.entries, {
+            key: deserialize(shift(entry)),
+            value: deserialize(join(entry, '='))
+          });
+        }
+      }
+    }
+  },
+  serialize: function () {
+    var entries = this.entries;
+    var result = [];
+    var index = 0;
+    var entry;
+    while (index < entries.length) {
+      entry = entries[index++];
+      push(result, serialize(entry.key) + '=' + serialize(entry.value));
+    } return join(result, '&');
+  },
+  update: function () {
+    this.entries.length = 0;
+    this.parseQuery(this.url.query);
+  },
+  updateURL: function () {
+    if (this.url) this.url.update();
+  }
+};
 
 // `URLSearchParams` constructor
 // https://url.spec.whatwg.org/#interface-urlsearchparams
 var URLSearchParamsConstructor = function URLSearchParams(/* init */) {
-  anInstance(this, URLSearchParamsConstructor, URL_SEARCH_PARAMS);
+  anInstance(this, URLSearchParamsPrototype);
   var init = arguments.length > 0 ? arguments[0] : undefined;
-  var that = this;
-  var entries = [];
-  var iteratorMethod, iterator, next, step, entryIterator, entryNext, first, second, key;
-
-  setInternalState(that, {
-    type: URL_SEARCH_PARAMS,
-    entries: entries,
-    updateURL: function () { /* empty */ },
-    updateSearchParams: updateSearchParams
-  });
-
-  if (init !== undefined) {
-    if (isObject(init)) {
-      iteratorMethod = getIteratorMethod(init);
-      if (typeof iteratorMethod === 'function') {
-        iterator = iteratorMethod.call(init);
-        next = iterator.next;
-        while (!(step = next.call(iterator)).done) {
-          entryIterator = getIterator(anObject(step.value));
-          entryNext = entryIterator.next;
-          if (
-            (first = entryNext.call(entryIterator)).done ||
-            (second = entryNext.call(entryIterator)).done ||
-            !entryNext.call(entryIterator).done
-          ) throw TypeError('Expected sequence with length 2');
-          entries.push({ key: first.value + '', value: second.value + '' });
-        }
-      } else for (key in init) if (hasOwn(init, key)) entries.push({ key: key, value: init[key] + '' });
-    } else {
-      parseSearchParams(entries, typeof init === 'string' ? init.charAt(0) === '?' ? init.slice(1) : init : init + '');
-    }
-  }
+  setInternalState(this, new URLSearchParamsState(init));
 };
 
 var URLSearchParamsPrototype = URLSearchParamsConstructor.prototype;
@@ -12107,7 +12652,7 @@ redefineAll(URLSearchParamsPrototype, {
   append: function append(name, value) {
     validateArgumentsLength(arguments.length, 2);
     var state = getInternalParamsState(this);
-    state.entries.push({ key: name + '', value: value + '' });
+    push(state.entries, { key: $toString(name), value: $toString(value) });
     state.updateURL();
   },
   // `URLSearchParams.prototype.delete` method
@@ -12116,10 +12661,10 @@ redefineAll(URLSearchParamsPrototype, {
     validateArgumentsLength(arguments.length, 1);
     var state = getInternalParamsState(this);
     var entries = state.entries;
-    var key = name + '';
+    var key = $toString(name);
     var index = 0;
     while (index < entries.length) {
-      if (entries[index].key === key) entries.splice(index, 1);
+      if (entries[index].key === key) splice(entries, index, 1);
       else index++;
     }
     state.updateURL();
@@ -12129,7 +12674,7 @@ redefineAll(URLSearchParamsPrototype, {
   get: function get(name) {
     validateArgumentsLength(arguments.length, 1);
     var entries = getInternalParamsState(this).entries;
-    var key = name + '';
+    var key = $toString(name);
     var index = 0;
     for (; index < entries.length; index++) {
       if (entries[index].key === key) return entries[index].value;
@@ -12141,11 +12686,11 @@ redefineAll(URLSearchParamsPrototype, {
   getAll: function getAll(name) {
     validateArgumentsLength(arguments.length, 1);
     var entries = getInternalParamsState(this).entries;
-    var key = name + '';
+    var key = $toString(name);
     var result = [];
     var index = 0;
     for (; index < entries.length; index++) {
-      if (entries[index].key === key) result.push(entries[index].value);
+      if (entries[index].key === key) push(result, entries[index].value);
     }
     return result;
   },
@@ -12154,7 +12699,7 @@ redefineAll(URLSearchParamsPrototype, {
   has: function has(name) {
     validateArgumentsLength(arguments.length, 1);
     var entries = getInternalParamsState(this).entries;
-    var key = name + '';
+    var key = $toString(name);
     var index = 0;
     while (index < entries.length) {
       if (entries[index++].key === key) return true;
@@ -12168,48 +12713,36 @@ redefineAll(URLSearchParamsPrototype, {
     var state = getInternalParamsState(this);
     var entries = state.entries;
     var found = false;
-    var key = name + '';
-    var val = value + '';
+    var key = $toString(name);
+    var val = $toString(value);
     var index = 0;
     var entry;
     for (; index < entries.length; index++) {
       entry = entries[index];
       if (entry.key === key) {
-        if (found) entries.splice(index--, 1);
+        if (found) splice(entries, index--, 1);
         else {
           found = true;
           entry.value = val;
         }
       }
     }
-    if (!found) entries.push({ key: key, value: val });
+    if (!found) push(entries, { key: key, value: val });
     state.updateURL();
   },
   // `URLSearchParams.prototype.sort` method
   // https://url.spec.whatwg.org/#dom-urlsearchparams-sort
   sort: function sort() {
     var state = getInternalParamsState(this);
-    var entries = state.entries;
-    // Array#sort is not stable in some engines
-    var slice = entries.slice();
-    var entry, entriesIndex, sliceIndex;
-    entries.length = 0;
-    for (sliceIndex = 0; sliceIndex < slice.length; sliceIndex++) {
-      entry = slice[sliceIndex];
-      for (entriesIndex = 0; entriesIndex < sliceIndex; entriesIndex++) {
-        if (entries[entriesIndex].key > entry.key) {
-          entries.splice(entriesIndex, 0, entry);
-          break;
-        }
-      }
-      if (entriesIndex === sliceIndex) entries.push(entry);
-    }
+    arraySort(state.entries, function (a, b) {
+      return a.key > b.key ? 1 : -1;
+    });
     state.updateURL();
   },
   // `URLSearchParams.prototype.forEach` method
   forEach: function forEach(callback /* , thisArg */) {
     var entries = getInternalParamsState(this).entries;
-    var boundFunction = bind(callback, arguments.length > 1 ? arguments[1] : undefined, 3);
+    var boundFunction = bind(callback, arguments.length > 1 ? arguments[1] : undefined);
     var index = 0;
     var entry;
     while (index < entries.length) {
@@ -12232,19 +12765,12 @@ redefineAll(URLSearchParamsPrototype, {
 }, { enumerable: true });
 
 // `URLSearchParams.prototype[@@iterator]` method
-redefine(URLSearchParamsPrototype, ITERATOR, URLSearchParamsPrototype.entries);
+redefine(URLSearchParamsPrototype, ITERATOR, URLSearchParamsPrototype.entries, { name: 'entries' });
 
 // `URLSearchParams.prototype.toString` method
 // https://url.spec.whatwg.org/#urlsearchparams-stringification-behavior
 redefine(URLSearchParamsPrototype, 'toString', function toString() {
-  var entries = getInternalParamsState(this).entries;
-  var result = [];
-  var index = 0;
-  var entry;
-  while (index < entries.length) {
-    entry = entries[index++];
-    result.push(serialize(entry.key) + '=' + serialize(entry.value));
-  } return result.join('&');
+  return getInternalParamsState(this).serialize();
 }, { enumerable: true });
 
 setToStringTag(URLSearchParamsConstructor, URL_SEARCH_PARAMS);
@@ -12253,1056 +12779,55 @@ $({ global: true, forced: !USE_NATIVE_URL }, {
   URLSearchParams: URLSearchParamsConstructor
 });
 
-// Wrap `fetch` for correct work with polyfilled `URLSearchParams`
-// https://github.com/zloirock/core-js/issues/674
-if (!USE_NATIVE_URL && typeof $fetch == 'function' && typeof Headers == 'function') {
-  $({ global: true, enumerable: true, forced: true }, {
-    fetch: function fetch(input /* , init */) {
-      var args = [input];
-      var init, body, headers;
-      if (arguments.length > 1) {
-        init = arguments[1];
-        if (isObject(init)) {
-          body = init.body;
-          if (classof(body) === URL_SEARCH_PARAMS) {
-            headers = init.headers ? new Headers(init.headers) : new Headers();
-            if (!headers.has('content-type')) {
-              headers.set('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
-            }
-            init = create(init, {
-              body: createPropertyDescriptor(0, String(body)),
-              headers: createPropertyDescriptor(0, headers)
-            });
-          }
+// Wrap `fetch` and `Request` for correct work with polyfilled `URLSearchParams`
+if (!USE_NATIVE_URL && isCallable(Headers)) {
+  var headersHas = uncurryThis(HeadersPrototype.has);
+  var headersSet = uncurryThis(HeadersPrototype.set);
+
+  var wrapRequestOptions = function (init) {
+    if (isObject(init)) {
+      var body = init.body;
+      var headers;
+      if (classof(body) === URL_SEARCH_PARAMS) {
+        headers = init.headers ? new Headers(init.headers) : new Headers();
+        if (!headersHas(headers, 'content-type')) {
+          headersSet(headers, 'content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
         }
-        args.push(init);
-      } return $fetch.apply(this, args);
-    }
-  });
+        return create(init, {
+          body: createPropertyDescriptor(0, $toString(body)),
+          headers: createPropertyDescriptor(0, headers)
+        });
+      }
+    } return init;
+  };
+
+  if (isCallable(n$Fetch)) {
+    $({ global: true, enumerable: true, forced: true }, {
+      fetch: function fetch(input /* , init */) {
+        return n$Fetch(input, arguments.length > 1 ? wrapRequestOptions(arguments[1]) : {});
+      }
+    });
+  }
+
+  if (isCallable(N$Request)) {
+    var RequestConstructor = function Request(input /* , init */) {
+      anInstance(this, RequestPrototype);
+      return new N$Request(input, arguments.length > 1 ? wrapRequestOptions(arguments[1]) : {});
+    };
+
+    RequestPrototype.constructor = RequestConstructor;
+    RequestConstructor.prototype = RequestPrototype;
+
+    $({ global: true, forced: true }, {
+      Request: RequestConstructor
+    });
+  }
 }
 
 module.exports = {
   URLSearchParams: URLSearchParamsConstructor,
   getState: getInternalParamsState
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/modules/web.url.js":
-/*!*************************************************!*\
-  !*** ./node_modules/core-js/modules/web.url.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// TODO: in core-js@4, move /modules/ dependencies to public entries for better optimization by tools like `preset-env`
-__webpack_require__(/*! ../modules/es.string.iterator */ "./node_modules/core-js/modules/es.string.iterator.js");
-var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
-var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
-var USE_NATIVE_URL = __webpack_require__(/*! ../internals/native-url */ "./node_modules/core-js/internals/native-url.js");
-var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
-var defineProperties = __webpack_require__(/*! ../internals/object-define-properties */ "./node_modules/core-js/internals/object-define-properties.js");
-var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
-var anInstance = __webpack_require__(/*! ../internals/an-instance */ "./node_modules/core-js/internals/an-instance.js");
-var has = __webpack_require__(/*! ../internals/has */ "./node_modules/core-js/internals/has.js");
-var assign = __webpack_require__(/*! ../internals/object-assign */ "./node_modules/core-js/internals/object-assign.js");
-var arrayFrom = __webpack_require__(/*! ../internals/array-from */ "./node_modules/core-js/internals/array-from.js");
-var codeAt = __webpack_require__(/*! ../internals/string-multibyte */ "./node_modules/core-js/internals/string-multibyte.js").codeAt;
-var toASCII = __webpack_require__(/*! ../internals/string-punycode-to-ascii */ "./node_modules/core-js/internals/string-punycode-to-ascii.js");
-var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "./node_modules/core-js/internals/set-to-string-tag.js");
-var URLSearchParamsModule = __webpack_require__(/*! ../modules/web.url-search-params */ "./node_modules/core-js/modules/web.url-search-params.js");
-var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
-
-var NativeURL = global.URL;
-var URLSearchParams = URLSearchParamsModule.URLSearchParams;
-var getInternalSearchParamsState = URLSearchParamsModule.getState;
-var setInternalState = InternalStateModule.set;
-var getInternalURLState = InternalStateModule.getterFor('URL');
-var floor = Math.floor;
-var pow = Math.pow;
-
-var INVALID_AUTHORITY = 'Invalid authority';
-var INVALID_SCHEME = 'Invalid scheme';
-var INVALID_HOST = 'Invalid host';
-var INVALID_PORT = 'Invalid port';
-
-var ALPHA = /[A-Za-z]/;
-// eslint-disable-next-line regexp/no-obscure-range -- safe
-var ALPHANUMERIC = /[\d+-.A-Za-z]/;
-var DIGIT = /\d/;
-var HEX_START = /^0x/i;
-var OCT = /^[0-7]+$/;
-var DEC = /^\d+$/;
-var HEX = /^[\dA-Fa-f]+$/;
-/* eslint-disable no-control-regex -- safe */
-var FORBIDDEN_HOST_CODE_POINT = /[\0\t\n\r #%/:<>?@[\\\]^|]/;
-var FORBIDDEN_HOST_CODE_POINT_EXCLUDING_PERCENT = /[\0\t\n\r #/:<>?@[\\\]^|]/;
-var LEADING_AND_TRAILING_C0_CONTROL_OR_SPACE = /^[\u0000-\u001F ]+|[\u0000-\u001F ]+$/g;
-var TAB_AND_NEW_LINE = /[\t\n\r]/g;
-/* eslint-enable no-control-regex -- safe */
-var EOF;
-
-var parseHost = function (url, input) {
-  var result, codePoints, index;
-  if (input.charAt(0) == '[') {
-    if (input.charAt(input.length - 1) != ']') return INVALID_HOST;
-    result = parseIPv6(input.slice(1, -1));
-    if (!result) return INVALID_HOST;
-    url.host = result;
-  // opaque host
-  } else if (!isSpecial(url)) {
-    if (FORBIDDEN_HOST_CODE_POINT_EXCLUDING_PERCENT.test(input)) return INVALID_HOST;
-    result = '';
-    codePoints = arrayFrom(input);
-    for (index = 0; index < codePoints.length; index++) {
-      result += percentEncode(codePoints[index], C0ControlPercentEncodeSet);
-    }
-    url.host = result;
-  } else {
-    input = toASCII(input);
-    if (FORBIDDEN_HOST_CODE_POINT.test(input)) return INVALID_HOST;
-    result = parseIPv4(input);
-    if (result === null) return INVALID_HOST;
-    url.host = result;
-  }
-};
-
-var parseIPv4 = function (input) {
-  var parts = input.split('.');
-  var partsLength, numbers, index, part, radix, number, ipv4;
-  if (parts.length && parts[parts.length - 1] == '') {
-    parts.pop();
-  }
-  partsLength = parts.length;
-  if (partsLength > 4) return input;
-  numbers = [];
-  for (index = 0; index < partsLength; index++) {
-    part = parts[index];
-    if (part == '') return input;
-    radix = 10;
-    if (part.length > 1 && part.charAt(0) == '0') {
-      radix = HEX_START.test(part) ? 16 : 8;
-      part = part.slice(radix == 8 ? 1 : 2);
-    }
-    if (part === '') {
-      number = 0;
-    } else {
-      if (!(radix == 10 ? DEC : radix == 8 ? OCT : HEX).test(part)) return input;
-      number = parseInt(part, radix);
-    }
-    numbers.push(number);
-  }
-  for (index = 0; index < partsLength; index++) {
-    number = numbers[index];
-    if (index == partsLength - 1) {
-      if (number >= pow(256, 5 - partsLength)) return null;
-    } else if (number > 255) return null;
-  }
-  ipv4 = numbers.pop();
-  for (index = 0; index < numbers.length; index++) {
-    ipv4 += numbers[index] * pow(256, 3 - index);
-  }
-  return ipv4;
-};
-
-// eslint-disable-next-line max-statements -- TODO
-var parseIPv6 = function (input) {
-  var address = [0, 0, 0, 0, 0, 0, 0, 0];
-  var pieceIndex = 0;
-  var compress = null;
-  var pointer = 0;
-  var value, length, numbersSeen, ipv4Piece, number, swaps, swap;
-
-  var char = function () {
-    return input.charAt(pointer);
-  };
-
-  if (char() == ':') {
-    if (input.charAt(1) != ':') return;
-    pointer += 2;
-    pieceIndex++;
-    compress = pieceIndex;
-  }
-  while (char()) {
-    if (pieceIndex == 8) return;
-    if (char() == ':') {
-      if (compress !== null) return;
-      pointer++;
-      pieceIndex++;
-      compress = pieceIndex;
-      continue;
-    }
-    value = length = 0;
-    while (length < 4 && HEX.test(char())) {
-      value = value * 16 + parseInt(char(), 16);
-      pointer++;
-      length++;
-    }
-    if (char() == '.') {
-      if (length == 0) return;
-      pointer -= length;
-      if (pieceIndex > 6) return;
-      numbersSeen = 0;
-      while (char()) {
-        ipv4Piece = null;
-        if (numbersSeen > 0) {
-          if (char() == '.' && numbersSeen < 4) pointer++;
-          else return;
-        }
-        if (!DIGIT.test(char())) return;
-        while (DIGIT.test(char())) {
-          number = parseInt(char(), 10);
-          if (ipv4Piece === null) ipv4Piece = number;
-          else if (ipv4Piece == 0) return;
-          else ipv4Piece = ipv4Piece * 10 + number;
-          if (ipv4Piece > 255) return;
-          pointer++;
-        }
-        address[pieceIndex] = address[pieceIndex] * 256 + ipv4Piece;
-        numbersSeen++;
-        if (numbersSeen == 2 || numbersSeen == 4) pieceIndex++;
-      }
-      if (numbersSeen != 4) return;
-      break;
-    } else if (char() == ':') {
-      pointer++;
-      if (!char()) return;
-    } else if (char()) return;
-    address[pieceIndex++] = value;
-  }
-  if (compress !== null) {
-    swaps = pieceIndex - compress;
-    pieceIndex = 7;
-    while (pieceIndex != 0 && swaps > 0) {
-      swap = address[pieceIndex];
-      address[pieceIndex--] = address[compress + swaps - 1];
-      address[compress + --swaps] = swap;
-    }
-  } else if (pieceIndex != 8) return;
-  return address;
-};
-
-var findLongestZeroSequence = function (ipv6) {
-  var maxIndex = null;
-  var maxLength = 1;
-  var currStart = null;
-  var currLength = 0;
-  var index = 0;
-  for (; index < 8; index++) {
-    if (ipv6[index] !== 0) {
-      if (currLength > maxLength) {
-        maxIndex = currStart;
-        maxLength = currLength;
-      }
-      currStart = null;
-      currLength = 0;
-    } else {
-      if (currStart === null) currStart = index;
-      ++currLength;
-    }
-  }
-  if (currLength > maxLength) {
-    maxIndex = currStart;
-    maxLength = currLength;
-  }
-  return maxIndex;
-};
-
-var serializeHost = function (host) {
-  var result, index, compress, ignore0;
-  // ipv4
-  if (typeof host == 'number') {
-    result = [];
-    for (index = 0; index < 4; index++) {
-      result.unshift(host % 256);
-      host = floor(host / 256);
-    } return result.join('.');
-  // ipv6
-  } else if (typeof host == 'object') {
-    result = '';
-    compress = findLongestZeroSequence(host);
-    for (index = 0; index < 8; index++) {
-      if (ignore0 && host[index] === 0) continue;
-      if (ignore0) ignore0 = false;
-      if (compress === index) {
-        result += index ? ':' : '::';
-        ignore0 = true;
-      } else {
-        result += host[index].toString(16);
-        if (index < 7) result += ':';
-      }
-    }
-    return '[' + result + ']';
-  } return host;
-};
-
-var C0ControlPercentEncodeSet = {};
-var fragmentPercentEncodeSet = assign({}, C0ControlPercentEncodeSet, {
-  ' ': 1, '"': 1, '<': 1, '>': 1, '`': 1
-});
-var pathPercentEncodeSet = assign({}, fragmentPercentEncodeSet, {
-  '#': 1, '?': 1, '{': 1, '}': 1
-});
-var userinfoPercentEncodeSet = assign({}, pathPercentEncodeSet, {
-  '/': 1, ':': 1, ';': 1, '=': 1, '@': 1, '[': 1, '\\': 1, ']': 1, '^': 1, '|': 1
-});
-
-var percentEncode = function (char, set) {
-  var code = codeAt(char, 0);
-  return code > 0x20 && code < 0x7F && !has(set, char) ? char : encodeURIComponent(char);
-};
-
-var specialSchemes = {
-  ftp: 21,
-  file: null,
-  http: 80,
-  https: 443,
-  ws: 80,
-  wss: 443
-};
-
-var isSpecial = function (url) {
-  return has(specialSchemes, url.scheme);
-};
-
-var includesCredentials = function (url) {
-  return url.username != '' || url.password != '';
-};
-
-var cannotHaveUsernamePasswordPort = function (url) {
-  return !url.host || url.cannotBeABaseURL || url.scheme == 'file';
-};
-
-var isWindowsDriveLetter = function (string, normalized) {
-  var second;
-  return string.length == 2 && ALPHA.test(string.charAt(0))
-    && ((second = string.charAt(1)) == ':' || (!normalized && second == '|'));
-};
-
-var startsWithWindowsDriveLetter = function (string) {
-  var third;
-  return string.length > 1 && isWindowsDriveLetter(string.slice(0, 2)) && (
-    string.length == 2 ||
-    ((third = string.charAt(2)) === '/' || third === '\\' || third === '?' || third === '#')
-  );
-};
-
-var shortenURLsPath = function (url) {
-  var path = url.path;
-  var pathSize = path.length;
-  if (pathSize && (url.scheme != 'file' || pathSize != 1 || !isWindowsDriveLetter(path[0], true))) {
-    path.pop();
-  }
-};
-
-var isSingleDot = function (segment) {
-  return segment === '.' || segment.toLowerCase() === '%2e';
-};
-
-var isDoubleDot = function (segment) {
-  segment = segment.toLowerCase();
-  return segment === '..' || segment === '%2e.' || segment === '.%2e' || segment === '%2e%2e';
-};
-
-// States:
-var SCHEME_START = {};
-var SCHEME = {};
-var NO_SCHEME = {};
-var SPECIAL_RELATIVE_OR_AUTHORITY = {};
-var PATH_OR_AUTHORITY = {};
-var RELATIVE = {};
-var RELATIVE_SLASH = {};
-var SPECIAL_AUTHORITY_SLASHES = {};
-var SPECIAL_AUTHORITY_IGNORE_SLASHES = {};
-var AUTHORITY = {};
-var HOST = {};
-var HOSTNAME = {};
-var PORT = {};
-var FILE = {};
-var FILE_SLASH = {};
-var FILE_HOST = {};
-var PATH_START = {};
-var PATH = {};
-var CANNOT_BE_A_BASE_URL_PATH = {};
-var QUERY = {};
-var FRAGMENT = {};
-
-// eslint-disable-next-line max-statements -- TODO
-var parseURL = function (url, input, stateOverride, base) {
-  var state = stateOverride || SCHEME_START;
-  var pointer = 0;
-  var buffer = '';
-  var seenAt = false;
-  var seenBracket = false;
-  var seenPasswordToken = false;
-  var codePoints, char, bufferCodePoints, failure;
-
-  if (!stateOverride) {
-    url.scheme = '';
-    url.username = '';
-    url.password = '';
-    url.host = null;
-    url.port = null;
-    url.path = [];
-    url.query = null;
-    url.fragment = null;
-    url.cannotBeABaseURL = false;
-    input = input.replace(LEADING_AND_TRAILING_C0_CONTROL_OR_SPACE, '');
-  }
-
-  input = input.replace(TAB_AND_NEW_LINE, '');
-
-  codePoints = arrayFrom(input);
-
-  while (pointer <= codePoints.length) {
-    char = codePoints[pointer];
-    switch (state) {
-      case SCHEME_START:
-        if (char && ALPHA.test(char)) {
-          buffer += char.toLowerCase();
-          state = SCHEME;
-        } else if (!stateOverride) {
-          state = NO_SCHEME;
-          continue;
-        } else return INVALID_SCHEME;
-        break;
-
-      case SCHEME:
-        if (char && (ALPHANUMERIC.test(char) || char == '+' || char == '-' || char == '.')) {
-          buffer += char.toLowerCase();
-        } else if (char == ':') {
-          if (stateOverride && (
-            (isSpecial(url) != has(specialSchemes, buffer)) ||
-            (buffer == 'file' && (includesCredentials(url) || url.port !== null)) ||
-            (url.scheme == 'file' && !url.host)
-          )) return;
-          url.scheme = buffer;
-          if (stateOverride) {
-            if (isSpecial(url) && specialSchemes[url.scheme] == url.port) url.port = null;
-            return;
-          }
-          buffer = '';
-          if (url.scheme == 'file') {
-            state = FILE;
-          } else if (isSpecial(url) && base && base.scheme == url.scheme) {
-            state = SPECIAL_RELATIVE_OR_AUTHORITY;
-          } else if (isSpecial(url)) {
-            state = SPECIAL_AUTHORITY_SLASHES;
-          } else if (codePoints[pointer + 1] == '/') {
-            state = PATH_OR_AUTHORITY;
-            pointer++;
-          } else {
-            url.cannotBeABaseURL = true;
-            url.path.push('');
-            state = CANNOT_BE_A_BASE_URL_PATH;
-          }
-        } else if (!stateOverride) {
-          buffer = '';
-          state = NO_SCHEME;
-          pointer = 0;
-          continue;
-        } else return INVALID_SCHEME;
-        break;
-
-      case NO_SCHEME:
-        if (!base || (base.cannotBeABaseURL && char != '#')) return INVALID_SCHEME;
-        if (base.cannotBeABaseURL && char == '#') {
-          url.scheme = base.scheme;
-          url.path = base.path.slice();
-          url.query = base.query;
-          url.fragment = '';
-          url.cannotBeABaseURL = true;
-          state = FRAGMENT;
-          break;
-        }
-        state = base.scheme == 'file' ? FILE : RELATIVE;
-        continue;
-
-      case SPECIAL_RELATIVE_OR_AUTHORITY:
-        if (char == '/' && codePoints[pointer + 1] == '/') {
-          state = SPECIAL_AUTHORITY_IGNORE_SLASHES;
-          pointer++;
-        } else {
-          state = RELATIVE;
-          continue;
-        } break;
-
-      case PATH_OR_AUTHORITY:
-        if (char == '/') {
-          state = AUTHORITY;
-          break;
-        } else {
-          state = PATH;
-          continue;
-        }
-
-      case RELATIVE:
-        url.scheme = base.scheme;
-        if (char == EOF) {
-          url.username = base.username;
-          url.password = base.password;
-          url.host = base.host;
-          url.port = base.port;
-          url.path = base.path.slice();
-          url.query = base.query;
-        } else if (char == '/' || (char == '\\' && isSpecial(url))) {
-          state = RELATIVE_SLASH;
-        } else if (char == '?') {
-          url.username = base.username;
-          url.password = base.password;
-          url.host = base.host;
-          url.port = base.port;
-          url.path = base.path.slice();
-          url.query = '';
-          state = QUERY;
-        } else if (char == '#') {
-          url.username = base.username;
-          url.password = base.password;
-          url.host = base.host;
-          url.port = base.port;
-          url.path = base.path.slice();
-          url.query = base.query;
-          url.fragment = '';
-          state = FRAGMENT;
-        } else {
-          url.username = base.username;
-          url.password = base.password;
-          url.host = base.host;
-          url.port = base.port;
-          url.path = base.path.slice();
-          url.path.pop();
-          state = PATH;
-          continue;
-        } break;
-
-      case RELATIVE_SLASH:
-        if (isSpecial(url) && (char == '/' || char == '\\')) {
-          state = SPECIAL_AUTHORITY_IGNORE_SLASHES;
-        } else if (char == '/') {
-          state = AUTHORITY;
-        } else {
-          url.username = base.username;
-          url.password = base.password;
-          url.host = base.host;
-          url.port = base.port;
-          state = PATH;
-          continue;
-        } break;
-
-      case SPECIAL_AUTHORITY_SLASHES:
-        state = SPECIAL_AUTHORITY_IGNORE_SLASHES;
-        if (char != '/' || buffer.charAt(pointer + 1) != '/') continue;
-        pointer++;
-        break;
-
-      case SPECIAL_AUTHORITY_IGNORE_SLASHES:
-        if (char != '/' && char != '\\') {
-          state = AUTHORITY;
-          continue;
-        } break;
-
-      case AUTHORITY:
-        if (char == '@') {
-          if (seenAt) buffer = '%40' + buffer;
-          seenAt = true;
-          bufferCodePoints = arrayFrom(buffer);
-          for (var i = 0; i < bufferCodePoints.length; i++) {
-            var codePoint = bufferCodePoints[i];
-            if (codePoint == ':' && !seenPasswordToken) {
-              seenPasswordToken = true;
-              continue;
-            }
-            var encodedCodePoints = percentEncode(codePoint, userinfoPercentEncodeSet);
-            if (seenPasswordToken) url.password += encodedCodePoints;
-            else url.username += encodedCodePoints;
-          }
-          buffer = '';
-        } else if (
-          char == EOF || char == '/' || char == '?' || char == '#' ||
-          (char == '\\' && isSpecial(url))
-        ) {
-          if (seenAt && buffer == '') return INVALID_AUTHORITY;
-          pointer -= arrayFrom(buffer).length + 1;
-          buffer = '';
-          state = HOST;
-        } else buffer += char;
-        break;
-
-      case HOST:
-      case HOSTNAME:
-        if (stateOverride && url.scheme == 'file') {
-          state = FILE_HOST;
-          continue;
-        } else if (char == ':' && !seenBracket) {
-          if (buffer == '') return INVALID_HOST;
-          failure = parseHost(url, buffer);
-          if (failure) return failure;
-          buffer = '';
-          state = PORT;
-          if (stateOverride == HOSTNAME) return;
-        } else if (
-          char == EOF || char == '/' || char == '?' || char == '#' ||
-          (char == '\\' && isSpecial(url))
-        ) {
-          if (isSpecial(url) && buffer == '') return INVALID_HOST;
-          if (stateOverride && buffer == '' && (includesCredentials(url) || url.port !== null)) return;
-          failure = parseHost(url, buffer);
-          if (failure) return failure;
-          buffer = '';
-          state = PATH_START;
-          if (stateOverride) return;
-          continue;
-        } else {
-          if (char == '[') seenBracket = true;
-          else if (char == ']') seenBracket = false;
-          buffer += char;
-        } break;
-
-      case PORT:
-        if (DIGIT.test(char)) {
-          buffer += char;
-        } else if (
-          char == EOF || char == '/' || char == '?' || char == '#' ||
-          (char == '\\' && isSpecial(url)) ||
-          stateOverride
-        ) {
-          if (buffer != '') {
-            var port = parseInt(buffer, 10);
-            if (port > 0xFFFF) return INVALID_PORT;
-            url.port = (isSpecial(url) && port === specialSchemes[url.scheme]) ? null : port;
-            buffer = '';
-          }
-          if (stateOverride) return;
-          state = PATH_START;
-          continue;
-        } else return INVALID_PORT;
-        break;
-
-      case FILE:
-        url.scheme = 'file';
-        if (char == '/' || char == '\\') state = FILE_SLASH;
-        else if (base && base.scheme == 'file') {
-          if (char == EOF) {
-            url.host = base.host;
-            url.path = base.path.slice();
-            url.query = base.query;
-          } else if (char == '?') {
-            url.host = base.host;
-            url.path = base.path.slice();
-            url.query = '';
-            state = QUERY;
-          } else if (char == '#') {
-            url.host = base.host;
-            url.path = base.path.slice();
-            url.query = base.query;
-            url.fragment = '';
-            state = FRAGMENT;
-          } else {
-            if (!startsWithWindowsDriveLetter(codePoints.slice(pointer).join(''))) {
-              url.host = base.host;
-              url.path = base.path.slice();
-              shortenURLsPath(url);
-            }
-            state = PATH;
-            continue;
-          }
-        } else {
-          state = PATH;
-          continue;
-        } break;
-
-      case FILE_SLASH:
-        if (char == '/' || char == '\\') {
-          state = FILE_HOST;
-          break;
-        }
-        if (base && base.scheme == 'file' && !startsWithWindowsDriveLetter(codePoints.slice(pointer).join(''))) {
-          if (isWindowsDriveLetter(base.path[0], true)) url.path.push(base.path[0]);
-          else url.host = base.host;
-        }
-        state = PATH;
-        continue;
-
-      case FILE_HOST:
-        if (char == EOF || char == '/' || char == '\\' || char == '?' || char == '#') {
-          if (!stateOverride && isWindowsDriveLetter(buffer)) {
-            state = PATH;
-          } else if (buffer == '') {
-            url.host = '';
-            if (stateOverride) return;
-            state = PATH_START;
-          } else {
-            failure = parseHost(url, buffer);
-            if (failure) return failure;
-            if (url.host == 'localhost') url.host = '';
-            if (stateOverride) return;
-            buffer = '';
-            state = PATH_START;
-          } continue;
-        } else buffer += char;
-        break;
-
-      case PATH_START:
-        if (isSpecial(url)) {
-          state = PATH;
-          if (char != '/' && char != '\\') continue;
-        } else if (!stateOverride && char == '?') {
-          url.query = '';
-          state = QUERY;
-        } else if (!stateOverride && char == '#') {
-          url.fragment = '';
-          state = FRAGMENT;
-        } else if (char != EOF) {
-          state = PATH;
-          if (char != '/') continue;
-        } break;
-
-      case PATH:
-        if (
-          char == EOF || char == '/' ||
-          (char == '\\' && isSpecial(url)) ||
-          (!stateOverride && (char == '?' || char == '#'))
-        ) {
-          if (isDoubleDot(buffer)) {
-            shortenURLsPath(url);
-            if (char != '/' && !(char == '\\' && isSpecial(url))) {
-              url.path.push('');
-            }
-          } else if (isSingleDot(buffer)) {
-            if (char != '/' && !(char == '\\' && isSpecial(url))) {
-              url.path.push('');
-            }
-          } else {
-            if (url.scheme == 'file' && !url.path.length && isWindowsDriveLetter(buffer)) {
-              if (url.host) url.host = '';
-              buffer = buffer.charAt(0) + ':'; // normalize windows drive letter
-            }
-            url.path.push(buffer);
-          }
-          buffer = '';
-          if (url.scheme == 'file' && (char == EOF || char == '?' || char == '#')) {
-            while (url.path.length > 1 && url.path[0] === '') {
-              url.path.shift();
-            }
-          }
-          if (char == '?') {
-            url.query = '';
-            state = QUERY;
-          } else if (char == '#') {
-            url.fragment = '';
-            state = FRAGMENT;
-          }
-        } else {
-          buffer += percentEncode(char, pathPercentEncodeSet);
-        } break;
-
-      case CANNOT_BE_A_BASE_URL_PATH:
-        if (char == '?') {
-          url.query = '';
-          state = QUERY;
-        } else if (char == '#') {
-          url.fragment = '';
-          state = FRAGMENT;
-        } else if (char != EOF) {
-          url.path[0] += percentEncode(char, C0ControlPercentEncodeSet);
-        } break;
-
-      case QUERY:
-        if (!stateOverride && char == '#') {
-          url.fragment = '';
-          state = FRAGMENT;
-        } else if (char != EOF) {
-          if (char == "'" && isSpecial(url)) url.query += '%27';
-          else if (char == '#') url.query += '%23';
-          else url.query += percentEncode(char, C0ControlPercentEncodeSet);
-        } break;
-
-      case FRAGMENT:
-        if (char != EOF) url.fragment += percentEncode(char, fragmentPercentEncodeSet);
-        break;
-    }
-
-    pointer++;
-  }
-};
-
-// `URL` constructor
-// https://url.spec.whatwg.org/#url-class
-var URLConstructor = function URL(url /* , base */) {
-  var that = anInstance(this, URLConstructor, 'URL');
-  var base = arguments.length > 1 ? arguments[1] : undefined;
-  var urlString = String(url);
-  var state = setInternalState(that, { type: 'URL' });
-  var baseState, failure;
-  if (base !== undefined) {
-    if (base instanceof URLConstructor) baseState = getInternalURLState(base);
-    else {
-      failure = parseURL(baseState = {}, String(base));
-      if (failure) throw TypeError(failure);
-    }
-  }
-  failure = parseURL(state, urlString, null, baseState);
-  if (failure) throw TypeError(failure);
-  var searchParams = state.searchParams = new URLSearchParams();
-  var searchParamsState = getInternalSearchParamsState(searchParams);
-  searchParamsState.updateSearchParams(state.query);
-  searchParamsState.updateURL = function () {
-    state.query = String(searchParams) || null;
-  };
-  if (!DESCRIPTORS) {
-    that.href = serializeURL.call(that);
-    that.origin = getOrigin.call(that);
-    that.protocol = getProtocol.call(that);
-    that.username = getUsername.call(that);
-    that.password = getPassword.call(that);
-    that.host = getHost.call(that);
-    that.hostname = getHostname.call(that);
-    that.port = getPort.call(that);
-    that.pathname = getPathname.call(that);
-    that.search = getSearch.call(that);
-    that.searchParams = getSearchParams.call(that);
-    that.hash = getHash.call(that);
-  }
-};
-
-var URLPrototype = URLConstructor.prototype;
-
-var serializeURL = function () {
-  var url = getInternalURLState(this);
-  var scheme = url.scheme;
-  var username = url.username;
-  var password = url.password;
-  var host = url.host;
-  var port = url.port;
-  var path = url.path;
-  var query = url.query;
-  var fragment = url.fragment;
-  var output = scheme + ':';
-  if (host !== null) {
-    output += '//';
-    if (includesCredentials(url)) {
-      output += username + (password ? ':' + password : '') + '@';
-    }
-    output += serializeHost(host);
-    if (port !== null) output += ':' + port;
-  } else if (scheme == 'file') output += '//';
-  output += url.cannotBeABaseURL ? path[0] : path.length ? '/' + path.join('/') : '';
-  if (query !== null) output += '?' + query;
-  if (fragment !== null) output += '#' + fragment;
-  return output;
-};
-
-var getOrigin = function () {
-  var url = getInternalURLState(this);
-  var scheme = url.scheme;
-  var port = url.port;
-  if (scheme == 'blob') try {
-    return new URLConstructor(scheme.path[0]).origin;
-  } catch (error) {
-    return 'null';
-  }
-  if (scheme == 'file' || !isSpecial(url)) return 'null';
-  return scheme + '://' + serializeHost(url.host) + (port !== null ? ':' + port : '');
-};
-
-var getProtocol = function () {
-  return getInternalURLState(this).scheme + ':';
-};
-
-var getUsername = function () {
-  return getInternalURLState(this).username;
-};
-
-var getPassword = function () {
-  return getInternalURLState(this).password;
-};
-
-var getHost = function () {
-  var url = getInternalURLState(this);
-  var host = url.host;
-  var port = url.port;
-  return host === null ? ''
-    : port === null ? serializeHost(host)
-    : serializeHost(host) + ':' + port;
-};
-
-var getHostname = function () {
-  var host = getInternalURLState(this).host;
-  return host === null ? '' : serializeHost(host);
-};
-
-var getPort = function () {
-  var port = getInternalURLState(this).port;
-  return port === null ? '' : String(port);
-};
-
-var getPathname = function () {
-  var url = getInternalURLState(this);
-  var path = url.path;
-  return url.cannotBeABaseURL ? path[0] : path.length ? '/' + path.join('/') : '';
-};
-
-var getSearch = function () {
-  var query = getInternalURLState(this).query;
-  return query ? '?' + query : '';
-};
-
-var getSearchParams = function () {
-  return getInternalURLState(this).searchParams;
-};
-
-var getHash = function () {
-  var fragment = getInternalURLState(this).fragment;
-  return fragment ? '#' + fragment : '';
-};
-
-var accessorDescriptor = function (getter, setter) {
-  return { get: getter, set: setter, configurable: true, enumerable: true };
-};
-
-if (DESCRIPTORS) {
-  defineProperties(URLPrototype, {
-    // `URL.prototype.href` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-href
-    href: accessorDescriptor(serializeURL, function (href) {
-      var url = getInternalURLState(this);
-      var urlString = String(href);
-      var failure = parseURL(url, urlString);
-      if (failure) throw TypeError(failure);
-      getInternalSearchParamsState(url.searchParams).updateSearchParams(url.query);
-    }),
-    // `URL.prototype.origin` getter
-    // https://url.spec.whatwg.org/#dom-url-origin
-    origin: accessorDescriptor(getOrigin),
-    // `URL.prototype.protocol` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-protocol
-    protocol: accessorDescriptor(getProtocol, function (protocol) {
-      var url = getInternalURLState(this);
-      parseURL(url, String(protocol) + ':', SCHEME_START);
-    }),
-    // `URL.prototype.username` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-username
-    username: accessorDescriptor(getUsername, function (username) {
-      var url = getInternalURLState(this);
-      var codePoints = arrayFrom(String(username));
-      if (cannotHaveUsernamePasswordPort(url)) return;
-      url.username = '';
-      for (var i = 0; i < codePoints.length; i++) {
-        url.username += percentEncode(codePoints[i], userinfoPercentEncodeSet);
-      }
-    }),
-    // `URL.prototype.password` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-password
-    password: accessorDescriptor(getPassword, function (password) {
-      var url = getInternalURLState(this);
-      var codePoints = arrayFrom(String(password));
-      if (cannotHaveUsernamePasswordPort(url)) return;
-      url.password = '';
-      for (var i = 0; i < codePoints.length; i++) {
-        url.password += percentEncode(codePoints[i], userinfoPercentEncodeSet);
-      }
-    }),
-    // `URL.prototype.host` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-host
-    host: accessorDescriptor(getHost, function (host) {
-      var url = getInternalURLState(this);
-      if (url.cannotBeABaseURL) return;
-      parseURL(url, String(host), HOST);
-    }),
-    // `URL.prototype.hostname` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-hostname
-    hostname: accessorDescriptor(getHostname, function (hostname) {
-      var url = getInternalURLState(this);
-      if (url.cannotBeABaseURL) return;
-      parseURL(url, String(hostname), HOSTNAME);
-    }),
-    // `URL.prototype.port` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-port
-    port: accessorDescriptor(getPort, function (port) {
-      var url = getInternalURLState(this);
-      if (cannotHaveUsernamePasswordPort(url)) return;
-      port = String(port);
-      if (port == '') url.port = null;
-      else parseURL(url, port, PORT);
-    }),
-    // `URL.prototype.pathname` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-pathname
-    pathname: accessorDescriptor(getPathname, function (pathname) {
-      var url = getInternalURLState(this);
-      if (url.cannotBeABaseURL) return;
-      url.path = [];
-      parseURL(url, pathname + '', PATH_START);
-    }),
-    // `URL.prototype.search` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-search
-    search: accessorDescriptor(getSearch, function (search) {
-      var url = getInternalURLState(this);
-      search = String(search);
-      if (search == '') {
-        url.query = null;
-      } else {
-        if ('?' == search.charAt(0)) search = search.slice(1);
-        url.query = '';
-        parseURL(url, search, QUERY);
-      }
-      getInternalSearchParamsState(url.searchParams).updateSearchParams(url.query);
-    }),
-    // `URL.prototype.searchParams` getter
-    // https://url.spec.whatwg.org/#dom-url-searchparams
-    searchParams: accessorDescriptor(getSearchParams),
-    // `URL.prototype.hash` accessors pair
-    // https://url.spec.whatwg.org/#dom-url-hash
-    hash: accessorDescriptor(getHash, function (hash) {
-      var url = getInternalURLState(this);
-      hash = String(hash);
-      if (hash == '') {
-        url.fragment = null;
-        return;
-      }
-      if ('#' == hash.charAt(0)) hash = hash.slice(1);
-      url.fragment = '';
-      parseURL(url, hash, FRAGMENT);
-    })
-  });
-}
-
-// `URL.prototype.toJSON` method
-// https://url.spec.whatwg.org/#dom-url-tojson
-redefine(URLPrototype, 'toJSON', function toJSON() {
-  return serializeURL.call(this);
-}, { enumerable: true });
-
-// `URL.prototype.toString` method
-// https://url.spec.whatwg.org/#URL-stringification-behavior
-redefine(URLPrototype, 'toString', function toString() {
-  return serializeURL.call(this);
-}, { enumerable: true });
-
-if (NativeURL) {
-  var nativeCreateObjectURL = NativeURL.createObjectURL;
-  var nativeRevokeObjectURL = NativeURL.revokeObjectURL;
-  // `URL.createObjectURL` method
-  // https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL
-  // eslint-disable-next-line no-unused-vars -- required for `.length`
-  if (nativeCreateObjectURL) redefine(URLConstructor, 'createObjectURL', function createObjectURL(blob) {
-    return nativeCreateObjectURL.apply(NativeURL, arguments);
-  });
-  // `URL.revokeObjectURL` method
-  // https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL
-  // eslint-disable-next-line no-unused-vars -- required for `.length`
-  if (nativeRevokeObjectURL) redefine(URLConstructor, 'revokeObjectURL', function revokeObjectURL(url) {
-    return nativeRevokeObjectURL.apply(NativeURL, arguments);
-  });
-}
-
-setToStringTag(URLConstructor, 'URL');
-
-$({ global: true, forced: !USE_NATIVE_URL, sham: !DESCRIPTORS }, {
-  URL: URLConstructor
-});
 
 
 /***/ }),
@@ -13317,12 +12842,13 @@ $({ global: true, forced: !USE_NATIVE_URL, sham: !DESCRIPTORS }, {
 "use strict";
 
 var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
 
 // `URL.prototype.toJSON` method
 // https://url.spec.whatwg.org/#dom-url-tojson
 $({ target: 'URL', proto: true, enumerable: true }, {
   toJSON: function toJSON() {
-    return URL.prototype.toString.call(this);
+    return call(URL.prototype.toString, this);
   }
 });
 
@@ -17694,15 +17220,18 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _lib_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/config */ "./template/js/lib/config.js");
-/* harmony import */ var _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ecomplus/storefront-router */ "./node_modules/@ecomplus/storefront-router/src/index.js");
-/* harmony import */ var _netlify_cms_init__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./netlify-cms/init */ "./template/js/netlify-cms/init.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/config */ "./template/js/lib/config.js");
+/* harmony import */ var _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/storefront-router */ "./node_modules/@ecomplus/storefront-router/src/index.js");
+/* harmony import */ var _netlify_cms_init__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./netlify-cms/init */ "./template/js/netlify-cms/init.js");
 
 
 
-document.title = `Admin ~ ${document.title}`;
+
+document.title = "Admin ~ ".concat(document.title);
 const state = {};
-new _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_1__["default"]().list().then(routes => {
+new _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_2__["default"]().list().then(routes => {
   state.routes = routes;
 }).catch(err => {
   console.error(err);
@@ -17712,7 +17241,7 @@ new _ecomplus_storefront_router__WEBPACK_IMPORTED_MODULE_1__["default"]().list()
     window.PKG_BASE_DIR = '';
   }
 
-  Object(_netlify_cms_init__WEBPACK_IMPORTED_MODULE_2__["default"])(window.CMS_CUSTOM_CONFIG, {
+  Object(_netlify_cms_init__WEBPACK_IMPORTED_MODULE_3__["default"])(window.CMS_CUSTOM_CONFIG, {
     baseDir: window.PKG_BASE_DIR,
     state
   }).then(config => {
@@ -17754,7 +17283,7 @@ if (ECOM_CONFIG) {
   }
 }
 
-console.log(`Store ID: #${$ecomConfig.get('store_id')}`);
+console.log("Store ID: #".concat($ecomConfig.get('store_id')));
 window.ecomUtils = _ecomplus_utils__WEBPACK_IMPORTED_MODULE_0__["default"];
 window.storefront = {
   settings: window._settings,
@@ -17805,73 +17334,76 @@ window._events = events;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'blog-posts',
-  label: 'Posts do blog',
-  description: 'Posts para o blog da loja com conteúdo atrativo para o seu público',
-  folder: `${baseDir}content/posts`,
-  extension: 'json',
-  create: true,
-  slug: '{{slug}}',
-  fields: [{
-    label: 'Título',
-    name: 'title',
-    widget: 'string'
-  }, {
-    label: 'Data de publicação',
-    name: 'date',
-    widget: 'datetime',
-    required: false
-  }, {
-    label: 'Imagem em destaque',
-    name: 'thumbnail',
-    widget: 'image',
-    required: false,
-    hint: 'Sugerimos 900px como largura máxima'
-  }, {
-    label: 'Descrição curta',
-    name: 'description',
-    widget: 'text',
-    required: false
-  }, {
-    label: 'Corpo',
-    name: 'body',
-    widget: 'markdown',
-    required: false
-  }, {
-    label: 'Meta title',
-    name: 'meta_title',
-    widget: 'string',
-    hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Meta description',
-    name: 'meta_description',
-    widget: 'string',
-    hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Seções',
-    name: 'sections',
-    required: false,
-    hint: 'Por padrão o layout será composto por breadcrumbs, título e corpo do post',
-    widget: 'list',
-    types: [{
-      label: 'Corpo do post',
-      name: 'blog-post',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir conteúdo do post',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections)
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'blog-posts',
+    label: 'Posts do blog',
+    description: 'Posts para o blog da loja com conteúdo atrativo para o seu público',
+    folder: "".concat(baseDir, "content/posts"),
+    extension: 'json',
+    create: true,
+    slug: '{{slug}}',
+    fields: [{
+      label: 'Título',
+      name: 'title',
+      widget: 'string'
+    }, {
+      label: 'Data de publicação',
+      name: 'date',
+      widget: 'datetime',
+      required: false
+    }, {
+      label: 'Imagem em destaque',
+      name: 'thumbnail',
+      widget: 'image',
+      required: false,
+      hint: 'Sugerimos 900px como largura máxima'
+    }, {
+      label: 'Descrição curta',
+      name: 'description',
+      widget: 'text',
+      required: false
+    }, {
+      label: 'Corpo',
+      name: 'body',
+      widget: 'markdown',
+      required: false
+    }, {
+      label: 'Meta title',
+      name: 'meta_title',
+      widget: 'string',
+      hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Meta description',
+      name: 'meta_description',
+      widget: 'string',
+      hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Seções',
+      name: 'sections',
+      required: false,
+      hint: 'Por padrão o layout será composto por breadcrumbs, título e corpo do post',
+      widget: 'list',
+      types: [{
+        label: 'Corpo do post',
+        name: 'blog-post',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir conteúdo do post',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections)
+    }]
+  };
+});
 
 /***/ }),
 
@@ -17884,56 +17416,59 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'extra-pages',
-  label: 'Páginas adicionais',
-  description: 'Crie páginas sobre a sua marca e assuntos importantes como: Quem Somos, Como comprar, Trocas e Devoluções, Perguntas Frequentes, Política de Privacidade e outros assuntos importantes.',
-  folder: `${baseDir}content/pages`,
-  extension: 'json',
-  create: true,
-  slug: '{{slug}}',
-  fields: [{
-    label: 'Título',
-    name: 'title',
-    widget: 'string'
-  }, {
-    label: 'Corpo',
-    name: 'body',
-    widget: 'markdown'
-  }, {
-    label: 'Meta title',
-    name: 'meta_title',
-    widget: 'string',
-    hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Meta description',
-    name: 'meta_description',
-    widget: 'string',
-    hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Seções',
-    name: 'sections',
-    required: false,
-    hint: 'Por padrão o layout será composto por breadcrumbs, título e corpo da página',
-    widget: 'list',
-    types: [{
-      label: 'Corpo do página',
-      name: 'extra-page',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir conteúdo da página',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections)
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'extra-pages',
+    label: 'Páginas adicionais',
+    description: 'Crie páginas sobre a sua marca e assuntos importantes como: Quem Somos, Como comprar, Trocas e Devoluções, Perguntas Frequentes, Política de Privacidade e outros assuntos importantes.',
+    folder: "".concat(baseDir, "content/pages"),
+    extension: 'json',
+    create: true,
+    slug: '{{slug}}',
+    fields: [{
+      label: 'Título',
+      name: 'title',
+      widget: 'string'
+    }, {
+      label: 'Corpo',
+      name: 'body',
+      widget: 'markdown'
+    }, {
+      label: 'Meta title',
+      name: 'meta_title',
+      widget: 'string',
+      hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Meta description',
+      name: 'meta_description',
+      widget: 'string',
+      hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Seções',
+      name: 'sections',
+      required: false,
+      hint: 'Por padrão o layout será composto por breadcrumbs, título e corpo da página',
+      widget: 'list',
+      types: [{
+        label: 'Corpo do página',
+        name: 'extra-page',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir conteúdo da página',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections)
+    }]
+  };
+});
 
 /***/ }),
 
@@ -17976,41 +17511,44 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  name: 'code',
-  editor: {
-    preview: false
-  },
-  label: 'Inserir código',
-  file: `${baseDir}content/code.json`,
-  fields: [{
-    label: 'HTML antes de </head>',
-    required: false,
-    name: 'html_head',
-    widget: 'code',
-    hint: 'Pode ser usado para linkar CSS externo ou criar meta tags',
-    default_language: 'html',
-    output_code_only: true
-  }, {
-    label: 'HTML antes de </body>',
-    required: false,
-    name: 'html_body',
-    widget: 'code',
-    hint: 'Pode ser usado para importar JS externo ou inserir HTML depois do rodapé e créditos',
-    default_language: 'html',
-    output_code_only: true
-  }, {
-    label: 'CSS customizado',
-    required: false,
-    name: 'css',
-    widget: 'code',
-    hint: 'Também é possível adicionar/editar SCSS no GitHub em `template/scss`',
-    default_language: 'css',
-    output_code_only: true
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    name: 'code',
+    editor: {
+      preview: false
+    },
+    label: 'Inserir código',
+    file: "".concat(baseDir, "content/code.json"),
+    fields: [{
+      label: 'HTML antes de </head>',
+      required: false,
+      name: 'html_head',
+      widget: 'code',
+      hint: 'Pode ser usado para linkar CSS externo ou criar meta tags',
+      default_language: 'html',
+      output_code_only: true
+    }, {
+      label: 'HTML antes de </body>',
+      required: false,
+      name: 'html_body',
+      widget: 'code',
+      hint: 'Pode ser usado para importar JS externo ou inserir HTML depois do rodapé e créditos',
+      default_language: 'html',
+      output_code_only: true
+    }, {
+      label: 'CSS customizado',
+      required: false,
+      name: 'css',
+      widget: 'code',
+      hint: 'Também é possível adicionar/editar SCSS no GitHub em `template/scss`',
+      default_language: 'css',
+      output_code_only: true
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18023,147 +17561,150 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  name: 'footer',
-  label: 'Rodapé',
-  file: `${baseDir}content/footer.json`,
-  fields: [{
-    label: 'Descrição',
-    name: 'description',
-    widget: 'object',
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    name: 'footer',
+    label: 'Rodapé',
+    file: "".concat(baseDir, "content/footer.json"),
     fields: [{
-      label: 'Título',
-      hint: 'Em destaque, dentro de uma tag H2',
-      required: false,
-      name: 'title',
-      widget: 'string'
-    }, {
-      label: 'Texto',
-      required: false,
-      name: 'text',
-      widget: 'string'
-    }]
-  }, {
-    label: 'Lista de links 1',
-    name: 'links_1',
-    widget: 'object',
-    hint: 'Lista de links normalmente utilizada para exibir páginas como, Sobre nós e Política de privacidade',
-    fields: [{
-      label: 'Listar páginas',
-      hint: 'Ativar para listar as páginas extra automáticamente',
-      name: 'list_pages',
-      widget: 'boolean',
-      default: true
-    }, {
-      label: 'Título',
-      required: false,
-      name: 'title',
-      widget: 'string',
-      default: 'Quem somos'
-    }, {
-      label: 'Links',
-      name: 'list',
-      widget: 'list',
+      label: 'Descrição',
+      name: 'description',
+      widget: 'object',
       fields: [{
+        label: 'Título',
+        hint: 'Em destaque, dentro de uma tag H2',
+        required: false,
+        name: 'title',
+        widget: 'string'
+      }, {
         label: 'Texto',
         required: false,
         name: 'text',
         widget: 'string'
-      }, {
-        label: 'URL',
-        required: false,
-        name: 'url',
-        widget: 'string'
       }]
-    }]
-  }, {
-    label: 'Lista de links 2',
-    name: 'links_2',
-    widget: 'object',
-    hint: 'Lista adicional de links, para exibir páginas',
-    fields: [{
-      label: 'Listar categorias',
-      hint: 'Ativar para listar as categorias da loja automáticamente',
-      name: 'list_categories',
-      widget: 'boolean',
-      default: true
     }, {
-      label: 'Título',
-      required: false,
-      name: 'title',
-      widget: 'string'
+      label: 'Lista de links 1',
+      name: 'links_1',
+      widget: 'object',
+      hint: 'Lista de links normalmente utilizada para exibir páginas como, Sobre nós e Política de privacidade',
+      fields: [{
+        label: 'Listar páginas',
+        hint: 'Ativar para listar as páginas extra automáticamente',
+        name: 'list_pages',
+        widget: 'boolean',
+        default: true
+      }, {
+        label: 'Título',
+        required: false,
+        name: 'title',
+        widget: 'string',
+        default: 'Quem somos'
+      }, {
+        label: 'Links',
+        name: 'list',
+        widget: 'list',
+        fields: [{
+          label: 'Texto',
+          required: false,
+          name: 'text',
+          widget: 'string'
+        }, {
+          label: 'URL',
+          required: false,
+          name: 'url',
+          widget: 'string'
+        }]
+      }]
     }, {
-      label: 'Links',
-      name: 'list',
+      label: 'Lista de links 2',
+      name: 'links_2',
+      widget: 'object',
+      hint: 'Lista adicional de links, para exibir páginas',
+      fields: [{
+        label: 'Listar categorias',
+        hint: 'Ativar para listar as categorias da loja automáticamente',
+        name: 'list_categories',
+        widget: 'boolean',
+        default: true
+      }, {
+        label: 'Título',
+        required: false,
+        name: 'title',
+        widget: 'string'
+      }, {
+        label: 'Links',
+        name: 'list',
+        widget: 'list',
+        fields: [{
+          label: 'Texto',
+          required: false,
+          name: 'text',
+          widget: 'string'
+        }, {
+          label: 'URL',
+          required: false,
+          name: 'url',
+          widget: 'string'
+        }]
+      }]
+    }, {
+      label: 'Contatos',
+      name: 'contacts',
+      widget: 'object',
+      hint: 'Contatos da loja',
+      fields: [{
+        label: 'Título',
+        required: false,
+        name: 'title',
+        widget: 'string',
+        default: 'Fale conosco'
+      }, {
+        label: 'Mostrar telefone e whatsapp',
+        name: 'phone_wpp',
+        required: false,
+        widget: 'boolean'
+      }, {
+        label: 'Mostar email',
+        required: false,
+        name: 'email',
+        widget: 'boolean'
+      }, {
+        label: 'Mostrar redes  sociais',
+        name: 'socials',
+        required: false,
+        widget: 'boolean'
+      }]
+    }, {
+      label: 'Selos',
+      name: 'stamps',
       widget: 'list',
       fields: [{
-        label: 'Texto',
+        label: 'Imagem',
         required: false,
-        name: 'text',
+        name: 'src',
+        widget: 'image'
+      }, {
+        label: 'alt',
+        required: false,
+        name: 'alt',
         widget: 'string'
       }, {
-        label: 'URL',
+        label: 'Link',
         required: false,
-        name: 'url',
+        name: 'link',
         widget: 'string'
       }]
-    }]
-  }, {
-    label: 'Contatos',
-    name: 'contacts',
-    widget: 'object',
-    hint: 'Contatos da loja',
-    fields: [{
-      label: 'Título',
-      required: false,
-      name: 'title',
+    }, {
+      label: 'Créditos',
+      name: 'credits',
       widget: 'string',
-      default: 'Fale conosco'
-    }, {
-      label: 'Mostrar telefone e whatsapp',
-      name: 'phone_wpp',
-      required: false,
-      widget: 'boolean'
-    }, {
-      label: 'Mostar email',
-      required: false,
-      name: 'email',
-      widget: 'boolean'
-    }, {
-      label: 'Mostrar redes  sociais',
-      name: 'socials',
-      required: false,
-      widget: 'boolean'
+      required: false
     }]
-  }, {
-    label: 'Selos',
-    name: 'stamps',
-    widget: 'list',
-    fields: [{
-      label: 'Imagem',
-      required: false,
-      name: 'src',
-      widget: 'image'
-    }, {
-      label: 'alt',
-      required: false,
-      name: 'alt',
-      widget: 'string'
-    }, {
-      label: 'Link',
-      required: false,
-      name: 'link',
-      widget: 'string'
-    }]
-  }, {
-    label: 'Créditos',
-    name: 'credits',
-    widget: 'string',
-    required: false
-  }]
-}));
+  };
+});
 
 /***/ }),
 
@@ -18176,52 +17717,23 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  state
-}) => ({
-  name: 'header',
-  label: 'Cabeçalho',
-  file: `${baseDir}content/header.json`,
-  fields: [{
-    label: 'Tarja de marketing',
-    name: 'marketing_stripe',
-    widget: 'object',
-    hint: 'Tarja com anúncio em destaque no topo da loja',
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    state
+  } = _ref;
+  return {
+    name: 'header',
+    label: 'Cabeçalho',
+    file: "".concat(baseDir, "content/header.json"),
     fields: [{
-      label: 'Texto',
-      name: 'text',
-      required: false,
-      widget: 'string'
-    }, {
-      label: 'Link',
-      name: 'link',
-      required: false,
-      widget: 'string'
-    }, {
-      label: 'Cor de fundo',
-      name: 'background',
-      required: false,
-      widget: 'color',
-      hint: 'A cor primária da loja é usada por padrão'
-    }, {
-      label: 'Cor da fonte',
-      name: 'color',
-      required: false,
-      widget: 'color'
-    }]
-  }, {
-    label: 'Barra de contatos',
-    name: 'contacts_stripe',
-    widget: 'object',
-    hint: 'Informações de contato, redes sociais e páginas institucionais importantes',
-    fields: [{
-      label: 'Páginas',
-      name: 'pages',
-      widget: 'list',
+      label: 'Tarja de marketing',
+      name: 'marketing_stripe',
+      widget: 'object',
+      hint: 'Tarja com anúncio em destaque no topo da loja',
       fields: [{
-        label: 'Título',
-        name: 'title',
+        label: 'Texto',
+        name: 'text',
         required: false,
         widget: 'string'
       }, {
@@ -18229,59 +17741,97 @@ __webpack_require__.r(__webpack_exports__);
         name: 'link',
         required: false,
         widget: 'string'
+      }, {
+        label: 'Cor de fundo',
+        name: 'background',
+        required: false,
+        widget: 'color',
+        hint: 'A cor primária da loja é usada por padrão'
+      }, {
+        label: 'Cor da fonte',
+        name: 'color',
+        required: false,
+        widget: 'color'
       }]
     }, {
-      label: 'Mostrar telefone e WhatsApp',
-      name: 'phone_wpp',
-      widget: 'boolean'
+      label: 'Barra de contatos',
+      name: 'contacts_stripe',
+      widget: 'object',
+      hint: 'Informações de contato, redes sociais e páginas institucionais importantes',
+      fields: [{
+        label: 'Páginas',
+        name: 'pages',
+        widget: 'list',
+        fields: [{
+          label: 'Título',
+          name: 'title',
+          required: false,
+          widget: 'string'
+        }, {
+          label: 'Link',
+          name: 'link',
+          required: false,
+          widget: 'string'
+        }]
+      }, {
+        label: 'Mostrar telefone e WhatsApp',
+        name: 'phone_wpp',
+        widget: 'boolean'
+      }, {
+        label: 'Mostrar redes sociais',
+        name: 'socials',
+        widget: 'boolean'
+      }]
     }, {
-      label: 'Mostrar redes sociais',
-      name: 'socials',
+      label: 'Lista de categorias',
+      name: 'categories_list',
+      widget: 'object',
+      hint: 'Categorias em destaque exibidas diretamente no cabeçalho',
+      fields: [{
+        label: 'Categorias selecionadas',
+        name: 'featured',
+        widget: 'list',
+        field: {
+          label: 'Categoria/coleção/marca',
+          name: 'path',
+          widget: 'select',
+          options: state.routes.filter(_ref2 => {
+            let {
+              resource,
+              name
+            } = _ref2;
+            return Boolean(resource !== 'products' && name);
+          }).map(_ref3 => {
+            let {
+              name,
+              path
+            } = _ref3;
+            return {
+              label: name,
+              value: "".concat(path, "?").concat(name)
+            };
+          })
+        }
+      }, {
+        label: 'Categorias aleatórias',
+        name: 'random',
+        widget: 'number',
+        min: 0,
+        max: 20,
+        hint: 'Máximo de categorias em primeiro nível escolhidas randomicamente'
+      }, {
+        label: 'Exibir em largura total',
+        name: 'full_width',
+        widget: 'boolean',
+        default: true
+      }]
+    }, {
+      label: 'Mostrar input de busca',
+      name: 'search_input',
       widget: 'boolean'
     }]
-  }, {
-    label: 'Lista de categorias',
-    name: 'categories_list',
-    widget: 'object',
-    hint: 'Categorias em destaque exibidas diretamente no cabeçalho',
-    fields: [{
-      label: 'Categorias selecionadas',
-      name: 'featured',
-      widget: 'list',
-      field: {
-        label: 'Categoria/coleção/marca',
-        name: 'path',
-        widget: 'select',
-        options: state.routes.filter(({
-          resource,
-          name
-        }) => Boolean(resource !== 'products' && name)).map(({
-          name,
-          path
-        }) => ({
-          label: name,
-          value: `${path}?${name}`
-        }))
-      }
-    }, {
-      label: 'Categorias aleatórias',
-      name: 'random',
-      widget: 'number',
-      min: 0,
-      max: 20,
-      hint: 'Máximo de categorias em primeiro nível escolhidas randomicamente'
-    }, {
-      label: 'Exibir em largura total',
-      name: 'full_width',
-      widget: 'boolean',
-      default: true
-    }]
-  }, {
-    label: 'Mostrar input de busca',
-    name: 'search_input',
-    widget: 'boolean'
-  }]
-}));
+  };
+});
 
 /***/ }),
 
@@ -18294,47 +17844,56 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  state
-}) => ({
-  name: 'menu',
-  label: 'Menu lateral',
-  file: `${baseDir}content/menu.json`,
-  fields: [{
-    label: 'Categorias principais',
-    name: 'sort_categories',
-    widget: 'list',
-    hint: 'Ordenar categorias em primeiro nível',
-    field: {
-      label: 'Categoria',
-      name: 'slug',
-      widget: 'select',
-      options: state.routes.filter(({
-        resource,
-        name
-      }) => resource === 'categories').map(({
-        name,
-        path
-      }) => ({
-        label: name,
-        value: path.slice(1)
-      }))
-    }
-  }, {
-    label: 'Ordem alfabética',
-    name: 'alphabetical_order',
-    widget: 'boolean'
-  }, {
-    label: 'Mostrar telefone ou WhatsApp',
-    name: 'phone_wpp',
-    widget: 'boolean'
-  }, {
-    label: 'Mostrar redes sociais',
-    name: 'socials',
-    widget: 'boolean'
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    state
+  } = _ref;
+  return {
+    name: 'menu',
+    label: 'Menu lateral',
+    file: "".concat(baseDir, "content/menu.json"),
+    fields: [{
+      label: 'Categorias principais',
+      name: 'sort_categories',
+      widget: 'list',
+      hint: 'Ordenar categorias em primeiro nível',
+      field: {
+        label: 'Categoria',
+        name: 'slug',
+        widget: 'select',
+        options: state.routes.filter(_ref2 => {
+          let {
+            resource,
+            name
+          } = _ref2;
+          return resource === 'categories';
+        }).map(_ref3 => {
+          let {
+            name,
+            path
+          } = _ref3;
+          return {
+            label: name,
+            value: path.slice(1)
+          };
+        })
+      }
+    }, {
+      label: 'Ordem alfabética',
+      name: 'alphabetical_order',
+      widget: 'boolean'
+    }, {
+      label: 'Mostrar telefone ou WhatsApp',
+      name: 'phone_wpp',
+      widget: 'boolean'
+    }, {
+      label: 'Mostrar redes sociais',
+      name: 'socials',
+      widget: 'boolean'
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18380,37 +17939,40 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'blog',
-  label: 'Blog',
-  hint: 'Configuração geral da página do blog',
-  file: `${baseDir}content/blog.json`,
-  fields: [{
-    label: 'Título do blog',
-    name: 'title',
-    widget: 'string'
-  }, {
-    label: 'Meta title',
-    name: 'meta_title',
-    widget: 'string',
-    hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Meta description',
-    name: 'meta_description',
-    widget: 'string',
-    hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: sections
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'blog',
+    label: 'Blog',
+    hint: 'Configuração geral da página do blog',
+    file: "".concat(baseDir, "content/blog.json"),
+    fields: [{
+      label: 'Título do blog',
+      name: 'title',
+      widget: 'string'
+    }, {
+      label: 'Meta title',
+      name: 'meta_title',
+      widget: 'string',
+      hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Meta description',
+      name: 'meta_description',
+      widget: 'string',
+      hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: sections
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18425,43 +17987,49 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _types_retail__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types/retail */ "./template/js/netlify-cms/base-config/collections/pages/types/retail.js");
 
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'brands',
-  label: 'Marcas',
-  hint: 'Configuração geral das páginas de marcas',
-  file: `${baseDir}content/brands.json`,
-  fields: [{
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('brand', 'marca'), {
-      label: 'Banner da marca',
-      name: 'document-banner',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir banner da marca',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Descrição da marca',
-      name: 'document-description',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir descrição HTML da marca',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections.filter(({
-      name
-    }) => name !== 'collection-shelf'))
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'brands',
+    label: 'Marcas',
+    hint: 'Configuração geral das páginas de marcas',
+    file: "".concat(baseDir, "content/brands.json"),
+    fields: [{
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('brand', 'marca'), {
+        label: 'Banner da marca',
+        name: 'document-banner',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir banner da marca',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }, {
+        label: 'Descrição da marca',
+        name: 'document-description',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir descrição HTML da marca',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections.filter(_ref2 => {
+        let {
+          name
+        } = _ref2;
+        return name !== 'collection-shelf';
+      }))
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18476,43 +18044,49 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _types_retail__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types/retail */ "./template/js/netlify-cms/base-config/collections/pages/types/retail.js");
 
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'categories',
-  label: 'Categorias',
-  hint: 'Configuração geral das páginas de categorias',
-  file: `${baseDir}content/categories.json`,
-  fields: [{
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('category', 'categoria'), {
-      label: 'Banner da categoria',
-      name: 'document-banner',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir banner da categoria',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Descrição da categoria',
-      name: 'document-description',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir descrição HTML da categoria',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections.filter(({
-      name
-    }) => name !== 'collection-shelf'))
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'categories',
+    label: 'Categorias',
+    hint: 'Configuração geral das páginas de categorias',
+    file: "".concat(baseDir, "content/categories.json"),
+    fields: [{
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('category', 'categoria'), {
+        label: 'Banner da categoria',
+        name: 'document-banner',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir banner da categoria',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }, {
+        label: 'Descrição da categoria',
+        name: 'document-description',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir descrição HTML da categoria',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections.filter(_ref2 => {
+        let {
+          name
+        } = _ref2;
+        return name !== 'collection-shelf';
+      }))
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18527,41 +18101,44 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _types_retail__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types/retail */ "./template/js/netlify-cms/base-config/collections/pages/types/retail.js");
 
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'collections',
-  label: 'Coleções',
-  hint: 'Configuração geral das páginas de coleções',
-  file: `${baseDir}content/collections.json`,
-  fields: [{
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('collection', 'coleção'), {
-      label: 'Banner da coleção',
-      name: 'document-banner',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir banner da coleção',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Descrição da coleção',
-      name: 'document-description',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir descrição HTML da coleção',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections)
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'collections',
+    label: 'Coleções',
+    hint: 'Configuração geral das páginas de coleções',
+    file: "".concat(baseDir, "content/collections.json"),
+    fields: [{
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: [Object(_types_retail__WEBPACK_IMPORTED_MODULE_0__["default"])('collection', 'coleção'), {
+        label: 'Banner da coleção',
+        name: 'document-banner',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir banner da coleção',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }, {
+        label: 'Descrição da coleção',
+        name: 'document-description',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir descrição HTML da coleção',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections)
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18574,32 +18151,35 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'home',
-  label: 'Página inicial',
-  file: `${baseDir}content/home.json`,
-  fields: [{
-    label: 'Meta title',
-    name: 'meta_title',
-    widget: 'string',
-    hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Meta description',
-    name: 'meta_description',
-    widget: 'string',
-    hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
-    required: false
-  }, {
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: sections
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'home',
+    label: 'Página inicial',
+    file: "".concat(baseDir, "content/home.json"),
+    fields: [{
+      label: 'Meta title',
+      name: 'meta_title',
+      widget: 'string',
+      hint: 'Título exibido na aba do navegador e nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Meta description',
+      name: 'meta_description',
+      widget: 'string',
+      hint: 'Descrição exibida nos resultados de motores de busca, relevante para SEO',
+      required: false
+    }, {
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: sections
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18612,81 +18192,99 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'products',
-  label: 'Produtos',
-  hint: 'Configuração geral das páginas de produtos',
-  file: `${baseDir}content/products.json`,
-  fields: [{
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: [{
-      label: 'Detalhes produto',
-      name: 'product-block',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir informações do produto',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Descrição do produto',
-      name: 'product-description',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir descrição HTML do produto',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Especificações do produto',
-      name: 'product-specifications',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir especificações do produto',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }, {
-      label: 'Produtos relacionados',
-      name: 'related-products',
-      widget: 'object',
-      fields: [{
-        label: 'Título da estante de produtos',
-        name: 'title',
-        hint: 'Produtos relacionatos',
-        widget: 'string'
-      }]
-    }, {
-      label: 'Produtos recomendados',
-      name: 'recommended-products',
-      widget: 'object',
-      fields: [{
-        label: 'Título da estante de produtos',
-        name: 'title',
-        hint: 'Quem comprou este produto, também comprou:',
-        widget: 'string'
-      }]
-    }, {
-      label: 'Opiniões do produto',
-      name: 'product-reviews',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir opiniões do produto',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections)
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'products',
+    label: 'Produtos',
+    hint: 'Configuração geral das páginas de produtos',
+    file: "".concat(baseDir, "content/products.json"),
+    fields: [{
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: [{
+        label: 'Detalhes produto',
+        name: 'product-block',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir informações do produto',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }, {
+          label: 'Tabela de medidas',
+          widget: 'object',
+          name: 'size_guide',
+          fields: [{
+            label: 'Imagem da tabela de medidas',
+            name: 'image',
+            widget: 'image',
+            required: false
+          }, {
+            label: 'Título da tabela',
+            name: 'title',
+            widget: 'string',
+            required: false
+          }]
+        }]
+      }, {
+        label: 'Descrição do produto',
+        name: 'product-description',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir descrição HTML do produto',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }, {
+        label: 'Especificações do produto',
+        name: 'product-specifications',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir especificações do produto',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }, {
+        label: 'Produtos relacionados',
+        name: 'related-products',
+        widget: 'object',
+        fields: [{
+          label: 'Título da estante de produtos',
+          name: 'title',
+          hint: 'Produtos relacionatos',
+          widget: 'string'
+        }]
+      }, {
+        label: 'Produtos recomendados',
+        name: 'recommended-products',
+        widget: 'object',
+        fields: [{
+          label: 'Título da estante de produtos',
+          name: 'title',
+          hint: 'Quem comprou este produto, também comprou:',
+          widget: 'string'
+        }]
+      }, {
+        label: 'Opiniões do produto',
+        name: 'product-reviews',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir opiniões do produto',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections)
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18699,33 +18297,39 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir,
-  sections
-}) => ({
-  name: 'search',
-  label: 'Busca',
-  hint: 'Configuração geral das páginas de busca',
-  file: `${baseDir}content/search.json`,
-  fields: [{
-    label: 'Seções',
-    name: 'sections',
-    widget: 'list',
-    types: [{
-      label: 'Motor de busca',
-      name: 'search-engine',
-      widget: 'object',
-      fields: [{
-        label: 'Exibir resultados da busca',
-        name: 'enabled',
-        widget: 'boolean',
-        default: true
-      }]
-    }].concat(sections.filter(({
-      name
-    }) => name !== 'collection-shelf'))
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir,
+    sections
+  } = _ref;
+  return {
+    name: 'search',
+    label: 'Busca',
+    hint: 'Configuração geral das páginas de busca',
+    file: "".concat(baseDir, "content/search.json"),
+    fields: [{
+      label: 'Seções',
+      name: 'sections',
+      widget: 'list',
+      types: [{
+        label: 'Motor de busca',
+        name: 'search-engine',
+        widget: 'object',
+        fields: [{
+          label: 'Exibir resultados da busca',
+          name: 'enabled',
+          widget: 'boolean',
+          default: true
+        }]
+      }].concat(sections.filter(_ref2 => {
+        let {
+          name
+        } = _ref2;
+        return name !== 'collection-shelf';
+      }))
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18739,11 +18343,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ((docName, docTitle) => ({
-  label: `Produtos da ${docTitle}`,
-  name: `${docName}-retail`,
+  label: "Produtos da ".concat(docTitle),
+  name: "".concat(docName, "-retail"),
   widget: 'object',
   fields: [{
-    label: `Listar produtos da ${docTitle}`,
+    label: "Listar produtos da ".concat(docTitle),
     name: 'enabled',
     widget: 'boolean',
     default: true
@@ -18816,82 +18420,85 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  name: 'contacts',
-  file: `${baseDir}content/contacts.json`,
-  label: 'Contatos & Redes Sociais',
-  hint: 'Contatos da loja, exibidos em várias páginas',
-  fields: [{
-    label: 'E-mail',
-    name: 'email',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'Telefone',
-    name: 'phone',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'Endereço',
-    name: 'address',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'CNPJ/CPF',
-    name: 'doc_number',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'Whatsapp',
-    name: 'whatsapp',
-    required: false,
-    widget: 'string'
-  }, {
-    label: 'Facebook',
-    name: 'facebook',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa. Exemplo: https://www.facebook.com/ConfereCartoes'
-  }, {
-    label: 'Twitter',
-    name: 'twitter',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa.'
-  }, {
-    label: 'Youtube',
-    name: 'youtube',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa. Exemplo: https://www.youtube.com/channel/UCnbYV0scfPDh_02Q3_1Pmgg'
-  }, {
-    label: 'Instagram',
-    name: 'instagram',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa. Exemplo: https://instagram.com/conferecartoes'
-  }, {
-    label: 'TikTok',
-    name: 'tiktok',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa.'
-  }, {
-    label: 'Pinterest',
-    name: 'pinterest',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa.'
-  }, {
-    label: 'LinkedIn',
-    name: 'linkedin',
-    widget: 'string',
-    required: false,
-    hint: 'Preencha a url completa. Exemplo: https://www.linkedin.com/company/confere-cartoes'
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    name: 'contacts',
+    file: "".concat(baseDir, "content/contacts.json"),
+    label: 'Contatos & Redes Sociais',
+    hint: 'Contatos da loja, exibidos em várias páginas',
+    fields: [{
+      label: 'E-mail',
+      name: 'email',
+      required: false,
+      widget: 'string'
+    }, {
+      label: 'Telefone',
+      name: 'phone',
+      required: false,
+      widget: 'string'
+    }, {
+      label: 'Endereço',
+      name: 'address',
+      required: false,
+      widget: 'string'
+    }, {
+      label: 'CNPJ/CPF',
+      name: 'doc_number',
+      required: false,
+      widget: 'string'
+    }, {
+      label: 'Whatsapp',
+      name: 'whatsapp',
+      required: false,
+      widget: 'string'
+    }, {
+      label: 'Facebook',
+      name: 'facebook',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.facebook.com/ConfereCartoes'
+    }, {
+      label: 'Twitter',
+      name: 'twitter',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa.'
+    }, {
+      label: 'Youtube',
+      name: 'youtube',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.youtube.com/channel/UCnbYV0scfPDh_02Q3_1Pmgg'
+    }, {
+      label: 'Instagram',
+      name: 'instagram',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://instagram.com/conferecartoes'
+    }, {
+      label: 'TikTok',
+      name: 'tiktok',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa.'
+    }, {
+      label: 'Pinterest',
+      name: 'pinterest',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa.'
+    }, {
+      label: 'LinkedIn',
+      name: 'linkedin',
+      widget: 'string',
+      required: false,
+      hint: 'Preencha a url completa. Exemplo: https://www.linkedin.com/company/confere-cartoes'
+    }]
+  };
+});
 
 /***/ }),
 
@@ -18904,155 +18511,181 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  name: 'general',
-  label: 'Nome, Cores e Logos da Marca',
-  file: `${baseDir}content/settings.json`,
-  editor: {
-    preview: true
-  },
-  fields: [{
-    label: 'Nome da loja',
-    name: 'name',
-    widget: 'string'
-  }, {
-    label: 'Nome curto',
-    name: 'short_name',
-    widget: 'string',
-    hint: 'Título do aplicativo quando instalado (PWA)'
-  }, {
-    label: 'Descrição curta',
-    name: 'description',
-    widget: 'text'
-  }, {
-    label: 'Cor primária',
-    name: 'primary_color',
-    widget: 'color'
-  }, {
-    label: 'Cor secundária',
-    name: 'secondary_color',
-    widget: 'color'
-  }, {
-    label: 'Tema',
-    name: 'theme',
-    widget: 'object',
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    name: 'general',
+    label: 'Nome, Cores e Logos da Marca',
+    file: "".concat(baseDir, "content/settings.json"),
+    editor: {
+      preview: true
+    },
     fields: [{
-      label: 'Storefront',
-      name: 'custom',
-      widget: 'select',
-      options: [{
-        label: 'Storefront padrão',
-        value: '_'
+      label: 'Nome da loja',
+      name: 'name',
+      widget: 'string'
+    }, {
+      label: 'Logo',
+      name: 'logo',
+      widget: 'image',
+      hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
+    }, {
+      label: 'Tema',
+      name: 'theme',
+      widget: 'object',
+      fields: [{
+        label: 'Storefront',
+        name: 'custom',
+        widget: 'select',
+        options: [{
+          label: 'Storefront padrão',
+          value: '_'
+        }, {
+          label: 'Clean: Branco',
+          value: 'clean-white'
+        }, {
+          label: 'Clean: Escala de cinza',
+          value: 'clean-gray'
+        }, {
+          label: 'Clean: Preto',
+          value: 'clean-dark'
+        }, {
+          label: 'Nicho: Bebê',
+          value: 'niche-baby'
+        }, {
+          label: 'Nicho: Flores',
+          value: 'niche-flowers'
+        }, {
+          label: 'Nicho: Game',
+          value: 'niche-game'
+        }]
       }, {
-        label: 'Clean: Branco',
-        value: 'clean-white'
-      }, {
-        label: 'Clean: Escala de cinza',
-        value: 'clean-gray'
-      }, {
-        label: 'Clean: Preto',
-        value: 'clean-dark'
-      }, {
-        label: 'Nicho: Bebê',
-        value: 'niche-baby'
-      }, {
-        label: 'Nicho: Flores',
-        value: 'niche-flowers'
-      }, {
-        label: 'Nicho: Game',
-        value: 'niche-game'
+        label: 'UI base',
+        name: 'bootswatch',
+        hint: 'Powered by https://bootswatch.com/',
+        widget: 'select',
+        options: [{
+          label: 'Bootstrap padrão',
+          value: '_'
+        }, {
+          label: 'Cerulean',
+          value: 'cerulean'
+        }, {
+          label: 'Cosmo',
+          value: 'cosmo'
+        }, {
+          label: 'Cyborg',
+          value: 'cyborg'
+        }, {
+          label: 'Flatly',
+          value: 'flatly'
+        }, {
+          label: 'Journal',
+          value: 'journal'
+        }, {
+          label: 'Litera',
+          value: 'litera'
+        }, {
+          label: 'Lumen',
+          value: 'lumen'
+        }, {
+          label: 'Lux',
+          value: 'lux'
+        }, {
+          label: 'Materia',
+          value: 'materia'
+        }, {
+          label: 'Minty',
+          value: 'minty'
+        }, {
+          label: 'Pulse',
+          value: 'pulse'
+        }, {
+          label: 'Sandstone',
+          value: 'sandstone'
+        }, {
+          label: 'Simplex',
+          value: 'simplex'
+        }, {
+          label: 'Sketchy',
+          value: 'sketchy'
+        }, {
+          label: 'Slate',
+          value: 'slate'
+        }, {
+          label: 'Solar',
+          value: 'solar'
+        }, {
+          label: 'Spacelab',
+          value: 'spacelab'
+        }, {
+          label: 'United',
+          value: 'united'
+        }, {
+          label: 'Yeti',
+          value: 'yeti'
+        }]
       }]
     }, {
-      label: 'UI base',
-      name: 'bootswatch',
-      hint: 'Powered by https://bootswatch.com/',
+      label: 'Cor primária',
+      name: 'primary_color',
+      widget: 'color'
+    }, {
+      label: 'Cor secundária',
+      name: 'secondary_color',
+      widget: 'color'
+    }, {
+      label: 'Ícones',
+      name: 'icons_font',
       widget: 'select',
       options: [{
-        label: 'Bootstrap padrão',
+        label: 'Padrão do tema',
         value: '_'
       }, {
-        label: 'Cerulean',
-        value: 'cerulean'
+        label: 'Font Awesome',
+        value: 'font-awesome'
       }, {
-        label: 'Cosmo',
-        value: 'cosmo'
-      }, {
-        label: 'Cyborg',
-        value: 'cyborg'
-      }, {
-        label: 'Darkly',
-        value: 'darkly'
-      }, {
-        label: 'Flatly',
-        value: 'flatly'
-      }, {
-        label: 'Journal',
-        value: 'journal'
-      }, {
-        label: 'Litera',
-        value: 'litera'
-      }, {
-        label: 'Lumen',
-        value: 'lumen'
-      }, {
-        label: 'Lux',
-        value: 'lux'
-      }, {
-        label: 'Materia',
-        value: 'materia'
-      }, {
-        label: 'Minty',
-        value: 'minty'
-      }, {
-        label: 'Pulse',
-        value: 'pulse'
-      }, {
-        label: 'Sandstone',
-        value: 'sandstone'
-      }, {
-        label: 'Simplex',
-        value: 'simplex'
-      }, {
-        label: 'Sketchy',
-        value: 'sketchy'
-      }, {
-        label: 'Slate',
-        value: 'slate'
-      }, {
-        label: 'Solar',
-        value: 'solar'
-      }, {
-        label: 'Spacelab',
-        value: 'spacelab'
-      }, {
-        label: 'United',
-        value: 'united'
-      }, {
-        label: 'Yeti',
-        value: 'yeti'
+        label: 'Line Awesome',
+        value: 'line-awesome'
       }]
+    }, {
+      label: 'Fonte (texto)',
+      name: 'font_family',
+      widget: 'select',
+      options: [{
+        label: 'Padrão do usuário (mais leve)',
+        value: '_'
+      }, 'Roboto', 'Open Sans', 'Lato', 'Montserrat', 'Roboto Condensed', 'Poppins', 'Outfit', 'Source Sans Pro', 'Oswald', 'Roboto Mono', 'Raleway', 'Nunito', 'Ubuntu', 'Merriweather', 'Inter', 'Mukta', 'Rubik', 'Quicksand', 'Dosis']
+    }, {
+      label: 'Nome curto',
+      name: 'short_name',
+      widget: 'string',
+      hint: 'Título do aplicativo quando instalado (PWA)'
+    }, {
+      label: 'Descrição curta',
+      name: 'description',
+      widget: 'text'
+    }, {
+      label: 'Cor de fundo do app',
+      name: 'bg_color',
+      widget: 'color'
+    }, {
+      label: 'Ícone do app',
+      name: 'icon',
+      widget: 'image'
+    }, {
+      label: 'Ícone grande',
+      name: 'large_icon',
+      widget: 'image'
+    }, {
+      label: 'Favicon',
+      name: 'favicon',
+      widget: 'image'
     }]
-  }, {
-    label: 'Logo',
-    name: 'logo',
-    widget: 'image',
-    hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
-  }, {
-    label: 'Ícone do app',
-    name: 'icon',
-    widget: 'image'
-  }, {
-    label: 'Ícone grande',
-    name: 'large_icon',
-    widget: 'image'
-  }, {
-    label: 'Favicon',
-    name: 'favicon',
-    widget: 'image'
-  }]
-}));
+  };
+});
 
 /***/ }),
 
@@ -19065,100 +18698,103 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  label: 'Barra de informações',
-  file: `${baseDir}content/info.json`,
-  name: 'info',
-  hint: 'Informações gerais da loja, exibidas em várias páginas',
-  widget: 'object',
-  fields: [{
-    label: 'Frete',
-    name: 'shipping',
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    label: 'Barra de informações',
+    file: "".concat(baseDir, "content/info.json"),
+    name: 'info',
+    hint: 'Informações gerais da loja, exibidas em várias páginas',
     widget: 'object',
     fields: [{
-      label: 'Texto',
-      required: false,
-      name: 'text',
-      widget: 'string'
+      label: 'Frete',
+      name: 'shipping',
+      widget: 'object',
+      fields: [{
+        label: 'Texto',
+        required: false,
+        name: 'text',
+        widget: 'string'
+      }, {
+        label: 'Link',
+        required: false,
+        name: 'link',
+        widget: 'string'
+      }, {
+        label: 'Exibir na barra de informações',
+        name: 'show',
+        widget: 'boolean',
+        default: true,
+        required: false
+      }]
     }, {
-      label: 'Link',
-      required: false,
-      name: 'link',
-      widget: 'string'
+      label: 'Parcelamento',
+      name: 'installments',
+      widget: 'object',
+      fields: [{
+        label: 'Texto',
+        required: false,
+        name: 'text',
+        widget: 'string'
+      }, {
+        label: 'Link',
+        required: false,
+        name: 'link',
+        widget: 'string'
+      }, {
+        label: 'Exibir na barra de informações',
+        name: 'show',
+        widget: 'boolean',
+        default: true,
+        required: false
+      }]
     }, {
-      label: 'Exibir na barra de informações',
-      name: 'show',
-      widget: 'boolean',
-      default: true,
-      required: false
+      label: 'Trocas',
+      name: 'exchange',
+      widget: 'object',
+      fields: [{
+        label: 'Texto',
+        required: false,
+        name: 'text',
+        widget: 'string'
+      }, {
+        label: 'Link',
+        required: false,
+        name: 'link',
+        widget: 'string'
+      }, {
+        label: 'Exibir na barra de informações',
+        name: 'show',
+        widget: 'boolean',
+        default: true,
+        required: false
+      }]
+    }, {
+      label: 'Promoção',
+      name: 'promo',
+      widget: 'object',
+      fields: [{
+        label: 'Texto',
+        required: false,
+        name: 'text',
+        widget: 'string'
+      }, {
+        label: 'Link',
+        required: false,
+        name: 'link',
+        widget: 'string'
+      }, {
+        label: 'Exibir na barra de informações',
+        name: 'show',
+        widget: 'boolean',
+        default: true,
+        required: false
+      }]
     }]
-  }, {
-    label: 'Parcelamento',
-    name: 'installments',
-    widget: 'object',
-    fields: [{
-      label: 'Texto',
-      required: false,
-      name: 'text',
-      widget: 'string'
-    }, {
-      label: 'Link',
-      required: false,
-      name: 'link',
-      widget: 'string'
-    }, {
-      label: 'Exibir na barra de informações',
-      name: 'show',
-      widget: 'boolean',
-      default: true,
-      required: false
-    }]
-  }, {
-    label: 'Trocas',
-    name: 'exchange',
-    widget: 'object',
-    fields: [{
-      label: 'Texto',
-      required: false,
-      name: 'text',
-      widget: 'string'
-    }, {
-      label: 'Link',
-      required: false,
-      name: 'link',
-      widget: 'string'
-    }, {
-      label: 'Exibir na barra de informações',
-      name: 'show',
-      widget: 'boolean',
-      default: true,
-      required: false
-    }]
-  }, {
-    label: 'Promoção',
-    name: 'promo',
-    widget: 'object',
-    fields: [{
-      label: 'Texto',
-      required: false,
-      name: 'text',
-      widget: 'string'
-    }, {
-      label: 'Link',
-      required: false,
-      name: 'link',
-      widget: 'string'
-    }, {
-      label: 'Exibir na barra de informações',
-      name: 'show',
-      widget: 'boolean',
-      default: true,
-      required: false
-    }]
-  }]
-}));
+  };
+});
 
 /***/ }),
 
@@ -19171,21 +18807,24 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (({
-  baseDir
-}) => ({
-  name: 'social',
-  file: `${baseDir}content/social.json`,
-  label: 'Configurações Avançadas',
-  hint: 'Configurações para compartilhamento da loja',
-  fields: [{
-    label: 'Imagem de compartilhamento',
-    name: 'og_image',
-    required: false,
-    widget: 'image',
-    hint: 'Imagem que é exibida quando o site é compartilhado'
-  }]
-}));
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    baseDir
+  } = _ref;
+  return {
+    name: 'social',
+    file: "".concat(baseDir, "content/social.json"),
+    label: 'Configurações Avançadas',
+    hint: 'Configurações para compartilhamento da loja',
+    fields: [{
+      label: 'Imagem de compartilhamento',
+      name: 'og_image',
+      required: false,
+      widget: 'image',
+      hint: 'Imagem que é exibida quando o site é compartilhado'
+    }]
+  };
+});
 
 /***/ }),
 
@@ -19233,17 +18872,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const fixWidgetConfig = ({
-  baseDir
-}, getWidget) => {
+const fixWidgetConfig = (_ref, getWidget) => {
+  let {
+    baseDir
+  } = _ref;
   const baseConfig = getWidget();
-  const pkgName = baseConfig.fields.find(({
-    name
-  }) => name === 'pkg').default;
-  const name = pkgName.replace(/^(@ecomplus\/|storefront-)widget-/i, '');
+  const pkgName = baseConfig.fields.find(_ref2 => {
+    let {
+      name
+    } = _ref2;
+    return name === 'pkg';
+  }).default;
+  const name = pkgName.replace(/^(@ecomplus\/|storefront-|@confere-stores\/)widget-/i, '');
   return { ...baseConfig,
     name,
-    file: `${baseDir}content/widgets/${name}.json`
+    file: "".concat(baseDir, "content/widgets/").concat(name, ".json")
   };
 };
 
@@ -19288,7 +18931,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (options => {
   options.sections = Object(_sections__WEBPACK_IMPORTED_MODULE_1__["default"])(options);
-  netlifyIdentity.on('login', user => {
+  if (window.netlifyIdentity && window.netlifyIdentity.on) netlifyIdentity.on('login', user => {
     let userId = user.id;
     if (user && user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.length) userId = user.app_metadata.roles[0].replace(/\D+/g, '');
     let storeCreatedAt = null;
@@ -19330,7 +18973,7 @@ __webpack_require__.r(__webpack_exports__);
     logo_url: 'https://confere-shop.s3-sa-east-1.amazonaws.com/Group+130705.png',
     locale: 'pt',
     load_config_file: Boolean(window.CMS_LOAD_CONFIG_FILE),
-    media_folder: `${options.baseDir}template/public/img/uploads`,
+    media_folder: "".concat(options.baseDir, "template/public/img/uploads"),
     public_folder: '/img/uploads',
     slug: {
       encoding: 'ascii',
@@ -19401,299 +19044,315 @@ const searchOrderField = {
     value: 'slug'
   }]
 };
-/* harmony default export */ __webpack_exports__["default"] = (({
-  state
-}) => [{
-  label: 'Banner responsivo',
-  name: 'responsive-banner',
-  widget: 'object',
-  fields: bannerFields
-}, {
-  label: 'Grid de banners',
-  name: 'banners-grid',
-  widget: 'object',
-  fields: [{
-    label: 'Banners',
-    name: 'banners',
-    widget: 'list',
-    fields: bannerFields,
-    hint: 'Clique em "Adicionar banners" ao lado para criar o seu grid de banners'
-  }]
-}, {
-  label: 'Conteúdo customizado',
-  name: 'custom-content',
-  widget: 'object',
-  fields: [{
-    label: 'Conteúdo markdown customizado',
-    name: 'markdown',
-    widget: 'markdown',
-    hint: 'Markdown parseado para HTML'
-  }]
-}, {
-  label: 'Slider de banners',
-  name: 'banner-slider',
-  widget: 'object',
-  fields: [{
-    label: 'Slides',
-    name: 'slides',
-    widget: 'list',
-    fields: bannerFields.concat([{
+/* harmony default export */ __webpack_exports__["default"] = (_ref => {
+  let {
+    state
+  } = _ref;
+  return [{
+    label: 'Banner responsivo',
+    name: 'responsive-banner',
+    widget: 'object',
+    fields: bannerFields
+  }, {
+    label: 'Grid de banners',
+    name: 'banners-grid',
+    widget: 'object',
+    fields: [{
+      label: 'Banners',
+      name: 'banners',
+      widget: 'list',
+      fields: bannerFields,
+      hint: 'Clique em "Adicionar banners" ao lado para criar o seu grid de banners'
+    }]
+  }, {
+    label: 'Conteúdo customizado',
+    name: 'custom-content',
+    widget: 'object',
+    fields: [{
+      label: 'Conteúdo markdown customizado',
+      name: 'markdown',
+      widget: 'markdown',
+      hint: 'Markdown parseado para HTML'
+    }]
+  }, {
+    label: 'Slider de banners',
+    name: 'banner-slider',
+    widget: 'object',
+    fields: [{
+      label: 'Slides',
+      name: 'slides',
+      widget: 'list',
+      fields: bannerFields.concat([{
+        label: 'Data de início',
+        required: false,
+        name: 'start',
+        widget: 'datetime',
+        date_format: 'DD/MM/YYYY',
+        time_format: 'HH:mm',
+        default: ''
+      }, {
+        label: 'Data de encerramento',
+        required: false,
+        name: 'end',
+        widget: 'datetime',
+        date_format: 'DD/MM/YYYY',
+        time_format: 'HH:mm',
+        default: ''
+      }]),
+      hint: 'Clique em "Adicionar banners" ao lado para criar o seu slider de banners'
+    }, {
+      label: 'Slider autoplay',
+      name: 'autoplay',
+      hint: 'Exibição de cada slide em milisegundos, defina 0 para desabilitar autoplay',
+      min: 0,
+      step: 1000,
+      default: 9000,
+      widget: 'number'
+    }, {
+      label: 'Banners em tela cheia',
+      name: 'full_width',
+      widget: 'boolean',
+      default: false
+    }]
+  }, {
+    label: 'Temporizador de ofertas',
+    name: 'offers-timer',
+    widget: 'object',
+    fields: [{
+      label: 'Ofertas',
+      name: 'offers',
+      widget: 'list',
+      field: {
+        label: 'SKU do produto',
+        name: 'product_id',
+        widget: 'select',
+        options: state.routes.filter(_ref2 => {
+          let {
+            sku
+          } = _ref2;
+          return typeof sku === 'string';
+        }).map(_ref3 => {
+          let {
+            _id,
+            sku
+          } = _ref3;
+          return {
+            label: sku,
+            value: _id
+          };
+        })
+      }
+    }, {
       label: 'Data de início',
       required: false,
       name: 'start',
       widget: 'datetime',
-      dateFormat: 'DD/MM/YYYY',
-      timeFormat: 'HH:mm',
-      default: ''
+      date_format: 'DD/MM/YYYY',
+      time_format: 'HH:mm'
     }, {
       label: 'Data de encerramento',
-      required: false,
       name: 'end',
       widget: 'datetime',
-      dateFormat: 'DD/MM/YYYY',
-      timeFormat: 'HH:mm',
-      default: ''
-    }]),
-    hint: 'Clique em "Adicionar banners" ao lado para criar o seu slider de banners'
-  }, {
-    label: 'Slider autoplay',
-    name: 'autoplay',
-    hint: 'Exibição de cada slide em milisegundos, defina 0 para desabilitar autoplay',
-    min: 0,
-    step: 1000,
-    default: 9000,
-    widget: 'number'
-  }]
-}, {
-  label: 'Temporizador de ofertas',
-  name: 'offers-timer',
-  widget: 'object',
-  fields: [{
-    label: 'Ofertas',
-    name: 'offers',
-    widget: 'list',
-    field: {
-      label: 'SKU do produto',
-      name: 'product_id',
-      widget: 'select',
-      options: state.routes.filter(({
-        sku
-      }) => typeof sku === 'string').map(({
-        _id,
-        sku
-      }) => ({
-        label: sku,
-        value: _id
-      }))
-    }
-  }, {
-    label: 'Data de início',
-    required: false,
-    name: 'start',
-    widget: 'datetime',
-    dateFormat: 'DD/MM/YYYY',
-    timeFormat: 'HH:mm'
-  }, {
-    label: 'Data de encerramento',
-    name: 'end',
-    widget: 'datetime',
-    dateFormat: 'DD/MM/YYYY',
-    timeFormat: 'HH:mm'
-  }, {
-    label: 'Notas',
-    required: false,
-    name: 'notes',
-    hint: 'Descrição auxiliar sobre a promoção',
-    widget: 'text'
-  }, {
-    label: 'Máximo de horas',
-    name: 'max_hours',
-    hint: 'Tempo máximo exibido no contador',
-    widget: 'number',
-    default: 24
-  }]
-}, {
-  label: 'Barra de informações',
-  name: 'info-bar',
-  widget: 'object',
-  fields: [{
-    label: 'Exibir barra de informações',
-    name: 'enabled',
-    widget: 'boolean',
-    default: true
-  }]
-}, {
-  label: 'Estante de produtos',
-  name: 'collection-shelf',
-  widget: 'object',
-  fields: [{
-    label: 'Coleção de produtos',
-    required: false,
-    name: 'collection_id',
-    hint: 'Se este campo não for preenchido, serão listados os produtos mais populares da loja',
-    widget: 'select',
-    options: [{
-      resource: 'collections',
-      label: ''
+      date_format: 'DD/MM/YYYY',
+      time_format: 'HH:mm'
     }, {
-      resource: 'categories',
-      label: 'Categoria: '
+      label: 'Notas',
+      required: false,
+      name: 'notes',
+      hint: 'Descrição auxiliar sobre a promoção',
+      widget: 'text'
     }, {
-      resource: 'brands',
-      label: 'Marca: '
-    }].reduce((options, shelf) => {
-      state.routes.forEach(({
-        _id,
-        resource,
-        name,
-        path
-      }) => {
-        if (resource === shelf.resource) {
-          options.push({
-            label: shelf.label + name,
-            value: `${_id}:${resource}:${name}:${path}`
-          });
-        }
-      });
-      return options;
-    }, [])
-  }, searchOrderField, {
-    label: 'Embaralhar produtos',
-    name: 'shuffle',
-    widget: 'boolean',
-    default: false
-  }, {
-    label: 'Título da estante',
-    required: false,
-    name: 'title',
-    hint: 'Usará o nome da coleção por padrão',
-    widget: 'string'
-  }, {
-    label: 'Link no título',
-    required: false,
-    name: 'link',
-    hint: 'Usará o slug da coleção por padrão',
-    widget: 'string'
-  }, {
-    label: 'Sem cabeçalho',
-    required: false,
-    name: 'headless',
-    widget: 'boolean',
-    hint: 'Mostrar apenas a lista de produtos, sem título ou link'
-  }, {
-    label: 'Limite de itens',
-    required: false,
-    name: 'limit',
-    widget: 'number',
-    min: 1,
-    max: 24,
-    default: 12
-  }, {
-    label: 'Paginação',
-    required: false,
-    name: 'page',
-    hint: 'Aumente o número da página para pular os itens iniciais e repetir estantes com a mesma coleção',
-    widget: 'number',
-    min: 1,
-    default: 1
-  }]
-}, {
-  label: 'Vitrine dinâmica',
-  name: 'dynamic-showcase',
-  widget: 'object',
-  fields: [searchOrderField, {
-    label: 'Carregar mais',
-    name: 'load_more',
-    widget: 'boolean',
-    default: true,
-    hint: 'Carrega mais itens automaticamente com scroll da página'
-  }]
-}, {
-  label: 'Carrossel de marcas',
-  name: 'brands-carousel',
-  widget: 'object',
-  fields: [{
-    label: 'Ordenação',
-    required: false,
-    name: 'sort',
-    widget: 'select',
-    options: [{
-      label: 'Padrão',
-      value: ''
-    }, {
-      label: 'Alfabética',
-      value: 'name'
+      label: 'Máximo de horas',
+      name: 'max_hours',
+      hint: 'Tempo máximo exibido no contador',
+      widget: 'number',
+      default: 24
     }]
   }, {
-    label: 'Limite de marcas',
-    name: 'limit',
-    widget: 'number',
-    min: 1,
-    max: 48,
-    default: 24
+    label: 'Barra de informações',
+    name: 'info-bar',
+    widget: 'object',
+    fields: [{
+      label: 'Exibir barra de informações',
+      name: 'enabled',
+      widget: 'boolean',
+      default: true
+    }]
   }, {
-    label: 'Offset de marcas',
-    name: 'offset',
-    widget: 'hidden',
-    default: 0
+    label: 'Estante de produtos',
+    name: 'collection-shelf',
+    widget: 'object',
+    fields: [{
+      label: 'Coleção de produtos',
+      required: false,
+      name: 'collection_id',
+      hint: 'Se este campo não for preenchido, serão listados os produtos mais populares da loja',
+      widget: 'select',
+      options: [{
+        resource: 'collections',
+        label: ''
+      }, {
+        resource: 'categories',
+        label: 'Categoria: '
+      }, {
+        resource: 'brands',
+        label: 'Marca: '
+      }].reduce((options, shelf) => {
+        state.routes.forEach(_ref4 => {
+          let {
+            _id,
+            resource,
+            name,
+            path
+          } = _ref4;
+
+          if (resource === shelf.resource) {
+            options.push({
+              label: shelf.label + name,
+              value: "".concat(_id, ":").concat(resource, ":").concat(name, ":").concat(path)
+            });
+          }
+        });
+        return options;
+      }, [])
+    }, searchOrderField, {
+      label: 'Embaralhar produtos',
+      name: 'shuffle',
+      widget: 'boolean',
+      default: false
+    }, {
+      label: 'Título da estante',
+      required: false,
+      name: 'title',
+      hint: 'Usará o nome da coleção por padrão',
+      widget: 'string'
+    }, {
+      label: 'Link no título',
+      required: false,
+      name: 'link',
+      hint: 'Usará o slug da coleção por padrão',
+      widget: 'string'
+    }, {
+      label: 'Sem cabeçalho',
+      required: false,
+      name: 'headless',
+      widget: 'boolean',
+      hint: 'Mostrar apenas a lista de produtos, sem título ou link'
+    }, {
+      label: 'Limite de itens',
+      required: false,
+      name: 'limit',
+      widget: 'number',
+      min: 1,
+      max: 24,
+      default: 12
+    }, {
+      label: 'Paginação',
+      required: false,
+      name: 'page',
+      hint: 'Aumente o número da página para pular os itens iniciais e repetir estantes com a mesma coleção',
+      widget: 'number',
+      min: 1,
+      default: 1
+    }]
   }, {
-    label: 'Carousel autoplay',
-    required: false,
-    name: 'autoplay',
-    hint: 'Exibição de cada página em milisegundos, 0 desativa o autoplay',
-    min: 0,
-    step: 1000,
-    widget: 'number'
-  }]
-}, {
-  label: 'Breadcrumbs',
-  name: 'breadcrumbs',
-  widget: 'object',
-  fields: [{
-    label: 'Exibir breadcrumbs',
-    name: 'enabled',
-    widget: 'boolean',
-    default: true
-  }]
-}, {
-  label: 'Título da página (SEO)',
-  name: 'page-title',
-  widget: 'object',
-  fields: [{
-    label: 'Título (H1)',
-    required: false,
-    name: 'title',
-    hint: 'Por padrão será usado o título salvo no conteúdo ou nome do documento se houver',
-    widget: 'string'
+    label: 'Vitrine dinâmica',
+    name: 'dynamic-showcase',
+    widget: 'object',
+    fields: [searchOrderField, {
+      label: 'Carregar mais',
+      name: 'load_more',
+      widget: 'boolean',
+      default: true,
+      hint: 'Carrega mais itens automaticamente com scroll da página'
+    }]
   }, {
-    label: 'Descrição curta',
-    required: false,
-    name: 'description',
-    hint: 'Será usada a descrição curta da marca ou categoria nas respectivas páginas',
-    widget: 'string'
-  }]
-}, {
-  label: 'Blog',
-  name: 'blog',
-  widget: 'object',
-  fields: [{
-    label: 'Listar posts do blog',
-    name: 'enabled',
-    widget: 'boolean',
-    default: true
-  }]
-}, {
-  label: 'Código HTML',
-  name: 'custom-html',
-  widget: 'object',
-  fields: [{
-    label: 'Conteúdo HTML customizado',
-    name: 'html',
-    widget: 'code',
-    default_language: 'html',
-    output_code_only: true
-  }]
-}]);
+    label: 'Carrossel de marcas',
+    name: 'brands-carousel',
+    widget: 'object',
+    fields: [{
+      label: 'Ordenação',
+      required: false,
+      name: 'sort',
+      widget: 'select',
+      options: [{
+        label: 'Padrão',
+        value: ''
+      }, {
+        label: 'Alfabética',
+        value: 'name'
+      }]
+    }, {
+      label: 'Limite de marcas',
+      name: 'limit',
+      widget: 'number',
+      min: 1,
+      max: 48,
+      default: 24
+    }, {
+      label: 'Offset de marcas',
+      name: 'offset',
+      widget: 'hidden',
+      default: 0
+    }, {
+      label: 'Carousel autoplay',
+      required: false,
+      name: 'autoplay',
+      hint: 'Exibição de cada página em milisegundos, 0 desativa o autoplay',
+      min: 0,
+      step: 1000,
+      widget: 'number'
+    }]
+  }, {
+    label: 'Breadcrumbs',
+    name: 'breadcrumbs',
+    widget: 'object',
+    fields: [{
+      label: 'Exibir breadcrumbs',
+      name: 'enabled',
+      widget: 'boolean',
+      default: true
+    }]
+  }, {
+    label: 'Título da página (SEO)',
+    name: 'page-title',
+    widget: 'object',
+    fields: [{
+      label: 'Título (H1)',
+      required: false,
+      name: 'title',
+      hint: 'Por padrão será usado o título salvo no conteúdo ou nome do documento se houver',
+      widget: 'string'
+    }, {
+      label: 'Descrição curta',
+      required: false,
+      name: 'description',
+      hint: 'Será usada a descrição curta da marca ou categoria nas respectivas páginas',
+      widget: 'string'
+    }]
+  }, {
+    label: 'Blog',
+    name: 'blog',
+    widget: 'object',
+    fields: [{
+      label: 'Listar posts do blog',
+      name: 'enabled',
+      widget: 'boolean',
+      default: true
+    }]
+  }, {
+    label: 'Código HTML',
+    name: 'custom-html',
+    widget: 'object',
+    fields: [{
+      label: 'Conteúdo HTML customizado',
+      name: 'html',
+      widget: 'code',
+      default_language: 'html',
+      output_code_only: true
+    }]
+  }];
+});
 
 /***/ }),
 
@@ -19706,13 +19365,19 @@ const searchOrderField = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.url.js */ "./node_modules/core-js/modules/web.url.js");
-/* harmony import */ var core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var eventemitter3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! eventemitter3 */ "./node_modules/eventemitter3/index.js");
-/* harmony import */ var eventemitter3__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(eventemitter3__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.url-search-params.js */ "./node_modules/core-js/modules/web.url-search-params.js");
+/* harmony import */ var core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_search_params_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var eventemitter3__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! eventemitter3 */ "./node_modules/eventemitter3/index.js");
+/* harmony import */ var eventemitter3__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(eventemitter3__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
+
+
 
 
 
@@ -19722,8 +19387,10 @@ const {
   localStorage
 } = window;
 const storageKey = 'admin:token';
-/* harmony default export */ __webpack_exports__["default"] = ((baseURL = 'https://admin.e-com.plus/session/gotrue/v1', canAutoInit = true) => {
-  const emitter = new eventemitter3__WEBPACK_IMPORTED_MODULE_2__();
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  let baseURL = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'https://cms.confere.shop/session/gotrue/v1';
+  let canAutoInit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  const emitter = new eventemitter3__WEBPACK_IMPORTED_MODULE_4__();
   const store = {
     user: null,
     modal: {
@@ -19745,17 +19412,18 @@ const storageKey = 'admin:token';
     const accessToken = urlParams.get('token') || localStorage.getItem(storageKey);
 
     if (!accessToken) {
-      location.href = `${baseURL}/?store_id=${_ecomplus_utils__WEBPACK_IMPORTED_MODULE_3__["$ecomConfig"].get('store_id')}`;
+      location.href = "".concat(baseURL, "/?store_id=").concat(_ecomplus_utils__WEBPACK_IMPORTED_MODULE_5__["$ecomConfig"].get('store_id'));
       return;
     }
 
-    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(`${baseURL}/user`, {
+    axios__WEBPACK_IMPORTED_MODULE_3___default.a.get("".concat(baseURL, "/user"), {
       headers: {
-        Authorization: `Bearer ${accessToken}`
+        Authorization: "Bearer ".concat(accessToken)
       }
-    }).then(({
-      data
-    }) => {
+    }).then(_ref => {
+      let {
+        data
+      } = _ref;
       store.user = data;
 
       store.user.jwt = function () {
@@ -19785,7 +19453,7 @@ const storageKey = 'admin:token';
       emitter.emit('error', error);
     }).finally(() => {
       if (window.history) {
-        window.history.pushState('hide-token', document.title, `/admin/${location.hash}`);
+        window.history.pushState('hide-token', document.title, "/admin/".concat(location.hash));
       }
     });
     emitter.emit('init');
@@ -19818,14 +19486,17 @@ const storageKey = 'admin:token';
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash.merge */ "./node_modules/lodash.merge/index.js");
-/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
-/* harmony import */ var _ecomplus_identity__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ecomplus-identity */ "./template/js/netlify-cms/ecomplus-identity.js");
-/* harmony import */ var _base_config___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./base-config/ */ "./template/js/netlify-cms/base-config/index.js");
-/* harmony import */ var _pages_preview__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages-preview */ "./template/js/netlify-cms/pages-preview.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash.merge */ "./node_modules/lodash.merge/index.js");
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
+/* harmony import */ var _ecomplus_identity__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ecomplus-identity */ "./template/js/netlify-cms/ecomplus-identity.js");
+/* harmony import */ var _base_config___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./base-config/ */ "./template/js/netlify-cms/base-config/index.js");
+/* harmony import */ var _pages_preview__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages-preview */ "./template/js/netlify-cms/pages-preview.js");
+
 
 
 
@@ -19853,10 +19524,10 @@ const initCms = config => {
       document.addEventListener('DOMContentLoaded', fixGotrueApi);
     }
   } else {
-    window.netlifyIdentity = Object(_ecomplus_identity__WEBPACK_IMPORTED_MODULE_3__["default"])();
+    window.netlifyIdentity = Object(_ecomplus_identity__WEBPACK_IMPORTED_MODULE_4__["default"])();
 
     if (!config.backend.gateway_url) {
-      config.backend.gateway_url = `https://gitgateway.ecomplus.biz/${_ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["$ecomConfig"].get('store_id')}`;
+      config.backend.gateway_url = "https://cms.confere.shop/".concat(_ecomplus_utils__WEBPACK_IMPORTED_MODULE_3__["$ecomConfig"].get('store_id'));
     }
   }
 
@@ -19866,10 +19537,12 @@ const initCms = config => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = ((customConfig, options) => new Promise(resolve => {
-  let config = lodash_merge__WEBPACK_IMPORTED_MODULE_0__(Object(_base_config___WEBPACK_IMPORTED_MODULE_4__["default"])(options), customConfig);
-  axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/admin/config.json').then(({
-    data
-  }) => {
+  let config = lodash_merge__WEBPACK_IMPORTED_MODULE_1__(Object(_base_config___WEBPACK_IMPORTED_MODULE_5__["default"])(options), customConfig);
+  axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/admin/config.json').then(_ref => {
+    let {
+      data
+    } = _ref;
+
     if (typeof data === 'object' && data) {
       if (Array.isArray(data.collections)) {
         const mergeNestedObj = (originalObj, obj) => {
@@ -19889,9 +19562,12 @@ const initCms = config => {
         const upsertFields = (config, data, prop) => {
           data[prop].forEach(obj => {
             if (obj.name) {
-              const originalObj = config[prop].find(({
-                name
-              }) => name === obj.name);
+              const originalObj = config[prop].find(_ref2 => {
+                let {
+                  name
+                } = _ref2;
+                return name === obj.name;
+              });
 
               if (originalObj) {
                 mergeNestedObj(originalObj, obj);
@@ -19908,7 +19584,7 @@ const initCms = config => {
         upsertFields(config, data, 'collections');
       }
 
-      config = lodash_merge__WEBPACK_IMPORTED_MODULE_0__(config, data);
+      config = lodash_merge__WEBPACK_IMPORTED_MODULE_1__(config, data);
     }
   }).catch(() => console.log('No custom config file at /admin/config.json')).finally(() => {
     initCms(config);
@@ -19945,7 +19621,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-window.CMS.registerPreviewStyle('https://use.fontawesome.com/releases/v5.12.0/css/all.css');
 window.CMS.registerPreviewStyle('/storefront.css');
 window.CMS.registerPreviewStyle('/assets/cms-preview.css');
 window.CMS.registerPreviewTemplate('home', _preview_home_preview__WEBPACK_IMPORTED_MODULE_0__["default"]);
@@ -19972,39 +19647,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BasePreview; });
 /* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.url.to-json.js */ "./node_modules/core-js/modules/web.url.to-json.js");
 /* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
-/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
-/* harmony import */ var _ecomplus_search_engine__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/search-engine */ "./node_modules/@ecomplus/search-engine/src/index.js");
-/* harmony import */ var _pages_sections_banner_slider_ejs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../pages/@/sections/banner-slider.ejs */ "./template/pages/@/sections/banner-slider.ejs");
-/* harmony import */ var _pages_sections_info_bar_ejs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../pages/@/sections/info-bar.ejs */ "./template/pages/@/sections/info-bar.ejs");
-/* harmony import */ var _pages_sections_inc_banner_ejs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../pages/@/sections/inc/banner.ejs */ "./template/pages/@/sections/inc/banner.ejs");
-/* harmony import */ var _pages_sections_inc_product_item_ejs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../pages/@/sections/inc/product-item.ejs */ "./template/pages/@/sections/inc/product-item.ejs");
-/* harmony import */ var _pages_sections_inc_retail_grid_ejs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../pages/@/sections/inc/retail-grid.ejs */ "./template/pages/@/sections/inc/retail-grid.ejs");
-/* harmony import */ var _pages_sections_inc_md_content_ejs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../pages/@/sections/inc/md-content.ejs */ "./template/pages/@/sections/inc/md-content.ejs");
-/* harmony import */ var _pages_sections_inc_timer_ejs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../pages/@/sections/inc/timer.ejs */ "./template/pages/@/sections/inc/timer.ejs");
-/* harmony import */ var _pages_sections_inc_products_carousel_ejs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../pages/@/sections/inc/products-carousel.ejs */ "./template/pages/@/sections/inc/products-carousel.ejs");
-/* harmony import */ var _pages_sections_responsive_banner_ejs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../pages/@/sections/responsive-banner.ejs */ "./template/pages/@/sections/responsive-banner.ejs");
-/* harmony import */ var _pages_sections_banners_grid_ejs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../pages/@/sections/banners-grid.ejs */ "./template/pages/@/sections/banners-grid.ejs");
-/* harmony import */ var _pages_sections_custom_content_ejs__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../pages/@/sections/custom-content.ejs */ "./template/pages/@/sections/custom-content.ejs");
-/* harmony import */ var _pages_sections_custom_html_ejs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../pages/@/sections/custom-html.ejs */ "./template/pages/@/sections/custom-html.ejs");
-/* harmony import */ var _pages_sections_offers_timer_ejs__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../pages/@/sections/offers-timer.ejs */ "./template/pages/@/sections/offers-timer.ejs");
-/* harmony import */ var _pages_sections_breadcrumbs_ejs__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../pages/@/sections/breadcrumbs.ejs */ "./template/pages/@/sections/breadcrumbs.ejs");
-/* harmony import */ var _pages_sections_page_title_ejs__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../pages/@/sections/page-title.ejs */ "./template/pages/@/sections/page-title.ejs");
-/* harmony import */ var _pages_sections_blog_ejs__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../pages/@/sections/blog.ejs */ "./template/pages/@/sections/blog.ejs");
-/* harmony import */ var _pages_sections_product_block_ejs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../pages/@/sections/product-block.ejs */ "./template/pages/@/sections/product-block.ejs");
-/* harmony import */ var _pages_sections_related_products_ejs__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../pages/@/sections/related-products.ejs */ "./template/pages/@/sections/related-products.ejs");
-/* harmony import */ var _pages_sections_recommended_products_ejs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../pages/@/sections/recommended-products.ejs */ "./template/pages/@/sections/recommended-products.ejs");
-/* harmony import */ var _pages_sections_inc_recommendations_shelf_ejs__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../pages/@/sections/inc/recommendations-shelf.ejs */ "./template/pages/@/sections/inc/recommendations-shelf.ejs");
-/* harmony import */ var _pages_sections_product_description_ejs__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../pages/@/sections/product-description.ejs */ "./template/pages/@/sections/product-description.ejs");
-/* harmony import */ var _pages_sections_product_specifications_ejs__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../pages/@/sections/product-specifications.ejs */ "./template/pages/@/sections/product-specifications.ejs");
-/* harmony import */ var _pages_sections_search_engine_ejs__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../pages/@/sections/search-engine.ejs */ "./template/pages/@/sections/search-engine.ejs");
-/* harmony import */ var _pages_sections_inc_loading_ejs__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../pages/@/sections/inc/loading.ejs */ "./template/pages/@/sections/inc/loading.ejs");
-/* harmony import */ var _pages_sections_document_banner_ejs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../pages/@/sections/document-banner.ejs */ "./template/pages/@/sections/document-banner.ejs");
-/* harmony import */ var _pages_sections_document_description_ejs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../../pages/@/sections/document-description.ejs */ "./template/pages/@/sections/document-description.ejs");
-/* harmony import */ var _pages_sections_brand_retail_ejs__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../../pages/@/sections/brand-retail.ejs */ "./template/pages/@/sections/brand-retail.ejs");
-/* harmony import */ var _pages_sections_category_retail_ejs__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../../pages/@/sections/category-retail.ejs */ "./template/pages/@/sections/category-retail.ejs");
-/* harmony import */ var _pages_sections_collection_retail_ejs__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../../pages/@/sections/collection-retail.ejs */ "./template/pages/@/sections/collection-retail.ejs");
-/* harmony import */ var _pages_sections_collection_shelf_ejs__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../../pages/@/sections/collection-shelf.ejs */ "./template/pages/@/sections/collection-shelf.ejs");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ecomplus/utils */ "./node_modules/@ecomplus/utils/src/index.js");
+/* harmony import */ var _ecomplus_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ecomplus/client */ "./node_modules/@ecomplus/client/src/index.js");
+/* harmony import */ var _ecomplus_search_engine__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ecomplus/search-engine */ "./node_modules/@ecomplus/search-engine/src/index.js");
+/* harmony import */ var _pages_sections_banner_slider_ejs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../pages/@/sections/banner-slider.ejs */ "./template/pages/@/sections/banner-slider.ejs");
+/* harmony import */ var _pages_sections_info_bar_ejs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../pages/@/sections/info-bar.ejs */ "./template/pages/@/sections/info-bar.ejs");
+/* harmony import */ var _pages_sections_inc_banner_ejs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../pages/@/sections/inc/banner.ejs */ "./template/pages/@/sections/inc/banner.ejs");
+/* harmony import */ var _pages_sections_inc_product_item_ejs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../pages/@/sections/inc/product-item.ejs */ "./template/pages/@/sections/inc/product-item.ejs");
+/* harmony import */ var _pages_sections_inc_retail_grid_ejs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../pages/@/sections/inc/retail-grid.ejs */ "./template/pages/@/sections/inc/retail-grid.ejs");
+/* harmony import */ var _pages_sections_inc_md_content_ejs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../pages/@/sections/inc/md-content.ejs */ "./template/pages/@/sections/inc/md-content.ejs");
+/* harmony import */ var _pages_sections_inc_timer_ejs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../pages/@/sections/inc/timer.ejs */ "./template/pages/@/sections/inc/timer.ejs");
+/* harmony import */ var _pages_sections_inc_products_carousel_ejs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../pages/@/sections/inc/products-carousel.ejs */ "./template/pages/@/sections/inc/products-carousel.ejs");
+/* harmony import */ var _pages_sections_responsive_banner_ejs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../pages/@/sections/responsive-banner.ejs */ "./template/pages/@/sections/responsive-banner.ejs");
+/* harmony import */ var _pages_sections_banners_grid_ejs__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../pages/@/sections/banners-grid.ejs */ "./template/pages/@/sections/banners-grid.ejs");
+/* harmony import */ var _pages_sections_custom_content_ejs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../pages/@/sections/custom-content.ejs */ "./template/pages/@/sections/custom-content.ejs");
+/* harmony import */ var _pages_sections_custom_html_ejs__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../pages/@/sections/custom-html.ejs */ "./template/pages/@/sections/custom-html.ejs");
+/* harmony import */ var _pages_sections_offers_timer_ejs__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../pages/@/sections/offers-timer.ejs */ "./template/pages/@/sections/offers-timer.ejs");
+/* harmony import */ var _pages_sections_breadcrumbs_ejs__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../pages/@/sections/breadcrumbs.ejs */ "./template/pages/@/sections/breadcrumbs.ejs");
+/* harmony import */ var _pages_sections_page_title_ejs__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../pages/@/sections/page-title.ejs */ "./template/pages/@/sections/page-title.ejs");
+/* harmony import */ var _pages_sections_blog_ejs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../pages/@/sections/blog.ejs */ "./template/pages/@/sections/blog.ejs");
+/* harmony import */ var _pages_sections_product_block_ejs__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../pages/@/sections/product-block.ejs */ "./template/pages/@/sections/product-block.ejs");
+/* harmony import */ var _pages_sections_related_products_ejs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../pages/@/sections/related-products.ejs */ "./template/pages/@/sections/related-products.ejs");
+/* harmony import */ var _pages_sections_recommended_products_ejs__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../pages/@/sections/recommended-products.ejs */ "./template/pages/@/sections/recommended-products.ejs");
+/* harmony import */ var _pages_sections_inc_recommendations_shelf_ejs__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../pages/@/sections/inc/recommendations-shelf.ejs */ "./template/pages/@/sections/inc/recommendations-shelf.ejs");
+/* harmony import */ var _pages_sections_product_description_ejs__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../pages/@/sections/product-description.ejs */ "./template/pages/@/sections/product-description.ejs");
+/* harmony import */ var _pages_sections_product_specifications_ejs__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../../pages/@/sections/product-specifications.ejs */ "./template/pages/@/sections/product-specifications.ejs");
+/* harmony import */ var _pages_sections_search_engine_ejs__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../../pages/@/sections/search-engine.ejs */ "./template/pages/@/sections/search-engine.ejs");
+/* harmony import */ var _pages_sections_inc_loading_ejs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../../pages/@/sections/inc/loading.ejs */ "./template/pages/@/sections/inc/loading.ejs");
+/* harmony import */ var _pages_sections_document_banner_ejs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../../pages/@/sections/document-banner.ejs */ "./template/pages/@/sections/document-banner.ejs");
+/* harmony import */ var _pages_sections_document_description_ejs__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../../pages/@/sections/document-description.ejs */ "./template/pages/@/sections/document-description.ejs");
+/* harmony import */ var _pages_sections_brand_retail_ejs__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../../pages/@/sections/brand-retail.ejs */ "./template/pages/@/sections/brand-retail.ejs");
+/* harmony import */ var _pages_sections_category_retail_ejs__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../../pages/@/sections/category-retail.ejs */ "./template/pages/@/sections/category-retail.ejs");
+/* harmony import */ var _pages_sections_collection_retail_ejs__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../../pages/@/sections/collection-retail.ejs */ "./template/pages/@/sections/collection-retail.ejs");
+/* harmony import */ var _pages_sections_collection_shelf_ejs__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../../pages/@/sections/collection-shelf.ejs */ "./template/pages/@/sections/collection-shelf.ejs");
+
 
 
 
@@ -20085,15 +19763,18 @@ class BasePreview extends React.Component {
       dictionary: function (term) {
         if (term) {
           if (i18n[term]) {
-            return _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["default"].i18n(i18n[term], lang);
-          } else if (i18n[`i19${term}`]) {
-            return _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["default"].i18n(i18n[`i19${term}`], lang);
+            return _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["default"].i18n(i18n[term], lang);
+          } else if (i18n["i19".concat(term)]) {
+            return _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["default"].i18n(i18n["i19".concat(term)], lang);
           }
 
-          return this._.cms(`dictionary/${lang}`)[term] || '';
+          return this._.cms("dictionary/".concat(lang))[term] || '';
         }
 
-        return this._.cms(`dictionary/${lang}`);
+        return this._.cms("dictionary/".concat(lang));
+      },
+      tryImageSize: function () {
+        return {};
       },
       md: new MarkdownIt({
         html: true
@@ -20101,9 +19782,9 @@ class BasePreview extends React.Component {
       route: null,
       resolveRoute: null,
       lodash,
-      ecomUtils: _ecomplus_utils__WEBPACK_IMPORTED_MODULE_1__["default"],
-      ecomClient: _ecomplus_client__WEBPACK_IMPORTED_MODULE_2__["default"],
-      EcomSearch: _ecomplus_search_engine__WEBPACK_IMPORTED_MODULE_3__["default"],
+      ecomUtils: _ecomplus_utils__WEBPACK_IMPORTED_MODULE_2__["default"],
+      ecomClient: _ecomplus_client__WEBPACK_IMPORTED_MODULE_3__["default"],
+      EcomSearch: _ecomplus_search_engine__WEBPACK_IMPORTED_MODULE_4__["default"],
       state: {}
     };
     this.state = {
@@ -20155,8 +19836,6 @@ class BasePreview extends React.Component {
                     if (!isArrayEqual(oldEntry[key], entry[key])) {
                       change = true;
                     }
-                  } else if (typeof oldEntry[key] === 'object') {
-                    return; // todo
                   }
 
                   break;
@@ -20237,41 +19916,42 @@ class BasePreview extends React.Component {
 
   ejsSections() {
     return {
-      breadcrumbs: _pages_sections_breadcrumbs_ejs__WEBPACK_IMPORTED_MODULE_17__["default"],
-      banner: _pages_sections_inc_banner_ejs__WEBPACK_IMPORTED_MODULE_6__["default"],
-      blog: _pages_sections_blog_ejs__WEBPACK_IMPORTED_MODULE_19__["default"],
-      timer: _pages_sections_inc_timer_ejs__WEBPACK_IMPORTED_MODULE_10__["default"],
-      loading: _pages_sections_inc_loading_ejs__WEBPACK_IMPORTED_MODULE_27__["default"],
-      'banner-slider': _pages_sections_banner_slider_ejs__WEBPACK_IMPORTED_MODULE_4__["default"],
-      'info-bar': _pages_sections_info_bar_ejs__WEBPACK_IMPORTED_MODULE_5__["default"],
-      'collection-shelf': _pages_sections_collection_shelf_ejs__WEBPACK_IMPORTED_MODULE_33__["default"],
-      'products-carousel': _pages_sections_inc_products_carousel_ejs__WEBPACK_IMPORTED_MODULE_11__["default"],
-      'product-item': _pages_sections_inc_product_item_ejs__WEBPACK_IMPORTED_MODULE_7__["default"],
+      breadcrumbs: _pages_sections_breadcrumbs_ejs__WEBPACK_IMPORTED_MODULE_18__["default"],
+      banner: _pages_sections_inc_banner_ejs__WEBPACK_IMPORTED_MODULE_7__["default"],
+      blog: _pages_sections_blog_ejs__WEBPACK_IMPORTED_MODULE_20__["default"],
+      timer: _pages_sections_inc_timer_ejs__WEBPACK_IMPORTED_MODULE_11__["default"],
+      loading: _pages_sections_inc_loading_ejs__WEBPACK_IMPORTED_MODULE_28__["default"],
+      'banner-slider': _pages_sections_banner_slider_ejs__WEBPACK_IMPORTED_MODULE_5__["default"],
+      'info-bar': _pages_sections_info_bar_ejs__WEBPACK_IMPORTED_MODULE_6__["default"],
+      'collection-shelf': _pages_sections_collection_shelf_ejs__WEBPACK_IMPORTED_MODULE_34__["default"],
+      'products-carousel': _pages_sections_inc_products_carousel_ejs__WEBPACK_IMPORTED_MODULE_12__["default"],
+      'product-item': _pages_sections_inc_product_item_ejs__WEBPACK_IMPORTED_MODULE_8__["default"],
       'widgets-append': '<% %>',
-      'responsive-banner': _pages_sections_responsive_banner_ejs__WEBPACK_IMPORTED_MODULE_12__["default"],
-      'banners-grid': _pages_sections_banners_grid_ejs__WEBPACK_IMPORTED_MODULE_13__["default"],
-      'custom-content': _pages_sections_custom_content_ejs__WEBPACK_IMPORTED_MODULE_14__["default"],
-      'offers-timer': _pages_sections_offers_timer_ejs__WEBPACK_IMPORTED_MODULE_16__["default"],
-      'page-title': _pages_sections_page_title_ejs__WEBPACK_IMPORTED_MODULE_18__["default"],
-      'retail-grid': _pages_sections_inc_retail_grid_ejs__WEBPACK_IMPORTED_MODULE_8__["default"],
-      'md-content': _pages_sections_inc_md_content_ejs__WEBPACK_IMPORTED_MODULE_9__["default"],
-      'custom-html': _pages_sections_custom_html_ejs__WEBPACK_IMPORTED_MODULE_15__["default"],
-      'product-block': _pages_sections_product_block_ejs__WEBPACK_IMPORTED_MODULE_20__["default"],
-      'related-products': _pages_sections_related_products_ejs__WEBPACK_IMPORTED_MODULE_21__["default"],
-      'recommended-products': _pages_sections_recommended_products_ejs__WEBPACK_IMPORTED_MODULE_22__["default"],
-      'recommendations-shelf': _pages_sections_inc_recommendations_shelf_ejs__WEBPACK_IMPORTED_MODULE_23__["default"],
-      'product-description': _pages_sections_product_description_ejs__WEBPACK_IMPORTED_MODULE_24__["default"],
-      'product-specifications': _pages_sections_product_specifications_ejs__WEBPACK_IMPORTED_MODULE_25__["default"],
-      'search-engine': _pages_sections_search_engine_ejs__WEBPACK_IMPORTED_MODULE_26__["default"],
-      'document-banner': _pages_sections_document_banner_ejs__WEBPACK_IMPORTED_MODULE_28__["default"],
-      'document-description': _pages_sections_document_description_ejs__WEBPACK_IMPORTED_MODULE_29__["default"],
-      'brand-retail': _pages_sections_brand_retail_ejs__WEBPACK_IMPORTED_MODULE_30__["default"],
-      'category-retail': _pages_sections_category_retail_ejs__WEBPACK_IMPORTED_MODULE_31__["default"],
-      'collection-retail': _pages_sections_collection_retail_ejs__WEBPACK_IMPORTED_MODULE_32__["default"]
+      'responsive-banner': _pages_sections_responsive_banner_ejs__WEBPACK_IMPORTED_MODULE_13__["default"],
+      'banners-grid': _pages_sections_banners_grid_ejs__WEBPACK_IMPORTED_MODULE_14__["default"],
+      'custom-content': _pages_sections_custom_content_ejs__WEBPACK_IMPORTED_MODULE_15__["default"],
+      'offers-timer': _pages_sections_offers_timer_ejs__WEBPACK_IMPORTED_MODULE_17__["default"],
+      'page-title': _pages_sections_page_title_ejs__WEBPACK_IMPORTED_MODULE_19__["default"],
+      'retail-grid': _pages_sections_inc_retail_grid_ejs__WEBPACK_IMPORTED_MODULE_9__["default"],
+      'md-content': _pages_sections_inc_md_content_ejs__WEBPACK_IMPORTED_MODULE_10__["default"],
+      'custom-html': _pages_sections_custom_html_ejs__WEBPACK_IMPORTED_MODULE_16__["default"],
+      'product-block': _pages_sections_product_block_ejs__WEBPACK_IMPORTED_MODULE_21__["default"],
+      'related-products': _pages_sections_related_products_ejs__WEBPACK_IMPORTED_MODULE_22__["default"],
+      'recommended-products': _pages_sections_recommended_products_ejs__WEBPACK_IMPORTED_MODULE_23__["default"],
+      'recommendations-shelf': _pages_sections_inc_recommendations_shelf_ejs__WEBPACK_IMPORTED_MODULE_24__["default"],
+      'product-description': _pages_sections_product_description_ejs__WEBPACK_IMPORTED_MODULE_25__["default"],
+      'product-specifications': _pages_sections_product_specifications_ejs__WEBPACK_IMPORTED_MODULE_26__["default"],
+      'search-engine': _pages_sections_search_engine_ejs__WEBPACK_IMPORTED_MODULE_27__["default"],
+      'document-banner': _pages_sections_document_banner_ejs__WEBPACK_IMPORTED_MODULE_29__["default"],
+      'document-description': _pages_sections_document_description_ejs__WEBPACK_IMPORTED_MODULE_30__["default"],
+      'brand-retail': _pages_sections_brand_retail_ejs__WEBPACK_IMPORTED_MODULE_31__["default"],
+      'category-retail': _pages_sections_category_retail_ejs__WEBPACK_IMPORTED_MODULE_32__["default"],
+      'collection-retail': _pages_sections_collection_retail_ejs__WEBPACK_IMPORTED_MODULE_33__["default"]
     };
   }
 
-  async parseEjs(customCmsEntrys = []) {
+  async parseEjs() {
+    let customCmsEntrys = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
     const {
       state
     } = this;
@@ -20301,7 +19981,7 @@ class BasePreview extends React.Component {
             async: true,
             includer: originalPath => {
               for (const sectionType in this.ejsSections()) {
-                if (originalPath.endsWith(`/${sectionType}`)) {
+                if (originalPath.endsWith("/".concat(sectionType))) {
                   return {
                     template: this.ejsSections()[sectionType]
                   };
@@ -20487,9 +20167,10 @@ class BrandsPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_1__["default"
   async fetchPage() {
     _ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["default"].store({
       url: '/brands.json'
-    }).then(({
-      data
-    }) => {
+    }).then(_ref => {
+      let {
+        data
+      } = _ref;
       const brands = data.result.filter(brands => brands.logo);
       const brand = brands[Math.floor(Math.random() * brands.length)];
       this._ = { ...this._,
@@ -20498,10 +20179,10 @@ class BrandsPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_1__["default"
           ...brand
         },
         route: {
-          path: `/${brand.slug}`
+          path: "/".concat(brand.slug)
         }
       };
-      return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])(`/${brand.slug}`);
+      return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])("/".concat(brand.slug));
     }).then(html => {
       const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_2__["default"])(html);
       this.setState({
@@ -20549,10 +20230,10 @@ class CategoriesPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_0__["defa
         ...category
       },
       route: {
-        path: `/${category.slug}`
+        path: "/".concat(category.slug)
       }
     };
-    Object(_fetch_page__WEBPACK_IMPORTED_MODULE_2__["default"])(`/${category.slug}`).then(html => {
+    Object(_fetch_page__WEBPACK_IMPORTED_MODULE_2__["default"])("/".concat(category.slug)).then(html => {
       const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_1__["default"])(html);
       this.setState({
         html,
@@ -20655,7 +20336,7 @@ class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_1__["default"] 
           vDoc.body.appendChild($styleTag);
         }
 
-        $styleTag.innerHTML = `<style>${entries.css}</style>`;
+        $styleTag.innerHTML = "<style>".concat(entries.css, "</style>");
         this.css = entries.css;
         change = true;
       }
@@ -20722,9 +20403,10 @@ class CollectionsPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_1__["def
   async fetchPage() {
     _ecomplus_client__WEBPACK_IMPORTED_MODULE_0__["default"].store({
       url: '/collections.json'
-    }).then(({
-      data
-    }) => {
+    }).then(_ref => {
+      let {
+        data
+      } = _ref;
       const collection = data.result[Math.floor(Math.random() * data.result.length)];
       this._ = { ...this._,
         state: {
@@ -20732,10 +20414,10 @@ class CollectionsPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_1__["def
           ...collection
         },
         route: {
-          path: `/${collection.slug}`
+          path: "/".concat(collection.slug)
         }
       };
-      return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])(`/${collection.slug}`);
+      return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])("/".concat(collection.slug));
     }).then(html => {
       const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_2__["default"])(html);
       this.setState({
@@ -20846,21 +20528,22 @@ class ProductsPreview extends _base_preview__WEBPACK_IMPORTED_MODULE_0__["defaul
       } = response.data;
       const data = result[Math.floor(Math.random() * result.length)];
       return _ecomplus_client__WEBPACK_IMPORTED_MODULE_1__["default"].store({
-        url: `/products/${data._id}.json`
+        url: "/products/".concat(data._id, ".json")
       });
-    }).then(async ({
-      data
-    }) => {
+    }).then(async _ref => {
+      let {
+        data
+      } = _ref;
       this._ = { ...this._,
         state: {
           title: data.slug,
           ...data
         },
         route: {
-          path: `/${data.slug}`
+          path: "/".concat(data.slug)
         }
       };
-      const html = await Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])(`/${data.slug}`);
+      const html = await Object(_fetch_page__WEBPACK_IMPORTED_MODULE_3__["default"])("/".concat(data.slug));
       const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_2__["default"])(html);
       this.setState({
         html,
@@ -20937,11 +20620,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return CodePreview; });
 /* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.url.to-json.js */ "./node_modules/core-js/modules/web.url.to-json.js");
 /* harmony import */ var core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_url_to_json_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _base_preview__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../base-preview */ "./template/js/netlify-cms/preview/base-preview.js");
-/* harmony import */ var _virtual_doc__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../virtual-doc */ "./template/js/netlify-cms/preview/virtual-doc.js");
-/* harmony import */ var _fetch_page__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../fetch-page */ "./template/js/netlify-cms/preview/fetch-page.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _base_preview__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../base-preview */ "./template/js/netlify-cms/preview/base-preview.js");
+/* harmony import */ var _virtual_doc__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../virtual-doc */ "./template/js/netlify-cms/preview/virtual-doc.js");
+/* harmony import */ var _fetch_page__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fetch-page */ "./template/js/netlify-cms/preview/fetch-page.js");
+/* harmony import */ var _lib_color_functions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/color-functions */ "./template/js/netlify-cms/preview/settings/lib/color-functions.js");
+/* harmony import */ var _lib_set_custom_font__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./lib/set-custom-font */ "./template/js/netlify-cms/preview/settings/lib/set-custom-font.js");
+
+
+
 
 
 
@@ -20949,15 +20639,71 @@ __webpack_require__.r(__webpack_exports__);
 
 const themesUrl = 'https://cdn.jsdelivr.net/gh/ecomplus/storefront@themes-dist';
 
-const fetchCssTheme = theme => {
-  if (theme === '_') {
+const fetchCssTheme = themes => {
+  let mergedThemeLabel;
+
+  for (const themeType in themes) {
+    const themeName = themes[themeType];
+
+    if (themeName && themeName !== '_') {
+      if (mergedThemeLabel) {
+        mergedThemeLabel += "_".concat(themeName);
+      } else {
+        mergedThemeLabel = themeName;
+      }
+    }
+  }
+
+  if (!mergedThemeLabel) {
     return Promise.resolve('');
   }
 
-  return window.fetch(`${themesUrl}/${theme}.css`);
+  return window.fetch("".concat(themesUrl, "/").concat(mergedThemeLabel, ".bundle.min.css"));
 };
 
-class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_2__["default"] {
+const colorVariants = {
+  whiter: -75,
+  white: -50,
+  lightest: -33,
+  lighter: -21,
+  light: -10,
+  lighten: -7,
+  darken: 8,
+  dark: 10,
+  darker: 13,
+  darkest: 16,
+  black: 50
+};
+
+const parseColorCssVars = (colorLabel, colorHex) => {
+  return "--".concat(colorLabel, ": ").concat(colorHex, "; ") + "--".concat(colorLabel, "-yiq: ").concat(Object(_lib_color_functions__WEBPACK_IMPORTED_MODULE_6__["getColorYiq"])(colorHex), "; ") + "--".concat(colorLabel, "-rgb: ").concat(Object(_lib_color_functions__WEBPACK_IMPORTED_MODULE_6__["getColorRgb"])(colorHex), "; ");
+};
+
+const genColorCssVars = (colorName, colorHex) => {
+  let cssVars = parseColorCssVars(colorName, colorHex);
+
+  for (const variant in colorVariants) {
+    if (colorVariants[variant]) {
+      cssVars += parseColorCssVars("".concat(colorName, "-").concat(variant), Object(_lib_color_functions__WEBPACK_IMPORTED_MODULE_6__["darkenColor"])(colorHex, colorVariants[variant]));
+    }
+  }
+
+  return cssVars;
+};
+
+const getVDocDiv = (vDoc, elId) => {
+  let $el = vDoc.getElementById(elId);
+
+  if (!$el) {
+    $el = document.createElement('div');
+    $el.id = elId;
+    vDoc.body.appendChild($el);
+  }
+
+  return $el;
+};
+
+class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_3__["default"] {
   constructor() {
     super();
     this._ = { ...this._,
@@ -20974,11 +20720,13 @@ class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_2__["default"] 
     this.logo = '';
     this.bootswatch = '_';
     this.custom = '_';
+    this.icons_font = '_';
+    this.font_family = '_';
   }
 
   fetchPage() {
-    return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_4__["default"])('/index.html').then(html => {
-      const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_3__["default"])(html);
+    return Object(_fetch_page__WEBPACK_IMPORTED_MODULE_5__["default"])('/index.html').then(html => {
+      const vDoc = Object(_virtual_doc__WEBPACK_IMPORTED_MODULE_4__["default"])(html);
       this.setState({
         html,
         vDoc
@@ -20997,98 +20745,56 @@ class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_2__["default"] 
         entry
       } = this.props;
       const entries = entry.getIn(['data']).toJSON();
-      const propsArray = ['name', 'bg_color', 'primary_color', 'secondary_color'];
-      let change = propsArray.some(prop => entries[prop] && entries[prop] !== this[prop]);
+      const propsList = ['name', 'bg_color', 'primary_color', 'secondary_color', 'icons_font', 'font_family'];
+      let isChanged = propsList.some(prop => entries[prop] !== this[prop]);
 
       if (this.logo !== entries.logo) {
         this.logo = entries.logo;
         const $logo = vDoc.getElementById('logo');
         $logo.src = this.logo;
         $logo.alt = entries.name;
-        change = true;
+        isChanged = true;
       }
 
-      let $styleTag = vDoc.getElementById('override_vars');
-
-      if (!$styleTag) {
-        $styleTag = document.createElement('div');
-        $styleTag.id = 'override_vars';
-        vDoc.body.appendChild($styleTag);
-      }
-
-      $styleTag.innerHTML = `<style>
-        :root {
-          --primary: ${entries.primary_color};
-          --primary-light: ${entries.primary_color};
-          --primary-lighter: ${entries.primary_color};
-          --secondary: ${entries.secondary_color};
-          --secondary-light: ${entries.secondary_color};
-          --secondary-lighter: ${entries.secondary_color};
-        }
-        body .btn-primary,
-        body .alert-primary,
-        body .badge-primary {
-          background-color: ${entries.primary_color};
-          border-color: ${entries.primary_color};
-        }
-        body .btn-outline-primary {
-          border-color: ${entries.primary_color};
-        }
-        body .btn-secondary,
-        body .alert-secondary,
-        body .badge-secondary {
-          background-color: ${entries.secondary_color};
-          border-color: ${entries.secondary_color};
-        }
-        body .btn-outline-secondary {
-          border-color: ${entries.secondary_color};
-        }
-        body .text-primary,
-        body a,
-        body a:hover {
-          color: ${entries.primary_color};
-        }
-        .lozad-delay.fade {
-          opacity: 1;
-        }
-      </style>`;
       const {
         theme
       } = entries;
+      const themeColors = Object(_lib_color_functions__WEBPACK_IMPORTED_MODULE_6__["getThemeColors"])(theme.bootswatch, theme.custom, {
+        primary: entries.primary_color || '#20c997',
+        secondary: entries.secondary_color || '#343a40'
+      });
+      getVDocDiv(vDoc, 'override_vars').innerHTML = "<style>\n        body {\n          ".concat(genColorCssVars('primary', themeColors.primary), "\n          ").concat(genColorCssVars('secondary', themeColors.secondary), "\n        }\n        .lozad-delay.fade {\n           opacity: 1 !important;\n         }\n      </style>");
 
-      if (this.bootswatch !== theme.bootswatch || this.custom !== theme.custom) {
-        const promises = [];
-        let styles = '';
-
-        for (const name in theme) {
-          if (theme[name]) {
-            promises.push(fetchCssTheme(theme[name]).then(async response => {
-              styles += await response.text();
-              styles += ' ';
-            }).catch(() => {
-              console.log('theme not found ignored');
-            }));
-          }
-        }
-
-        await Promise.all(promises).then(() => {
-          let $themesTag = vDoc.getElementById('storefront-themes');
-
-          if (!$themesTag) {
-            $themesTag = document.createElement('div');
-            $themesTag.id = 'storefront-themes';
-            vDoc.body.appendChild($themesTag);
-          }
-
-          $themesTag.innerHTML = `<style>${styles}</style>`;
-          this.bootswatch = theme.bootswatch;
-          this.custom = theme.custom;
-          change = true;
-        });
+      if (this.font_family !== entries.font_family) {
+        getVDocDiv(vDoc, 'override_font').innerHTML = Object(_lib_set_custom_font__WEBPACK_IMPORTED_MODULE_7__["default"])(entries.font_family);
       }
 
-      if (change) {
-        propsArray.forEach(prop => this[prop] = entries[prop]);
+      if (this.bootswatch !== theme.bootswatch || this.custom !== theme.custom || this.icons_font !== entries.icons_font) {
+        const $loading = document.createElement('div');
+        $loading.className = 'loading';
+        document.body.appendChild($loading);
+        let styles = '';
+        await fetchCssTheme(theme).then(async response => {
+          if (response.text) {
+            styles += await response.text();
+            styles += ' ';
+          }
+        }).then(() => {
+          const iconsFont = entries.icons_font;
+
+          if (iconsFont && iconsFont.length > 2) {
+            styles = styles.replace(/\/icons\/[^/]+\/font/, "/icons/".concat(iconsFont, "/font"));
+          }
+
+          getVDocDiv(vDoc, 'storefront_themes').innerHTML = "<style>".concat(styles, "</style>");
+          this.bootswatch = theme.bootswatch;
+          this.custom = theme.custom;
+          isChanged = true;
+        }).catch(console.error).finally(() => $loading.remove());
+      }
+
+      if (isChanged) {
+        propsList.forEach(prop => this[prop] = entries[prop]);
         let parseHtml;
 
         if (vDoc.childNodes && vDoc.childNodes.length) {
@@ -21104,6 +20810,201 @@ class CodePreview extends _base_preview__WEBPACK_IMPORTED_MODULE_2__["default"] 
   }
 
 }
+
+/***/ }),
+
+/***/ "./template/js/netlify-cms/preview/settings/lib/color-functions.js":
+/*!*************************************************************************!*\
+  !*** ./template/js/netlify-cms/preview/settings/lib/color-functions.js ***!
+  \*************************************************************************/
+/*! exports provided: getColorYiq, getColorRgb, darkenColor, getThemeColors */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getColorYiq", function() { return getColorYiq; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getColorRgb", function() { return getColorRgb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "darkenColor", function() { return darkenColor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getThemeColors", function() { return getThemeColors; });
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
+
+const getColorYiq = colorHex => {
+  const r = parseInt(colorHex.substr(1, 2), 16);
+  const g = parseInt(colorHex.substr(3, 2), 16);
+  const b = parseInt(colorHex.substr(5, 2), 16);
+  const yiq = (r * 299 + g * 587 + b * 114) / 1000;
+  return yiq >= 128 ? 'var(--gray-dark)' : 'var(--white)';
+};
+const getColorRgb = colorHex => {
+  // https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
+  const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+  colorHex = colorHex.replace(shorthandRegex, function (m, r, g, b) {
+    return r + r + g + g + b + b;
+  });
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(colorHex);
+  return result ? "".concat(parseInt(result[1], 16), ", ").concat(parseInt(result[2], 16), ", ").concat(parseInt(result[3], 16)) : null;
+};
+const darkenColor = (color, percent) => {
+  // https://css-tricks.com/snippets/javascript/lighten-darken-color/#comment-1754753
+  let usePound = false;
+  const amt = percent < 0 ? percent * -5.25 : percent * -4;
+
+  if (color[0] === '#') {
+    color = color.slice(1);
+    usePound = true;
+  }
+
+  const num = parseInt(color, 16);
+  let r = (num >> 16) + amt;
+  if (r > 255) r = 255;else if (r < 0) r = 0;
+  let b = (num >> 8 & 0x00FF) + amt;
+  if (b > 255) b = 255;else if (b < 0) b = 0;
+  let g = (num & 0x0000FF) + amt;
+  if (g > 255) g = 255;else if (g < 0) g = 0;
+  return (usePound ? '#' : '') + (g | b << 8 | r << 16).toString(16);
+};
+const bootswatchColors = {
+  cerulean: {
+    primary: '#2fa4e7',
+    secondary: '#e9ecef'
+  },
+  cosmo: {
+    primary: '#2780e3',
+    secondary: '#373a3c'
+  },
+  cyborg: {
+    primary: '#2a9fd6',
+    secondary: '#555'
+  },
+  darkly: {
+    primary: '#375a7f',
+    secondary: '#444'
+  },
+  flatly: {
+    primary: '#2c3e50',
+    secondary: '#95a5a6'
+  },
+  journal: {
+    primary: '#eb6864',
+    secondary: '#aaa'
+  },
+  litera: {
+    primary: '#4582ec',
+    secondary: '#adb5bd'
+  },
+  lumen: {
+    primary: '#158cba',
+    secondary: '#f0f0f0'
+  },
+  lux: {
+    primary: '#1a1a1a',
+    secondary: '#919aa1'
+  },
+  materia: {
+    primary: '#2196f3',
+    secondary: '#666'
+  },
+  minty: {
+    primary: '#78c2ad',
+    secondary: '#f3969a'
+  },
+  pulse: {
+    primary: '#593196',
+    secondary: '#a991d4'
+  },
+  sandstone: {
+    primary: '#325d88',
+    secondary: '#8e8c84'
+  },
+  simplex: {
+    primary: '#d9230f',
+    secondary: '#777'
+  },
+  sketchy: {
+    primary: '#333',
+    secondary: '#555'
+  },
+  slate: {
+    primary: '#3a3f44',
+    secondary: '#7a8288'
+  },
+  solar: {
+    primary: '#b58900',
+    secondary: '#839496'
+  },
+  spacelab: {
+    primary: '#446e9b',
+    secondary: '#999'
+  },
+  united: {
+    primary: '#e95420',
+    secondary: '#aea79f'
+  },
+  yeti: {
+    primary: '#008cba',
+    secondary: '#adb5bd'
+  }
+};
+const customThemesColors = {
+  'clean-dark': {
+    secondary: '#fff'
+  },
+  'clean-gray': {
+    secondary: '#343a40'
+  },
+  'clean-white': {
+    secondary: '#383d44'
+  }
+};
+const getThemeColors = function (bootswatchTheme, customTheme) {
+  let brandColors = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+  if (bootswatchTheme) {
+    const bootswatchThemeColors = bootswatchColors[bootswatchTheme];
+
+    if (bootswatchThemeColors) {
+      brandColors = Object.assign(bootswatchThemeColors, brandColors);
+    }
+  }
+
+  if (customTheme) {
+    const customThemeColors = customThemesColors[customTheme];
+
+    if (customThemeColors) {
+      Object.assign(brandColors, customThemeColors);
+    }
+  }
+
+  return brandColors;
+};
+
+/***/ }),
+
+/***/ "./template/js/netlify-cms/preview/settings/lib/set-custom-font.js":
+/*!*************************************************************************!*\
+  !*** ./template/js/netlify-cms/preview/settings/lib/set-custom-font.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (fontFamily => {
+  let fontSans = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue"';
+  let fontLink = '';
+
+  if (fontFamily && fontFamily !== '_') {
+    fontSans = "\"".concat(fontFamily, "\", ").concat(fontSans);
+    const fontUrl = 'https://fonts.googleapis.com/css2' + "?family=".concat(fontFamily.replace(/\s+/g, '+')) + ':wght@300;400;700&display=swap';
+    fontLink = "<link href=\"".concat(fontUrl, "\" rel=\"stylesheet\">");
+  }
+
+  return "\n <style>\n body {\n   font-family: ".concat(fontSans, ";\n }\n </style>\n ").concat(fontLink, "\n ");
+});
 
 /***/ }),
 
@@ -21155,7 +21056,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nlet slides\nif (Array.isArray(opt.slides)) {\n  slides = opt.slides.filter(({ start, end }) => {\n    if (start && timestamp < new Date(start).getTime()) {\n      return false\n    }\n    if (end && timestamp > new Date(end).getTime()) {\n      return false\n    }\n    return true\n  })\n}\n\nif (slides && slides.length) {\n  let style = ''\n  for (let i = 0; i < 2; i++) {\n    const img = slides[0][i ? 'mobile_img' : 'img']\n    if (img) {\n      const { width, height } = _.tryImageSize(img)\n      if (width) {\n        style += '--banner-aspect-ratio'\n        if (i > 0) {\n          style += '-mobile'\n        }\n        style += `:${Math.ceil(height / width * 1000) / 1000};`\n      }\n    }\n  }\n  %>\n\n  <div class=\"banner-slider\" style=\"<%- style %>\">\n    <div class=\"glide\" data-autoplay=\"<%= opt.autoplay %>\">\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides banner-slider__slides\">\n          <% for (let i = 0; i < slides.length; i++) { %>\n            <li class=\"glide__slide\">\n              <%- await include('/@/sections/inc/banner', {\n                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <% if (slides.length > 1) { %>\n          <div class=\"glide__arrows d-none d-md-block\" data-glide-el=\"controls\">\n            <button\n              class=\"btn glide__arrow glide__arrow--left\"\n              data-glide-dir=\"<\"\n              aria-label=\"<%= _.dictionary('previous') %>\"\n            >\n              <i class=\"fas fa-chevron-left\"></i>\n            </button>\n            <button\n              class=\"btn glide__arrow glide__arrow--right\"\n              data-glide-dir=\">\"\n              aria-label=\"<%= _.dictionary('next') %>\"\n            >\n              <i class=\"fas fa-chevron-right\"></i>\n            </button>\n          </div>\n\n          <div class=\"glide__bullets\" data-glide-el=\"controls[nav]\">\n            <% slides.forEach((_, index) => { %>\n              <button\n                class=\"glide__bullet\"\n                data-glide-dir=\"=<%= index %>\"\n                aria-label=\"<%= `${(index + 1)}° banner` %>\"\n              ></button>\n            <% }) %>\n          </div>\n        <% } %>\n      </div>\n    </div>\n  </div>\n<% } %>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nlet slides\nif (Array.isArray(opt.slides)) {\n  slides = opt.slides.filter(({ start, end }) => {\n    if (start && timestamp < new Date(start).getTime()) {\n      return false\n    }\n    if (end && timestamp > new Date(end).getTime()) {\n      return false\n    }\n    return true\n  })\n}\n\nif (slides && slides.length) {\n  const isBannerFullWidth = opt.full_width\n  let style = ''\n  let className = 'banner-slider'\n  if (isBannerFullWidth) {\n    className += ' banner-slider--full-width'\n  }\n  for (let i = 0; i < 2; i++) {\n    const img = slides[0][i ? 'mobile_img' : 'img']\n    if (img) {\n      const { width, height } = _.tryImageSize(img)\n      if (width) {\n        style += '--banner-aspect-ratio'\n        if (i > 0) {\n          style += '-mobile'\n        }\n        style += `:${Math.ceil(height / width * 1000) / 1000};`\n      }\n    }\n  }\n  %>\n\n  <div class=\"<%- className %>\" style=\"<%- style %>\">\n    <div class=\"glide\" data-autoplay=\"<%= opt.autoplay %>\">\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides banner-slider__slides\">\n          <% for (let i = 0; i < slides.length; i++) { %>\n            <li class=\"glide__slide\">\n              <%- await include('/@/sections/inc/banner', {\n                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <% if (slides.length > 1) { %>\n          <div class=\"glide__arrows d-none d-md-block\" data-glide-el=\"controls\">\n            <button\n              class=\"btn glide__arrow glide__arrow--left\"\n              data-glide-dir=\"<\"\n              aria-label=\"<%= _.dictionary('previous') %>\"\n            >\n              <i class=\"i-chevron-left\"></i>\n            </button>\n            <button\n              class=\"btn glide__arrow glide__arrow--right\"\n              data-glide-dir=\">\"\n              aria-label=\"<%= _.dictionary('next') %>\"\n            >\n              <i class=\"i-chevron-right\"></i>\n            </button>\n          </div>\n\n          <div class=\"glide__bullets\" data-glide-el=\"controls[nav]\">\n            <% slides.forEach((_, index) => { %>\n              <button\n                class=\"glide__bullet\"\n                data-glide-dir=\"=<%= index %>\"\n                aria-label=\"<%= `${(index + 1)}° banner` %>\"\n              ></button>\n            <% }) %>\n          </div>\n        <% } %>\n      </div>\n    </div>\n  </div>\n<% } %>\n");
 
 /***/ }),
 
@@ -21181,7 +21082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst posts = _.cms('posts')\nif (Array.isArray(posts) && posts.length) {\n  %>\n    <div class=\"blog my-4 my-lg-5\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <% posts.forEach(slug => { %>\n            <% const { title, thumbnail, description } = _.cms(`posts/${slug}`) %>\n            <div class=\"col col-md-6 col-lg-4\">\n              <div class=\"card\">\n                <% if (thumbnail) { %>\n                  <a href=\"/posts/<%= slug %>\">\n                    <img\n                      src=\"<%= thumbnail %>\"\n                      class=\"card-img-top\"\n                      alt=\"<%= title %>\"\n                    >\n                  </a>\n                <% } %>\n                <div class=\"card-body\">\n                  <h5 class=\"card-title\">\n                    <a href=\"/posts/<%= slug %>\">\n                      <%= title %>\n                    </a>\n                  </h5>\n                  <p class=\"card-text\">\n                    <%= description %>\n                  </p>\n                </div>\n              </div>\n            </div>\n          <% }) %>\n        </div>\n      </div>\n    </div>\n  <%\n}\n%>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst posts = _.cms('posts')\nif (Array.isArray(posts) && posts.length) {\n  %>\n    <div class=\"blog my-4 my-lg-5\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <%\n          const postsList = []\n          posts.forEach(slug => {\n            const post = (_.cms(`posts/${slug}`))\n            post.slug = slug\n            postsList.push(post)\n          })\n          postsList.sort((a, b) => {\n            return b.date > a.date ? 1 : -1\n          })\n          postsList.forEach(post => {\n            const { title, slug, thumbnail, description } = post\n          %>\n            <div class=\"col col-md-6 col-lg-4\">\n              <div class=\"card\">\n                <% if (thumbnail) { %>\n                  <a href=\"/posts/<%= slug %>\">\n                    <img\n                      src=\"<%= thumbnail %>\"\n                      class=\"card-img-top\"\n                      alt=\"<%= title %>\"\n                    >\n                  </a>\n                <% } %>\n                <div class=\"card-body\">\n                  <h5 class=\"card-title\">\n                    <a href=\"/posts/<%= slug %>\">\n                      <%= title %>\n                    </a>\n                  </h5>\n                  <p class=\"card-text\">\n                    <%= description %>\n                  </p>\n                </div>\n              </div>\n            </div>\n          <% }) %>\n        </div>\n      </div>\n    </div>\n  <%\n}\n%>\n");
 
 /***/ }),
 
@@ -21207,7 +21108,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst breadcrumbs = opt.breadcrumbs && opt.breadcrumbs.length\n  ? opt.breadcrumbs\n  : _.breadcrumbs || (_.state.title && [{\n    name: _.state.title,\n    link: _.route.path\n  }])\n\nif (Array.isArray(breadcrumbs) && breadcrumbs.length) {\n  %>\n  <div class=\"container\">\n    <nav aria-label=\"breadcrumb\">\n      <ol class=\"breadcrumb my-2 my-sm-3<%= breadcrumbs.length < 2 ? ' d-none d-md-flex' : '' %>\">\n        <li class=\"breadcrumb-item d-none d-md-block\">\n          <a href=\"/\">\n            <i class=\"fas fa-home\"></i>\n          </a>\n        </li>\n        <% breadcrumbs.forEach(({ name, link }, index) => { %>\n          <% if (index < breadcrumbs.length - 1) { %>\n            <li\n              <% if (index === breadcrumbs.length - 2) { %>\n                class=\"breadcrumb-item\"\n              <% } else { %>\n                class=\"breadcrumb-item d-none d-md-block\"\n              <% } %>\n            >\n              <a href=\"<%= link %>\">\n                <%= name %>\n              </a>\n            </li>\n          <% } else { %>\n            <li class=\"breadcrumb-item d-none d-md-block active\" aria-current=\"page\">\n              <%= name %>\n            </li>\n          <% } %>\n        <% }) %>\n      </ol>\n    </nav>\n  </div>\n\n  <script type=\"application/ld+json\"><%-\n    JSON.stringify({\n      '@context': 'https://schema.org',\n      '@type': 'BreadcrumbList',\n      itemListElement: [\n        {\n          '@type': 'ListItem',\n          position: 1,\n          item: {\n            '@id': `https://${_.settings.domain}/`,\n            name: 'Homepage'\n          }\n        }\n      ].concat(breadcrumbs.map(({ name, link }, index) => {\n        return {\n          '@type': 'ListItem',\n          position: index + 2,\n          item: {\n            '@id': `https://${_.settings.domain}${link}`,\n            name\n          }\n        }\n      }))\n    })\n  %></script>\n<% } %>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst breadcrumbs = opt.breadcrumbs && opt.breadcrumbs.length\n  ? opt.breadcrumbs\n  : _.breadcrumbs || (_.state.title && [{\n    name: _.state.title,\n    link: _.route.path\n  }])\n\nif (Array.isArray(breadcrumbs) && breadcrumbs.length) {\n  %>\n  <div class=\"container\">\n    <nav aria-label=\"breadcrumb\">\n      <ol class=\"breadcrumb my-2 my-sm-3<%= breadcrumbs.length < 2 ? ' d-none d-md-flex' : '' %>\">\n        <li class=\"breadcrumb-item d-none d-md-block\">\n          <a href=\"/\">\n            <i class=\"i-home\"></i>\n          </a>\n        </li>\n        <% breadcrumbs.forEach(({ name, link }, index) => { %>\n          <% if (index < breadcrumbs.length - 1) { %>\n            <li\n              <% if (index === breadcrumbs.length - 2) { %>\n                class=\"breadcrumb-item\"\n              <% } else { %>\n                class=\"breadcrumb-item d-none d-md-block\"\n              <% } %>\n            >\n              <a href=\"<%= link %>\">\n                <%= name %>\n              </a>\n            </li>\n          <% } else { %>\n            <li class=\"breadcrumb-item d-none d-md-block active\" aria-current=\"page\">\n              <%= name %>\n            </li>\n          <% } %>\n        <% }) %>\n      </ol>\n    </nav>\n  </div>\n\n  <script type=\"application/ld+json\"><%-\n    JSON.stringify({\n      '@context': 'https://schema.org',\n      '@type': 'BreadcrumbList',\n      itemListElement: [\n        {\n          '@type': 'ListItem',\n          position: 1,\n          item: {\n            '@id': `https://${_.settings.domain}/`,\n            name: 'Homepage'\n          }\n        }\n      ].concat(breadcrumbs.map(({ name, link }, index) => {\n        return {\n          '@type': 'ListItem',\n          position: index + 2,\n          item: {\n            '@id': `https://${_.settings.domain}${link}`,\n            name\n          }\n        }\n      }))\n    })\n  %></script>\n<% } %>\n");
 
 /***/ }),
 
@@ -21220,7 +21121,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst search = new _.EcomSearch()\nsearch\n  .setCategoryNames([_.state.name])\n  .setSortOrder(opt.sort)\nawait search.fetch()\nlet items = await search.getItems()\nconst categoryNames = [_.state.name]\n\nif (!items.length) {\n  const childCategories = _.categories.filter(({ parent }) => {\n    return parent && parent._id === _.state._id\n  })\n  if (childCategories.length) {\n    childCategories.forEach(({ name }) => {\n      categoryNames.push(name)\n    })\n    search\n      .setCategoryNames(categoryNames)\n      .setSortOrder(opt.sort)\n    await search.fetch()\n    items = await search.getItems()\n  }\n}\n%>\n\n<div class=\"category-retail\">\n  <%- await include('/@/sections/inc/retail-grid', {\n    _, opt: {\n      items,\n      search,\n      category_names: categoryNames,\n      sort: opt.sort\n    }\n  }) %>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst search = new _.EcomSearch()\nsearch\n  .setCategoryNames([_.state.name])\n  .setSortOrder(opt.sort)\nlet items\ntry {\n  await search.fetch()\n  items = search.getItems()\n} catch (err) {\n  if (err.response && err.response.status === 404) {\n    console.error(err)\n  } else {\n    throw err\n  }\n}\nconst categoryNames = [_.state.name]\n\nif (items && !items.length) {\n  const childCategories = _.categories.filter(({ parent }) => {\n    return parent && parent._id === _.state._id\n  })\n  if (childCategories.length) {\n    childCategories.forEach(({ name }) => {\n      categoryNames.push(name)\n    })\n    search\n      .setCategoryNames(categoryNames)\n      .setSortOrder(opt.sort)\n    await search.fetch()\n    items = await search.getItems()\n  }\n}\n%>\n\n<div class=\"category-retail\">\n  <%- await include('/@/sections/inc/retail-grid', {\n    _, opt: {\n      items,\n      search,\n      category_names: categoryNames,\n      sort: opt.sort\n    }\n  }) %>\n</div>\n");
 
 /***/ }),
 
@@ -21350,7 +21251,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst itemData = {}\nlet itemDataFields = ['_id', 'sku', 'slug', 'quantity']\nif (Array.isArray(_.itemDataFields)) {\n  itemDataFields = itemDataFields.concat(_.itemDataFields)\n}\nitemDataFields.forEach(field => itemData[field] = opt.item[field])\nitemData.name = _.ecomUtils.name(opt.item)\nitemData.price = _.ecomUtils.price(opt.item)\n\nconst imgObj = _.ecomUtils.img(opt.item)\nif (imgObj) {\n  itemData.pictures = [{\n    _id: _.ecomUtils.randomObjectId(),\n    normal: imgObj\n  }]\n}\n%>\n\n<article class=\"product-item\" data-product=\"<%= JSON.stringify(itemData) %>\">\n  <div\n    class=\"product-card\"\n    data-product-id=\"<%= itemData._id %>\"\n    data-sku=\"<%= itemData.sku %>\"\n    <% if (!opt.static) { %>\n      data-to-render=\"true\"\n    <% } %>\n  >\n    <!--\n      `ProductCard` should be rendered (hydrated) here:\n      https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/ProductCard.html\n    -->\n    <a\n      href=\"/<%= itemData.slug %>\"\n      class=\"product-card__link\"\n      title=\"<%= itemData.name %>\"\n    >\n      <!-- Custom code on product card top wrapped by link:\n      <span data-slot=\"header\">\n      </span>\n      -->\n\n      <div class=\"product-card__pictures\">\n        <!-- Picture(s) will be inserted and loaded dynamically within `ProductCard` -->\n        <% if (imgObj) { %>\n          <picture class=\"product-card__picture\">\n            <img\n              data-src=\"<%= imgObj.url %>\"\n              alt=\"<%= imgObj.alt %>\"\n              class=\"lozad-delay fade\"\n              <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                crossorigin=\"anonymous\"\n              <% } %>\n            >\n          </picture>\n        <% } %>\n      </div>\n\n      <div data-slot=\"title\">\n        <h3 class=\"product-card__name\">\n          <%= itemData.name %>\n        </h3>\n      </div>\n    </a>\n\n    <div class=\"product-card__prices prices\">\n      <strong class=\"prices__value\">\n        <% if (opt.item.available && opt.item.visible && _.ecomUtils.inStock(opt.item)) { %>\n          <%= _.ecomUtils.formatMoney(itemData.price) %>\n        <% } else { %>\n          --\n        <% } %>\n      </strong>\n    </div>\n\n    <!-- Customize add to cart button content:\n    <div data-slot=\"buy-button-content\">\n      <i class=\"fas fa-shopping-bag mr-1\"></i>\n      {{ _.dictionary('buy') }}\n    </div>\n    -->\n\n    <div class=\"spinner-border spinner-border-sm fade\" role=\"status\">\n      <span class=\"sr-only\">Loading...</span>\n    </div>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt, field: 'productCardSlots'\n    }) %>\n  </div>\n\n  <%- await include('/@/helpers/widgets-append', {\n    _, opt, field: 'productItemAppend'\n  }) %>\n</article>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst itemData = {}\nlet itemDataFields = ['_id', 'sku', 'slug', 'quantity']\nif (Array.isArray(_.itemDataFields)) {\n  itemDataFields = itemDataFields.concat(_.itemDataFields)\n}\nitemDataFields.forEach(field => itemData[field] = opt.item[field])\nitemData.name = _.ecomUtils.name(opt.item)\nitemData.price = _.ecomUtils.price(opt.item)\n\nconst imgObj = _.ecomUtils.img(opt.item)\nif (imgObj) {\n  itemData.pictures = [{\n    _id: _.ecomUtils.randomObjectId(),\n    normal: imgObj\n  }]\n}\n%>\n\n<article class=\"product-item\" data-product=\"<%= JSON.stringify(itemData) %>\">\n  <div\n    class=\"product-card\"\n    data-product-id=\"<%= itemData._id %>\"\n    data-sku=\"<%= itemData.sku %>\"\n    <% if (!opt.static) { %>\n      data-to-render=\"true\"\n    <% } %>\n  >\n    <!--\n      `ProductCard` should be rendered (hydrated) here:\n      https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/ProductCard.html\n    -->\n    <a\n      href=\"/<%= itemData.slug %>\"\n      class=\"product-card__link\"\n      title=\"<%= itemData.name %>\"\n    >\n      <!-- Custom code on product card top wrapped by link:\n      <span data-slot=\"header\">\n      </span>\n      -->\n\n      <div class=\"product-card__pictures\">\n        <!-- Picture(s) will be inserted and loaded dynamically within `ProductCard` -->\n        <% if (imgObj) { %>\n          <picture class=\"product-card__picture\">\n            <img\n              data-src=\"<%= imgObj.url %>\"\n              alt=\"<%= imgObj.alt %>\"\n              class=\"lozad-delay fade\"\n              <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                crossorigin=\"anonymous\"\n              <% } %>\n            >\n          </picture>\n        <% } %>\n      </div>\n\n      <div data-slot=\"title\">\n        <h3 class=\"product-card__name\">\n          <%= itemData.name %>\n        </h3>\n      </div>\n    </a>\n\n    <div class=\"product-card__prices prices\">\n      <strong class=\"prices__value\">\n        <% if (opt.item.available && opt.item.visible && _.ecomUtils.inStock(opt.item)) { %>\n          <%= _.ecomUtils.formatMoney(itemData.price) %>\n        <% } else { %>\n          --\n        <% } %>\n      </strong>\n    </div>\n\n    <!-- Customize add to cart button content:\n    <div data-slot=\"buy-button-content\">\n      <i class=\"i-shopping-bag mr-1\"></i>\n      {{ _.dictionary('buy') }}\n    </div>\n    -->\n\n    <div class=\"spinner-border spinner-border-sm fade\" role=\"status\">\n      <span class=\"sr-only\">Loading...</span>\n    </div>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt, field: 'productCardSlots'\n    }) %>\n  </div>\n\n  <%- await include('/@/helpers/widgets-append', {\n    _, opt, field: 'productItemAppend'\n  }) %>\n</article>\n");
 
 /***/ }),
 
@@ -21363,7 +21264,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<% if (Array.isArray(opt.items) && opt.items.length) {\n  const title = opt.title ||\n    (opt.collection && opt.collection.name) ||\n    _.dictionary('popularProducts')\n  const link = opt.link || (opt.collection && `/${opt.collection.slug}`)\n\n  if (opt.shuffle) {\n    let m = opt.items.filter(item => {\n      return item.available && _.ecomUtils.inStock(item)\n    }).length\n    let t, i\n    while (m) {\n      i = Math.floor(Math.random() * m--)\n      t = opt.items[m]\n      opt.items[m] = opt.items[i]\n      opt.items[i] = t\n    }\n  }\n  %>\n\n  <section\n    class=\"products-carousel\"\n    data-size=\"<%= opt.items.length %>\"\n    <% if (opt.collection) { %>\n      data-collection-id=\"<%= opt.collection._id %>\"\n    <% } %>\n    data-title=\"<%= title %>\"\n  >\n    <% if (!opt.headless) { %>\n      <h4 class=\"products-carousel__title\">\n        <% if (opt.title || opt.collection) { %>\n          <% if (link) { %>\n            <a href=\"<%= link %>\">\n              <%= title %>\n            </a>\n          <% } else { %>\n            <span><%= title %></span>\n          <% } %>\n        <% } else { %>\n          <a href=\"/search\">\n            <%= title %>\n          </a>\n        <% } %>\n      </h4>\n    <% } %>\n\n    <div\n      class=\"glide\"\n      data-wait-mutation=\"true\"\n      data-autoplay=\"<%= opt.autoplay %>\"\n      data-per-view=\"4\"\n      data-per-view-md=\"3\"\n      data-per-view-sm=\"2\"\n    >\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides products-carousel__list\">\n          <% for (let i = 0; i < opt.items.length; i++) { %>\n            <li class=\"glide__slide products-carousel__item\">\n              <%- await include('/@/sections/inc/product-item', {\n                _, opt: { item: opt.items[i] }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <div\n          class=\"glide__arrows glide__arrows--outer\"\n          data-glide-el=\"controls\"\n        >\n          <button\n            class=\"btn glide__arrow glide__arrow--left\"\n            data-glide-dir=\"<\"\n            aria-label=\"<%= _.dictionary('previous') %>\"\n          >\n            <i class=\"fas fa-chevron-left\"></i>\n          </button>\n          <button\n            class=\"btn glide__arrow glide__arrow--right\"\n            data-glide-dir=\">\"\n            aria-label=\"<%= _.dictionary('next') %>\"\n          >\n            <i class=\"fas fa-chevron-right\"></i>\n          </button>\n        </div>\n      </div>\n    </div>\n  </section>\n<% } %>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<% if (Array.isArray(opt.items) && opt.items.length) {\n  const title = opt.title ||\n    (opt.collection && opt.collection.name) ||\n    _.dictionary('popularProducts')\n  const link = opt.link || (opt.collection && `/${opt.collection.slug}`)\n\n  if (opt.shuffle) {\n    let m = opt.items.filter(item => {\n      return item.available && _.ecomUtils.inStock(item)\n    }).length\n    let t, i\n    while (m) {\n      i = Math.floor(Math.random() * m--)\n      t = opt.items[m]\n      opt.items[m] = opt.items[i]\n      opt.items[i] = t\n    }\n  }\n  %>\n\n  <section\n    class=\"products-carousel\"\n    data-size=\"<%= opt.items.length %>\"\n    <% if (opt.collection) { %>\n      data-collection-id=\"<%= opt.collection._id %>\"\n    <% } %>\n    data-title=\"<%= title %>\"\n  >\n    <% if (!opt.headless) { %>\n      <h4 class=\"products-carousel__title\">\n        <% if (opt.title || opt.collection) { %>\n          <% if (link) { %>\n            <a href=\"<%= link %>\">\n              <%= title %>\n            </a>\n          <% } else { %>\n            <span><%= title %></span>\n          <% } %>\n        <% } else { %>\n          <a href=\"/search\">\n            <%= title %>\n          </a>\n        <% } %>\n      </h4>\n    <% } %>\n\n    <div\n      class=\"glide\"\n      data-wait-mutation=\"true\"\n      data-autoplay=\"<%= opt.autoplay %>\"\n      data-per-view=\"4\"\n      data-per-view-md=\"3\"\n      data-per-view-sm=\"2\"\n    >\n      <div class=\"glide__track\" data-glide-el=\"track\">\n        <ul class=\"glide__slides products-carousel__list\">\n          <% for (let i = 0; i < opt.items.length; i++) { %>\n            <li class=\"glide__slide products-carousel__item\">\n              <%- await include('/@/sections/inc/product-item', {\n                _, opt: { item: opt.items[i] }\n              }) %>\n            </li>\n          <% } %>\n        </ul>\n\n        <div\n          class=\"glide__arrows glide__arrows--outer\"\n          data-glide-el=\"controls\"\n        >\n          <button\n            class=\"btn glide__arrow glide__arrow--left\"\n            data-glide-dir=\"<\"\n            aria-label=\"<%= _.dictionary('previous') %>\"\n          >\n            <i class=\"i-chevron-left\"></i>\n          </button>\n          <button\n            class=\"btn glide__arrow glide__arrow--right\"\n            data-glide-dir=\">\"\n            aria-label=\"<%= _.dictionary('next') %>\"\n          >\n            <i class=\"i-chevron-right\"></i>\n          </button>\n        </div>\n      </div>\n    </div>\n  </section>\n<% } %>\n");
 
 /***/ }),
 
@@ -21389,7 +21290,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nlet items\nif (!opt.items) {\n  const search = opt.search || new _.EcomSearch()\n  if (opt.sort) {\n    search.search.setSortOrder(opt.sort)\n  }\n  await search.search.fetch()\n  items = await search.search.getItems()\n} else {\n  items = opt.items\n}\n%>\n\n<section class=\"retail-grid\">\n  <div class=\"container\">\n    <div\n      id=\"search-engine\"\n      <% if (opt.category_names) { %>\n        data-categories=\"<%= JSON.stringify(opt.category_names) %>\"\n      <% } %>\n      <% if (opt.brand_names) { %>\n        data-brands=\"<%= JSON.stringify(opt.brand_names) %>\"\n      <% } %>\n      <% if (opt.sort) { %>\n        data-sort=\"<%= opt.sort %>\"\n      <% } %>\n      <% if (opt.disable_filters) { %>\n        data-disable-filters=\"true\"\n      <% } %>\n      <% if (opt.disable_load_more) { %>\n        data-disable-load-more=\"true\"\n      <% } %>\n    >\n      <% if (items.length) { %>\n        <div id=\"search-engine-dock\">\n          <!--\n            `SearchEngine` should be hydrated here:\n            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n          -->\n        </div>\n\n        <div id=\"search-engine-snap\">\n          <article class=\"search-engine__retail\">\n            <div class=\"row\">\n              <% for (let i = 0; i < items.length; i++) { %>\n                <div class=\"col-6 col-md-4 col-lg-3\">\n                  <%- await include('/@/sections/inc/product-item', {\n                    _, opt: { item: items[i] }\n                  }) %>\n                </div>\n              <% } %>\n            </div>\n          </article>\n        </div>\n      <% } %>\n    </div>\n\n    <div id=\"search-pagination\">\n      <!--\n        `APagination` may be rendered here when enabled:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/APagination.html\n      -->\n    </div>\n  </div>\n</section>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nlet items\nif (!opt.items) {\n  const search = opt.search || new _.EcomSearch()\n  if (opt.sort) {\n    search.search.setSortOrder(opt.sort)\n  }\n    try {\n        await search.fetch()\n        items = search.getItems()\n    } catch (err) {\n        if (_.pageName === 'home' || (err.response && err.response.status === 404)) {\n            items = []\n            console.error(err)\n        } else {\n            throw err\n        }\n    }\n} else {\n  items = opt.items\n}\n%>\n\n<section class=\"retail-grid\">\n  <div class=\"container\">\n    <div\n      id=\"search-engine\"\n      <% if (opt.category_names) { %>\n        data-categories=\"<%= JSON.stringify(opt.category_names) %>\"\n      <% } %>\n      <% if (opt.brand_names) { %>\n        data-brands=\"<%= JSON.stringify(opt.brand_names) %>\"\n      <% } %>\n      <% if (opt.sort) { %>\n        data-sort=\"<%= opt.sort %>\"\n      <% } %>\n      <% if (opt.disable_filters) { %>\n        data-disable-filters=\"true\"\n      <% } %>\n      <% if (opt.disable_load_more) { %>\n        data-disable-load-more=\"true\"\n      <% } %>\n    >\n      <% if (items.length) { %>\n        <div id=\"search-engine-dock\">\n          <!--\n            `SearchEngine` should be hydrated here:\n            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/SearchEngine.html\n          -->\n        </div>\n\n        <div id=\"search-engine-snap\">\n          <article class=\"search-engine__retail\">\n            <div class=\"row\">\n              <% for (let i = 0; i < items.length; i++) { %>\n                <div class=\"col-6 col-md-4 col-lg-3\">\n                  <%- await include('/@/sections/inc/product-item', {\n                    _, opt: { item: items[i] }\n                  }) %>\n                </div>\n              <% } %>\n            </div>\n          </article>\n        </div>\n      <% } %>\n    </div>\n\n    <div id=\"search-pagination\">\n      <!--\n        `APagination` may be rendered here when enabled:\n        https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/APagination.html\n      -->\n    </div>\n  </div>\n</section>\n");
 
 /***/ }),
 
@@ -21402,7 +21303,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nif (!opt.start || timestamp > new Date(opt.start).getTime()) {\n  if (timestamp < new Date(opt.end).getTime()) {\n    %>\n    <div\n      class=\"timer\"\n      data-end=\"<%= opt.end %>\"\n      data-max-hours=\"<%= opt.max_hours %>\"\n    >\n      <div class=\"timer__icon\">\n        <i class=\"fas fa-stopwatch\"></i>\n      </div>\n      <span class=\"timer__count\">__:__:__</span>\n      <% if (opt.notes) { %>\n        <div class=\"timer__notes\">\n          <%= opt.notes %>\n        </div>\n      <% } %>\n    </div>\n    <%\n  }\n}\n%>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst timestamp = Date.now()\nif (!opt.start || timestamp > new Date(opt.start).getTime()) {\n  if (timestamp < new Date(opt.end).getTime()) {\n    %>\n    <div\n      class=\"timer\"\n      data-end=\"<%= opt.end %>\"\n      data-max-hours=\"<%= opt.max_hours %>\"\n    >\n      <div class=\"timer__icon\">\n        <i class=\"i-stopwatch\"></i>\n      </div>\n      <span class=\"timer__count\">__:__:__</span>\n      <% if (opt.notes) { %>\n        <div class=\"timer__notes\">\n          <%= opt.notes %>\n        </div>\n      <% } %>\n    </div>\n    <%\n  }\n}\n%>\n");
 
 /***/ }),
 
@@ -21415,7 +21316,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst info = _.cms('info')\nconst barCols = []\n;[\n  ['shipping', 'shipping-fast'],\n  ['installments', 'credit-card'],\n  ['exchange', 'exchange-alt'],\n  ['promo', 'percent']\n].forEach(([prop, icon]) => {\n  if (info[prop] && info[prop].show) {\n    const { link, text } = info[prop]\n    barCols.push({ link, text, icon })\n  }\n})\n%>\n\n<% if (barCols.length) { %>\n  <section class=\"info-bar\">\n    <div class=\"container\">\n      <div class=\"info-bar__nav row\">\n        <% barCols.forEach(({ link, icon, text }) => { %>\n          <div class=\"col-auto col-sm-6 col-lg\">\n            <a class=\"info-bar__item\" href=\"<%= link || 'javascript:;' %>\">\n              <span class=\"rounded-icon\">\n                <i class=\"fas fa-<%= icon %>\"></i>\n              </span>\n              <div class=\"ml-2 ml-md-3\">\n                <%= text %>\n              </div>\n            </a>\n          </div>\n        <% }) %>\n      </div>\n    </div>\n  </section>\n<% } %>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<%\nconst info = _.cms('info')\nconst barCols = []\n;[\n  ['shipping', 'shipping-fast'],\n  ['installments', 'credit-card'],\n  ['exchange', 'exchange'],\n  ['promo', 'percent']\n].forEach(([prop, icon]) => {\n  if (info[prop] && info[prop].show) {\n    const { link, text } = info[prop]\n    barCols.push({ link, text, icon })\n  }\n})\n%>\n\n<% if (barCols.length) { %>\n  <section class=\"info-bar\">\n    <div class=\"container\">\n      <div class=\"info-bar__nav row\">\n        <% barCols.forEach(({ link, icon, text }) => { %>\n          <div class=\"col-auto col-sm-6 col-lg\">\n            <a class=\"info-bar__item\" href=\"<%= link || 'javascript:;' %>\">\n              <span class=\"rounded-icon\">\n                <i class=\"i-<%= icon %>\"></i>\n              </span>\n              <div class=\"ml-2 ml-md-3\">\n                <%= text %>\n              </div>\n            </a>\n          </div>\n        <% }) %>\n      </div>\n    </div>\n  </section>\n<% } %>\n");
 
 /***/ }),
 
@@ -21454,7 +21355,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product-block\" class=\"product-block my-4 mb-lg-5\">\n  <div class=\"container\">\n    <section\n      id=\"product\"\n      class=\"product\"\n      data-to-render=\"true\"\n      data-product-id=\"<%= _.state._id %>\"\n      data-sku=\"<%= _.state.sku %>\"\n    >\n      <div id=\"product-dock\">\n        <!--\n          `TheProduct` should be rendered (hydrated) here:\n          https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/TheProduct.html\n        -->\n      </div>\n\n      <div class=\"row\">\n        <div class=\"col-12 col-md-6 mb-4\">\n          <!-- Picture(s) gallery will be inserted dynamically within `TheProduct` -->\n          <% if (_.state.pictures) { %>\n            <% const imgObj = _.ecomUtils.img(_.state, null, 'big') %>\n            <% if (imgObj) { %>\n              <% const [width, height] = (imgObj.size || '').split('x').map(px => parseInt(px, 10)) %>\n              <div id=\"product-gallery\">\n                <div\n                  class=\"product__picture\"\n                  <% if (width) { %>\n                    style=\"max-width: <%= width %>px\"\n                  <% } %>\n                >\n                  <picture\n                    <% if (width && height) { %>\n                      class=\"picture\"\n                      style=\"--aspect-ratio-pc: <%= Math.round(height * 100 * 10000 / width) / 10000 %>%\"\n                    <% } %>\n                  >\n                    <source\n                      srcset=\"<%= _.ecomUtils.img(_.state).url %>\"\n                      type=\"image/webp\"\n                      media=\"(max-width: 399.98px)\"\n                    >\n                    <source\n                      srcset=\"<%= imgObj.url %>\"\n                      type=\"image/webp\"\n                      media=\"(min-width: 400px)\"\n                    >\n                    <img\n                      src=\"<%= imgObj.url.replace(/\\.webp$/, '') %>\"\n                      alt=\"<%= imgObj.alt || _.state.name %>\"\n                      <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                        crossorigin=\"anonymous\"\n                      <% } %>\n                      <% if (height) { %>\n                        width=\"<%= width %>\"\n                        height=\"<%= height %>\"\n                      <% } %>\n                    >\n                  </picture>\n                </div>\n              </div>\n            <% } %>\n          <% } %>\n          <!-- Custom additional code on bottom of images gallery -->\n        </div>\n\n        <div class=\"col\">\n          <h1 class=\"product__name\">\n            <%= _.ecomUtils.name(_.state) %>\n          </h1>\n          <p class=\"product__sku\">\n            COD: <%= _.state.sku %>\n          </p>\n\n          <div id=\"product-actions\">\n            <div id=\"product-loading\">\n              <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>\n                <div class=\"product__price prices prices--big\">\n                  <strong class=\"prices__value\">\n                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state)) %>\n                  </strong>\n                </div>\n              <% } %>\n\n              <% if (_.state.variations && _.state.variations.length) { %>\n                <div data-slot=\"variations-info\">\n                  <!-- Custom info for products with variations, such as sizes table link -->\n                </div>\n              <% } %>\n\n              <div class=\"spinner-border m-4\" role=\"status\">\n                <span class=\"sr-only\">Loading...</span>\n              </div>\n\n              <div class=\"product__buy\">\n                <button\n                  type=\"button\"\n                  class=\"btn btn-lg btn-primary\"\n                  onclick=\"ecomCart.addProduct(storefront.context.body)\"\n                  <% if (_.state.variations && _.state.variations.length) { %>\n                    disabled\n                  <% } %>\n                >\n                  <div data-slot=\"buy-button-content\">\n                    <i class=\"fas fa-shopping-bag mr-1\"></i>\n                    <% if (_.state.kit_composition && _.state.kit_composition.length) { %>\n                      <%= _.dictionary('buyKit') %>\n                    <% } else { %>\n                      <%= _.dictionary('buy') %>\n                    <% } %>\n                  </div>\n                </button>\n              </div>\n            </div>\n          </div>\n\n          <% if (_.state.short_description) { %>\n            <p class=\"product__info mt-3 lead\">\n              <%= _.state.short_description %>\n            </p>\n          <% } %>\n        </div>\n      </div>\n\n      <%- await include('/@/helpers/widgets-append', {\n        _, opt: {}, field: 'productSlots'\n      }) %>\n    </section>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt: {}, field: 'productBlockAppend'\n    }) %>\n  </div>\n</div>\n\n<%\nconst productJsonLd = {\n  '@context': 'http://schema.org',\n  '@type': 'Product',\n  sku: _.state.sku,\n  description: _.state.short_description || _.state.meta_description || _.ecomUtils.name(_.state),\n  name: _.ecomUtils.name(_.state),\n  offers: {\n    '@type': 'Offer',\n    url: `https://${_.settings.domain}/${_.state.slug}`,\n    availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,\n    priceCurrency: _.settings.currency,\n    price: _.ecomUtils.price(_.state),\n    itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,\n    priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end\n           ? _.state.price_effective_date.end.slice(0, 10)\n           : undefined,\n    seller: {\n      '@type': 'Organization',\n      name: _.settings.name || _.store.name\n    }\n  }\n}\nif (_.state.brands && _.state.brands[0]) {\n  productJsonLd.brand = {\n    '@type': 'Brand',\n    name: _.state.brands[0].name\n  }\n}\nif (_.state.pictures && _.state.pictures.length) {\n  productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url\n}\nif (_.state.mpn && _.state.mpn[0]) {\n  productJsonLd.mpn = _.state.mpn[0]\n}\nif (_.state.gtin && _.state.gtin[0]) {\n   productJsonLd.gtin = _.state.gtin[0]\n }\n%>\n<script type=\"application/ld+json\"><%-\n  JSON.stringify(productJsonLd)\n%></script>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"product-block\" class=\"product-block my-4 mb-lg-5\">\n  <div class=\"container\">\n    <section\n      id=\"product\"\n      class=\"product\"\n      data-to-render=\"true\"\n      data-product-id=\"<%= _.state._id %>\"\n      data-sku=\"<%= _.state.sku %>\"\n    >\n      <div id=\"product-dock\">\n        <!--\n          `TheProduct` should be rendered (hydrated) here:\n          https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/TheProduct.html\n        -->\n      </div>\n\n      <div class=\"row\">\n        <div class=\"col-12 col-md-6 mb-4\">\n          <!-- Picture(s) gallery will be inserted dynamically within `TheProduct` -->\n          <% if (_.state.pictures) { %>\n            <% const imgObj = _.ecomUtils.img(_.state, null, 'big') %>\n            <% if (imgObj) { %>\n              <% const [width, height] = (imgObj.size || '').split('x').map(px => parseInt(px, 10)) %>\n              <div id=\"product-gallery\">\n                <div\n                  class=\"product__picture\"\n                  <% if (width) { %>\n                    style=\"max-width: <%= width %>px\"\n                  <% } %>\n                >\n                  <picture\n                    <% if (width && height) { %>\n                      class=\"picture\"\n                      style=\"--aspect-ratio-pc: <%= Math.round(height * 100 * 10000 / width) / 10000 %>%\"\n                    <% } %>\n                  >\n                    <source\n                      srcset=\"<%= _.ecomUtils.img(_.state).url %>\"\n                      type=\"image/webp\"\n                      media=\"(max-width: 399.98px)\"\n                    >\n                    <source\n                      srcset=\"<%= imgObj.url %>\"\n                      type=\"image/webp\"\n                      media=\"(min-width: 400px)\"\n                    >\n                    <img\n                      src=\"<%= imgObj.url.replace(/\\.webp$/, '') %>\"\n                      alt=\"<%= imgObj.alt || _.state.name %>\"\n                      <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>\n                        crossorigin=\"anonymous\"\n                      <% } %>\n                      <% if (height) { %>\n                        width=\"<%= width %>\"\n                        height=\"<%= height %>\"\n                      <% } %>\n                    >\n                  </picture>\n                </div>\n              </div>\n            <% } %>\n          <% } %>\n          <!-- Custom additional code on bottom of images gallery -->\n        </div>\n\n        <div class=\"col\">\n          <h1 class=\"product__name\">\n            <%= _.ecomUtils.name(_.state) %>\n          </h1>\n          <p class=\"product__sku\">\n            COD: <%= _.state.sku %>\n          </p>\n\n          <div id=\"product-actions\">\n            <div id=\"product-loading\">\n              <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>\n                <div class=\"product__price prices prices--big\">\n                  <strong class=\"prices__value\">\n                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state)) %>\n                  </strong>\n                </div>\n              <% } %>\n\n              <% if (_.state.variations && _.state.variations.length) { %>\n                <div data-slot=\"variations-info\">\n                  <!-- Custom info for products with variations, such as sizes table link -->\n                  <% if (opt.size_guide && opt.size_guide.image) { %>\n                    <% const sizeGuideTitle = opt.size_guide.title || _.dictionary('sizeGuide') %>\n                    <div class=\"mb-3\">\n                      <a\n                        href=\"javascript:;\"\n                        data-toggle=\"modal\"\n                        data-target=\"#modal-size-guide\"\n                      >\n                        <i class=\"i-ruler mr-1\"></i> <%= sizeGuideTitle %>\n                      </a>\n                    </div>\n                    <div\n                      class=\"modal modal-center fade\"\n                      id=\"modal-size-guide\"\n                      tabindex=\"-1\"\n                      style=\"display: none;\"\n                      aria-hidden=\"true\"\n                    >\n                      <div class=\"modal-dialog\">\n                        <div class=\"modal-content\">\n                          <div class=\"modal-header d-flex align-items-center justify-content-between\">\n                            <h5 class=\"modal-title\">\n                              <%= sizeGuideTitle %>\n                            </h5>\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n                              <span aria-hidden=\"true\">&times;</span>\n                            </button>\n                          </div>\n                          <div class=\"modal-body\">\n                            <img\n                              class=\"img-fluid\"\n                              src=\"<%= opt.size_guide.image %>\"\n                              alt=\"<%= sizeGuideTitle %>\"\n                            >\n                          </div>\n                        </div>\n                      </div>\n                    </div>\n                  <% } %>\n                </div>\n              <% } %>\n\n              <div class=\"spinner-border m-4\" role=\"status\">\n                <span class=\"sr-only\">Loading...</span>\n              </div>\n\n              <div class=\"product__buy\">\n                <button\n                  type=\"button\"\n                  class=\"btn btn-lg btn-primary\"\n                  onclick=\"ecomCart.addProduct(storefront.context.body)\"\n                  <% if (_.state.variations && _.state.variations.length) { %>\n                    disabled\n                  <% } %>\n                >\n                  <div data-slot=\"buy-button-content\">\n                    <i class=\"i-shopping-bag mr-1\"></i>\n                    <% if (_.state.kit_composition && _.state.kit_composition.length) { %>\n                      <%= _.dictionary('buyKit') %>\n                    <% } else { %>\n                      <%= _.dictionary('buy') %>\n                    <% } %>\n                  </div>\n                </button>\n              </div>\n            </div>\n          </div>\n\n          <% if (_.state.short_description) { %>\n            <p class=\"product__info mt-3 lead\">\n              <%= _.state.short_description %>\n            </p>\n          <% } %>\n        </div>\n      </div>\n\n      <%- await include('/@/helpers/widgets-append', {\n        _, opt: {}, field: 'productSlots'\n      }) %>\n    </section>\n\n    <%- await include('/@/helpers/widgets-append', {\n      _, opt: {}, field: 'productBlockAppend'\n    }) %>\n  </div>\n</div>\n\n<%\nconst productJsonLd = {\n  '@context': 'http://schema.org',\n  '@type': 'Product',\n  sku: _.state.sku,\n  description: _.state.short_description || _.state.meta_description || _.ecomUtils.name(_.state),\n  name: _.ecomUtils.name(_.state),\n  offers: {\n    '@type': 'Offer',\n    url: `https://${_.settings.domain}/${_.state.slug}`,\n    availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,\n    priceCurrency: _.settings.currency,\n    price: _.ecomUtils.price(_.state),\n    itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,\n    priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end\n           ? _.state.price_effective_date.end.slice(0, 10)\n           : undefined,\n    seller: {\n      '@type': 'Organization',\n      name: _.settings.name || _.store.name\n    }\n  }\n}\nif (_.state.brands && _.state.brands[0]) {\n  productJsonLd.brand = {\n    '@type': 'Brand',\n    name: _.state.brands[0].name\n  }\n}\nif (_.state.pictures && _.state.pictures.length) {\n  productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url\n    .replace(/(\\w+\\.)?(ecoms\\d)\\.com/i, '$2-nyc3.nyc3.cdn.digitaloceanspaces.com')\n}\nif (_.state.mpn && _.state.mpn[0]) {\n  productJsonLd.mpn = _.state.mpn[0]\n}\nif (_.state.gtin && _.state.gtin[0]) {\n   productJsonLd.gtin = _.state.gtin[0]\n }\n%>\n<script type=\"application/ld+json\"><%-\n  JSON.stringify(productJsonLd)\n%></script>\n");
 
 /***/ }),
 

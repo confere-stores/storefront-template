@@ -11,25 +11,10 @@ export default ({ baseDir }) => ({
       widget: 'string'
     },
     {
-      label: 'Nome curto',
-      name: 'short_name',
-      widget: 'string',
-      hint: 'Título do aplicativo quando instalado (PWA)'
-    },
-    {
-      label: 'Descrição curta',
-      name: 'description',
-      widget: 'text'
-    },
-    {
-      label: 'Cor primária',
-      name: 'primary_color',
-      widget: 'color'
-    },
-    {
-      label: 'Cor secundária',
-      name: 'secondary_color',
-      widget: 'color'
+      label: 'Logo',
+      name: 'logo',
+      widget: 'image',
+      hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
     },
     {
       label: 'Tema',
@@ -162,10 +147,79 @@ export default ({ baseDir }) => ({
       ]
     },
     {
-      label: 'Logo',
-      name: 'logo',
-      widget: 'image',
-      hint: 'Dimensões recomendadas: 300x100px (Logo retangular) ou 300x3000px (Logo quadrado)'
+      label: 'Cor primária',
+      name: 'primary_color',
+      widget: 'color'
+    },
+    {
+      label: 'Cor secundária',
+      name: 'secondary_color',
+      widget: 'color'
+    },
+    {
+      label: 'Ícones',
+      name: 'icons_font',
+      widget: 'select',
+      options: [
+        {
+          label: 'Padrão do tema',
+          value: '_'
+        },
+        {
+          label: 'Font Awesome',
+          value: 'font-awesome'
+        },
+        {
+          label: 'Line Awesome',
+          value: 'line-awesome'
+        }
+      ]
+    },
+    {
+      label: 'Fonte (texto)',
+      name: 'font_family',
+      widget: 'select',
+      options: [
+        {
+          label: 'Padrão do usuário (mais leve)',
+          value: '_'
+        },
+        'Roboto',
+        'Open Sans',
+        'Lato',
+        'Montserrat',
+        'Roboto Condensed',
+        'Poppins',
+        'Outfit',
+        'Source Sans Pro',
+        'Oswald',
+        'Roboto Mono',
+        'Raleway',
+        'Nunito',
+        'Ubuntu',
+        'Merriweather',
+        'Inter',
+        'Mukta',
+        'Rubik',
+        'Quicksand',
+        'Dosis'
+      ]
+    },
+    {
+      label: 'Nome curto',
+      name: 'short_name',
+      widget: 'string',
+      hint: 'Título do aplicativo quando instalado (PWA)'
+    },
+    {
+      label: 'Descrição curta',
+      name: 'description',
+      widget: 'text'
+    },
+    {
+      label: 'Cor de fundo do app',
+      name: 'bg_color',
+      widget: 'color'
     },
     {
       label: 'Ícone do app',

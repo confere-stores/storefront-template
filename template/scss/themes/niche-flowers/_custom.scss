@@ -9,7 +9,7 @@ main {
     }
 
     a.top-bar__countdown {
-      background-image: linear-gradient(rgba($white, 0.4), rgba($primary, 0.1)), url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/bg.png");
+      background-image: linear-gradient(rgba-color($white, 0.4), rgba-color($primary, 0.1)), url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/bg.png");
       font-weight: var(--font-bold);
       height: 60px;
       display: flex;
@@ -61,7 +61,7 @@ main {
     i:before {
       content: "";
       display: inline-block;
-      background-repeat: no-repeat;
+      background-color: $secondary;
       width: 32px;
       height: 32px;
       -webkit-mask: url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/bag.svg") no-repeat 50% 50%;
@@ -70,12 +70,8 @@ main {
       mask-size: cover;
     }
 
-    .fa-shopping-bag:before {
-      background-color: $secondary;
-    }
-
     @media (hover: hover) {
-      .fa-shopping-bag:hover:before {
+      i:hover:before {
         background-color: $primary;
       }
     }
@@ -85,29 +81,24 @@ main {
     i:before {
       content: "";
       display: inline-block;
-      background-repeat: no-repeat;
+      background-color: $secondary;
       width: 32px;
       height: 32px;
-
       -webkit-mask: url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/assignment.svg") no-repeat 50% 50%;
       mask: url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/assignment.svg") no-repeat 50% 50%;
       -webkit-mask-size: cover;
       mask-size: cover;
     }
 
-    .fa-user:before {
-      background-color: $secondary;
-    }
-
     @media (hover: hover) {
-      .fa-user:hover:before {
+      i:hover:before {
         background-color: $primary;
       }
     }
   }
 
   .footer {
-    background-image: linear-gradient(rgba($white, 1), rgba($white, 0.6)), url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/bg.png");
+    background-image: linear-gradient(rgba-color($white, 1), rgba-color($white, 0.6)), url("https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/flowers/bg.png");
   }
 
   .go-to-top {

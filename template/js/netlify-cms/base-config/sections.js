@@ -111,8 +111,8 @@ export default ({ state }) => [
             required: false,
             name: 'start',
             widget: 'datetime',
-            dateFormat: 'DD/MM/YYYY',
-            timeFormat: 'HH:mm',
+            date_format: 'DD/MM/YYYY',
+            time_format: 'HH:mm',
             default: ''
           },
           {
@@ -120,8 +120,8 @@ export default ({ state }) => [
             required: false,
             name: 'end',
             widget: 'datetime',
-            dateFormat: 'DD/MM/YYYY',
-            timeFormat: 'HH:mm',
+            date_format: 'DD/MM/YYYY',
+            time_format: 'HH:mm',
             default: ''
           }
         ]),
@@ -135,6 +135,12 @@ export default ({ state }) => [
         step: 1000,
         default: 9000,
         widget: 'number'
+      },
+      {
+        label: 'Banners em tela cheia',
+        name: 'full_width',
+        widget: 'boolean',
+        default: false
       }
     ]
   },
@@ -164,15 +170,15 @@ export default ({ state }) => [
         required: false,
         name: 'start',
         widget: 'datetime',
-        dateFormat: 'DD/MM/YYYY',
-        timeFormat: 'HH:mm'
+        date_format: 'DD/MM/YYYY',
+        time_format: 'HH:mm'
       },
       {
         label: 'Data de encerramento',
         name: 'end',
         widget: 'datetime',
-        dateFormat: 'DD/MM/YYYY',
-        timeFormat: 'HH:mm'
+        date_format: 'DD/MM/YYYY',
+        time_format: 'HH:mm'
       },
       {
         label: 'Notas',

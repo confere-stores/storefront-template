@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./node_modules/@confere-stores/widget-avise-me/src/index.js"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAe;AACf;AACA,CAAC","file":"chunk.797f5eea0c1a9bec58c1.js","sourcesContent":["export default options => {\n  console.log('Avise-me widget started with EJS appends')\n}\n"],"sourceRoot":""}
