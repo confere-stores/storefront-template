@@ -6,24 +6,9 @@ import getBaseConfig from './base-config/'
 import './pages-preview'
 
 const initCms = config => {
-  if (window.netlifyIdentity) {
-    const identityUrl = config.backend.identity_url
-    if (identityUrl) {
-      const fixGotrueApi = () => {
-        const { api } = window.netlifyIdentity.gotrue
-        api.apiURL = identityUrl
-        api._sameOrigin = identityUrl.includes(window.location.host)
-      }
-      if (document.readyState !== 'loading') {
-        fixGotrueApi()
-      }
-      document.addEventListener('DOMContentLoaded', fixGotrueApi)
-    }
-  } else {
-    window.netlifyIdentity = initEcomplusIdentity()
-    if (!config.backend.gateway_url) {
-      config.backend.gateway_url = `https://cms.confere.shop/${$ecomConfig.get('store_id')}`
-    }
+  window.netlifyIdentity = initEcomplusIdentity()
+  if (!config.backend.gateway_url) {
+    config.backend.gateway_url = `https://cms.confere.shop/${$ecomConfig.get('store_id')}`
   }
   window.CMS.init({ config })
 }
