@@ -11,7 +11,7 @@ export default fontFamily => {
   return `
  <style>
  body {
-   font-family: ${fontSans};
+   font-family: ${fontSans} !important;
  }
  </style>
  ${fontLink}
