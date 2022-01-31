@@ -8,7 +8,7 @@ import getBlog from './pages/blog'
 
 export default options => ({
   name: 'pages',
-  label: 'Editor de Páginas',
+  label: 'Personalizar Páginas',
   description: 'Capriche no visual e deixe a loja do jeitinho da sua marca. Adicione banners, vídeos, promoções, organize os produtos e muito mais.',
   delete: false,
   files: [

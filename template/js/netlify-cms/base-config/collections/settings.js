@@ -1,4 +1,4 @@
-import getGeneral from './settings/general'
+// import getGeneral from './settings/general'
 import getContacts from './settings/contacts'
 import getInfo from './settings/info'
 import getSocial from './settings/social'
@@ -13,7 +13,7 @@ export default options => ({
     preview: false
   },
   files: [
-    getGeneral(options),
+    // getGeneral(options),
     getContacts(options),
     getInfo(options),
     getSocial(options),

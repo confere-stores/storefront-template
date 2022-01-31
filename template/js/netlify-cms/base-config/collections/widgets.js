@@ -28,7 +28,7 @@ const fixWidgetConfig = ({ baseDir }, getWidget) => {
 
 export default options => ({
   name: 'widgets',
-  label: 'Extensões',
+  label: 'Pixel, Tags e Aplicativos',
   description: 'Plugins, tags e componentes adicionais',
   delete: false,
   editor: {

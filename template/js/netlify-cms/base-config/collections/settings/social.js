@@ -1,7 +1,7 @@
 export default ({ baseDir }) => ({
   name: 'social',
   file: `${baseDir}content/social.json`,
-  label: 'Configurações Avançadas',
+  label: 'Imagem de Compartilhamento',
   hint: 'Configurações para compartilhamento da loja',
   fields: [
     {

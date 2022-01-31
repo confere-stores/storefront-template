@@ -3,7 +3,7 @@ export default ({ baseDir }) => ({
   editor: {
     preview: false
   },
-  label: 'Inserir código',
+  label: 'Inserir Código (HTML e CSS)',
   file: `${baseDir}content/code.json`,
   fields: [
     {
