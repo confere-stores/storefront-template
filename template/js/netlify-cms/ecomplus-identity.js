@@ -48,7 +48,7 @@ export default (baseURL = 'https://cms.confere.shop/session/gotrue/v1', canAutoI
 
       .catch(error => {
         if (error.response) {
-          const { status, data } = error
+          const { status, data } = error.response
           if (status === 401) {
             localStorage.removeItem(storageKey)
           }
@@ -57,7 +57,7 @@ export default (baseURL = 'https://cms.confere.shop/session/gotrue/v1', canAutoI
             return
           }
         }
-        console.error(error)
+        console.error('error', error)
         emitter.emit('error', error)
       })
 
