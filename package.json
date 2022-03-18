@@ -27,7 +27,7 @@
     "@ecomplus/search-engine": "^2.6.1",
     "@ecomplus/shopping-cart": "^2.5.5",
     "@ecomplus/storefront-app": "^2.0.0-beta.121",
-    "@ecomplus/storefront-components": "^1.0.0-beta.114",
+    "@ecomplus/storefront-components": "^1.0.0-beta.117",
     "@ecomplus/storefront-framework": "^5.18.0",
     "@ecomplus/storefront-router": "^2.2.1",
     "@ecomplus/storefront-twbs": "^7.1.0",
@@ -94,5 +94,5 @@
     "test:copy": "rm -rf ./copy && node ./scripts/copy.js --dest=copy",
     "test:install": "rm -rf ./copy && mkdir ./copy && TEMPLATE_DIR=copy node ./scripts/install.js"
   },
-  "version": "2.1.41"
+  "version": "2.1.42"
 }
