@@ -6549,7 +6549,8 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     label: 'Apenas em desktops',
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
-    widget: 'boolean'
+    widget: 'hidden',
+    default: false
   }]
 }));
 
@@ -6694,7 +6695,8 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     label: 'Apenas em desktops',
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
-    widget: 'boolean'
+    widget: 'hidden',
+    default: false
   }, {
     label: 'Opções',
     name: 'options',
@@ -6766,7 +6768,8 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     label: 'Apenas em desktops',
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
-    widget: 'boolean'
+    widget: 'hidden',
+    default: false
   }, {
     label: 'Opções',
     name: 'options',
@@ -6846,7 +6849,8 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     label: 'Apenas em desktops',
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
-    widget: 'boolean'
+    widget: 'hidden',
+    default: false
   }, {
     label: 'Opções',
     name: 'options',
@@ -6902,7 +6906,8 @@ var _package_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpac
     label: 'Apenas em desktops',
     name: 'desktopOnly',
     hint: 'Desativa o widget em dispositivos móveis',
-    widget: 'boolean'
+    widget: 'hidden',
+    default: false
   }]
 }));
 
