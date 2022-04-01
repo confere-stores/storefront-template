@@ -17,7 +17,12 @@ import getWidgetOpinioesVerificadas from '@ecomplus/widget-opinioes-verificadas/
 
 const fixWidgetConfig = ({ baseDir }, getWidget) => {
   const baseConfig = getWidget()
-  const pkgName = baseConfig.fields.find(({ name }) => name === 'pkg').default
+  let pkgName;
+  baseConfig?.fields?.map((field, i) => {
+    if(field?.name === 'desktopOnly') baseConfig.fields[i] = { ...baseConfig.fields[i], widget: 'hidden', default: false }
+    field?.name === 'pkg' && (pkgName = field?.default)
+  })
+
   const name = pkgName.replace(/^(@ecomplus\/|storefront-|@confere-stores\/)widget-/i, '')
   return {
     ...baseConfig,
